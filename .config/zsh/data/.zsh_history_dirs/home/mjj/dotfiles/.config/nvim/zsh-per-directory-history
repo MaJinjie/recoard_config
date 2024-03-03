@@ -1,0 +1,41 @@
+: 1709204831:0;mkdir note
+: 1709204835:0;cd note.
+: 1709204837:0;cd note
+: 1709271122:0;cd lua/plugins
+: 1709273475:0;fd -tf | wc -l
+: 1709273492:0;fd -tf --prune | wc -l
+: 1709273540:0;fd -tf --
+: 1709273545:0;fd -tf --prune
+: 1709273569:0;fd -tf --exact-depth=1
+: 1709274926:0;fd 
+: 1709274928:0;fd -tf
+: 1709274931:0;fd -tf -td
+: 1709276553:0;vi lazyvim.json
+: 1709278975:0;cd local share nvim
+: 1709280015:0;vi todo.md
+: 1709281430:0;cd -
+: 1709302577:0;ls note
+: 1709302586:0;vi note/utils.md
+: 1709302593:0;vi utils.md
+: 1709302616:0;rm utils.md 
+: 1709302622:0;ls utils.lua
+: 1709302627:0;mv utils.lua
+: 1709302632:0;vi utils.lua
+: 1709302638:0;rm utils.lua 
+: 1709302643:0;rm uitls.md
+: 1709302657:0;mv todo.md note
+: 1709302665:0;cd plug 
+: 1709302676:0;cd lua/ plug
+: 1709394335:0;vi lazy-lock.json
+: 1709394437:0;vi README.md
+: 1709430906:0;vi init.lua
+: 1709432086:0;lsa
+: 1709444027:0;cd lua
+: 1709445838:0;ls
+: 1709445900:0;vi .fdignore
+: 1709445905:0;fd
+: 1709446657:0;vi 
+: 1709446680:0;vi
+: 1709448816:0;vi uls
+: 1709448826:0;cd local share lazy tele 
+: 1709449159:0;cd local share lazy tele

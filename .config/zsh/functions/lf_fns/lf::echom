@@ -1,0 +1,9 @@
+# @desc: send a message with lf
+
+function lf::echom() {
+  lf::send "echom" "${(%)*}"
+}
+
+lf::echom "$@"
+
+# vim: ft=zsh:et:sw=0:ts=2:sts=2

@@ -1,0 +1,16 @@
+: 1709119287:0;ls zoxide
+: 1709119308:0;rm .zshz
+: 1709119311:0;ls
+: 1709119329:0;lsa
+: 1709119342:0;lsa .zsh_history_dirs
+: 1709119351:0;lsa home
+: 1709119360:0;lsa2 .zsh_history_dirs
+: 1709119368:0;lsa2 home
+: 1709119372:0;rm home
+: 1709119373:0;ls
+: 1709119383:0;rm -u
+: 1709119386:0;ls
+: 1709119397:0;lsa
+: 1709119415:0;zsqlite-exec
+: 1709119485:0;zsqlite_exec .zsh-history.db 
+: 1709119496:0;zsqlite_exec _HISTDB

@@ -1,0 +1,9 @@
+# @desc: echo a warning message
+
+function lf::echow() {
+  lf::msg -W "${(z)@}"
+}
+
+lf::echow "$@"
+
+# vim: ft=zsh:et:sw=0:ts=2:sts=2

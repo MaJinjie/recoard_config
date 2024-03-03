@@ -1,0 +1,994 @@
+core:
+  regular_file: [$fi]
+  directory: [$di]
+  executable_file: [$ex]
+
+  symlink: [$ln]
+  broken_symlink: [$or]
+  missing_symlink_target: [$mi]
+
+  fifo: [$pi]
+  socket: [$so]
+
+  character_device: [$cd]
+  block_device: [$bd]
+
+  normal_text: [$no]
+
+  sticky: [$st]
+
+  other_writable: [$ow]
+  sticky_other_writable: [$tw]
+
+# .ld
+# .npmrc
+
+text:
+  other:
+    - .txt
+  git:
+    - HEAD
+    - FETCH_HEAD
+    - ORIG_HEAD
+    - config
+    - description
+    - index
+    - refs
+    - packed-refs
+    - shallow
+    - exclude
+  repo:
+    - SECURITY
+    - SECURITY.md
+    - SECURITY.txt
+    - SHARED-FILES
+    - PORTABILITY
+    - PORTING
+    - COMPATIBILITY
+    - PLATFORMS
+    - LEGACY
+    - PROTOCOL
+    - GOALS
+    - OBJECTIVES
+    - FEATURES
+    - NEW_FEATURES
+    - DIFFERENCES
+    - TRADEOFFS
+    - DEPENDS
+    - DEPENDENCIES
+    - SOURCES
+    - HISTORY
+    - LAST_UPDATED
+    - BASE-VER
+    - Rules
+    - comapt
+  info:
+    - VERSION
+    - TRICKS
+    - HACKING
+    - TUNING
+    - FAQ
+    - OVERVIEW
+    - USAGE
+    - INFO
+    - DESCR
+    - HOWTO
+    - STYLE
+    - FIXES
+    - REGRESSIONS
+    - BUGS
+    - BUG_REPORT
+    - KNOWNBUGS
+    - PROBLEMS
+    - ERRORS
+    - UPDATING
+    - RELEASING
+    - RELEASE-PROCEDURE
+    - CONTRIBUTE
+    - CONTRIBUTING
+    - DOCS
+    - docs
+    - .version
+    - .prev-version
+  statement:
+    - STATUS
+    - UPDATE
+    - DISCLAIMER
+    - NOTES
+    - WARNING
+    - ERROR
+    - NOTICE
+    - NO_WARRANTY
+    - ANNOUNCE
+    - ANNOUNCEMENT
+    - ANNOUNCEMENTS
+  news:
+    - NEWS
+    - WHATSNEW
+    - RELEASE
+    - CHANGES
+    - changes
+    - CHANGELIST
+    - CHANGELOG
+    - Changelog
+    - ChangeLog
+    - changelog
+  contributors:
+    - AUTHOR
+    - AUTHORS
+    - CODEOWNER
+    - CODEOWNERS
+    - MAINTAINER
+    - MAINTAINERS
+    - PACKAGE-MAINTAINER
+    - PACKAGE-MAINTAINERS
+    - CONTRIB
+    - CONTRIBUTOR
+    - CONTRIBUTORS
+    - CONTRIBUTORS.md
+    - CONTRIBUTORS.txt
+    - CONTRIBUTED-BY
+    - CONTRIBUTIONS
+    - THANKS
+    - ACKNOWLEDGEMENTS
+    - CREDITS
+    - MAIL
+  special:
+    - INSTALL
+    - INSTALL.md
+    - INSTALL.txt
+    - README
+    - README.md
+    - README.txt
+    - PKGBUILD
+  repo-misc:
+    - PACKAGE
+    - FORMAT
+    - MANIFEST
+    - TEMPLATE
+    - MISSING
+    - MACHINES
+    - LINGUAS
+    - TIMESTAMP
+  license:
+    - COPYING
+    - COPYING.md
+    - COPYING.txt
+    - COPYING.LIB
+    - copying
+    - COPYING_POLICY
+    - COPYRIGHT
+    - COPYRIGHT.md
+    - COPYRIGHT.txt
+    - copyright
+    - LICENSE
+    - LICENSE.md
+    - LICENSE.txt
+    - license
+    - LICENSES
+    - licenses
+    - LICENSE-APACHE
+    - LICENSE-MIT
+    - LICENSE-BSD
+    - LICENSE-MPL
+    - LICENSE-LGPL
+    - LICENSE-GPL
+    - LICENSE-AGPL # GNU Affero General Public License
+    - LICENSE-AFL  # academic freedom
+    - LICENSE-CC   # Creative Commons
+    - MIT
+    - APACHE
+    - BSD
+    - BSD-MIT
+    - LEGAL
+  todo:
+    - TO-DO
+    - TODO
+    - TODO.md
+    - TODO.txt
+
+  cert:
+    - .pem
+    - .cert
+    - .key
+  data:
+    - .data
+  gpg:
+    - .gpg
+    - .asc
+    - .kbx
+
+  configuration:
+    generic:
+      - .cfg
+      - .conf
+      - .config
+      - .hjson
+      - .json
+      - .jsonc
+      - .ini
+      - .properties
+      - .ron
+      - .tml
+      - .toml
+      - .yml
+      - .yaml
+      - .rasi
+
+    metadata:
+      - .xmp
+    bibtex:
+      - .bib
+      - .bst
+
+    dockerfile:
+      - Dockerfile
+      - .dockerfile
+    snippet:
+      - .snippets
+      - .snippet
+
+    nix:
+      - .nix
+    qt:
+      - .ui
+
+    mail:
+      - mailcap
+      - .mailcap
+      - mailmap
+      - .mailmap
+      - aliases
+    desktop:
+      - .desktop
+    system:
+      - passwd
+      - shadow
+    systemd:
+      - .timer
+      - .service
+    crontab:
+      - anacrontab
+      - crontab
+      - cron.deny
+
+    zshrc:
+      - zshrc
+      - .zshrc
+      - zshenv
+      - .zshenv
+      - .zlogin
+      - zlogin
+      - .zlogout
+      - zlogout
+      - .zprofile
+      - zprofile
+      - .profile
+      - profile
+    vim:
+      - vimrc
+      - .vimrc
+      - gvimrc
+      - .gvimrc
+      - viminfo
+      - .viminfo
+      - vim_mru_files
+      - .vim_mru_files
+    taskwarrior:
+      - taskrc
+      - .taskrc
+    bashrc:
+      - bashrc
+      - bash_logout
+      - bash_profile
+      - .bashrc
+      - .bash_logout
+      - .bash_profile
+
+    gpg:
+      - dirmngr.conf
+      - gpa.conf
+      - gpg-agent.conf
+      - gpg.conf
+
+    keybind:
+      - bind.keys
+      - inputrc
+      - .inputrc
+
+    x11:
+      - .xinitrc
+      - .Xmodmap
+      - .Xresources
+      - .Xauthority
+      - .Xdefaults
+      - .xscreensaver
+      - xorg.conf
+      - xorg.conf.new
+      - .xbindkeysrc
+
+    rc:
+      abook: [abookrc, .abookrc]
+      aria2: [aria2.conf]
+      asound: [asoundrc, .asoundrc]
+      cgit: [cgitrc]
+      curl: [.curlrc]
+      dunst: [dunstrc, .dunstrc]
+      htop: [htoprc, .htoprc]
+      jgmenu: [jgmenurc, .jgmenurc]
+      keynav: [keynavrc, .keynavrc]
+      zathura: [zathurarc, .zathurarc]
+
+      redshift: [redshiftrc, .redshiftrc]
+      tmux: [tmux.conf, .tmux]
+
+      npm: [npmrc, .npmrc]
+      yarn: [yarnrc, .yarnrc]
+
+      autokey: [autokey.json]
+      ccze: [cczerc]
+      gtk: [gtkrc, gtkrc-2.0, gtkrc-3.0, gtkrc-4.0]
+      rustypaste: [.rustypaste.toml]
+      taskopen: [taskopenrc, .taskopenrc]
+      screen: [screenrc, .screenrc]
+      urlview: [.urlview]
+      vint: [vintrc.yaml, .vintrc.yaml]
+      virustotal: [vt.toml, .vt.toml]
+      visidata: [visidatarc, .visidatarc]
+      wavemon: [wavemonrc, .wavemonrc]
+
+      status: [statusrc, .statusrc]
+
+  arch:
+    - arch-release
+    - mimeapps.list
+
+  misc:
+    - .new
+
+markup:
+  web:
+    - .asp
+    - .aspx
+    - .htm
+    - .html
+    - .shtml
+    - .xhtml
+    - .xht
+    - .st
+
+  markdown:
+    - .markdown
+    - .md
+    - .mdx
+    - .mdown
+    - .mkd
+    - .rdoc
+    - .rst
+    - .rmd
+
+  other:
+    - .csv
+    - .ctags
+    - .grc
+    - .norg
+    - .opml
+    - .pubxml
+    - .xml
+    - .xsl
+    - .xul
+
+  sublime:
+    - .sublime-syntax
+    - .sublime-build
+    - .sublime-colorscheme
+    - .sublime-settings
+    - .sublime-keymap
+    - .tmTheme
+    - .tmPreferences
+
+programming:
+  source:
+    actionscript: [.as]
+    applescript: [.applescript]
+    asp: [.asa]
+    basic: [.vb]
+    clojure: [.clj, .cljc, .cljs, .edn]
+    csharp: [.cs, .csx]
+    d: [.d, .di]
+    dart: [.dart]
+    elixir: [.ex, .exs, .eex, .leex, .heex]
+    elm: [.elm]
+    erlang: [.erl, .hrl]
+    fsharp: [.fs, .fsi, .fsx, .fsscript, .f#, .fsproj]
+    groovy: [.groovy, .gvy, .gradle]
+    java: [.java, .bsh]
+    julia: [.jl]
+    kotlin: [.kt, .kts]
+    lisp: [.lisp, .el]
+    mathematica: [.nb]
+    pascal: [.pas, .p, .dpr]
+    php: [.php]
+    puppet: [.pp, .epp]
+    scala: [.scala, .sbt]
+    swift: [.swift, .xcplayground]
+    tablegen: [.td]
+    tcl: [.tcl]
+
+    nim: [.nim]
+
+    r: [.r]
+    matlab: [.matlab, .m, .mn]
+    cpython: [.pyx, .pxd, .pxi]
+    ipython: [.ipynb]
+    python: [.py]
+
+    cabal: [.cabal]
+    haskell: [.hs, .lhs]
+    ocaml: [.ml, .mli]
+
+    awk: [.awk, .auk, .gawk, .mawk, .nawk]
+    lua: [.lua]
+    teal: [.tl]
+    perl: [.pl, .pm, .pod, .t, .cgi]
+    ruby: [.rb, .rbs, .ru, .rhtml, .erb]
+    crystal: [.cr]
+    viml: [.vim]
+
+    cxx:
+      [
+        .cc,
+        .hh,
+        .cp,
+        .cpp,
+        .hpp,
+        .cxx,
+        .hxx,
+        .c++,
+        .h++,
+        .ipp,
+        .tcc,
+        .tpp,
+        .def,
+        .inc,
+        .inl,
+      ]
+    c: [.c, .h]
+    rust: [.rs]
+    zig: [.zig]
+    go: [.go]
+
+    purescript: [.purs]
+    rescript: [.res]
+    javascript: [.js, .htc, .mjs]
+    javascriptreact: [.jsx]
+    typescript: [.ts]
+    typescriptreact: [.tsx]
+
+    powershell: [.ps1, .psm1, .psd1]
+    shell: [.sh, .bash, .fish]
+    zsh: [.zsh, .ztst, .zcompdump]
+
+    diff: [.diff, .patch]
+    graphviz: [.dot, .gv]
+    latex: [.latex, .tex, .ltx]
+    less: [.less]
+    llvm: [.ll, .mir]
+
+    css: [.css]
+    scss: [.scss]
+    sql: [.sql]
+    sqlite: [.sqlite, .sqlite3, .db, .db-shm, .db-wal, .db-bkp, .db-deleted]
+    jq: [.jq]
+
+    solidity: [.sol]
+    moon: [.moon]
+    fennel: [.fnl]
+    sass: [.sass]
+    reason: [.re]
+    scheme: [.scm]
+    vue: [.vue]
+    graphql: [.graphql]
+    assembly: [.asm, .a51, .nasm]
+    protobuf: [.proto]
+
+    arduino: [.ino]
+
+  main:
+    rust: [main.rs]
+    c: [main.c]
+    cpp: [main.cpp, main.cxx, main.c++]
+    zig: [main.zig]
+    go: [main.go]
+    lua: [init.lua, main.lua]
+    vim: [init.vim, main.vim]
+    python: [__init__.py, main.py]
+    javascript: [index.js, index.jsx]
+    typescript: [index.ts, index.tsx]
+    html: [index.html]
+
+  config:
+    c: [conf.h, config.h, config.def.h]
+    lua: [conf.lua, config.lua]
+    vim: [conf.vim, config.vim]
+    javascript: [conf.js, config.js]
+    typescript: [conf.ts, config.ts]
+
+  common:
+    rust: [common.rs]
+    c: [common.h]
+    cpp: [common.cpp, common.cxx, common.hh]
+    zig: [common.zig]
+    go: [common.go]
+    lua: [common.lua]
+    vim: [common.vim]
+    python: [common.py]
+    javascript: [common.js]
+    typescript: [common.ts]
+
+  utils:
+    rust: [utils.rs]
+    c: [utils.h, util.h, utils.c, util.c]
+    cpp: [utils.cpp, utils.cxx, util.cpp, util.cxx, util.hh]
+    zig: [utils.zig, util.zig]
+    go: [utils.go, util.go]
+    lua: [utils.lua, util.lua]
+    vim: [utils.vim, util.vim]
+    python: [utils.py, util.py]
+    javascript: [utils.js, util.js]
+    typescript: [utils.ts, util.ts]
+
+  tooling:
+    vcs:
+      git:
+        - .gitignore
+        - .gitmodules
+        - .gitattributes
+        - .gitconfig
+        - gitconfig
+      hg:
+        - hgrc
+        - .hgrc
+
+      ignore:
+        - ignore
+        - .ignore
+        - .npmignore
+        - .cvsignore
+        - .fdignore
+        - .rgignore
+        - .eslintignore
+        - .styluaignore
+        - .dockerignore
+
+    build:
+      cmake:
+        - .cmake
+        - .cmake.in
+        - CMakeLists.txt
+        - cmakelists.txt
+      make:
+        - .make
+        - makefile
+        - Makefile
+        - config.make.in
+        - config.h.in
+      make-extra:
+        - .mk
+        - Makefile.help
+        - Makerules
+      m4:
+        - .m4
+      automake:
+        - Makefile.am
+      configure:
+        - configure
+        - configure.ac
+      just:
+        - justfile
+        - Justfile
+        - .just
+      scons:
+        - SConscript
+        - SConstruct
+      pip:
+        - requirements.txt
+      ecma:
+        - .babelrc
+        - gulpfile.js
+        - webpack.config.js
+
+    packaging:
+      python:
+        - MANIFEST.in
+        - setup.py
+      ruby:
+        - .gemspec
+        - Rakefile
+        - rakefile
+        - Gemfile
+        - gemfile
+        - .rubydoc
+        - .rspec
+        - .rspec_parallel
+        - .rspec_status
+        - .rake
+        - .gem
+      lua:
+        - .rockspec
+      rust:
+        - Cargo.toml
+      ecma:
+        - package.json
+
+    lsp:
+      python:
+        - pylintrc
+        - .pylintrc
+        - pyrightconfig.json
+        - ruff.toml
+        - mypy.ini
+      cxx:
+        - .clang-tidy
+        - .clangd
+      lua:
+        - .luarc.jsonc
+        - .luacheckrc
+      ecma:
+        - .eslintrc.js
+        - .eslintrc.cjs
+        - .eslintrc.json
+
+    code-style:
+      python:
+        - .flake8
+        - flake8
+      cxx:
+        - .clang-format
+      lua:
+        - .lua-format
+      rust:
+        - rustfmt.toml
+      ecma:
+        - .prettierrc
+        - .prettierrc.json
+        - .stylelintrc.json
+      other:
+        - .editorconfig
+
+    code-other:
+      ecma:
+        - .browserslistrc
+        - .loaderrc.js
+
+    editors:
+      qt:
+        - .pro
+      kdevelop:
+        - .kdevelop
+      visual-studio:
+        - .sln
+        - .suo
+
+    documentation:
+      doxygen:
+        - Doxyfile
+        - .dox
+
+      tag:
+        - tags
+        - TAGS
+        - GTAGS
+        - GRTAGS
+        - GPATH
+
+      man-page:
+        - ".1"
+        - ".2"
+        - ".3"
+        - ".4"
+        - ".5"
+        - ".6"
+        - ".7"
+        - ".8"
+        - ".9"
+        - .1in
+        - .3in
+        - .1m
+        - .1x
+        - .3qt
+        - .3x
+        - .in
+        - .man
+        - .l
+        - .me
+        - .ms
+        - .n
+        - .rno
+        - .roff
+      info:
+        - .info
+
+    continuous-integration:
+      - appveyor.yml
+      - .travis.yml
+
+media:
+  image:
+    - .asf
+    - .bmp
+    - .cgm
+    - .dl
+    - .emf
+    - .eps
+    - .flc
+    - .fli
+    - .gl
+    - .ico
+    - .image
+    - .jfi
+    - .jfif
+    - .jif
+    - .jpe
+    - .jpeg
+    - .jpg
+    - .m2v
+    - .mjpeg
+    - .mjpg
+    - .mng
+    - .nuv
+    - .ogm
+    - .pbm
+    - .pcx
+    - .pgm
+    - .png
+    - .ppm
+    - .psb
+    - .psd
+    - .pxm
+    - .qt
+    - .rmvb
+    - .svg
+    - .svgz
+    - .tga
+    - .tif
+    - .tiff
+    - .webp
+    - .xbm
+    - .xcf
+    - .xpm
+    - .xwd
+    - .yuv
+
+  # Do this so I can change its color specifically
+  gif:
+    - .gif
+
+  audio:
+    - .aac
+    - .au
+    - .aif
+    - .flac
+    - .m4a
+    - .mid
+    - .midi
+    - .mka
+    - .mp3
+    - .mpc
+    - .oga
+    - .ogg
+    - .opus
+    - .ra
+    - .spx
+    - .wav
+    - .wma
+    - .wv
+    - .xspf
+
+  video:
+    - .avi
+    - .flv
+    - .h264
+    - .m4v
+    - .mkv
+    - .mov
+    - .mp4
+    - .mp4v
+    - .mpeg
+    - .mpg
+    - .ogv
+    - .ogx
+    - .rm
+    - .swf
+    - .video
+    - .vob
+    - .webm
+    - .wmv
+    - .3gp
+
+  fonts:
+    - .eot
+    - .font
+    - .fnt
+    - .fon
+    - .otf
+    - .ttf
+    - .woff2
+    - .woff
+
+office:
+  document:
+    - .doc
+    - .docx
+    - .epub
+    - .odt
+    - .ps
+    - .rtf
+    - .sxw
+  pdf:
+    - .pdf
+
+  spreadsheet:
+    - .xls
+    - .xlsm
+    - .xlsx
+    - .ods
+    - .xlr
+
+  presentation:
+    - .gslides
+    - .kex
+    - .odp
+    - .pps
+    - .ppt
+    - .pptx
+    - .sxi
+
+  calendar:
+    - .ics
+
+archives:
+  packages:
+    - .apk
+    - .deb
+    - .rpm
+
+  ros:
+    - .bag
+
+  images:
+    - .bin
+    - .dmg
+    - .img
+    - .iso
+    - .toast
+    - .vcd
+
+  compressed:
+    - .7z
+    - .arj
+    - .bz
+    - .bz2
+    - .gz
+    - .lzma
+    - .lz4
+    - .jar
+    - .pkg
+    - .rar
+    - .tar
+    - .tbz
+    - .tbz2
+    - .tgz
+    - .tlz
+    - .txz
+    - .xz
+    - .z
+    - .zip
+    - .zst
+
+executable:
+  windows:
+    - .bat
+    - .com
+    - .exe
+  library:
+    - .so
+    - .a
+    - .dll
+  linux:
+    - .ko
+  dict:
+    - .dict
+    - .dic
+    - .exc
+  misc:
+    - .pickle
+    - .pkl
+    - .dat
+
+unimportant:
+  partial:
+    crdownload: [.crdownload]
+  build_artifacts:
+    cxx:
+      - .o
+      - .la
+      - .lo
+    cmake:
+      - CMakeCache.txt
+    automake:
+      - Makefile.in
+      - config.mak
+    rust:
+      - .rlib
+    python:
+      - .pyc
+      - .pyo
+      - .pyd
+    haskell:
+      - .dyn_hi
+      - .dyn_o
+      - .cache
+      - .hi
+    java:
+      - .class
+    scons:
+      - .scons_opt
+      - .sconsign.dblite
+    latex:
+      - .aux
+      - .bbl
+      - .bcf
+      - .blg
+      - .fdb_latexmk
+      - .fls
+      - .idx
+      - .ilg
+      - .ind
+      - .out
+      - .sty
+      - .synctex.gz
+      - .toc
+    llvm:
+      - .bc
+    zsh:
+      - .zwc
+      - .zwc.old
+
+  go:
+    - go.mod
+    - go.sum
+
+  macos:
+    - .CFUserTextEncoding
+    - .DS_Store
+    - .apple
+    - .icloud
+    - .localized
+
+  torrent:
+    - .torrent
+    - .magnet
+
+  other:
+    - "~"
+    - ".~1~"
+    - ".~2~"
+    - ".~3~"
+    - ".~4~"
+    - ".~5~"
+    - ".~6~"
+    - ".~7~"
+    - ".~8~"
+    - ".~9~"
+    - ".~10~"
+    - .old
+    - .bak
+    - .git # only works for '.git' files (submodules)
+    - .log
+    - .orig
+    - .pid
+    - .swp
+    - .tmp
+    - .lock
+    - package-lock.json

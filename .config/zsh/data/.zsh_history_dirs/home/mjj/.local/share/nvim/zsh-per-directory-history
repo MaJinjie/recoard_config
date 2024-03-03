@@ -1,0 +1,19 @@
+: 1709213854:0;vi file_frecency.bin
+: 1709214124:0;ls
+: 1709214156:0;rm file_frecency.bin
+: 1709217647:0;vi 
+: 1709217709:0;cd config nvim
+: 1709217852:0;rm file_frecency.bin
+: 1709217855:0;cd lazy
+: 1709278975:0;ls
+: 1709278988:0;vi telescope-all-recent.sqlite3
+: 1709278993:0;ls
+: 1709279000:0;rm file_frecency.bin telescope-all-recent.sqlite3 
+: 1709279256:0;ls
+: 1709279262:0;cd lazy/telescope-all-recent.nvim
+: 1709307760:0;lsa
+: 1709307785:0;ls
+: 1709307800:0;fd shada
+: 1709307802:0;cd ..
+: 1709377733:0;ls
+: 1709377735:0;cd lazy

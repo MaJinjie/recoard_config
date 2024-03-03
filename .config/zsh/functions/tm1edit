@@ -1,0 +1,134 @@
+# @desc: use tmsu to either edit a file or cd to dir
+
+local -a sel colored files tags
+local file
+
+setopt extendedglob
+
+zmodload -Fa zsh/zutil b:zparseopts b:zformat
+zparseopts -D -A opts -- d -cd p -print
+
+## tags
+#   -c --count           lists the number of tags rather than their names
+#   -1                   list one tag per line
+#   -e --explicit        do not show implied tags
+#   -n --name            when to print the file/value name: auto, always, never
+#   -P --no-dereference  do not follow symlinks (show tags for symlink itself)
+#   -u --value           show tags which utilise values
+
+## files
+#   -d --directory    list only items that are directories
+#   -f --file         list only items that are files
+#   -0 --print0       delimit files with a NUL character rather than newline.
+#   -c --count        lists the number of files rather than their names
+#   -p --path         list only items under PATH
+#   -e --explicit     list only explicitly tagged files
+#   -s --sort         sort output: id, none, name, size, time
+#   -i --ignore-case  ignore the case of tag and value names
+
+## values
+#   -c --count  lists the number of values rather than their names
+#   -1          list one value per line
+
+## mount
+#   -o --options  mount options (passed to fusermount)
+
+## unmount
+#   -a --all  unmounts all mounted TMSU file-systems
+
+## tmsu info -s
+## status
+#   -d --directory       do not examine directory contents (non-recursive)
+#   -P --no-dereference  do not follow symbolic links
+
+## untagged
+#   -d --directory       do not examine directory contents (non-recursive)
+#   -c --count           list the number of files rather than their names
+#   -P --no-dereference  do not dereference symbolic links
+
+## dupes
+#   -r --recursive  recursively check directory contents
+
+## tag
+#   -t --tags            the set of tags to apply
+#   -r --recursive       recursively apply tags to directory contents
+#   -f --from            copy tags from the SOURCE file
+#   -w --where           tags files matching QUERY
+#   -c --create          create tags or values without tagging any files
+#   -e --explicit        explicitly apply tags even if they are already implied
+#   -F --force           apply tags to non-existent or non-permissioned paths
+#   -P --no-dereference  do not follow symbolic links (tag the link itself)
+
+## untag
+#   -a --all             strip each file of all tags
+#   -t --tags            the set of tags to remove
+#   -r --recursive       recursively remove tags from directory contents
+#   -P --no-dereference  do not follow symbolic links (untag the link itself)
+
+## repair
+#   -p --path         limit repair to files in database under path
+#   -P --pretend      do not make any changes
+#   -R --remove       remove missing files from the database
+#   -m --manual       manually relocate files
+#   -u --unmodified   recalculate fingerprints for unmodified files
+#      --rationalize  remove explicit taggings where an implicit tagging exists
+
+## imply
+# --delete
+
+## cp
+## merge
+#      --value  merge values
+## mv
+#      --value  rename a value
+## rm
+#      --value  delete a value
+
+if [[ -z "${@}" ]] {
+  # colored=( ${(@f)"$(tmsu files | xargs tmsu --color=always tags )"} )
+  colored=( ${(@f)"$(rpar 'tmsu --color=always tags' ::: $(tmsu files))"} )
+} else {
+  # colored=( ${(@f)"$(tmsu files "${@}" | xargs tmsu --color=always tags )"} )
+  colored=( ${(@f)"$(rpar 'tmsu --color=always tags' ::: $(tmsu files $@))"} )
+}
+
+# ft=( ${(@fA)${(@Fs: :)colored}} )
+
+files=( ${(@)${colored[@]//(#m)*/${${(As.:.)MATCH}[1]}}} )
+tags=( ${(@)${colored[@]//(#m)*/${${${(As.:.)MATCH}[2]#${${(As.:.)MATCH}[2]%%[! $'\t']*}}%/}}} )
+
+integer i longest=0
+local t
+local -a packs unpacked
+for (( i=1; i<=$#tags; i++ )) {
+  packs+=( "%F{14}%B${files[$i]}%f%b: ${tags[$i]}" )
+}
+
+sel="$(print -Pln "${(@%)packs}" \
+  | hck -d': ' -D $'\t' \
+  | column -t \
+  | fzf +m --delimiter / \
+           --with-nth 4.. \
+           --bind='F:execute(lf $(echo {} | hck -f1))'
+)"
+
+[[ -n "$sel" ]] && {
+  file="${${(@s: :)sel}[1]}"
+  if (( $+opts[-d] + $+opts[--cd] )) {
+    if [[ -d "$file" ]] {
+        builtin cd "$file"
+    } else {
+        builtin cd "$file:h"
+    }
+  } elif (( $+opts[-p] + $+opts[--print] )) {
+    print -r -- "$file"
+  } else {
+    if [[ -d "$file" ]] {
+        print -Pr -- "%F{53}Not going to edit directory%f"
+        return
+    }
+    $EDITOR -- "$file"
+  }
+}
+
+# vim: ft=zsh:et:sw=0:ts=2:sts=2:fdm=marker:fmr=[[[,]]]:

@@ -1,0 +1,145 @@
+: 1709045050:0;lsat --all
+: 1709045108:0;lsm
+: 1709045140:0;lsat
+: 1709045169:0;lsa2
+: 1709045194:0;lsm -d -- .*(e-after today-N)
+: 1709045211:0;lsm -d -- [.]*(e-after today-N)
+: 1709045222:0;lsm -d -- *(e-after today-D)
+: 1709045267:0;lsm -d -- *(ch-3)
+: 1709045271:0;lsm -d -- *(ch-3D)
+: 1709045291:0;lsm -d -- .*(^ch-3)
+: 1709045324:0;lsm -d -- .*(ch+3)
+: 1709045330:0;lsm -d -- .*(ch-3)
+: 1709045332:0;lsm -d -- .*(ch-4)
+: 1709045339:0;lsm -d -- .*(ch-6)
+: 1709045367:0;lsm -d -- .*(ch-6-D)
+: 1709045373:0;lsm -d -- *(ch-6)
+: 1709045383:0;lsm -d -- .*(ch-6) *(ch-6)
+: 1709045422:0;lsat .*(e-after today-N)
+: 1709047716:0;paru -S nvr
+: 1709047821:0;fffffffffffffffffffffffdsfdsf
+: 1709047871:0;bindkey -L
+: 1709079881:0;echo $ZDOTDIR
+: 1709080292:0;vi themes/vivid/filetypes.yml
+: 1709081088:0;echo $zdirs
+: 1709081095:0;echo $zdirs[DATA]
+: 1709081103:0;:q
+: 1709081145:0;echo $CARGO_HOME/
+: 1709081151:0;echo $Zdirs[DATA]
+: 1709081183:0;kf
+: 1709082259:0;k ../../
+: 1709082351:0;ls ./..
+: 1709082364:0;ls ..
+: 1709082382:0;k ..
+: 1709082626:0;k z
+: 1709082645:0;lss
+: 1709082654:0;lsh
+: 1709082702:0;paru -R zxoide
+: 1709082715:0;paru -R zoxide
+: 1709083125:0;k zinit
+: 1709084649:0;cd cache
+: 1709087380:0;zi
+: 1709087386:0;z edit
+: 1709087393:0;cd -
+: 1709087691:0;k zi
+: 1709091971:0;t
+: 1709091983:0;cm gz
+: 1709097797:0;lsa completions | fzf
+: 1709098570:0;command -v cd
+: 1709099400:0;cd git
+: 1709100040:0;history
+: 1709100054:0;https 
+: 1709100059:0;zi load sharkdp/bat
+: 1709100737:0;zi delete sharkdp/bat
+: 1709100758:0;paru -R bat
+: 1709100765:0;paru -R bat batj-extras
+: 1709100768:0;paru -R bat bat-extras
+: 1709100772:0;bat
+: 1709100779:0;which bat
+: 1709100893:0;cd zinit/plugins
+: 1709102745:0;rm rg
+: 1709105858:0;zi delete junegunn/fzf
+: 1709106428:0;echo $path
+: 1709106475:0;fzf-tmux
+: 1709107141:0;zi delete BurntSushi/ripgrep
+: 1709107699:0;cd 
+: 1709108191:0;delta
+: 1709108197:0;which delta
+: 1709108206:0;paru -R delta
+: 1709108216:0;paru -S delta
+: 1709108232:0;cd /usr/bin
+: 1709112273:0;zman 
+: 1709112287:0;zman
+: 1709112313:0;zmanf
+: 1709117291:0;cm zi
+: 1709120450:0;mkdir bak
+: 1709120458:0;cp .zshrc bak
+: 1709120465:0;lsa bak
+: 1709120913:0;cp -f bak/.zshrc .zshrc
+: 1709121585:0;nznote
+: 1709121756:0;source-highlight
+: 1709122062:0;https
+: 1709128924:0;loop 'sleep 1'
+: 1709128944:0;cd zsh.d
+: 1709129253:0;cd ..
+: 1709132666:0;cd snippets
+: 1709132856:0;mkdir bin
+: 1709132863:0;rm HOME
+: 1709132876:0;rm -u
+: 1709132884:0;rm test
+: 1709132886:0;rm bak
+: 1709132999:0;mkdir bin/zsh
+: 1709133017:0;mv snippets/fzf-tmux bin/zsh
+: 1709133033:0;cd local share
+: 1709133150:0;cd bin
+: 1709133172:0;cm g
+: 1709133180:0;cd git grc
+: 1709133230:0;ls bin
+: 1709133233:0;ls man
+: 1709133274:0;ls snippets
+: 1709133789:0;ls completions/ | fzf
+: 1709134611:0;rm snippets/grc.zsh
+: 1709169520:0;xsel --bi <<< 2222222222222222222
+: 1709169528:0;xsel --bi <<< $(echo 222222222222222222)
+: 1709169975:0;paru -R xsel
+: 1709170197:0;paru -S wl-clipboard
+: 1709170392:0;fkk
+: 1709170398:0;ls completions | fzf
+: 1709170585:0;cp completions/_grc zinit/completions
+: 1709170614:0;ll completions/_grc
+: 1709170629:0;vi completions/_grc
+: 1709171018:0;mv _grc zinit/completions 
+: 1709171025:0;cd zinit/completions
+: 1709174324:0;wl-copy 22222222222222222
+: 1709174328:0;wl-paste 
+: 1709174348:0;wl-paste
+: 1709174387:0;wl-paste -p
+: 1709175237:0;cd completions
+: 1709178514:0;ls .zcompdump
+: 1709178520:0;vi .zcompdump
+: 1709178563:0;zcompile completions.zwc completions/*
+: 1709178571:0;vi completions.zwc
+: 1709178755:0;lsa
+: 1709207169:0;loop --every 10s -- ls
+: 1709207183:0;vi 2.txt
+: 1709214369:0;vi 
+: 1709214420:0;vi 1.txt
+: 1709254646:0;cd config zinit plug
+: 1709254855:0;source .zshrc
+: 1709255827:0;vi
+: 1709255889:0;cm n
+: 1709256799:0;cd
+: 1709262295:0;cd local share zinit 
+: 1709262295:0;ls
+: 1709262305:0;cd zinit
+: 1709262352:0;vi .zshrc
+: 1709271680:0;cm z
+: 1709271692:0;vi zsh.d/05-export.zsh
+: 1709272015:0;fd --follow
+: 1709272029:0;vi .zshrc
+: 1709272037:0;vi zsh.d/05-export.zsh
+: 1709272569:0;cd ../nvim/lua
+: 1709455578:0;ls
+: 1709455580:0;ls man
+: 1709455598:0;ls
+: 1709455599:0;cd man

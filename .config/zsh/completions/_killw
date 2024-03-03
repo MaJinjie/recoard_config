@@ -1,0 +1,16 @@
+#compdef killw
+
+#===========================================================================
+#    @author: Lucas Burns <burnsac@me.com> [lmburns]                       #
+#   @created: 2023-03-03                                                   #
+#===========================================================================
+
+local arguments
+
+arguments=(
+  '-h[display this help]'
+  '-p[kill the parent application of the window instead of the window itself]'
+  '*:WINID:'
+)
+
+_arguments -s $arguments

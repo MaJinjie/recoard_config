@@ -1,0 +1,9 @@
+: 1709133693:0;vi conf.ps
+: 1709133889:0;cm gz
+: 1709134962:0;cat conf.php | grc --colour=on stat
+: 1709134969:0;cat conf.php | grc --colour=on
+: 1709134980:0;cat conf.php | grc --colour=on stat
+: 1709134982:0;cat conf.php | grc --colour=on stat 1
+: 1709134989:0;cat conf.php | grc --colour=on stat conf.ant
+: 1709135012:0;cat conf.php | grc --colour=on stat .
+: 1709135017:0;cd ..

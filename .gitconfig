@@ -1,0 +1,28 @@
+[init]
+	defaultBranch = main
+[user]
+	name = MaJinjie
+	email = 2734883936@qq.com
+# <proxy_protocol>://user:passwd@ip:port
+[https]
+#	proxy = socks5://qlyun:qlyun@54.242.216.72:3636
+[http]
+	sslBackend = openssl
+	sslVerify = false
+	version = HTTP/1.1
+#  proxy = socks5://qlyun:qlyun@54.242.216.72:3636
+[core]
+  pager = delta 
+[interactive]
+  diffFilter = delta --color-only
+[delta]
+  navigate = true 
+[merge]
+  conflictstye = diff3
+[diff]
+  colorMoved = default
+[gc]
+  # default 90 days
+  reflogExpire = 200
+  # default 30 days
+  reflogExpireUnreachable = 90

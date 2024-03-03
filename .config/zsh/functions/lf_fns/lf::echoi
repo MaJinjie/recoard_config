@@ -1,0 +1,9 @@
+# @desc: echo an info message
+
+function lf::echoi() {
+  lf::msg -I "${(z)@}"
+}
+
+lf::echoi "$@"
+
+# vim: ft=zsh:et:sw=0:ts=2:sts=2

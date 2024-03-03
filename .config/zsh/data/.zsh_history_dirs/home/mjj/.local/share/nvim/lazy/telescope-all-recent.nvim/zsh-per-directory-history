@@ -1,0 +1,3 @@
+: 1709279263:0;ls
+: 1709279268:0;cd lua/telescope-all-recent
+: 1709286887:0;cd ../telescope.nvim/lua/telescope/builtin

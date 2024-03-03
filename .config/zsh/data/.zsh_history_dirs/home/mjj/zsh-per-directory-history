@@ -1,0 +1,350 @@
+: 1709034205:0;histdb-top
+: 1709034209:0;histdb
+: 1709044658:0;paru -R xclip
+: 1709044682:0;paru -S xsel
+: 1709044691:0;paru -R xsel
+: 1709044799:0;xsel -o
+: 1709044817:0;echo "111111111111111\n" | xsel -b -i --trim
+: 1709044825:0;echo "111111111111111\n" | xsel -b -i 
+: 1709044826:0;xsel -o -b
+: 1709045613:0;lsat
+: 1709045645:0;lsbt
+: 1709045650:0;lsa2
+: 1709045661:0;lsa4
+: 1709046188:0;llm
+: 1709046213:0;llt
+: 1709046221:0;llh
+: 1709048656:0;ex-command
+: 1709048661:0;ex-command-help
+: 1709048670:0;ex-command 1
+: 1709048681:0;ex-command ff
+: 1709049002:0;undo .a
+: 1709049340:0;bindkey ^Xw zce
+: 1709049357:0;bindkey '^Xw' zce
+: 1709050228:0;zce
+: 1709050634:0;bindkey -L
+: 1709050836:0;xzmsg 11
+: 1709051020:0;cd dotfiles/.config
+: 1709051320:0;f
+: 1709051382:0;zle -L
+: 1709051384:0;zle -l
+: 1709051387:0;zle -l | vi
+: 1709051424:0;zle reset-prompt
+: 1709051531:0;zinit
+: 1709051542:0;zini
+: 1709080059:0;rm .zshenv 
+: 1709080102:0;zoxide query zsh
+: 1709080507:0;kf
+: 1709080511:0;k conf
+: 1709081067:0;vi .zshenv
+: 1709081961:0;vi rualdi/rualdi.toml
+: 1709084777:0;zi plugins
+: 1709084849:0;zsh
+: 1709085081:0;git clone git@github/wfxr/forgit.git
+: 1709085104:0;git clone git@github.com/wfxr/forgit.git
+: 1709085117:0;git clone git@github.com:ajeetdsouza/zoxide.git
+: 1709085542:0;where z
+: 1709085593:0;zi compinit
+: 1709085618:0;zoxide edit
+: 1709086197:0;zoxide add
+: 1709086201:0;z
+: 1709086214:0;z edit
+: 1709086232:0;alias z='zoxide'
+: 1709086269:0;z init
+: 1709086272:0;z init zsh
+: 1709086866:0;paru --noconfirm -S fd
+: 1709086876:0;paru -R fd
+: 1709087003:0;command -v zi
+: 1709087024:0;command -v z
+: 1709087026:0;command -v zt
+: 1709087034:0;typeset -p zt
+: 1709087039:0;zt
+: 1709087084:0;k zi
+: 1709087149:0;z c 
+: 1709087205:0;k -
+: 1709087214:0;ru -
+: 1709087222:0;k c
+: 1709087366:0;cd .config/zsh
+: 1709087612:0;cd 
+: 1709087617:0;cdi 
+: 1709087680:0;cdi config zsh
+: 1709087704:0;cd config zinit
+: 1709087714:0;cd con zin plu
+: 1709089352:0;zshz zsh
+: 1709089371:0;z zsh
+: 1709089375:0;z ~/.config
+: 1709089392:0;z ~/dotfiles
+: 1709089402:0;z ~/dotfiles/.config/zflia
+: 1709089414:0;zoxide zsh
+: 1709089463:0;z 
+: 1709089465:0;z config
+: 1709089634:0;k z
+: 1709089662:0;which z
+: 1709089780:0;unalias zi
+: 1709089783:0;which zi
+: 1709089819:0;zi
+: 1709089832:0;zi 
+: 1709089852:0;z i
+: 1709090387:0;echo $commands[cd]
+: 1709090529:0;radl
+: 1709090541:0;cml
+: 1709090618:0;rad -d
+: 1709090623:0;rad -t
+: 1709090644:0;radf -d
+: 1709091230:0;sudo -v\
+hyperfine --prepare 'sync; echo 3 | sudo tee /proc/sys/vm/drop_caches' \\
+    'diskus' 'du -sh' 'sn p -d0 -j8' 'dust -d0'
+: 1709091280:0;du
+: 1709091323:0;diskus
+: 1709093083:0;cd zinit plu rip
+: 1709093090:0;cd zinit plu
+: 1709097673:0;cd -
+: 1709098676:0;which _bat
+: 1709099290:0;cm .
+: 1709100802:0;bat
+: 1709100805:0;which bat
+: 1709101552:0;nznote
+: 1709107314:0;zi delete BurntSushi/ripgrep
+: 1709107707:0;cd test/git
+: 1709112575:0;defer
+: 1709112647:0;echo $HOST
+: 1709112686:0;echo $(host)
+: 1709112699:0;host github.com
+: 1709112741:0;compdef 
+: 1709114070:0;cmd z
+: 1709114186:0;bkt -- ls
+: 1709114558:0;bkt -v
+: 1709114565:0;command -v bkt
+: 1709114570:0;bkt --help
+: 1709114578:0;bkt -V
+: 1709114884:0;bkt -- bat bb
+: 1709114923:0;fd go
+: 1709114945:0;rg foo/ff
+: 1709115557:0;aa=(a b)
+: 1709115562:0;echo aaa/$aa
+: 1709115570:0;echo aaa/{$aa}
+: 1709115608:0;echo aaa/${aa[@]}
+: 1709115614:0;echo aaa/${^aa[@]}
+: 1709116845:0;zoxide
+: 1709116981:0;cd zsh
+: 1709117569:0;unalias cd
+: 1709117630:0;which cd
+: 1709117635:0;zsqlite-build
+: 1709119279:0;cm zd
+: 1709119580:0;echo $_HISTDB
+: 1709119614:0;echo $aa
+: 1709119750:0;fzf-tab
+: 1709121153:0;history
+: 1709121167:0;echo 1111111111111111
+: 1709121169:0;echo 222222222222222
+: 1709121180:0;echo 1111122222
+: 1709121203:0;echo 2222 3333
+: 1709121216:0;echo 22222 444444
+: 1709128500:0;zi delete miserlou/loop
+: 1709128545:0;cm zi
+: 1709129317:0;bkt
+: 1709129349:0;man bkt
+: 1709129487:0;cd .local/share
+: 1709131885:0;zi load garabik/grc
+: 1709131917:0;zi delete garabik/grc
+: 1709133366:0;ls cmd | grcat 
+: 1709133440:0;for cmd in g++ gas head make ld ping6 tail traceroute6 $( ls /usr/share/grc/ ); do\
+  cmd="${cmd##*conf.}"\
+  type "${cmd}" >/dev/null 2>&1 && echo alias "${cmd}"="$( which grc ) --colour=auto ${cmd}"\
+done
+: 1709133539:0;for cmd in g++ gas head make ld ping6 tail traceroute6 $( ls ~/.grc/colourfiles ); do\
+ cmd="${cmd##*conf.}"\
+ type "${cmd}" >/dev/null 2>&1 && echo alias "${cmd}"="$( which grc ) --colour=auto ${cmd}"\
+done
+: 1709133762:0;grc _grc
+: 1709133919:0;grc -v
+: 1709134071:0;which as
+: 1709134097:0;cd config snip
+: 1709134219:0;which config
+: 1709134339:0;cd config zinit 
+: 1709134352:0;which g++
+: 1709134470:0;which gcc
+: 1709134493:0;tail
+: 1709134505:0;which tail
+: 1709134824:0;lsar
+: 1709134904:0;cd grc col
+: 1709135374:0;grc -
+: 1709135376:0;grc
+: 1709135402:0;grcat
+: 1709135639:0;cat 22222.txt
+: 1709135672:0;stdbuf
+: 1709135713:0;cat 1.txt | grc --colour=on stat /home/mjj/1.txt
+: 1709135733:0;cd .grc/colourfiles
+: 1709135821:0;cd zoxide
+: 1709136063:0;grc ps aux
+: 1709136218:0;grc cat 22222.txt
+: 1709136224:0;grc cat aa.sh
+: 1709136234:0;grc cat aa.sh test.md
+: 1709136252:0;vi test.md
+: 1709136277:0;grc ping baidu.com
+: 1709136585:0;zi completions
+: 1709136813:0;cd git grc
+: 1709136979:0;cd zsh zinit sn
+: 1709137109:0;zzz
+: 1709137180:0;ffffffffffffffffffffffffffffffffffff
+: 1709167437:0;ls 
+: 1709167468:0;rm HOME\
+ls -m1
+: 1709167473:0;rm HOME
+: 1709167496:0;cd .grc
+: 1709167575:0;zi delete
+: 1709167624:0;v
+: 1709167676:0;LSfd \\
+nn
+: 1709167694:0;ffd
+: 1709168161:0;xsel
+: 1709168165:0;xsel --help
+: 1709168649:0;cd test
+: 1709170316:0;cd git
+: 1709170464:0;echo $_comps[wl-copy]
+: 1709171138:0;echo $_comps[grc]
+: 1709171151:0;echo $_comps[cf]
+: 1709171156:0;echo $_comps[rfkill]
+: 1709171168:0;cd conf zsh com
+: 1709172512:0;paru -S shadowsocks
+: 1709172526:0;zshaddhistory
+: 1709172532:0;shadowsocks
+: 1709172933:0;paru -S qt-5
+: 1709172938:0;paru -S qt
+: 1709174006:0;echo $ABSD
+: 1709174181:0;echo $WAYLAND_DISPLAY
+: 1709175047:0;vi 11.txt
+: 1709178428:0;cd $Zdirs[COMPL]
+: 1709178477:0;autoload -Uz compinit 
+: 1709178593:0;cm gz
+: 1709179154:0;which ls
+: 1709179370:0;compinit
+: 1709187381:0;cs
+: 1709187385:0;ci
+: 1709187401:0;cm
+: 1709187407:0;cmf
+: 1709187408:0;cf
+: 1709188295:0;pwd
+: 1709189609:0;vi git
+: 1709213843:0;cd local share
+: 1709214626:0;xit
+: 1709214649:0;cm c
+: 1709215022:0;:q
+: 1709215073:0;cd config tmux
+: 1709215077:0;cd .config/tmux
+: 1709216440:0;cd .config/alacritty/
+: 1709216453:0;t
+: 1709216799:0;http://man.openbsd.org/OpenBSD-current/man1/tmux.1http://man.openbsd.org/OpenBSD-current/man1/tmux.1f display "Pasted primary to tmux pane"
+: 1709216834:0;http://man.openbsd.org/OpenBSD-current/man1/tmux.1 http://man.openbsd.org/OpenBSD-current/man1/tmux.1
+: 1709216943:0;wl-copy  111111111111111111
+: 1709216950:0;wl-copy -p 222222222222
+: 1709216953:0;wl-paste 
+: 1709216991:0;wl-paste
+: 1709216996:0;wl-paste -p
+: 1709217101:0;t choose-buffer
+: 1709217130:0;t choose-buffer -2
+: 1709217377:0;vi .config/alacritty/alacritty.toml
+: 1709217402:0;t kill-server
+: 1709217613:0;cd local nvim
+: 1709221126:0;cm n
+: 1709252283:0;t ls
+: 1709254400:0;echo "/home/mjj' | sd /home/mjj ~"
+: 1709254416:0;echo "/home/mjj" | sd /home/mjj ~
+: 1709254451:0;echo "/home/mjj" | sd "/home/mjj" "~" 
+: 1709254492:0;echo "before at" | sd before after
+: 1709254498:0;sd before after
+: 1709254519:0;echo "sample with /path/" | sd '.*(/.*/)' '$1'
+: 1709254542:0;sd --help
+: 1709254548:0;sd --fixed-strings
+: 1709254763:0;https 
+: 1709254853:0;cm z
+: 1709254972:0;zi load chmln/sd 
+: 1709255013:0;zi load chmln/sd
+: 1709255192:0;https
+: 1709255194:0;srcr
+: 1709255483:0;cd .config
+: 1709257285:0;cd local share Lazy lua
+: 1709257287:0;cd local share Lazy 
+: 1709265219:0;paru -S shadowsocks-libv
+: 1709265224:0;paru -S shadowsocks-libev
+: 1709266250:0;cd conf
+: 1709279149:0;cd .config nvim plugin
+: 1709308956:0;q
+: 1709309243:0;ls completion
+: 1709309246:0;vi completion
+: 1709309280:0;mmv *
+: 1709309330:0;rm completion ppwwd datadata result fzfz test.zsh fzf-run selected data ppppwd prompt 
+: 1709309362:0;vi zoxide
+: 1709309374:0;ls zoxide
+: 1709309387:0;rm zoxide 
+: 1709309552:0;vi nvim
+: 1709343725:0;cd nvim 
+: 1709343746:0;cd config nvim lua plug
+: 1709387148:0;vi README.md
+: 1709389587:0;fzf --border=top
+: 1709389597:0;fzf --border=bold
+: 1709389615:0;fzf --border=double
+: 1709389649:0;fzf --border=right
+: 1709389652:0;fzf --border=left
+: 1709389663:0;fzf --border=bottom
+: 1709389672:0;fzf --border=rounded
+: 1709389695:0;fzf --border=vertical
+: 1709389704:0;fzf --border=horizontal
+: 1709389734:0;fzf --border-label=aaaa
+: 1709389760:0;fzf --border=sharp
+: 1709389766:0;fzf
+: 1709390086:0;fzf-tmux
+: 1709390150:0;fzf-tmux -p 80%,90% 
+: 1709390178:0;fzf-tmux -p 80%,90% -- --border=rounded
+: 1709390866:0;fzf-tmux -p 40,20
+: 1709390911:0;fzf-tmux -p 40,20 --border=sharp
+: 1709424388:0;cd local share lazy
+: 1709427797:0;mkdir .git
+: 1709428004:0;cd nvim lua plug
+: 1709430643:0;vi 1.txt
+: 1709432183:0;gi
+: 1709432522:0;cd config
+: 1709432589:0;cd nvim
+: 1709432992:0;cd
+: 1709433126:0;ls .git
+: 1709433228:0;cd .note
+: 1709434399:0;cd local share lazy tele
+: 1709434918:0;cd .note/import
+: 1709435057:0;rg --help
+: 1709435737:0;vi 
+: 1709435755:0;touch .rgignore
+: 1709435791:0;mv .rgignore .fdignore .ignore .gitignore dotfiles
+: 1709435991:0;mv .zshenv .ssh dotfiles 
+: 1709436001:0;mv README.md dotfiles 
+: 1709436055:0;lsh
+: 1709436241:0;cd dotfiles
+: 1709436515:0;cd config fd
+: 1709436880:0;ls mjj
+: 1709436882:0;rm mjj
+: 1709436885:0;rm nvim
+: 1709436907:0;rm .fzf-marks .z .fzf.bash .fzf.zsh
+: 1709436919:0;rm tt1 
+: 1709436945:0;rm .cargo
+: 1709436953:0;rm .zsh_history_dirs 
+: 1709436970:0;ls .hyprland
+: 1709436976:0;ls fzf
+: 1709436995:0;rm fzf .hyprland 
+: 1709437204:0;vi .ignore
+: 1709437228:0;fd | fzf
+: 1709437236:0;cd config lau
+: 1709437467:0;vi .gitignore
+: 1709437636:0;vi .fdignore
+: 1709437687:0;cd config lua
+: 1709438670:0;rm hello
+: 1709438684:0;rm hello -rf
+: 1709438687:0;ls
+: 1709438773:0;lsa
+: 1709438777:0;ls.
+: 1709438994:0;cat .data
+: 1709438996:0;rm .data
+: 1709439245:0;cd fd
+: 1709439512:0;cd config zinit plug
+: 1709444025:0;cd config nvim
+: 1709452540:0;vi
+: 1709457655:0;ls
+: 1709457658:0;cd dotfiles

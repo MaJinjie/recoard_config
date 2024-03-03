@@ -1,0 +1,26 @@
+: 1709187476:0;ls
+: 1709187491:0;cd telescope-file-browser.nvim/lua/telescope/_extensions/file_browser
+: 1709191302:0;ls
+: 1709191310:0;vi telescope-rualdi.nvim
+: 1709192634:0;cm n
+: 1709217855:0;ls
+: 1709217863:0;rm telescope-frecency.nvim 
+: 1709221078:0;cd config nvim lua plug
+: 1709222996:0;ls
+: 1709223010:0;cd neo-tree.nvim
+: 1709257288:0;ls
+: 1709257297:0;cd LazyVim/lua/lazyvim/plugins
+: 1709258375:0;cd telescope.nvim/plugin/
+: 1709260070:0;ls
+: 1709260079:0;cd LazyVim/lua/lazyvim/plugins
+: 1709286722:0;cd LazyVim/lua/lazyvim/plugins/ls
+: 1709286724:0;cd LazyVim/lua/lazyvim/plugins/
+: 1709288683:0;cs
+: 1709377735:0;ls
+: 1709377755:0;cd fzf-lua/lua/fzf-lua/providers
+: 1709387098:0;ls
+: 1709387110:0;cd fzf-lua/lua/fzf-lua/providers
+: 1709387195:0;cd fzf-lua/lua/fzf-lua/providers
+: 1709388161:0;cd fzf-lua/lua/fzf-lua/providers
+: 1709424403:0;cd fzf-lua/lua/fzf-lua/profiles
+: 1709455744:0;cd fzf-lua/lua/fzf-lua

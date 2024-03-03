@@ -1,0 +1,72 @@
+: 1709086039:0;k .
+: 1709086734:0;rm zdharma-continuum---null
+: 1709086736:0;rm zdharma-continuum---null -rf
+: 1709087698:0;k h
+: 1709087770:0;alias zi=''
+: 1709087774:0;which zi
+: 1709087839:0;which cdi
+: 1709087854:0;which cd
+: 1709089150:0;cd ajeetdsouza---zoxide
+: 1709093152:0;cd past
+: 1709093156:0;cd sharkdp---pastel
+: 1709093265:0;cd .
+: 1709093268:0;lsa
+: 1709097412:0;lsa ajeetdsouza---zoxide
+: 1709097435:0;man zoxide
+: 1709097441:0;man rg
+: 1709097669:0;cd 
+: 1709097749:0;cd eza-community---eza
+: 1709098610:0;ls3 shar*
+: 1709098618:0;lsa3 shar*
+: 1709099732:0;rm sharkdp---bat -rf
+: 1709099786:0;cd sharkdp---bat/
+: 1709099876:0;zi delete sharkdp/bat
+: 1709099894:0;zi load sharkdp/bat
+: 1709100365:0;lsa2
+: 1709100368:0;ls2
+: 1709100374:0;ls2 shar*
+: 1709100606:0;cd sharkdp---bat
+: 1709100932:0;paru -R ripgrep fd
+: 1709100934:0;paru -R ripgrep
+: 1709100942:0;rg
+: 1709101117:0;rm ajeetdsouza---zoxide -rf
+: 1709101426:0;rm sharkdp* -rf
+: 1709102048:0;rm BurntSushi---ripgrep -rf
+: 1709102215:0;zi creinstall sharkdp/bat
+: 1709102252:0;cm .
+: 1709102331:0;ls BurntSushi---ripgrep/ripgrep-14.1.0-x86_64-unknown-linux-musl
+: 1709102711:0;t
+: 1709102736:0;cm z
+: 1709104401:0;cd junegunn---fzf/bin
+: 1709105085:0;cd junegunn---fzf
+: 1709105317:0;paru -S fzf
+: 1709105325:0;cd ..
+: 1709109135:0;lst
+: 1709110132:0;cd ../snippets
+: 1709117154:0;cd Aloxaf---zsh-sqlite
+: 1709117316:0;cd Aloxaf---zsh-sqlite/
+: 1709117444:0;rm Aloxaf---zsh-sqlite
+: 1709122297:0;cd ../polaris/bin
+: 1709128596:0;rm miserlou---loop 
+: 1709131664:0;/home/mjj/dotfiles/.config/zsh/zinit/plugins/garabik---grc/grcat
+: 1709131691:0;cd garabik---grc
+: 1709131714:0;rm garabik---grc 
+: 1709131790:0;ls
+: 1709131809:0;srcr
+: 1709178208:0;cd BurntSushi---ripgrep
+: 1709178288:0;echo $Zdirs[COMPL]
+: 1709178301:0;cp sharkdp---fd/fd-v9.0.0-x86_64-unknown-linux-gnu/autocomplete/_fd $Zdirs[COMPL]
+: 1709178357:0;cd $Zdirs[COMPL]
+: 1709217720:0;cd -
+: 1709254650:0;cd chmln---sd
+: 1709254819:0;ls
+: 1709255102:0;rip -
+: 1709255106:0;rip 0s
+: 1709255108:0;rip -s
+: 1709255127:0;ls
+: 1709302666:0;ls
+: 1709302670:0;cd -
+: 1709439512:0;ls
+: 1709439520:0;cd sharkdp---fd/fd-v9.0.0-x86_64-unknown-linux-gnu/autocomplete
+: 1709439578:0;cp BurntSushi---ripgrep/ripgrep-14.1.0-x86_64-unknown-linux-musl/complete/_rg $Zdirs[COMPL]
+: 1709439613:0;cp BurntSushi---ripgrep/ripgrep-14.1.0-x86_64-unknown-linux-musl/doc/rg.1 $Zdirs[MAN]

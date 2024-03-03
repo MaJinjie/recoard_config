@@ -1,0 +1,10 @@
+# @desc: func ran on every cd
+
+emulate -L zsh
+
+[[ "$OLDPWD" != "$PWD" ]] && {
+  #打印一天之内访问（accessed)的文件或隐藏文件
+  eza -aF --icons --group-directories-first --sort=accessed --reverse -d -- *(e-after today-N) .*(e-after today-N)
+}
+
+# vim:ft=zsh:

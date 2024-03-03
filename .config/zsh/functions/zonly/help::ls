@@ -1,0 +1,118 @@
+# @desc: show all ls aliases
+
+typeset -A ls_t fd_t rg_t
+
+ls_t=(
+   ls  '%3Fshort%f'
+  lss  '%3Fshort; directories first%f'
+  lssa '%3Fshort; +hidden%f'
+
+   ll  '%3Flong; +hidden%f'
+  lla  '%3Flong%f'
+  lls  '%3Flong; +hidden; directories first%f'
+   lj  '%3Flong; +hidden; directories first%f'
+  llb  '%3Flong; +hidden; blocks%f'
+
+  llr  '%3Flong; +hidden; reversed%f'
+  llsr '%3Flong; +hidden; directories first; reversed%f'
+
+   lp  '%3Fone per line%f'
+  lpo  '%3Fone per line; +hidden%f'
+
+  lse  '%3Fshort; sort: extension%f'
+  lle  '%3Flong; sort: extension%f'
+
+  lsm  '%3Flong; sort: modified%f'
+  llmr '%3Flong; sort: modified; reversed%f'
+  llmo '%3Flong; sort: modified; 10 oldest%f'
+  llmn '%3Flong; sort: modified; 10 newest%f'
+
+  lsa  '%3Flong; sort: accessed%f'
+  lsr  '%3Flong; sort: accessed; reversed%f'
+  lsao '%3Flong; sort: accessed; 10 oldest%f'
+  lsan '%3Flong; sort: accessed; 10 newest%f'
+
+  lsc  '%3Flong; sort: changed%f'
+  lscr '%3Flong; sort: changed; reversed%f'
+  lsco '%3Flong; sort: changed; 10 oldest%f'
+  lscn '%3Flong; sort: changed; 10 newest%f'
+
+  lsb  '%3Flong; sort: born%f'
+  lsbr '%3Flong; sort: born; reversed%f'
+
+  lsat '%3Flong; sort: changed today%f'
+  lsbt '%3Flong; sort: changed before today%f'
+  lsa2 '%3Flong; sort: changed at least 2hrs ago%f'
+  lsb2 '%3Flong; sort: changed within last 2hrs%f'
+
+  lsz  '%3Flong; sort: size%f'
+  lszr '%3Flong; sort: size; reversed%f'
+  lszb '%3Flong; sort: size; 10 biggest%f'
+  lszs '%3Flong; sort: size; 10 smallest%f'
+  lsz0 '%3Flong; empty files%f'
+  lsze '%3Flong; empty files%f'
+
+  lsur '%3Flong; root owned files%f'
+  lst  '%3Flong; sort: type%f'
+
+  lsd  '%3Fshort; only directories%f'
+  lsdl '%3Flong; only directories%f'
+  lsdo '%3Flong; 10 oldest directories%f'
+  lsdn '%3Flong; 10 newest directories%f'
+  lsde '%3Flong; empty directories%f'
+  lsdf '%3Flong; full directories%f'
+  lsdf '%3Flong; full directories%f'
+  lsd2 '%3Fshort; directories 2 levels deep%f'
+
+  lsS  '%3Flong; segid/setuid/sticky bits%f'
+  lsts '%3Flong; segid/setuid/sticky bits%f'
+  lsx  '%3Flong; executable bit%f'
+  lsX  '%3Flong; world executable bit%f'
+  lstx '%3Flong; world executable bit%f'
+
+  lsl  '%3Flong; symlinks%f'
+  lstl '%3Flong; symlinks%f'
+
+  tree '%3Fact like "tree"%f'
+  lstr '%3Fact like "tree" 1 level deep%f'
+  ls@  '%3Flist file attributes as well%f'
+  ls.  '%3Fshort; only dotfiles%f'
+  ll.  '%3Flong; only dotfiles%f'
+)
+
+fd_t=(
+  fd   '%3Fhidden; insensitive%f'
+  fdi  '%3Fhidden; insensitive; no ignore%f'
+  ifd  '%3Fhidden; insensitive; no ignore%f'
+  fdg  '%3Fglob%f'
+  fdc  '%3Fcolor=always%f'
+  fdr  '%3Frecent - changed within=20m; depth=1%f'
+  fdrd '%3Frecent - changed within=30m; depth=inf%f'
+  fdrr '%3Freally recent - changed within=1m%f'
+)
+
+rg_t=(
+  prg '%3Fpcre%f'
+  frg '%3Ffilenames only%f'
+  lrg '%3Ffixed-strings%f'
+  irg '%3Fno ignore%f'
+  RGV '%3Finteractive; vim%f'
+  RGL '%3Finteractive; lua%f'
+  RGN '%3Finteractive; lua, vim%f'
+  RGR '%3Finteractive; rust%f'
+  RGT '%3Finteractive; typescript%f'
+  RGJ '%3Finteractive; javascript%f'
+  RGE '%3Finteractive; .ts, .tsx, .js, .jsx%f'
+  RGP '%3Finteractive; python%f'
+  RGG '%3Finteractive; go%f'
+  RGZ '%3Finteractive; zsh%f'
+)
+
+print -PraC2 -- "${(Oakv)ls_t[@]}"
+print -Pr    -- "%F{52}%B${(l:COLUMNS::=:):-}%b%f"
+print -PraC2 -- "${(Oakv)fd_t[@]}"
+print -Pr    -- "%F{52}%B${(l:COLUMNS::=:):-}%b%f"
+print -PraC2 -- "${(Oakv)rg_t[@]}"
+print -Pr    -- "%F{52}%B${(l:COLUMNS::=:):-}%b%f"
+
+# vim: ft=zsh:et:sw=0:ts=2:sts=2

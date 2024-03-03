@@ -1,0 +1,29 @@
+# Rualdi aliases configuration file
+# DO NOT EDIT VARIABLES AND ALIASES
+[aliases]
+c = "/home/mjj/.config"
+n = "/home/mjj/.config/nvim/lua"
+nc = "/home/mjj/.config/nvim/lua/config"
+nl = "/home/mjj/.config/nvim/lua/plugins"
+z = "/home/mjj/.config/zsh"
+zz = "/home/mjj/.config/zsh/zsh.d"
+zd = "/home/mjj/.config/zsh/data"
+zi = "/home/mjj/.config/zsh/zinit"
+l = "/home/mjj/.local"
+ln = "/home/mjj/.local/share/nvim"
+ll = "/home/mjj/.local/share/nvim/lazy/LazyVim/lua/lazyvim"
+d = "/home/mjj/dotfiles"
+dn = "/home/mjj/dotfiles/.note"
+dc = "/home/mjj/dotfiles/.config/"
+gz = "/home/mjj/git/dotfiles/.config/zsh"
+h = "/home/mjj"
+
+[environment]
+
+[colors]
+alias = "yellow"
+path = "magenta"
+separator = "bright cyan"
+
+[alias_hash]
+HOME = "$HOME"

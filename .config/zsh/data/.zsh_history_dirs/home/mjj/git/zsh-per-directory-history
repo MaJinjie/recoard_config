@@ -1,0 +1,11 @@
+: 1709130656:0;git clone https://github.com/garabik/grc.git
+: 1709130831:0;grc
+: 1709130851:0;which grc
+: 1709130866:0;ls
+: 1709130869:0;cd grc
+: 1709131937:0;cd grc
+: 1709132123:0;ls
+: 1709132129:0;cm dc
+: 1709132291:0;cd grc
+: 1709170329:0;git clone https://github.com/bugaevc/wl-clipboard.git
+: 1709170336:0;cd wl-clipboard

@@ -1,0 +1,5 @@
+: 1709135822:0;ls
+: 1709135837:0;grc --colour=on
+: 1709135851:0;grc --colour=on stat build.rc
+: 1709135859:0;grc --colour=on stat build.rs
+: 1709135871:0;cd ../.grc

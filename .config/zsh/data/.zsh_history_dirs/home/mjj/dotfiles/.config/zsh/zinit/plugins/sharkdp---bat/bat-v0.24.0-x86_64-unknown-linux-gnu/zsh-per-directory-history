@@ -1,0 +1,6 @@
+: 1709100633:0;ls
+: 1709100638:0;ls autocomplete
+: 1709100648:0;vi bat.zsh
+: 1709100656:0;vi autocomplete/bat.zsh
+: 1709100671:0;ls
+: 1709100679:0;cd ..

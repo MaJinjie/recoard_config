@@ -1,0 +1,141 @@
+# @desc: show a help message about globbing
+
+function help::glob() {
+  local -A flags; flags=(
+    '   (#i)' 'case insensitive'
+    '   (#l)' 'lower case characters match uppercase'
+    '   (#I)' 'case sensitive matching'
+    '   (#s)' 'match start of string'
+    '   (#e)' 'match end of string'
+    '   (#b)' 'activate backreferences'
+    '   (#B)' 'deactivate backreferences'
+    '   (#m)' 'set reference to entire matched data'
+    '   (#M)' 'deactivate m flag'
+    '   (#q)' 'introduce glob qualifier; ignored by matching code'
+    '(#aNUM)' 'approximate matching'
+    '(#cN,M)' 'match repetitions of preceding pattern'
+    '   (#U)' 'consider all characters to be one byte'
+    '   (#u)' 'support multibyte characters in pattern; respect locale'
+
+  )
+
+  # local v; for v (${(vo)flags[@]}) {
+  #   print -Pr -- "%F{52}%B${(k)flags[(r)${(b)v}]}%f%b    %F{3}$v%f"
+  # }
+
+  print::header 14 "# GLOBBING FLAGS"
+  local -a keys
+  local key
+  keys=( "${(@kon)${(@k)flags}}" )
+  for key in "${keys[@]}"; do
+    print -Pr -- "%F{43}%B${(r:10:)${key:+${key}%f%b:}}    %F{81}${flags[$key]}%f"
+  done
+
+  print::header 19 "# EXAMPLES"
+  print -Pr -- "  %F{2}vbindkey%f -M vicmd %F{3}'0'%f marks %F{35}# Bind single key in vicmd mode%f"
+#  print "%F{1}print%f *((#s)|/)test((#e)|/)*  %F{8}%B# Matches 'test' in T/../.., ../T/.., ../../T%f%b"
+#   %F{1}print%f ${arr//(#m)[aeiou]/${(U)MATCH}}  %F{8}%B# vEldt jynx grImps wAqf zhO bUck%f%b
+#
+# %F{14}%B# Globbing Qualifiers%F%b
+#     %F{3}/%f      directories
+#     %F{3}F%f      non-empty directories
+#     %F{3}.%f      plain files
+#     %F{3}D%f      hidden files
+#     %F{3}@%f      symbolic links
+#     %F{3}=%f      sockets
+#     %F{3}p%f      named pipes (FIFOs)
+#     %F{3}*%f      executable plain files (0100)
+#     %F{3}%%%f      device files (character or block special)
+#     %F{3}%%b%f     block special files
+#     %F{3}%%c%f     character special files
+#     %F{3}r%f      owner-readable files (0400)
+#     %F{3}w%f      owner-writable files (0200)
+#     %F{3}x%f      owner-executable files (0100)
+#     %F{3}A%f      group-readable files (0040)
+#     %F{3}I%f      group-writable files (0020)
+#     %F{3}E%f      group-executable files (0010)
+#     %F{3}R%f      world-readable files (0004)
+#     %F{3}W%f      world-writable files (0002)
+#     %F{3}X%f      world-executable files (0001)
+#     %F{3}s%f      setuid files (04000)
+#     %F{3}S%f      setgid files (02000)
+#     %F{3}t%f      files with the sticky bit (01000)
+#
+#   %F{1}print%f *(m-1)          %F{8}%B# Files modified up to a day ago%f%b
+#   %F{1}print%f *(a1)           %F{8}%B# Files accessed a day ago%f%b
+#   %F{1}print%f *(@)            %F{8}%B# Just symlinks%f%b
+#   %F{1}print%f *(Lk+50)        %F{8}%B# Files bigger than 50 kilobytes%f%b
+#   %F{1}print%f *(Lk-50)        %F{8}%B# Files smaller than 50 kilobytes%f%b
+#   %F{1}print%f **/*.c          %F{8}%B# All *.c files recursively starting in \$PWD%f%b
+#   %F{1}print%f **/*.c~file.c   %F{8}%B# Same as above, but excluding 'file.c'%f%b
+#   %F{1}print%f (foo|bar).*     %F{8}%B# Files starting with 'foo' or 'bar'%f%b
+#   %F{1}print%f *~*.*           %F{8}%B# All Files that do not contain a dot%f%b
+#   %F{1}chmod%f 644 *(.^x)      %F{8}%B# make all plain non-executable files publically readable%f%b
+#   %F{1}print%f -l *(.c|.h)     %F{8}%B# Lists *.c and *.h%f%b
+#   %F{1}print%f **/*(g:users:)  %F{8}%B# Recursively match all files that are owned by group 'users'%f%b
+#   %F{1}echo%f /proc/*/cwd(:h:t:s/self//) %F{8}%B# Analogous to >ps ax | awk '{print $1}'<%f%b"
+}
+
+## complete/skip sort spec
+#         "n:lexical order of name"
+#         "L:size of file"
+#         "l:number of hard links"
+#         "a:last access time"
+#         "m:last modification time"
+#         "c:last inode change time"
+#         "d:directory depth"
+#         "N:no sorting"
+#         "e:execute code"
+#         "+:+ command name"
+
+#     "/:directories"
+#     "F:non-empty directories"
+#     ".:plain files"
+#     "@:symbolic links"
+#     "=:sockets"
+#     "p:named pipes (FIFOs)"
+#     "*:executable plain files"
+#     "%:device files"
+#     "r:owner-readable"
+#     "w:owner-writeable"
+#     "x:owner-executable"
+#     "A:group-readable"
+#     "I:group-writeable"
+#     "E:group-executable"
+#     "R:world-readable"
+#     "W:world-writeable"
+#     "X:world-executable"
+#     "s:setuid"
+#     "S:setgid"
+#     "t:sticky bit set"
+#     "f:+ access rights"
+#     "e:execute code"
+#     "+:+ command name"
+#     "d:+ device"
+#     "l:+ link count"
+#     "U:owned by EUID"
+#     "G:owned by EGID"
+#     "u:+ owning user"
+#     "g:+ owning group"
+#     "a:+ access time"
+#     "m:+ modification time"
+#     "c:+ inode change time"
+#     "L:+ size"
+#     "^:negate qualifiers"
+#     "-:follow symlinks toggle"
+#     "M:mark directories"
+#     "T:mark types"
+#     "N:use NULL_GLOB"
+#     "D:glob dots"
+#     "n:numeric glob sort"
+#     "o:+ sort order, up"
+#     "O:+ sort order, down"
+#     "P:prepend word"
+#     "Y:+ at most ARG matches"
+#     "[:+ range of files"
+#     "):end of qualifiers"
+#     "\::modifier"
+
+help::glob "$@"
+
+# vim: ft=zsh:et:sw=0:ts=2:sts=2:fdm=marker:fmr=[[[,]]]:

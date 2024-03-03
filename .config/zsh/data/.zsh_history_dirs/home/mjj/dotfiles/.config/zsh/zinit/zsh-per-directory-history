@@ -1,0 +1,73 @@
+: 1709049139:0;cd plugins/hchbaw---zce.zsh
+: 1709082460:0;k n
+: 1709084388:0;cd plugins/ajeetdsouza---zoxide
+: 1709084410:0;cd plugins
+: 1709085047:0;cd plugins/ajeetdsouza---zoxide
+: 1709085169:0;k .
+: 1709085684:0;ls3 polaris/man
+: 1709085692:0;ls4
+: 1709085699:0;lsa4
+: 1709085790:0;ls
+: 1709085794:0;cd plugins
+: 1709086044:0;cd plugins/ajeetdsouza---zoxide
+: 1709086309:0;z query
+: 1709086318:0;z query zsh
+: 1709086329:0;zi zsh
+: 1709086332:0;cd
+: 1709086566:0;cd plugins
+: 1709087094:0;rm plugins/ajeetdsouza---zoxide -rf
+: 1709087695:0;cd plugins
+: 1709087707:0;cd -
+: 1709089475:0;cd
+: 1709089858:0;zi
+: 1709089911:0;z zinit zxo
+: 1709089915:0;z zinit zox
+: 1709090739:0;cd -
+: 1709090761:0;ci
+: 1709090764:0;cs
+: 1709090767:0;cf
+: 1709090794:0;cd zox
+: 1709100705:0;cd polaris/
+: 1709101993:0;cd polaris/bin
+: 1709102256:0;cd completions
+: 1709102322:0;cd plugins
+: 1709102755:0;ls
+: 1709102760:0;cd polaris/bin
+: 1709105326:0;ls
+: 1709105329:0;ls snippets
+: 1709105356:0;fzf-tmux
+: 1709106033:0;ls
+: 1709106037:0;cd snippets
+: 1709106051:0;fzf
+: 1709106096:0;ls
+: 1709106104:0;cd snippets/* -rf
+: 1709106106:0;ls
+: 1709106110:0;cd snippets/* -rf
+: 1709106120:0;rm snippets/* -rf
+: 1709106405:0;ls
+: 1709106409:0;cd snippets
+: 1709113187:0;cd plugins/mattmc3---zman/lib/zman_lookup.zsh
+: 1709113194:0;cd ../
+: 1709113227:0;cm c
+: 1709117299:0;cd plu zsql
+: 1709117302:0;cd plug
+: 1709122255:0;cd plugins/chmln---sd/sd-v1.0.0-x86_64-unknown-linux-gnu/completions
+: 1709128550:0;ls HOME
+: 1709128561:0;ls
+: 1709128575:0;cd plugins
+: 1709133225:0;rm HOME
+: 1709133226:0;cd ..
+: 1709134116:0;ls snippets
+: 1709134127:0;rm snippets/home--mjj--.config--zsh--snippets 
+: 1709134168:0;cd -
+: 1709134343:0;rm snippets/home--mjj--.config--zsh--snippets 
+: 1709134395:0;which gcc
+: 1709134419:0;source grc.zsh
+: 1709134591:0;ls
+: 1709134597:0;rm snippets/home--mjj--.config--zsh--snippets 
+: 1709134601:0;cd ../../
+: 1709254698:0;cd polaris
+: 1709262306:0;ls
+: 1709262321:0;rm completions/_sd
+: 1709262337:0;ls
+: 1709262348:0;cd ..

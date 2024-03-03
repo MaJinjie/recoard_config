@@ -1,0 +1,51 @@
+: 1709132313:0;ls
+: 1709132370:0;vi grc.conf
+: 1709132384:0;ls colourfiles
+: 1709132392:0;vi grc.conf
+: 1709132410:0;grc
+: 1709132633:0;ls
+: 1709132638:0;cm z
+: 1709133688:0;ls
+: 1709133690:0;cd colourfiles
+: 1709135019:0;cat conf.php | grc --colour=on stat .
+: 1709135023:0;cat conf.php | grc --colour=on stat colourfiles
+: 1709135028:0;cat conf.php | grc --colour=on stat colourfiles/*
+: 1709135033:0;cat conf.php | grc --colour=on stat colourfiles
+: 1709135049:0;cat conf.php | grc --colour=on stat ~/.grc/colourfiles
+: 1709135068:0;cat colourfiles/conf.php | grc --colour=on stat colourfiles
+: 1709135080:0;ls
+: 1709135089:0;echo 11111111111111111 22222222222222222 33333333 > 1.php
+: 1709135099:0;cat 1.php | grc --colour=on stat colourfiles
+: 1709135251:0;ls
+: 1709135254:0;vi grc.conf
+: 1709135421:0;ls
+: 1709135426:0;grc 1.php
+: 1709135447:0;cat 1.php | grc --colour=on 
+: 1709135450:0;cat 1.php | grc --colour=on stat
+: 1709135457:0;stat --help
+: 1709135485:0;cat 1.php | grc --colour=on stat 1
+: 1709135497:0;cat 1.php | grc --colour=on stat colourfiles/conf.configure
+: 1709135504:0;cat 1.php | grc --colour=on stat colourfiles/conf.df
+: 1709135512:0;cat 1.php | grc --colour=on stat colourfiles/conf.curl
+: 1709135519:0;cat 1.php | grc --colour=on stat colourfiles/conf.dockernetwork
+: 1709135530:0;cat 1.php | grc --colour=on stat colourfiles/conf.configure
+: 1709135537:0;cat 1.php | grc --colour=on stat colourfiles/conf.php
+: 1709135946:0;grc ps aux
+: 1709136016:0;ls
+: 1709136029:0;rm 1.php
+: 1709136033:0;cp colourfiles/* .
+: 1709136034:0;ls
+: 1709136051:0;fzf
+: 1709136101:0;ls
+: 1709136106:0;vi grc.conf
+: 1709136187:0;ls
+: 1709136188:0;cd ..
+: 1709136792:0;ls
+: 1709136797:0;cd ../git/grc
+: 1709136798:0;ls
+: 1709136802:0;cd ../git
+: 1709136805:0;cd
+: 1709167497:0;ls
+: 1709167505:0;rm colourfiles 
+: 1709167505:0;ls
+: 1709167512:0;cd ..

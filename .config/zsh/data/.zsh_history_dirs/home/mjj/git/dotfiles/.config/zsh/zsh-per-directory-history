@@ -1,0 +1,27 @@
+: 1709045016:0;t
+: 1709049125:0;kf
+: 1709082531:0;k c
+: 1709082562:0;vi .zshen
+: 1709113320:0;rg
+: 1709113323:0;rg bkt
+: 1709113383:0;vi completions/_bkt
+: 1709114231:0;cd plugins
+: 1709114635:0;fd 
+: 1709114639:0;fd bkt
+: 1709115380:0;cd zsh.d
+: 1709118379:0;rg _histdb
+: 1709118388:0;rg _HISTDB
+: 1709118998:0;vi 
+: 1709119004:0;vi zsh.d
+: 1709122241:0;cm zi
+: 1709130088:0;vi zsh.d/41-aliases.zsh
+: 1709130229:0;cd ..
+: 1709133905:0;cp completions/_grc ~/.config/zsh/completions
+: 1709134899:0;cd
+: 1709178595:0;vi .zshrc
+: 1709178667:0;echo $fpath
+: 1709178692:0;echo $fpath | tr ' ' '\n' | fzf
+: 1709178744:0;echo $fpath | fzf
+: 1709178749:0;ls
+: 1709178827:0;cm z
+: 1709178848:0;vi .zshrc

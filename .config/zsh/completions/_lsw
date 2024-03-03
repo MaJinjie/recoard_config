@@ -1,0 +1,19 @@
+#compdef lsw
+
+#===========================================================================
+#    @author: Lucas Burns <burnsac@me.com> [lmburns]                       #
+#   @created: 2023-03-03                                                   #
+#===========================================================================
+
+local arguments
+
+arguments=(
+  '-a[list all windows]'
+  '-r[print the ID of the root window]'
+  '-o[list windows whose override_redirect attribute is set to 1]'
+  '-u[list unmapped (invisible) windows]'
+  '-h[display this help]'
+  '*:WINID:'
+)
+
+_arguments -s $arguments

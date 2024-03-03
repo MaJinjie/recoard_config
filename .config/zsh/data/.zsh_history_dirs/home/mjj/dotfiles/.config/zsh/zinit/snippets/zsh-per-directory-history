@@ -1,0 +1,13 @@
+: 1709106037:0;ls
+: 1709106046:0;ls fzf-tmux
+: 1709106049:0;cd ..
+: 1709106413:0;cd fzf-tmux
+: 1709109127:0;cd ../plugins
+: 1709110132:0;ls
+: 1709110144:0;ls2
+: 1709110147:0;lsa2
+: 1709110178:0;mv fzf-tmux ~/.config/zsh/snippets/
+: 1709110182:0;cm z
+: 1709136980:0;ls
+: 1709136983:0;ls home--mjj--.config--zsh--snippets
+: 1709136988:0;ls home--mjj--.config--zsh--snippets/grc.zsh

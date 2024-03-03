@@ -1,0 +1,13 @@
+# @desc: get git repo url
+
+ngu() {
+  local confu
+  confu="$(git remote get-url origin)"
+
+  print -n "$confu" | xsel -b --trim
+  print -P "%F{14}%b$confu%f%b"
+}
+
+ngu
+
+# vim: ft=zsh:et:sw=0:ts=2:sts=2

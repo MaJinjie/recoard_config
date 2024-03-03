@@ -1,0 +1,41 @@
+# @desc: open script in editor
+
+setopt extendedglob
+zmodload -Fa zsh/parameter p:commands p:functions
+
+local fdir fullp
+local -a paths
+
+# ${${(M)${(j: :)$(whence -va pw)}:#*function*}:+${$(whence -va pw)[-1]}}
+# elif [[ -n ${${(M)${(j: :)$(whence -va "$argv")}:#*function*}} ]]; then
+
+fdir="${ZDOTDIR}/functions/**${argv}(N)"
+fullp=$commands[$argv]
+
+fpath+=(
+  $Zdirs[FUNC]/${(@P)^Zdirs[FUNC_D_zwc]}
+  $Zdirs[FUNC]
+)
+# Since I now use compiled paths, add the functions only temporarily
+trap 'fpath=( ${fpath[@]:#$Zdirs[FUNC]/(${(j:|:)~${(@P)Zdirs[FUNC_D_zwc]}})} )' EXIT
+# trap 'fpath=( ${fpath[@]:#$Zdirs[FUNC]/${(@P)^Zdirs[FUNC_D_zwc]}} )' EXIT
+
+if [[ -f "$fdir" ]]; then
+  $EDITOR "$fdir"
+elif [[ -n $functions[$argv] ]]; then
+  # paths=( ${(@f):-$(print -rl -- $^fpath/$1(N))} )
+  paths=( $^fpath/$1(#qN.) )
+  if [[ -n "$paths" && -f $paths[1] ]]; then
+    $EDITOR "$paths[1]"
+  else
+    local f="${(@)${(@s: :)${(@f)"$(whence -va $argv)"}[1]}[-1]:A}"
+    [[ ! -f "$f" ]] && f="${(@)${(@s: :)${(@f)"$(whence -va $argv)"}}[-1]:A}"
+    $EDITOR "$f"
+  fi
+elif { file -b -L --mime-type "${fullp}" | grep -q "text/" }; then
+  $EDITOR "$fullp"
+else
+  print -Pr -- "%F{14}$fullp%f ($(which $fullp)) is not a text file"
+fi
+
+# vim: ft=zsh:et:sw=2:ts=2:sts=-1:fdm=marker:fmr=[[[,]]]:

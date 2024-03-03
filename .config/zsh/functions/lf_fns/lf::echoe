@@ -1,0 +1,9 @@
+# @desc: echo an error message
+
+function lf::echoe() {
+  lf::msg -E "${(z)@}"
+}
+
+lf::echoe "$@"
+
+# vim: ft=zsh:et:sw=0:ts=2:sts=2

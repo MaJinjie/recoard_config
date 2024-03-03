@@ -1,0 +1,172 @@
+# @desc: pretty a log message
+
+# [ERROR]: zmsg origin: -Eo
+# [ERROR:6]: zmsg line origin: -ELo
+# [ERROR:zmsg-test:7]: zmsg line function origin: -ELFo
+# [ERROR:8:functions/zonly/zmsg-test]: zmsg line file origin: -ELfo
+# [ERROR:zmsg-test:9:functions/zonly/zmsg-test]: zmsg line function file origin: -ELFfo
+# [ERROR:zmsg-test]: zmsg function origin: -EFo
+# [ERROR:functions/zonly/zmsg-test]: zmsg file origin: -Efo
+# [ERROR:zmsg-test:functions/zonly/zmsg-test]: zmsg function file origin: -EFfo
+# [ERROR:functions/zonly/zmsg-test]: zmsg file origin: -Efo
+
+0="${${(M)${0::=${(%):-%x}}:#/*}:-$PWD/$0}"
+
+emulate -L zsh
+zmodload -Fa zsh/parameter p:functrace p:funcfiletrace p:funcstack p:funcsourcetrace
+setopt extendedglob
+
+local function print_help() {
+  print::usage "zmsg" "[FLAGS] [TEXT]"
+  print::header 12 "OPTIONS"
+  print::flag 20 "-X,--fatal     " "          Print FATAL message %88F[L:-1]%f"
+  print::flag 20 "-E,--error     " "          Print ERROR message %88F[5 <= L < 10]%f"
+  print::flag 20 "-W,--warn      " "          Print WARNING message %88F[L:4]%f"
+  print::flag 20 "-H,--hint      " "          Print HINT message %88F[L:3]%f"
+  print::flag 20 "-I,--info      " "          Print INFO message %88F[L:2]%f"
+  print::flag 20 "-D,--debug     " "          Print DEBUG message %88F[L:1]%f"
+  print::flag 20 "-T,--trace     " "          Print TRACE message %88F[L:0, L:+]%f"
+  print::flag 20 "-S,--success   " "          Print SUCCESS message %88F[L:00]%f"
+  # print::flag 20 "-s,--stack     " "          Print the full stack [L:=, L:@, L:>=10]"
+  print::flag 20 "-A,--dump      " "          Print all information in full %88F[L:%%]%f"
+  # print::flag 20 "-x,--expand    " "          Expand the message with custom codes"
+  print::flag 20 "-n,--nonl      " "          Don't add newline"
+  print::flag 20 "-e,--stderr,-2 " "         Print to stderr"
+  print::flag 20 "-q,--quiet     " "          Don't print"
+  print::flag 20 "-Q,--noquiet   " "          Override quiet"
+  print::flag 20 "-l,--level     " "%45F%B[LEVEL]%f%b   Specify level %88F[0-5, 10, +, =, @]%f"
+  print::flag 20 "-N,--name      " "%45F%B[NAME]%f%b    Specify log name"
+  # print::flag 20 "-v,--vanilla   " "          Do not print function:lineno"
+  print::flag 20 "-o,--origin    " "          Show file/func info"
+  print::flag 20 "-f,--file      " "          Show file"
+  print::flag 20 "-F,--func      " "          Show function"
+  print::flag 20 "-L,--line      " "          Show line number"
+  print::flag 20 "    --help     " "           Show help menu"
+
+  print::header 19 "EXAMPLES"
+  xzmsg "  {cmd}zmsg{%} {flag}-Efo{%}   {str}'hji'{%} {cmt}#=> [ERROR:functions/zonly/zmsg]: hji{%}"
+  xzmsg "  {cmd}zmsg{%} {flag}-EfFo{%}  {str}'hji'{%} {cmt}#=> [ERROR:zmsg:functions/zonly/zmsg]: hji"
+  xzmsg "  {cmd}zmsg{%} {flag}-EfFLo{%} {str}'hji'{%} {cmt}#=> [ERROR:zmsg:27:functions/zonly/zmsg]: hji"
+  xzmsg "  {cmd}zmsg{%} {flag}-EfLo{%}  {str}'hji'{%} {cmt}#=> [ERROR:28:functions/zonly/zmsg]: hji"
+  xzmsg "  {cmd}zmsg{%} {flag}-EFLo{%}  {str}'hji'{%} {cmt}#=> [ERROR:zmsg:29]: hji"
+}
+
+function zmsg() {
+  builtin emulate -L zsh -o extendedglob
+  local -A Opts
+  {
+    builtin zparseopts \
+    ${${(M)ZSH_VERSION:#(5.[8-9]|6.[0-9])}:+-F} -D -E -A Opts -- \
+    -dump    A   \
+    -fatal   X   \
+    -error   E   \
+    -warn    W   \
+    -hint    H   \
+    -info    I   \
+    -debug   D   \
+    -trace   T   \
+    -success S   \
+    -nonl    n   \
+    -stderr  e 2 \
+    -quiet   q   \
+    -noquiet Q   \
+    -origin  o   \
+    -file    f   \
+    -func    F   \
+    -line    L   \
+    -name:   N:  \
+    -level:  l:  \
+    -help    h
+  }  || { zerr "invalid option given" && builtin print && print_help && return $errnos[(i)EINVAL]; }
+
+  #     -vanilla v  \
+  #     -stack   s  \
+  #     -expand  x  \
+
+  (( $+Opts[-h] + $+Opts[--help] )) && { print_help; return 0; }
+
+  local log_t               \
+        logname=${Opts[-N]} \
+        cpat="\~config/"    \
+        zpat="\~zsh/"
+
+  local err nonl
+  local res func file trace line
+
+  local l=$Opts[-l]; (( $+Opts[--level] )) && l=$Opts[--level]
+
+  # ( (( $+Opts[-A] + $+Opts[--dump] )) || [[ $l == $'\x25' || $l == 37 ]] ) && { l=$apct; log_t='dump' } # %
+
+  ( (( $+Opts[-T] + $+Opts[--trace] ))   || (( l == 0 )) )           && { log_t='trace' }
+  ( (( $+Opts[-D] + $+Opts[--debug] ))   || (( l == 1 )) )           && { log_t='debug' }
+  ( (( $+Opts[-I] + $+Opts[--info] ))    || (( l == 2 )) )           && { log_t='info'  }
+  ( (( $+Opts[-H] + $+Opts[--hint] ))    || (( l == 3 )) )           && { log_t='hint'  }
+  ( (( $+Opts[-W] + $+Opts[--warn] ))    || (( l == 4 )) )           && { log_t='warn'  }
+  ( (( $+Opts[-E] + $+Opts[--error] ))   || (( l >= 5 && l < 10 )) ) && { log_t='error' }
+  ( (( $+Opts[-X] + $+Opts[--fatal] ))   || (( l == -1 )) )          && { log_t='fatal' }
+  ( (( $+Opts[-S] + $+Opts[--success] )) || [[ $l == 00 ]] )         && { log_t='success' }
+
+  # (($+Opts[-F] + $+Opts[--func])) && func=${funcstack[-1]:#zmsg}
+  (($+Opts[-F] + $+Opts[--func])) && func=$funcstack[-1]
+  (($+Opts[-f] + $+Opts[--file])) && file=${${${(D)${${${funcsourcetrace[-1]#_}%:*}:A}}//${~zpat}}//${~cpat}}
+  (($+Opts[-L] + $+Opts[--line])) && {
+    trace=${${functrace[-1]#_}%:*}
+    line=${${${(M)trace:#*.zshrc}:+${${functrace[-2]#_}##*:}}:-${${functrace[-1]#_}##*:}}
+  }
+
+  if [[ -n "$logname" ]]; then
+    case $log_t in
+      (success)          : ${logname::=${logname:+%U%53F${logname}%f%u:}} ;;
+      (trace|debug)      : ${logname::=${logname:+%U%54F${logname}%f%u:}} ;;
+      (info|hint)        : ${logname::=${logname:+%U%39F${logname}%f%u:}} ;;
+      (warn)             : ${logname::=${logname:+%S%81F${logname}%f%s:}} ;;
+      (error|fatal|dump) : ${logname::=${logname:+%S%12F${logname}%f%s:}} ;;
+    esac
+  fi
+
+  [[ -n $log_t ]] && res+="${logname}{bk}[{%}{${log_t:-app}}${(U)log_t:-Z}{%}"
+  [[ -n $func ]] && {
+    if [[ -n $log_t ]]; then
+      res+="{fgv}:{%}"
+    else
+      res+="{bk}[{%}"
+    fi
+    # res+="{func}${func}${line:+:%43F${line}%f}{%}"
+    res+="{func}${func}{%}"
+  }
+  [[ -n $line ]] && {
+    if [[ -n $log_t || -n $func ]]; then
+      res+="{fgv}:{%}"
+    else
+      res+="{bk}[{%}"
+    fi
+    res+="{ln}${line}{%}"
+  }
+  [[ -n $file ]] && {
+    if [[ -n $log_t || -n $func || -n $line ]]; then
+      res+="{fgv}:{%}"
+    else
+      res+="{bk}[{%}"
+    fi
+    res+="{file}${file}{%}"
+  }
+  res+="{bk}]{%}{fgv}:{%}"
+
+  # Output origin tag?   # $funcstack[-1]:$LINENO
+  (($+Opts[-o] + $+Opts[--origin])) && builtin set -- $res "$@"
+  # Output to stderr?
+  (($+Opts[-e] + $+Opts[--stderr])) && local e=-e
+  # No new line?
+  (($+Opts[-n] + $+Opts[--nonl])) && local n=-n
+
+  # Quiet mode? → no printing if so
+  [[ ($+Opts[-q] == 1 || $+Opts[--quiet] == 1 || $1 == 1) \
+      && ( $+Opts[-Q] != 1 && $+Opts[--noquiet] != 1 ) ]] \
+      && return
+
+  xzmsg $e $n "$@"
+}
+
+zmsg "$@"
+
+# vim:ft=zsh:sw=4:sts=4:et

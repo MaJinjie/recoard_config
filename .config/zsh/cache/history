@@ -1,0 +1,76 @@
+: 1708944327:0;.
+: 1708944327:0;test/
+: 1708944327:0;echo $CARGO_HOME
+: 1708944327:0;ls $CARGO_HOME/*
+: 1708944327:0;echo $path
+: 1708944327:0;cd $CARGO_HOME
+: 1708944327:0;cd bin
+: 1708944327:0;ru
+: 1708944327:0;f
+: 1708944327:0;cd ../cache
+: 1708944327:0;cd ../zsh.d
+: 1708944327:0;z
+: 1708944327:0;source 70-export-plug.zsh
+: 1708944327:0;cd .config/zsh/zsh.d
+: 1708944327:0;nvim 70-export-plug.zsh
+: 1708944327:0;history
+: 1708944327:0;echo $Zdir[CACHE]
+: 1708944327:0;echo $Zdir
+: 1708944327:0;echo $Zdirs[CACHE]
+: 1708944327:0;cd .config/zsh/zinit/bin
+: 1708944327:0;cd ../polaris/bin
+: 1708944327:0;cd ..
+: 1708944327:0;tree
+: 1708944327:0;man rg
+: 1708944327:0;rualdi -v
+: 1708944327:0;cd ../
+: 1708943154:0;command -v rualdi
+: 1708943189:0;cd zsh/zinit/polaris/bin
+: 1708943193:0;rm rualdi
+: 1708943256:0;rualdi
+: 1708944323:0;ls
+: 1708944327:0;exit
+: 1708944783:0;f
+: 1708944806:0;ls
+: 1708946144:0;echo $BIN
+: 1708946154:0;echo $BIN
+: 1708946672:0;cd .local/share/bin
+: 1708946673:0;ls
+: 1708946754:0;cd .config/zsh/zinit/plugins
+: 1708946754:0;ls
+: 1708946769:0;rm m42e---zsh-histdb-skim -rf
+: 1708946881:0;curl
+: 1708947263:0;rm m42e---zsh-histdb-skim -rf
+: 1708947265:0;rm m42e---zsh-histdb-skim -rf
+: 1708947312:0;rm m42e---zsh-histdb-skim -rf
+: 1708947330:0;cd m42e---zsh-histdb-skim
+: 1708947373:0;history
+: 1708947442:0;history
+: 1708947535:0;kl
+: 1708947537:0;kl
+: 1708947562:0;cd git/dotfiles/.config/zsh
+: 1708947567:0;nvim .zshrc
+: 1708955634:0;ls
+: 1708955639:0;history
+: 1708955651:0;cd .config/zsh/
+: 1708955651:0;ls
+: 1708955670:0;z
+: 1708955676:0;z
+: 1708955697:0;t
+: 1708955700:0;tmux
+: 1708955708:0;ls
+: 1708955720:0;cd
+: 1708955732:0;cd git/dotfiles/.config/zsh/themes
+: 1708955737:0;cd ..
+: 1708955741:0;fzf
+: 1708955747:0;cd zsh.d
+: 1708955802:0;ls themes
+: 1708955823:0;ls vivid
+: 1708955858:0;cp vivid ~/.config/zsh/themes -r
+: 1708955859:0;ls
+: 1708955865:0;ls them
+: 1708955870:0;ls themes
+: 1708956635:0;l
+: 1708956642:0;l
+: 1708956643:0;ls
+: 1708956825:0;ls

@@ -1,0 +1,19 @@
+#compdef rargs
+
+local arguments
+
+arguments=(
+  {-e,--dry-run}'[print the commands to be executed without actually execute]'
+  {-0,--read0}'[read input delimited by ASCII NUL(\\0) characters]'
+  {-d,--delimiter=}'[regex pattern used as delimiter (conflict with pattern)]:delim:'
+  {-p,--pattern=}'[regex pattern that captures the input]:pattern:'
+  {-s,--separator=}'[separator for ranged fields]:sep [default:  ]:'
+  {-n,--startnum=}'[start value for line number]:starting number [default: 1]:'
+  {-j,--threads=}'[number of threads to be used]:threads [default: 1]:'
+  {-w,--worker=}'[deprecated. number of threads to be used (same as --threads)]:number [default: 1]:'
+  '(- :)'{-V,--version}'[prints version information]'
+  '(- :)'{-h,--help}'[prints help information]'
+  '*:command:_command_names'
+)
+
+_arguments -s -S -C $arguments

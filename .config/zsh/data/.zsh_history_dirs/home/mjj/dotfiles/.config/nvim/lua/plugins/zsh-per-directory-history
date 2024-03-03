@@ -1,0 +1,107 @@
+: 1709082491:0;k dc
+: 1709217731:0;rm dirs-jump.lua 
+: 1709217847:0;cd local nvim 
+: 1709219384:0;vi manage-tasks.lua
+: 1709219568:0;ls ..
+: 1709219652:0;vi other.lua
+: 1709219693:0;mv other.lua move-scroll.lua
+: 1709219939:0;rm better-escape.lua 
+: 1709219975:0;rm -u
+: 1709219979:0;vi better-escape.lua
+: 1709220002:0;vi move-scroll.lua
+: 1709220070:0;rm better-escape.lua
+: 1709220075:0;vi surround.lua
+: 1709220441:0;vi ufo.lua
+: 1709221088:0;cd ../other
+: 1709221358:0;rm .11 
+: 1709221378:0;readlink --help
+: 1709221436:0;rip -s
+: 1709221473:0;rip -sf
+: 1709221502:0;rip -sv
+: 1709222995:0;cd local nvim lazy 
+: 1709255911:0;vi markdown.lua
+: 1709260051:0;cd local share teles
+: 1709265619:0;vi multi-cursor.lua
+: 1709266144:0;cd local share tele tele
+: 1709271677:0;cd z
+: 1709272581:0;mkdir utils
+: 1709279252:0;cd local share 
+: 1709279586:0;cd utils/telescope.lua
+: 1709279671:0;vi .
+: 1709279998:0;cd ../../..
+: 1709281889:0;vi utils
+: 1709281901:0;vi utils/telescope.lua
+: 1709282841:0;vi utils/telescope.lua telescope.lua
+: 1709282963:0;vi utils/telescope.lua telesco
+: 1709286710:0;cd local share Lazy
+: 1709288699:0;rm :q
+: 1709302446:0;vi flash.lua
+: 1709304697:0;fd
+: 1709304863:0;kq
+: 1709304865:0;cd ..
+: 1709305141:0;y
+: 1709305146:0;vi yazi.lua
+: 1709307757:0;cd local share nvim
+: 1709343749:0;vi telescope.lua
+: 1709344205:0;vi colorizer.lua telescope.lua
+: 1709344233:0;vi colorizer.lua
+: 1709362701:0;sh -c "$(curl -s https://raw.githubusercontent.com/ibhagwan/fzf-lua/main/scripts/mini.sh)"
+: 1709362956:0;vi
+: 1709367608:0;cd utils
+: 1709373581:0;pastel
+: 1709373608:0;pastel list
+: 1709373649:0;pastel --color-mode=24bit list
+: 1709373671:0;pastel --color-mode=24bit color
+: 1709373678:0;pastel --color-mode=24bit colorblind
+: 1709373934:0;fzf
+: 1709374433:0;rg
+: 1709374434:0;rg 1
+: 1709374438:0;rg .
+: 1709374447:0;rg . -- 1
+: 1709374480:0;rg --line-regexp a
+: 1709374483:0;rg --line-regexp aa
+: 1709374489:0;rg keys
+: 1709374502:0;rg keys --after-context=1
+: 1709374517:0;rg keys --crlf
+: 1709374527:0;rg keys --crlf --heading
+: 1709374531:0;rg keys --crlf --no-heading
+: 1709374609:0;rg keys --crlf --no-heading --iglob
+: 1709374625:0;rg keys --crlf --no-heading --iglob extend
+: 1709374649:0;rg keys --crlf --no-heading --iglob extend --debug
+: 1709374678:0;rg keys --crlf --no-heading --iglob yazi--debug
+: 1709374682:0;rg keys --crlf --no-heading --iglob yazi --debug
+: 1709374690:0;man rg
+: 1709374739:0;rg keys --crlf --no-heading 
+: 1709374748:0;rg keys --crlf --no-heading --glob  *.lua
+: 1709374756:0;rg keys --crlf --no-heading --glob disabled*
+: 1709374779:0;rg --help
+: 1709374990:0;rg keys telescope.lua 
+: 1709375035:0;rg --field-match-separator '----------'  telescope.lua
+: 1709375042:0;rg --field-match-separator '----------' keys telescope.lua
+: 1709375106:0;rg --word-regexp  keys telescope.lua
+: 1709375124:0;rg --word-regexp keys* telescope.lua
+: 1709375129:0;rg --word-regexp keys.* telescope.lua
+: 1709375256:0;man fzf
+: 1709375492:0;wl-paste
+: 1709376018:0;fd --exact-depth=1 | fzf
+: 1709376366:0;ls | fzf
+: 1709377732:0;cd local share nvim 
+: 1709388143:0;ls
+: 1709388145:0;vi disabled.lua
+: 1709388151:0;cd local share lazy
+: 1709388847:0;vi 
+: 1709389383:0;vidir
+: 1709389387:0;vi fzf.lua
+: 1709389916:0;vi fzf.lua
+: 1709427754:0;ls
+: 1709427758:0;vi
+: 1709427769:0;ls
+: 1709427772:0;cd
+: 1709428006:0;vi fzf.lua
+: 1709428089:0;vi
+: 1709429547:0;vi 
+: 1709429575:0;vi fzf.lua
+: 1709430327:0;vi telescope.lua
+: 1709443771:0;vi telescope.lua
+: 1709453017:0;vi fzf.lua
+: 1709457654:0;cd

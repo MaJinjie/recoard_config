@@ -1,0 +1,2 @@
+: 1709170409:0;cp completions/zsh/_* ~/.config/zsh/completions
+: 1709170433:0;cp data/*.1 ~/.config/zsh/man

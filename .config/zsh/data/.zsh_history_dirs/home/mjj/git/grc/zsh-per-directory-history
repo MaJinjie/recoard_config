@@ -1,0 +1,32 @@
+: 1709130777:0;ls
+: 1709130794:0;vi grc.zsh
+: 1709130823:0;source grc.zsh
+: 1709130827:0;cd ..
+: 1709130879:0;./grc --colour
+: 1709130930:0;nznote
+: 1709131094:0;grc
+: 1709131134:0;gro
+: 1709131147:0;ls
+: 1709131296:0;ls ~/.local/bin
+: 1709131611:0;cd zinit plug 
+: 1709131937:0;ls
+: 1709131955:0;cp grc grcat ~/.local/bin
+: 1709131985:0;cp _grc $ZDOTDIR/completions
+: 1709132029:0;cp grc.zsh $ZDOTDIR/snippets/
+: 1709132047:0;cp *.1 $ZDOTDIR/man
+: 1709132058:0;mkdir $ZDOTDIR/man
+: 1709132062:0;cp *.1 $ZDOTDIR/man
+: 1709132214:0;ls
+: 1709132230:0;cp grc.conf ~/.grc/
+: 1709132246:0;ls
+: 1709132249:0;./install.sh
+: 1709132265:0;ls colourfiles
+: 1709132285:0;cd ..
+: 1709132304:0;cp colourfiles ~/.grc
+: 1709132308:0;cp colourfiles ~/.grc -r
+: 1709132432:0;cm gz
+: 1709133201:0;cp grc grcat $ZDOTDIR/bin/
+: 1709133210:0;cd conf zsh bin
+: 1709136814:0;ls
+: 1709136830:0;cp grc.zsh $ZDOTDIR/snippets/
+: 1709136845:0;cd zsh snip
