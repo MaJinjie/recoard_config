@@ -13,10 +13,16 @@
 #  proxy = socks5://qlyun:qlyun@54.242.216.72:3636
 [core]
   pager = delta 
+  
 [interactive]
   diffFilter = delta --color-only
+  
 [delta]
   navigate = true 
+    side-by-side = true
+    line-numbers-left-format = ""
+    line-numbers-right-format = "│ "
+  
 [merge]
   conflictstye = diff3
 [diff]
@@ -26,3 +32,5 @@
   reflogExpire = 200
   # default 30 days
   reflogExpireUnreachable = 90
+[credential]
+	helper = libsecret

@@ -22,17 +22,17 @@ bold_italic = {family = 'HackNerdFont', style = 'Bold Italic'}
 size = 12
 
 [window]
-# 窗口的尺寸
-dimensions = {columns = 80, lines = 25}
+# 窗口的尺寸 160 45
+dimensions = {columns = 80, lines = 40}
 
 # 窗口的启动位置
-position = {x = 300, y = 100}
+position = {x = 100, y = 0}
 
 # 窗口的边界空白
 padding = {x = 5, y = 5}
-# dynamic_padding = true
+dynamic_padding = true
 
-# 窗口的装饰，边框和标题栏 苹果系统可以添加为Buttonless 
+# Full 窗口的装饰，边框和标题栏 苹果系统可以添加为Buttonless  
 decorations = 'Full'
 
 # 透明度
@@ -110,8 +110,13 @@ bindings = [
 # { key = "P", mods = "None", mode = 'Vi',  action = 'Paste' },
 # { key = "+", mods = "Control", action = "IncreaseFontSize" },
 # { key = "-", mods = "Control", action = "DecreaseFontSize" },
-{ key = "M", mods = "Alt", action = "ToggleFullscreen" },
-# 一些移动操作和vi相同
+{ key = "M", mods = "Alt|Shift", action = "ToggleFullscreen" },
+{ key = "N", mods = "Alt", action = "CreateNewWindow" },
+# { key = ",", mods = "Alt", action = "SelectNextTab" },
+# { key = ";", mods = "Alt", action = "SelectNextTab" },
+{ key = "M", mods = "Alt", action = "ToggleMaximized" },
+{ key = ".", mods = "Alt", action = "Minimize" },
+# 一些移动操作和vi相.
 #   { key = 'F4', action = 'ToggleMaximized' },
 #    { key = 'V', mods = 'Command', action = 'Paste' },
 #    { key = 'C', mods = 'Command', action = 'Copy' },

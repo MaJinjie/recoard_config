@@ -273,7 +273,7 @@ typeset -ga FZF_TAB_GROUP_COLORS=(
 # + ''           fzf-flags "--color=hl:${${${(M)${#_ftb_headers}:#0}:+#689d6a}:-#458588}" \
 # + ''           prefix '·' \
 # debug-command
-
+#$([[ -d "$realpath" ]] && echo "$realpath" || echo "${realpath:h}")
 zstyle+ ':fzf-tab:*' print-query ctrl-c \
       + ''           continuous-trigger '/' \
       + ''           accept-line space \
@@ -291,8 +291,8 @@ zstyle+ ':fzf-tab:*' print-query ctrl-c \
                         'enter:accept' \
                         'backward-eof:abort' \
                         'alt-e:become({_FTB_INIT_}$EDITOR "$realpath" < /dev/tty > /dev/tty)' \
-                        'alt-b:become(bat --paging=always -f {+})' \
-                        'ctrl-y:execute(wl-copy -n <<<{+})'
+                        'alt-b:become({_FTB_INIT_}bat --paging=always -f "$realpath" < /dev/tty > /dev/tty)' \
+                        'ctrl-y:execute({_FTB_INIT_}wl-copy "$word")' \
 # 'alt-e:execute-silent({_FTB_INIT_}$EDITOR "$realpath" < /dev/tty > /dev/tty)' \
 
 zstyle+ \

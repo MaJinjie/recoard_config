@@ -6,3 +6,7 @@
 : 1709172862:0;./Shadowsocks-Qt5-3.0.1-x86_64.AppImage
 : 1709172877:0;./Shadowsocks-Qt5-3.0.1-x86_64.AppImage --appimage-extract
 : 1709172904:0;cd squashfs-root/usr/bin
+: 1709464630:0;cd Obsidian-1.5.8.AppImage ../git
+: 1709464630:0;ls
+: 1709464642:0;mv Obsidian-1.5.8.AppImage ../git
+: 1709464646:0;cd ../git

@@ -22,10 +22,8 @@
 : 1709049340:0;bindkey ^Xw zce
 : 1709049357:0;bindkey '^Xw' zce
 : 1709050228:0;zce
-: 1709050634:0;bindkey -L
 : 1709050836:0;xzmsg 11
 : 1709051020:0;cd dotfiles/.config
-: 1709051320:0;f
 : 1709051382:0;zle -L
 : 1709051384:0;zle -l
 : 1709051387:0;zle -l | vi
@@ -36,10 +34,8 @@
 : 1709080102:0;zoxide query zsh
 : 1709080507:0;kf
 : 1709080511:0;k conf
-: 1709081067:0;vi .zshenv
 : 1709081961:0;vi rualdi/rualdi.toml
 : 1709084777:0;zi plugins
-: 1709084849:0;zsh
 : 1709085081:0;git clone git@github/wfxr/forgit.git
 : 1709085104:0;git clone git@github.com/wfxr/forgit.git
 : 1709085117:0;git clone git@github.com:ajeetdsouza/zoxide.git
@@ -134,14 +130,12 @@ hyperfine --prepare 'sync; echo 3 | sudo tee /proc/sys/vm/drop_caches' \\
 : 1709119580:0;echo $_HISTDB
 : 1709119614:0;echo $aa
 : 1709119750:0;fzf-tab
-: 1709121153:0;history
 : 1709121167:0;echo 1111111111111111
 : 1709121169:0;echo 222222222222222
 : 1709121180:0;echo 1111122222
 : 1709121203:0;echo 2222 3333
 : 1709121216:0;echo 22222 444444
 : 1709128500:0;zi delete miserlou/loop
-: 1709128545:0;cm zi
 : 1709129317:0;bkt
 : 1709129349:0;man bkt
 : 1709129487:0;cd .local/share
@@ -187,7 +181,6 @@ done
 : 1709136979:0;cd zsh zinit sn
 : 1709137109:0;zzz
 : 1709137180:0;ffffffffffffffffffffffffffffffffffff
-: 1709167437:0;ls 
 : 1709167468:0;rm HOME\
 ls -m1
 : 1709167473:0;rm HOME
@@ -219,7 +212,6 @@ nn
 : 1709178593:0;cm gz
 : 1709179154:0;which ls
 : 1709179370:0;compinit
-: 1709187381:0;cs
 : 1709187385:0;ci
 : 1709187401:0;cm
 : 1709187407:0;cmf
@@ -229,22 +221,18 @@ nn
 : 1709213843:0;cd local share
 : 1709214626:0;xit
 : 1709214649:0;cm c
-: 1709215022:0;:q
 : 1709215073:0;cd config tmux
 : 1709215077:0;cd .config/tmux
 : 1709216440:0;cd .config/alacritty/
-: 1709216453:0;t
 : 1709216799:0;http://man.openbsd.org/OpenBSD-current/man1/tmux.1http://man.openbsd.org/OpenBSD-current/man1/tmux.1f display "Pasted primary to tmux pane"
 : 1709216834:0;http://man.openbsd.org/OpenBSD-current/man1/tmux.1 http://man.openbsd.org/OpenBSD-current/man1/tmux.1
 : 1709216943:0;wl-copy  111111111111111111
 : 1709216950:0;wl-copy -p 222222222222
 : 1709216953:0;wl-paste 
-: 1709216991:0;wl-paste
 : 1709216996:0;wl-paste -p
 : 1709217101:0;t choose-buffer
 : 1709217130:0;t choose-buffer -2
 : 1709217377:0;vi .config/alacritty/alacritty.toml
-: 1709217402:0;t kill-server
 : 1709217613:0;cd local nvim
 : 1709221126:0;cm n
 : 1709252283:0;t ls
@@ -257,12 +245,8 @@ nn
 : 1709254542:0;sd --help
 : 1709254548:0;sd --fixed-strings
 : 1709254763:0;https 
-: 1709254853:0;cm z
 : 1709254972:0;zi load chmln/sd 
 : 1709255013:0;zi load chmln/sd
-: 1709255192:0;https
-: 1709255194:0;srcr
-: 1709255483:0;cd .config
 : 1709257285:0;cd local share Lazy lua
 : 1709257287:0;cd local share Lazy 
 : 1709265219:0;paru -S shadowsocks-libv
@@ -279,7 +263,6 @@ nn
 : 1709309387:0;rm zoxide 
 : 1709309552:0;vi nvim
 : 1709343725:0;cd nvim 
-: 1709343746:0;cd config nvim lua plug
 : 1709387148:0;vi README.md
 : 1709389587:0;fzf --border=top
 : 1709389597:0;fzf --border=bold
@@ -298,26 +281,21 @@ nn
 : 1709390178:0;fzf-tmux -p 80%,90% -- --border=rounded
 : 1709390866:0;fzf-tmux -p 40,20
 : 1709390911:0;fzf-tmux -p 40,20 --border=sharp
-: 1709424388:0;cd local share lazy
 : 1709427797:0;mkdir .git
 : 1709428004:0;cd nvim lua plug
 : 1709430643:0;vi 1.txt
 : 1709432183:0;gi
-: 1709432522:0;cd config
 : 1709432589:0;cd nvim
-: 1709432992:0;cd
 : 1709433126:0;ls .git
 : 1709433228:0;cd .note
 : 1709434399:0;cd local share lazy tele
 : 1709434918:0;cd .note/import
 : 1709435057:0;rg --help
-: 1709435737:0;vi 
 : 1709435755:0;touch .rgignore
 : 1709435791:0;mv .rgignore .fdignore .ignore .gitignore dotfiles
 : 1709435991:0;mv .zshenv .ssh dotfiles 
 : 1709436001:0;mv README.md dotfiles 
 : 1709436055:0;lsh
-: 1709436241:0;cd dotfiles
 : 1709436515:0;cd config fd
 : 1709436880:0;ls mjj
 : 1709436882:0;rm mjj
@@ -330,21 +308,187 @@ nn
 : 1709436976:0;ls fzf
 : 1709436995:0;rm fzf .hyprland 
 : 1709437204:0;vi .ignore
-: 1709437228:0;fd | fzf
 : 1709437236:0;cd config lau
-: 1709437467:0;vi .gitignore
-: 1709437636:0;vi .fdignore
 : 1709437687:0;cd config lua
 : 1709438670:0;rm hello
 : 1709438684:0;rm hello -rf
-: 1709438687:0;ls
-: 1709438773:0;lsa
-: 1709438777:0;ls.
 : 1709438994:0;cat .data
 : 1709438996:0;rm .data
 : 1709439245:0;cd fd
 : 1709439512:0;cd config zinit plug
 : 1709444025:0;cd config nvim
-: 1709452540:0;vi
-: 1709457655:0;ls
-: 1709457658:0;cd dotfiles
+: 1709464962:0;https
+: 1709464967:0;srcr
+: 1709465831:0;qls
+: 1709466744:0;ls 
+: 1709466792:0;ffffffffffffffffffffffffffffffffffffff\
+ls fr
+: 1709466976:0;cs
+: 1709467058:0;hist
+: 1709467177:0;fffffffffffffffffffffffff\
+13.1 MB\
+last week\
+Obsidian-1.5.8.AppImage é»ƒ±æƒ»ƒ¼çƒ¿³-1.5.8.AppImagef
+: 1709467224:0;13.1 MB\
+last week\
+Obsidian-1.5.8.AppImage é»ƒ±æƒ»ƒ¼çƒ¿³-1.5.8.AppImage
+: 1709472398:0;fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffi
+: 1709516242:0;paru -S libsecret
+: 1709516301:0;git config --global credential.helper libsecret
+: 1709516759:0;cd shell
+: 1709518278:0;t
+: 1709518332:0;cd .config nvim
+: 1709518355:0;ffffff
+: 1709518362:0;ff
+: 1709518385:0;m
+: 1709518976:0;	
+: 1709518988:0;
+: 1709519040:0;lsfffflfff
+: 1709519088:0;t display -T
+: 1709519104:0;t bind -T
+: 1709520083:0;t bind -T root -N
+: 1709520098:0;t bind -T root -n C-m resizep -Z
+: 1709520518:0;t list-keys -1
+: 1709520543:0;t list-keys -T root
+: 1709520815:0;t list-keys -T root | fzf
+: 1709521983:0;vi test.py
+: 1709523035:0;ls.a
+: 1709523037:0;lsa.
+: 1709523038:0;ls.
+: 1709523045:0;ll.
+: 1709523050:0;ll
+: 1709523243:0;cd dotfiles/README.md
+: 1709523364:0;cd dotfiles
+: 1709527768:0;cd
+: 1709527884:0;cd /home/mjj/test/aa
+: 1709528140:0;bat 
+: 1709528447:0;fffffffffffffffffffff
+: 1709528475:0;zsh: command not found: fffffffffffffffffffff
+: 1709528546:0;t set-buffer aaaaaaaa
+: 1709528557:0;t set-buffer -w bbbbbbbbbbbbbbbb
+: 1709528583:0;t set-buffer ccccc
+: 1709528591:0;t set-buffer -w
+: 1709528595:0;t set-buffer -w bbbbbbbbb
+: 1709528610:0;t set-buffer -w cccccccccccccccccc
+: 1709528614:0;wl-paste
+: 1709528825:0;bat --paging=always -f .bashrc
+: 1709528849:0;cm zz
+: 1709532438:0;cd config zsh
+: 1709533524:0;paru -Syu
+: 1709533574:0;vi .gtkrc-2.0
+: 1709534572:0;vi .gitignore
+: 1709535061:0;fd .
+: 1709535069:0;fd  1.txt
+: 1709535073:0;fd | fzf
+: 1709535084:0;which fd
+: 1709535088:0;rg
+: 1709535090:0;rg 1
+: 1709535101:0;fd
+: 1709535293:0;fd -H
+: 1709535316:0;fd /home/mjj -H | fzf
+: 1709535332:0;fd . /home/mjj -H | fzf
+: 1709535345:0;fd . /home/mjj -H -E /home/mjj/.config | fzf
+: 1709535354:0;fd . /home/mjj -H -E .config | fzf
+: 1709535407:0;vi kglobalshortcutsrc
+: 1709535418:0;cd .config
+: 1709536088:0;cd uls
+: 1709536514:0;vi .fdignore
+: 1709536566:0;fd 
+: 1709536574:0;fd .*
+: 1709536579:0;fd -H | fzf
+: 1709536613:0;fd -H --follow  | fzf
+: 1709537626:0;cd .config ala
+: 1709538948:0;t customize-mode -Z
+: 1709539828:0;t kill-server
+: 1709539842:0;fff
+: 1709540067:0;cd config
+: 1709540564:0;cd .config al 
+: 1709541125:0;cd .config tmux
+: 1709541222:0;:q
+: 1709541440:0;vi
+: 1709541513:0;cd local share lazy 
+: 1709542133:0;lsa
+: 1709542143:0;cd config nvim plugin
+: 1709542483:0;cd local share lazy
+: 1709543369:0;cd cofig nvim lua plug
+: 1709551574:0;source .zshenv
+: 1709551576:0;vi 
+: 1709551579:0;vi .zshenv
+: 1709551612:0;cd config nvim lua plug
+: 1709559719:0;ps
+: 1709559725:0;g+=
+: 1709559727:0;g++
+: 1709559997:0;f
+: 1709560271:0;bindkey -L
+: 1709560555:0;bindkey -L | fzf
+: 1709560685:0;\
+
+: 1709560752:0;cm 
+: 1709561045:0;zsh
+: 1709561089:0;cm zi
+: 1709561661:0;ls
+: 1709561662:0;history
+: 1709561667:0;cm z
+: 1709563275:0;cd config zsh sn
+: 1709601039:0;cd config zsh
+: 1709610396:0;vi .wget-hsts
+: 1709611537:0;vi
+: 1709611558:0;vi 
+: 1709611566:0;vi
+: 1709614766:0;vi 
+: 1709614811:0;vi
+: 1709614832:0;vi 
+: 1709622576:0;ls
+: 1709622585:0;cd config nvim plugins
+: 1709634954:0;fd -H | wc -l
+: 1709634965:0;fd -H -S -1M | wc -l
+: 1709634977:0;fd -H -S -500kb | wc -l
+: 1709634985:0;fd -H -S -1kb | wc -l
+: 1709635041:0;fd -H
+: 1709635076:0;fd -H -E node_modules
+: 1709635173:0;fd --help-E node_modules
+: 1709635178:0;fd --help
+: 1709635219:0;fd -H -E .*.*
+: 1709635227:0;fd -H -E .*.* | wc -l
+: 1709635370:0;rg --max-filesize=1M
+: 1709635373:0;rg --max-filesize=1M export
+: 1709635463:0;fd -H | wc -l
+: 1709635486:0;fd -H --changed-after=1week | wc -l
+: 1709635500:0;fd -H --changed-after=1month
+: 1709635503:0;fd -H --changed-after=1month | fzf
+: 1709635508:0;fd -H --changed-after=1month | wc -l
+: 1709635515:0;fd -H | wc -l
+: 1709635573:0;fd -H -E '[0-9]*'| wc -l
+: 1709635595:0;fd -H -E '[0-9]*' -E '.[0-9]'| wc -l
+: 1709635600:0;fd -H -E '[0-9]*' -E '.[0-9]'| fzf
+: 1709635643:0;fd -H -E '[0-9]*' -E '.[0-9]' -x echo {/} | fzf
+: 1709635763:0;fd -H -E '[0-9]*' -E '*[0-9]*.*[0-9]' -x echo {/} | fzf
+: 1709635804:0;fd -H -E '[0-9]*' -E '*[0-9]*.*[0-9]*' -x echo {/} | fzf
+: 1709635896:0;fd -H -E '[0-9]*' -E '*[0-9]*.*[0-9]*' -E '*[-.][0-9]*' -x echo {/} | fzf
+: 1709635940:0;fd -H -E '[0-9]*' -E '*[0-9]*.*[0-9]*' -E '*[-.][0-9]*' -E '?.*' -x echo {/} | fzf
+: 1709635967:0;fd -H -E '[0-9]*' -E '*[0-9]*.*[0-9]*' -E '*[-._][0-9]*' -E '?.*' -x echo {/} | fzf
+: 1709636008:0;fd -H -E '[0-9]*' -E '*[0-9]*.*[0-9]*' -E '*[-._][0-9]*' -E '?.*' -E '*%*' | wc -l
+: 1709636030:0;fd -H -E '[0-9]*' -E '.[0-9]' | wc -l
+: 1709636045:0;fd -H -E '[0-9]*' -E '*[0-9]*.*[0-9]*' | wc -l
+: 1709636083:0;vi .fdignore
+: 1709636123:0;fd -H | wc -l
+: 1709636134:0;vi .fdignore
+: 1709636149:0;fd -H | wc -l
+: 1709636180:0;fd -H -E '[0-9]*' -E '*[0-9]*.*[0-9]*' | wc -l
+: 1709636184:0;fd -H -E '*[0-9]*.*[0-9]*' | wc -l
+: 1709636208:0;vi .fdignore
+: 1709636240:0;cd .config 
+: 1709636282:0;ls
+: 1709636287:0;vi .fdignore
+: 1709636295:0;cd config fd
+: 1709636403:0;vi .gitignore
+: 1709636417:0;vi .rgignore
+: 1709636436:0;vi .gitignore
+: 1709636442:0;cd config
+: 1709636476:0;vi .gitignore
+: 1709636480:0;vi
+: 1709639620:0;ls
+: 1709639623:0;vi
+: 1709639631:0;cd dotfiles
+: 1709645749:0;vi .gitconfig
+: 1709645802:0;cd dotfiles

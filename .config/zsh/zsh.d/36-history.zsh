@@ -47,57 +47,67 @@ function _zsh_autosuggest_strategy_custom_history() {
     typeset -g suggestion="${history[(r)$pattern]}"
 }
 
+function _zsh_autosuggest_strategy_histdb_top_here() {
+    local query="select commands.argv from
+history left join commands on history.command_id = commands.rowid
+left join places on history.place_id = places.rowid
+where places.dir LIKE '$(sql_escape $PWD)%'
+and commands.argv LIKE '$(sql_escape $1)%'
+group by commands.argv order by count(*) desc limit 1"
+    suggestion=$(_histdb_query "$query")
+}
+
 # Histdb is good, though, the above allows for toggling on and off
 
 # Return the latest used command in the current directory
 # Else, find most recent command
-function _zsh_autosuggest_strategy_histdb_top_here() {
-    emulate -L zsh
-    (( $+functions[_histdb_query] && $+builtins[zsqlite_exec] )) || return
-    # (( $+functions[_histdb_query] )) || return
-    # _histdb_init
-    local last_cmd="$(sql_escape ${history[$((HISTCMD-1))]})"
-    local cmd="$(sql_escape $1)"
-    local pwd="$(sql_escape $PWD)"
+# function _zsh_autosuggest_strategy_histdb_top_here() {
+#     emulate -L zsh
+#     (( $+functions[_histdb_query] && $+builtins[zsqlite_exec] )) || return
+#     # (( $+functions[_histdb_query] )) || return
+#     # _histdb_init
+#     local last_cmd="$(sql_escape ${history[$((HISTCMD-1))]})"
+#     local cmd="$(sql_escape $1)"
+#     local pwd="$(sql_escape $PWD)"
+# #     local reply=$(zsqlite_exec _HISTDB "
+# # SELECT argv FROM (
+# #   SELECT c1.argv, p1.dir, h1.session, h1.start_time, 1 AS priority
+# #   FROM history h1, history h2
+# #     LEFT JOIN commands c1 ON h1.command_id = c1.ROWID
+# #     LEFT JOIN commands c2 ON h2.command_id = c2.ROWID
+# #     LEFT JOIN places p1   ON h1.place_id = p1.ROWID
+# #   WHERE h1.ROWID = h2.ROWID + 1
+# #     AND c1.argv LIKE '$cmd%'
+# #     AND c2.argv = '$last_cmd'
+# #     -- AND h1.exit_status = 0
+# #     UNION
+# #   SELECT c1.argv, p1.dir, h1.session, h1.start_time, 0 AS priority
+# #   FROM history h1
+# #     LEFT JOIN commands c1 ON h1.command_id = c1.ROWID
+# #     LEFT JOIN places p1   ON h1.place_id = p1.ROWID
+# #   WHERE c1.argv LIKE '$cmd%'
+# # )
+# # ORDER BY dir != '$pwd', start_time, priority DESC, session != $HISTDB_SESSION DESC
+# # LIMIT 1
+# # ")
+#     # local reply=$(_histdb_query "
 #     local reply=$(zsqlite_exec _HISTDB "
-# SELECT argv FROM (
-#   SELECT c1.argv, p1.dir, h1.session, h1.start_time, 1 AS priority
-#   FROM history h1, history h2
-#     LEFT JOIN commands c1 ON h1.command_id = c1.ROWID
-#     LEFT JOIN commands c2 ON h2.command_id = c2.ROWID
-#     LEFT JOIN places p1   ON h1.place_id = p1.ROWID
-#   WHERE h1.ROWID = h2.ROWID + 1
-#     AND c1.argv LIKE '$cmd%'
-#     AND c2.argv = '$last_cmd'
-#     -- AND h1.exit_status = 0
-#     UNION
-#   SELECT c1.argv, p1.dir, h1.session, h1.start_time, 0 AS priority
-#   FROM history h1
-#     LEFT JOIN commands c1 ON h1.command_id = c1.ROWID
-#     LEFT JOIN places p1   ON h1.place_id = p1.ROWID
-#   WHERE c1.argv LIKE '$cmd%'
-# )
-# ORDER BY dir != '$pwd', start_time, priority DESC, session != $HISTDB_SESSION DESC
+# SELECT commands.argv
+# FROM   history
+#   LEFT JOIN commands
+#     ON history.command_id = commands.rowid
+#   LEFT JOIN places
+#     ON history.place_id = places.rowid
+# WHERE    commands.argv LIKE '$cmd%'
+#         AND commands.argv NOT LIKE 'o %'
+#         AND commands.argv NOT LIKE 'cd %'
+# -- AND history.exit_status = 0
+# -- GROUP BY commands.argv, places.dir
+# ORDER BY places.dir != '$pwd', history.start_time DESC
 # LIMIT 1
 # ")
-    # local reply=$(_histdb_query "
-    local reply=$(zsqlite_exec _HISTDB "
-SELECT commands.argv
-FROM   history
-  LEFT JOIN commands
-    ON history.command_id = commands.rowid
-  LEFT JOIN places
-    ON history.place_id = places.rowid
-WHERE    commands.argv LIKE '$cmd%'
-        AND commands.argv NOT LIKE 'o %'
-        AND commands.argv NOT LIKE 'cd %'
--- AND history.exit_status = 0
--- GROUP BY commands.argv, places.dir
-ORDER BY places.dir != '$pwd', history.start_time DESC
-LIMIT 1
-")
-    typeset -g suggestion=$reply
-
-# (( $+functions[_histdb_query] )) || return
-#   typeset -g suggestion=$(_histdb_query "$query")
-}
+#     typeset -g suggestion=$reply
+#
+# # (( $+functions[_histdb_query] )) || return
+# #   typeset -g suggestion=$(_histdb_query "$query")
+# }

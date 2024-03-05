@@ -9,3 +9,17 @@
 : 1709132291:0;cd grc
 : 1709170329:0;git clone https://github.com/bugaevc/wl-clipboard.git
 : 1709170336:0;cd wl-clipboard
+: 1709464646:0;ls
+: 1709464652:0;ll Obsidian-1.5.8.AppImage
+: 1709464665:0;chmod +x Obsidian-1.5.8.AppImage
+: 1709464666:0;ls
+: 1709464676:0;./Obsidian-1.5.8.AppImage
+: 1709464690:0;./cod
+: 1709464738:0;./Obsidian-1.5.8.AppImage 
+: 1709464757:0;./Obsidian-1.5.8.AppImage --appimage-extract Obj
+: 1709464757:0;ls
+: 1709464770:0;cd Obsidian-1.5.8.AppImage
+: 1709464771:0;ls
+: 1709464792:0;mkdir Obsidian
+: 1709464798:0;mv Obsidian-1.5.8.AppImage Obsidian
+: 1709464800:0;cd Obsidian

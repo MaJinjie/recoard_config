@@ -1,0 +1,4 @@
+: 1709604088:0;rg history-search
+: 1709604105:0;rg history-search-multi-word
+: 1709604125:0;rg history-search-multi-word | fzf
+: 1709605074:0;ls

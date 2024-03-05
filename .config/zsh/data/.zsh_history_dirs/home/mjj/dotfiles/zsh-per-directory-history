@@ -80,3 +80,28 @@
 : 1709457953:0;ls
 : 1709457954:0;lsa
 : 1709457971:0;git add . 
+: 1709457979:0;git commit -m 'init'
+: 1709457996:0;git remote add orgin git@github.com:MaJinjie/dotfiles.git
+: 1709458002:0;git push
+: 1709458024:0;git remote rename orgin origin
+: 1709458032:0;git push -u origin
+: 1709458068:0;git push --set-upstream origin
+: 1709458092:0;git branch
+: 1709458097:0;git push --set-upstream origin man
+: 1709458100:0;git push --set-upstream origin main
+: 1709458183:0;git push --set-upstream --force  origin main
+: 1709639644:0;vi
+: 1709639751:0;vi 
+: 1709640171:0;vi
+: 1709640274:0;vi 
+: 1709645158:0;ls
+: 1709645164:0;delta README.md
+: 1709645220:0;vi 
+: 1709645355:0;rg export
+: 1709645363:0;rg -H export
+: 1709645381:0;rg -HL export
+: 1709645384:0;rg -HL ex
+: 1709645391:0;rg -H -L export
+: 1709645406:0;cd config
+: 1709645808:0;vi .gitconfig
+: 1709645870:0;git add .

@@ -24,3 +24,18 @@
 : 1709388161:0;cd fzf-lua/lua/fzf-lua/providers
 : 1709424403:0;cd fzf-lua/lua/fzf-lua/profiles
 : 1709455744:0;cd fzf-lua/lua/fzf-lua
+: 1709541513:0;ls
+: 1709541527:0;cd telescope-file-browser.nvim/lua/telescope/_extensions/file_browser
+: 1709542484:0;ls
+: 1709542497:0;cd telescope-cmdline.nvim/lua/cmdline
+: 1709544330:0;cd telescope.nvim/lua/telescope
+: 1709545615:0;ls
+: 1709545642:0;cd commander.nvim/lua
+: 1709562308:0;cd fzf-lua/lua/fzf-lua
+: 1709615406:0;cd flow.nvim/lua/flow/lib
+: 1709615546:0;cd commander.nvim/lua/commander/model
+: 1709623646:0;cd nvim-ufo/lua/ufo
+: 1709631757:0;ls
+: 1709631770:0;rm harpoon 
+: 1709632107:0;ls
+: 1709632109:0;cd harpoon

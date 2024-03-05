@@ -5,7 +5,7 @@
 # Show a preview for long lines.
 --max-columns-preview
 
---max-depth=6
+--max-depth=1
 --smart-case
 --hidden
 --heading

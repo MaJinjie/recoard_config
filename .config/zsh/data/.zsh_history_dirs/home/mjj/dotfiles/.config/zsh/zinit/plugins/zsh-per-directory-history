@@ -70,3 +70,6 @@
 : 1709439520:0;cd sharkdp---fd/fd-v9.0.0-x86_64-unknown-linux-gnu/autocomplete
 : 1709439578:0;cp BurntSushi---ripgrep/ripgrep-14.1.0-x86_64-unknown-linux-musl/complete/_rg $Zdirs[COMPL]
 : 1709439613:0;cp BurntSushi---ripgrep/ripgrep-14.1.0-x86_64-unknown-linux-musl/doc/rg.1 $Zdirs[MAN]
+: 1709532821:0;ls
+: 1709532824:0;cd ..
+: 1709604080:0;cd zdharma-continuum---history-search-multi-word

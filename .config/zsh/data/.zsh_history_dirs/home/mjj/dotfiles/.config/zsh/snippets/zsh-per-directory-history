@@ -1,25 +1,40 @@
-: 1709110187:0;ls
 : 1709110193:0;rm .* -rf
-: 1709110204:0;ls
 : 1709110248:0;rip -u
 : 1709114149:0;autoload -Uz compdef
 : 1709117528:0;zi delete Aloxaf/zsh-sqlite
-: 1709117532:0;cd ..
 : 1709132669:0;vi fzf-tmux
-: 1709132731:0;ls
 : 1709132853:0;cd ..
-: 1709134098:0;ls
-: 1709134102:0;vi grc.zsh
 : 1709134113:0;cd ../zinit
-: 1709134172:0;vi grc.zsh
 : 1709134200:0;which grc
-: 1709134242:0;source grc.zsh
 : 1709134251:0;which g++
 : 1709134256:0;vi grc
-: 1709134260:0;vi grc.zsh
-: 1709134285:0;source grc.zsh
-: 1709134318:0;vi grc.zsh
-: 1709134431:0;which gcc
-: 1709134436:0;source grc.zsh
 : 1709134440:0;which gcc
-: 1709136850:0;vi grc.zsh
+: 1709531061:0;source grc.zsh
+: 1709531100:0;os
+: 1709531116:0;ps -ef
+: 1709531125:0;ps
+: 1709531131:0;ls
+: 1709531152:0;which ps
+: 1709531175:0;vi grc.zsh
+: 1709531232:0;tty -s
+: 1709531246:0;! tty -s && echo 1 || echo 2
+: 1709531486:0;which ps
+: 1709531488:0;ps
+: 1709531492:0;g+=
+: 1709531497:0;which g++
+: 1709531508:0;g++ -c aa
+: 1709531529:0;man tty
+: 1709531552:0;echo $tty
+: 1709531556:0;echo $(tty)
+: 1709531566:0;echo $(tty -s)
+: 1709531639:0;! tty -s && echo 1 || echo 2
+: 1709531658:0;! tty && echo 1 || echo 2
+: 1709531704:0;ls
+: 1709531721:0;cd ..
+: 1709563286:0;ls
+: 1709563289:0;vi histdb-interactive.zsh
+: 1709563383:0;cd -
+: 1709564539:0;ls
+: 1709564542:0;vi histdb-interactive.zsh
+: 1709566666:0;ls
+: 1709566670:0;source histdb-interactive.zsh

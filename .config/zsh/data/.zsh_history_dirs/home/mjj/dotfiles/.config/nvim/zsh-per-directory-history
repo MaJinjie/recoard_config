@@ -26,12 +26,10 @@
 : 1709302657:0;mv todo.md note
 : 1709302665:0;cd plug 
 : 1709302676:0;cd lua/ plug
-: 1709394335:0;vi lazy-lock.json
 : 1709394437:0;vi README.md
 : 1709430906:0;vi init.lua
 : 1709432086:0;lsa
 : 1709444027:0;cd lua
-: 1709445838:0;ls
 : 1709445900:0;vi .fdignore
 : 1709445905:0;fd
 : 1709446657:0;vi 
@@ -39,3 +37,8 @@
 : 1709448816:0;vi uls
 : 1709448826:0;cd local share lazy tele 
 : 1709449159:0;cd local share lazy tele
+: 1709518333:0;ls
+: 1709518336:0;cd ../tmux
+: 1709608514:0;vi lazy-lock.json
+: 1709609909:0;dus
+: 1709609915:0;cm z

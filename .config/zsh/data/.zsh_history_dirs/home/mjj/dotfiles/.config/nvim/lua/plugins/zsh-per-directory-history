@@ -36,17 +36,14 @@
 : 1709286710:0;cd local share Lazy
 : 1709288699:0;rm :q
 : 1709302446:0;vi flash.lua
-: 1709304697:0;fd
 : 1709304863:0;kq
 : 1709304865:0;cd ..
 : 1709305141:0;y
 : 1709305146:0;vi yazi.lua
 : 1709307757:0;cd local share nvim
-: 1709343749:0;vi telescope.lua
 : 1709344205:0;vi colorizer.lua telescope.lua
 : 1709344233:0;vi colorizer.lua
 : 1709362701:0;sh -c "$(curl -s https://raw.githubusercontent.com/ibhagwan/fzf-lua/main/scripts/mini.sh)"
-: 1709362956:0;vi
 : 1709367608:0;cd utils
 : 1709373581:0;pastel
 : 1709373608:0;pastel list
@@ -86,22 +83,105 @@
 : 1709376018:0;fd --exact-depth=1 | fzf
 : 1709376366:0;ls | fzf
 : 1709377732:0;cd local share nvim 
-: 1709388143:0;ls
-: 1709388145:0;vi disabled.lua
 : 1709388151:0;cd local share lazy
-: 1709388847:0;vi 
 : 1709389383:0;vidir
-: 1709389387:0;vi fzf.lua
-: 1709389916:0;vi fzf.lua
-: 1709427754:0;ls
-: 1709427758:0;vi
-: 1709427769:0;ls
-: 1709427772:0;cd
-: 1709428006:0;vi fzf.lua
-: 1709428089:0;vi
 : 1709429547:0;vi 
-: 1709429575:0;vi fzf.lua
-: 1709430327:0;vi telescope.lua
-: 1709443771:0;vi telescope.lua
-: 1709453017:0;vi fzf.lua
-: 1709457654:0;cd
+: 1709532841:0;vi disabled.lua
+: 1709533831:0;vi
+: 1709534912:0;ls
+: 1709535098:0;fd
+: 1709535100:0;cd
+: 1709535847:0;cd local share lazy tele
+: 1709542650:0;vi fzf.lua
+: 1709542854:0;mkdir bak
+: 1709542859:0;cp telescope.lua bak
+: 1709544193:0;v telescope.lua
+: 1709544196:0;vi telescope.lua
+: 1709544515:0;:q
+: 1709545164:0;vi test.lua
+: 1709545450:0;vi telescope.lua
+: 1709545456:0;vi test.lua
+: 1709547093:0;vi
+: 1709547208:0;vi test.lua
+: 1709547519:0;ls
+: 1709548365:0;vi chatgpt.lua
+: 1709551617:0;vi telescope.lua
+: 1709551662:0;vi chatgpt.lua
+: 1709559230:0;echo $OPENAI_API_KEY
+: 1709559235:0;vi chatgpt
+: 1709559248:0;chatgpt.lua
+: 1709559264:0;alias -s lua=nvim
+: 1709559269:0;chatgpt.lua
+: 1709559312:0;vi ps
+: 1709559315:0;ps
+: 1709559327:0;cm z
+: 1709606981:0;vi fzf.lua
+: 1709611385:0;ls
+: 1709611387:0;vi ui.lua
+: 1709614861:0;rm ui.lua
+: 1709615100:0;q
+: 1709615103:0;ls
+: 1709615108:0;rm bak
+: 1709615115:0;vi test.lua
+: 1709616255:0;ls
+: 1709616327:0;touch commands.lua tasks.lua cursor.lua
+: 1709616327:0;ls
+: 1709616348:0;vi cursor.lua
+: 1709616760:0;ls
+: 1709616768:0;mkdir replace
+: 1709616787:0;mv flash.lua move-scroll.lua multi-cursor.lua replace
+: 1709616788:0;ls
+: 1709616801:0;mv chatgpt.lua replace
+: 1709616815:0;vi tasks.lua
+: 1709616851:0;rm manage-tasks.lua 
+: 1709616909:0;ci
+: 1709616932:0;ls
+: 1709616934:0;vi yazi.lua
+: 1709616988:0;ls
+: 1709617003:0;mv yazi.lua replace/
+: 1709617004:0;ls
+: 1709617007:0;vi surround.lua
+: 1709617497:0;vi cursor.lua
+: 1709617807:0;vi text.lau
+: 1709617825:0;vi text.lua
+: 1709617909:0;rm surround.lua
+: 1709617910:0;ls
+: 1709617922:0;vi ui.lua
+: 1709617947:0;ls replace
+: 1709617956:0;mv colorizer.lua replace
+: 1709617957:0;ls
+: 1709617970:0;vi easy-commands.lua
+: 1709617982:0;mv easy-commands.lua replace
+: 1709617983:0;ls
+: 1709618025:0;vi formatter.lua
+: 1709618109:0;vi markdown.lua
+: 1709618116:0;vi commands.lua
+: 1709618215:0;mv test.lua replace
+: 1709618219:0;vi ufo.lua
+: 1709619813:0;mv ufo.lua replace
+: 1709619816:0;vi text.lua
+: 1709621747:0;ls
+: 1709621754:0;vi cursor.lua
+: 1709622585:0;ls
+: 1709622588:0;vi neo-tree.lua
+: 1709624331:0;vi text.lua
+: 1709625902:0;ls
+: 1709625922:0;rm \'
+: 1709625923:0;ls
+: 1709625933:0;vi markdown.lua
+: 1709626299:0;vi note.lua
+: 1709626527:0;mv markdown.lua replace
+: 1709626529:0;ls replace
+: 1709626538:0;ls
+: 1709626552:0;vi cursor.lua
+: 1709626586:0;vi text.lua
+: 1709627120:0;vi 1.md
+: 1709627151:0;vi harpoon.lua
+: 1709627205:0;vi note.lua 
+: 1709627216:0;vi note.lua
+: 1709627241:0;vi telescope.lua
+: 1709627385:0;vi note.lua
+: 1709631505:0;ls
+: 1709631510:0;vi text.lua
+: 1709631654:0;ls
+: 1709631658:0;vi harpoon.lua

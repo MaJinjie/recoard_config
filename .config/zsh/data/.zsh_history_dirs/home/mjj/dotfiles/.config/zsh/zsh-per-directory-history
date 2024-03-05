@@ -40,14 +40,12 @@
 : 1709084649:0;cd cache
 : 1709087380:0;zi
 : 1709087386:0;z edit
-: 1709087393:0;cd -
 : 1709087691:0;k zi
 : 1709091971:0;t
 : 1709091983:0;cm gz
 : 1709097797:0;lsa completions | fzf
 : 1709098570:0;command -v cd
 : 1709099400:0;cd git
-: 1709100040:0;history
 : 1709100054:0;https 
 : 1709100059:0;zi load sharkdp/bat
 : 1709100737:0;zi delete sharkdp/bat
@@ -62,7 +60,6 @@
 : 1709106428:0;echo $path
 : 1709106475:0;fzf-tmux
 : 1709107141:0;zi delete BurntSushi/ripgrep
-: 1709107699:0;cd 
 : 1709108191:0;delta
 : 1709108197:0;which delta
 : 1709108206:0;paru -R delta
@@ -81,8 +78,6 @@
 : 1709122062:0;https
 : 1709128924:0;loop 'sleep 1'
 : 1709128944:0;cd zsh.d
-: 1709129253:0;cd ..
-: 1709132666:0;cd snippets
 : 1709132856:0;mkdir bin
 : 1709132863:0;rm HOME
 : 1709132876:0;rm -u
@@ -95,8 +90,6 @@
 : 1709133172:0;cm g
 : 1709133180:0;cd git grc
 : 1709133230:0;ls bin
-: 1709133233:0;ls man
-: 1709133274:0;ls snippets
 : 1709133789:0;ls completions/ | fzf
 : 1709134611:0;rm snippets/grc.zsh
 : 1709169520:0;xsel --bi <<< 2222222222222222222
@@ -112,34 +105,102 @@
 : 1709171025:0;cd zinit/completions
 : 1709174324:0;wl-copy 22222222222222222
 : 1709174328:0;wl-paste 
-: 1709174348:0;wl-paste
-: 1709174387:0;wl-paste -p
 : 1709175237:0;cd completions
 : 1709178514:0;ls .zcompdump
 : 1709178520:0;vi .zcompdump
 : 1709178563:0;zcompile completions.zwc completions/*
 : 1709178571:0;vi completions.zwc
-: 1709178755:0;lsa
 : 1709207169:0;loop --every 10s -- ls
 : 1709207183:0;vi 2.txt
-: 1709214369:0;vi 
 : 1709214420:0;vi 1.txt
 : 1709254646:0;cd config zinit plug
 : 1709254855:0;source .zshrc
-: 1709255827:0;vi
 : 1709255889:0;cm n
-: 1709256799:0;cd
 : 1709262295:0;cd local share zinit 
-: 1709262295:0;ls
 : 1709262305:0;cd zinit
-: 1709262352:0;vi .zshrc
-: 1709271680:0;cm z
-: 1709271692:0;vi zsh.d/05-export.zsh
 : 1709272015:0;fd --follow
-: 1709272029:0;vi .zshrc
 : 1709272037:0;vi zsh.d/05-export.zsh
 : 1709272569:0;cd ../nvim/lua
-: 1709455578:0;ls
 : 1709455580:0;ls man
-: 1709455598:0;ls
 : 1709455599:0;cd man
+: 1709465552:0;zle -l
+: 1709466017:0;vi
+: 1709529824:0;cd plugins/fzf/scripts
+: 1709530516:0;cd plugins/fzf/completions/
+: 1709530808:0;mv plugins .plugins
+: 1709530814:0;mkdir plugins
+: 1709530845:0;ls functions/rm
+: 1709531733:0;mkdir custom
+: 1709531751:0;mv snippets/grc.zsh custom
+: 1709532442:0;cd .plugins
+: 1709532504:0;error 1
+: 1709551465:0;cd
+: 1709557651:0;pacman -S sox
+: 1709557659:0;sudo pacman -S sox
+: 1709560064:0;srcr
+: 1709560781:0;vi snippets
+: 1709560975:0;cd custom
+: 1709561015:0;vi .zshenv
+: 1709561070:0;zsh
+: 1709561112:0;vi custom/grc.zsh
+: 1709561300:0;vi data/history
+: 1709561305:0;cd data
+: 1709561704:0;history
+: 1709563205:0;bindkey '^r' _histdb-isearch
+: 1709563220:0;ci
+: 1709563754:0;cs
+: 1709564355:0;ls plugins
+: 1709564536:0;ls snippets
+: 1709566666:0;cd snippets
+: 1709567765:0;cd -
+: 1709567808:0;v
+: 1709567845:0;v 
+: 1709598277:0;lsa
+: 1709600687:0;fzf
+: 1709600760:0;echo $_RAD_NO_ECHO
+: 1709601036:0;cd 
+: 1709601217:0;cm z
+: 1709601240:0;cd ..
+: 1709601253:0;radl
+: 1709601410:0;ru --help
+: 1709602285:0;zle -l | fzf
+: 1709604271:0;bindkey -L | fzf
+: 1709605584:0;kill 2551
+: 1709605592:0;killall
+: 1709605597:0;kill 29598
+: 1709605690:0;wl-paste
+: 1709605738:0;wl-paste -p
+: 1709605819:0;vi 
+: 1709609684:0;vi .zshrc
+: 1709609835:0;ls
+: 1709609848:0;ls
+: 1709609904:0;dus
+: 1709609908:0;cd nvim
+: 1709609916:0;dus
+: 1709610271:0;ls
+: 1709610275:0;vi completions
+: 1709610387:0;cls
+: 1709610392:0;cd
+: 1709630752:0;vi .zshrc
+: 1709631110:0;ls
+: 1709631130:0;paru -S pip3
+: 1709631137:0;paru -S pip
+: 1709631177:0;paru -S python-pip
+: 1709631226:0;vi .zshrc
+: 1709631239:0;ls
+: 1709631263:0;pip3 install neovim-remote
+: 1709631308:0;pip3 install --user neovim-remote
+: 1709631376:0;paru -S nvr
+: 1709631391:0;paru -S neovim-remote
+: 1709631401:0;ls
+: 1709631409:0;cd .note
+: 1709634671:0;ls
+: 1709634674:0;dus .zshrc
+: 1709634695:0;cm c
+: 1709645550:0;/bin/cat .zshrc | delta
+: 1709645568:0;rg --json -C 2 .zshrc | delta
+: 1709645584:0;bat .zshrc | delta
+: 1709645597:0;bat --color=always | delta
+: 1709645608:0;bat --color=always .zshrc | delta
+: 1709645625:0;rg --json -C 2 "" .zshrc | delta
+: 1709645745:0;cd

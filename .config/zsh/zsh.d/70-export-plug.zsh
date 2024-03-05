@@ -19,9 +19,9 @@ export YSU_MODE=BESTMATCH #ALL
 export YSU_HARDCORE=1
 export YSU_IGNORED_ALIASES=()
 
-## rualdi 
+## rualdi
 export _RAD_ALIASES_DIR="$XDG_CONFIG_HOME/rualdi"
-export _RAD_NO_ECHO=1 
+export _RAD_NO_ECHO=1
 export _RAD_RESOLVE_SYMLINKS=1
 
 ## bkt 
@@ -46,13 +46,14 @@ typeset -gx ZSH_AUTOSUGGEST_STRATEGY=(
 #   completion
 # )
 export ZSH_AUTOSUGGEST_ACCEPT_WIDGETS=( \
-  vi-add-eol vi-end-of-line \
+  vi-end-of-line \
   end-of-line \
 )
+  # vi-forward-char \
+  # vi-forward-word vi-forward-word-end \
+  # vi-forward-blank-word vi-forward-blank-word-end \
 export ZSH_AUTOSUGGEST_PARTIAL_ACCEPT_WIDGETS=( \
-  vi-forward-char \
-  vi-forward-word vi-forward-word-end \
-  vi-forward-blank-word vi-forward-blank-word-end \
+  forward-char \
   forward-word \
 )
 

@@ -1,8 +1,7 @@
 #!/usr/bin/env zsh
 
-if ! tty -s || [ ! -n "$TERM" ] || [ "$TERM" = dumb ] || (( ! $+commands[grc] ))
-then
-  return
+if (( ! $+commands[grc] )); then
+  return 
 fi
 
 # Supported commands

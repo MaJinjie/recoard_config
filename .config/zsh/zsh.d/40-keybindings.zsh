@@ -12,3 +12,4 @@ bindkey '^b' beginning-of-line
 bindkey '^e' end-of-line
 
 bindkey -M viins 'jk' vi-cmd-mode
+

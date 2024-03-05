@@ -1,0 +1,4 @@
+: 1709464801:0;ls
+: 1709464808:0;./Obsidian-1.5.8.AppImage --appimage-extract 
+: 1709464810:0;ls
+: 1709464815:0;cd squashfs-root

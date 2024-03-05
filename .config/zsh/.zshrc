@@ -157,7 +157,7 @@ zt light-mode for \
       romkatv/zsh-defer
 
   
-extractf completion history
+extractf completion history keybindings
 zt 0a light-mode null id-as nocd for multisrc="$ZRCDIR/${^sourced[@]}" $null
 zflai-log "srcf" "---------- Time" $sourcestart "----------"
 
@@ -219,7 +219,7 @@ zt 0a light-mode for \
     Bhupesh-V/ugit \
   trigger-load'!zhooks'              desc'show code of all zshhooks' \
     agkozak/zhooks \
-  trigger-load'!hist'                desc'edit zsh history' \
+  trigger-load'!hist'                desc'#edit zsh history' \
   compile'f*/*~*.zwc' blockf nocompletions \
     marlonrichert/zsh-hist \
   trigger-load'!gcomp' blockf \
@@ -270,18 +270,6 @@ zt 0b light-mode patch"${Zdirs[PATCH]}/%PLUGIN%.patch" reset nocompile'!' for \
   
 # ]]] === wait'0b' - patched ===
 
-# === wait'0b' -plugin === [[[
-zt 0b light-mode for \
-  lbin pick'*vendored.zsh*' \
-  atclone'rm -rf Cargo.lock' atclone'cargo build --release' atpull'%atclone' \
-    m42e/zsh-histdb-skim \
-  pick'*plugin*' compile'*.zsh~*.zwc' src'histdb-interactive.zsh' \
-  atload'HISTDB_FILE="$Zdirs[DATA]/.zsh-history.db"' \
-    larkery/zsh-histdb \
-  nocompletions \
-  atclone'zsqlite-build' \
-    Aloxaf/zsh-sqlite
-# ]]] === wait'0b' -plugin ===
 
 # === wait'0b' -trackbinds === [[[
 zt 0b light-mode for \
@@ -289,10 +277,10 @@ zt 0b light-mode for \
     zstyle :zle:evil-registers:"[A-Za-z%#]" editor nvim
     zstyle :zle:evil-registers:"\*" put  - wl-paste -p
     zstyle :zle:evil-registers:"+"  put  - wl-paste
-    zstyle :zle:evil-registers:"\*" yank - wl-copy -p -n
+    zstyle :zle:evil-registers:"\*" yank - wl-copy -p
     zstyle :zle:evil-registers:"+"  yank - wl-copy -n
     zstyle :zle:evil-registers:"" put  - wl-paste
-    zstyle :zle:evil-registers:"" yank - wl-copy -n
+    zstyle :zle:evil-registers:"" yank - wl-copy
     bindkey -M viins "^Xr" →evil-registers::ctrl-r' \
     zsh-vi-more/evil-registers \
   atload'zstyle ":zce:*" keys "asdghklqwertyuiopzxcvbnmfj;23456789";
@@ -317,8 +305,19 @@ zt 0b light-mode for \
 ##================================0b$===============================##
 
 ##================================0b^===============================##
+
+# === wait'0b' -binary === [[[
+zt 0b light-mode binary lbin check'!%PLUGIN%' from'gh-r' for \
+    eza-community/eza \
+  atinit'export _ZO_DATA_DIR="${XDG_DATA_HOME}/zoxide"' \
+  atload'eval "$(zoxide init --cmd cd zsh)"' \
+    ajeetdsouza/zoxide \
+
+# ]]] === wait'0b' -binary ===
+
 zt 0b light-mode null check'!%PLUGIN%' for \
-  lbin atclone'cargo build --release' atpull'%atclone' \
+  lbin atinit'export _RAD_NO_ECHO=1; ' \
+  atclone'cargo build --release' atpull'%atclone' \
   atload'alias ru="rualdi"' \
   atload'eval "$(rualdi init zsh)"' \
     lmburns/rualdi \
@@ -338,7 +337,7 @@ zt 0b light-mode for \
     vbindkey -M vicmd "k" history-substring-search-up;
     vbindkey -M vicmd "j" history-substring-search-down' \
     zsh-users/zsh-history-substring-search \
-  compile'h*~*.zwc' trackbinds bindmap'^R -> ^F' atload'
+  compile'h*~*.zwc' atload'
     zstyle ":history-search-multi-word" highlight-color "fg=52,bold";
     zstyle ":history-search-multi-word" page-size "32";  # entries to show ($LINES/3)
     zstyle ":history-search-multi-word" synhl "yes";     # do syntax highlighting
@@ -350,12 +349,19 @@ zt 0b light-mode for \
          alias zmand="info zsh "' \
     mattmc3/zman \
     
+# === wait'0b' -plugin === [[[
+zt 0b light-mode for \
+  lbin pick'*vendored.zsh*' \
+  atclone'rm -rf Cargo.lock' atclone'cargo build --release' atpull'%atclone' \
+    m42e/zsh-histdb-skim \
+  atinit'HISTDB_FILE="$Zdirs[DATA]/.zsh-history.db"' \
+  pick'*plugin*' compile'*.zsh~*.zwc' src'histdb-interactive.zsh' \
+    larkery/zsh-histdb \
+  nocompletions \
+  atclone'zsqlite-build' \
+    Aloxaf/zsh-sqlite
+# ]]] === wait'0b' -plugin ===
     
-zt 0b light-mode binary lbin check'!%PLUGIN%' from'gh-r' for \
-    eza-community/eza \
-  atinit'export _ZO_DATA_DIR="${XDG_DATA_HOME}/zoxide"' \
-  atload'eval "$(zoxide init --cmd cd zsh)"' \
-    ajeetdsouza/zoxide \
 ##================================0b$===============================##
 ##================================0c^===============================##
 zt 0c light-mode binary lbin check'!%PLUGIN%' for \
@@ -373,7 +379,7 @@ zt 0c light-mode binary lbin check'!%PLUGIN%' for \
     from'gh-r' brocode/fw \
     from'gh-r' dimo414/bkt \
   # pick'sd' \
-  #   from'gh-r' chmln/sd \
+    # from'gh-r' chmln/sd \
 
     
 zt 0c light-mode null check'!%PLUGIN%' for \
@@ -383,15 +389,18 @@ zt 0c light-mode null check'!%PLUGIN%' for \
   lbin atclone'cargo build --release' atpull'%atclone' \
     miserlou/loop \
     
-extractf alias export-plug; sourcef
+zt 0c light-mode null id-as nocd for atload'autoload -Uz compinit; compinit' $null
+
+extractf alias function export-plug keybindings-plug
 zt 0c light-mode null id-as nocd for multisrc="$ZRCDIR/${^sourced[@]}" $null
-zt 0c light-mode null id-as nocd for atload'compinit' $null
 ##================================0c$===============================##
 # === snippet block === [[[
 ztmp=$EPOCHREALTIME
 # Don't have to be recompiled to use
-# zt light-mode nocompile is-snippet for $ZDOTDIR/plugins/*.zsh
-zt light-mode null for atload'source $ZDOTDIR/snippets/*.zsh' $null
+zt light-mode nocompile is-snippet for $ZDOTDIR/custom/*.zsh
+# zt light-mode null for  \
+#   atload'echo $ZDOTDIR/custom/*.zsh; source $ZDOTDIR/custom/*.zsh' \
+#   $null
 # zt light-mode is-snippet for $ZDOTDIR/snippets/bundled/*.(z|)sh
 # zt light-mode is-snippet for $ZDOTDIR/snippets/zle/*.zsh
 
