@@ -1,0 +1,84 @@
+: 1709703533:0;vi 1.lua
+: 1709703569:0;vi 
+: 1709703621:0;ls
+: 1709703924:0;rm 1.lua
+: 1709703927:0;vi cursor.lua
+: 1709703957:0;vi /etc/hosts
+: 1709704042:0;ls
+: 1709704047:0;cd ../
+: 1709708775:0;vi command.lua
+: 1709708907:0;vi ../../core/init.lua
+: 1709709005:0;ls
+: 1709709008:0;vi ../init.lua
+: 1709709036:0;vi command.lua
+: 1709709136:0;ls
+: 1709709139:0;lsa ..
+: 1709709166:0;ls
+: 1709709168:0;cd ..
+: 1709709217:0;vi command.lua
+: 1709709354:0;vi cursor.lua
+: 1709710239:0;vi fzf.lua
+: 1709710492:0;vi nvchad.lua
+: 1709710853:0;vi cursor.lua
+: 1709711222:0;vi text.lua
+: 1709711476:0;ls
+: 1709711515:0;vi fzf.lua
+: 1709712823:0;vi text.lua 
+: 1709712845:0;vi ../init.lua
+: 1709712941:0;vi cursor.lua
+: 1709713175:0;vi text.lua
+: 1709713416:0;vi ../init.lua
+: 1709713714:0;ls
+: 1709713734:0;vi nvchad.lua
+: 1709713798:0;cd ../configs
+: 1709714483:0;ls
+: 1709714488:0;cd ..
+: 1709714803:0;ls
+: 1709714819:0;vi nvchad.lua
+: 1709714924:0;vi ../configs/telescope.lua
+: 1709715089:0;vi nvchad.lua
+: 1709715392:0;vi ../configs/telescope.lua
+: 1709715720:0;ls
+: 1709715761:0;vi telescope_extensions.lua
+: 1709717764:0;vi nvchad.lua
+: 1709717857:0;ls
+: 1709717861:0;vi ../configs
+: 1709717932:0;vi nvchad.lua
+: 1709718004:0;ls
+: 1709718018:0;vi task.lua
+: 1709718081:0;vi note.lua
+: 1709718180:0;ls
+: 1709718186:0;cd ..
+: 1709778338:0;ls
+: 1709778341:0;vi text.lua
+: 1709778350:0;vi autosave.lua
+: 1709798708:0;ls
+: 1709798712:0;vi test.lua
+: 1709858728:0;ls
+: 1709858735:0;vi test.lua
+: 1709866294:0;ls
+: 1709866296:0;cd 
+: 1709883538:0;vi test.lua
+: 1709883548:0;cd ..
+: 1709886714:0;ls
+: 1709886716:0;cd ..
+: 1709894131:0;vi test.lua
+: 1709895232:0;vi test.lua
+: 1709895251:0;vi test_lsp.lua
+: 1709895284:0;vi 
+: 1709895378:0;vi test_lsp.lua
+: 1709895409:0;ls
+: 1709895413:0;vi fzf.lua
+: 1709905629:0;ls
+: 1709905662:0;vi autosave.lua
+: 1709909390:0;ls
+: 1709909399:0;ls
+: 1709909406:0;cd nvim/lua/core
+: 1709913785:0;ls
+: 1709913794:0;vi test_ui.lua
+: 1709913872:0;vi 
+: 1709913927:0;ls
+: 1709913939:0;cd ../nvim/lua/core/config/cmp.lua
+: 1709913946:0;cd ../nvim/lua/core/config/
+: 1709950445:0;rm test*
+: 1709950454:0;cd ..

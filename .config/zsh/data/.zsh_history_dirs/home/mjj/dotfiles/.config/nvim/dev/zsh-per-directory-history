@@ -3,3 +3,4 @@
 : 1709201182:0;mv telescope-zoxide telescope-zoxide.nvim
 : 1709201182:0;ls
 : 1709201193:0;cd telescope-zoxide.nvim/lua/telescope/_extensions/zoxide
+: 1710055728:0;cd telescope-rualdi.nvim

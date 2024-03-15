@@ -1,0 +1,168 @@
+: 1709965295:0;vi 1.lua
+: 1709965303:0;cd ..
+: 1709965888:0;ls
+: 1709965900:0;mkdir configs
+: 1709965900:0;ls
+: 1709965906:0;vi nvchad.lua
+: 1709966047:0;ls
+: 1709966130:0;ls
+: 1709966152:0;vi flowers.lua
+: 1709966241:0;ls
+: 1709966251:0;rm 1.lua
+: 1709966261:0;mv flowers.lua 99-flowers.lua
+: 1709966261:0;ls
+: 1709966298:0;vi 95-interactive.lua
+: 1709966426:0;ls
+: 1709966472:0;vi 80-cursor.lua
+: 1709966766:0;ls
+: 1709966811:0;vi 30-formatter.lua
+: 1709969474:0;ls
+: 1709969548:0;vi 15-mason.lua
+: 1709971307:0;ls
+: 1709971321:0;cd ..
+: 1709971401:0;vi 15-mason.lua
+: 1709971965:0;ls
+: 1709972021:0;mv 15-mason.lua 20-nvchad.lua
+: 1709972021:0;ls
+: 1709972111:0;vi 40-hover.lua
+: 1709973979:0;ls
+: 1709973993:0;vi 20-nvchad.lua
+: 1709976775:0;ls
+: 1709976779:0;vi 40-hover.lua
+: 1709977452:0;vi 20-nvchad.lua
+: 1709977510:0;ls
+: 1709977515:0;vi 1.cc
+: 1709977560:0;ls
+: 1709977568:0;vi 40-hover.lua
+: 1709977781:0;vi configs/cmp.lua
+: 1709978801:0;ls
+: 1709978804:0;vi 1.cc
+: 1709978853:0;vi configs/cmp.lua
+: 1709979273:0;ls
+: 1709979275:0;vi 20-nvchad.lua
+: 1709979611:0;ls
+: 1709979644:0;vi 40-hover.lua
+: 1709980142:0;ls
+: 1709980196:0;vi 25-fzf.lua
+: 1709980626:0;ls
+: 1709980688:0;vi 40-surround.lua
+: 1709982179:0;vi 
+: 1709982207:0;vi configs/cmp.lua
+: 1709982733:0;ls
+: 1709982747:0;vi configs/ufo.lua
+: 1709982983:0;vi configs/cmp.lua
+: 1709983012:0;vi 50-fold.lua
+: 1709992233:0;ls
+: 1709992285:0;vi 25-fzf.lua
+: 1709992311:0;vi 50-fold.lua
+: 1709993555:0;ls
+: 1709993558:0;vi 50-fold.lua
+: 1709995146:0;vi 20-nvchad.lua
+: 1709996031:0;ls
+: 1709996061:0;vi configs/ufo.lua
+: 1709996121:0;vi configs/ufo.lua 
+: 1709996184:0;vi configs/ufo.lua
+: 1709996364:0;ls
+: 1709996369:0;vi ../mappings.lua
+: 1709997024:0;vi 20-nvchad.lua
+: 1709997835:0;ls
+: 1709997838:0;vi 40-hover.lua
+: 1709997856:0;vi 20-nvchad.lua
+: 1709998675:0;vi configs/ufo.lua
+: 1709999751:0;ls
+: 1709999752:0;cd ..
+: 1710028096:0;ls
+: 1710028101:0;vi 50-fold.lua
+: 1710028186:0;vi ../mappings.lua
+: 1710028674:0;ls
+: 1710028676:0;vi 20-nvchad.lua
+: 1710028700:0;ls
+: 1710028703:0;vi ../mappings.lua
+: 1710031778:0;ls
+: 1710031781:0;vi 50-fold.lua
+: 1710031861:0;vi ../init.lua
+: 1710031872:0;vi 50-fold.lua
+: 1710031961:0;vi ../mappings.lua
+: 1710032055:0;vi ../init.lua
+: 1710032066:0;vi ../mappings.lua
+: 1710032136:0;vi 
+: 1710032163:0;vi ../mappings.lua
+: 1710032340:0;vi ls
+: 1710032346:0;vi 20-nvchad.lua
+: 1710033180:0;vi 50-fold.lua
+: 1710033616:0;vi ../mappings.lua
+: 1710034541:0;vi 99-flowers.lua
+: 1710034547:0;vi 50-fold.lua
+: 1710034607:0;vi configs
+: 1710034610:0;vi 50-fold.lua
+: 1710035386:0;vi ../init.lua
+: 1710035422:0;vi 50-fold.lua
+: 1710035805:0;ls
+: 1710035807:0;cd ..
+: 1710037593:0;vi .
+: 1710037787:0;vi 
+: 1710037820:0;vi 25-fzf.lua
+: 1710038055:0;ls
+: 1710038056:0;cd ..
+: 1710038543:0;vi 25-fzf.lua
+: 1710038682:0;ls
+: 1710038692:0;vi 20-nvchad.lua
+: 1710038956:0;ls
+: 1710038990:0;vi 30-telescope_extensions.lua
+: 1710039856:0;ls
+: 1710039857:0;vi .
+: 1710039905:0;ls
+: 1710039908:0;cd ..
+: 1710048921:0;ls
+: 1710049053:0;vi 40-ui.lua
+: 1710049123:0;ls
+: 1710054280:0;cd ..
+: 1710061743:0;ls
+: 1710061773:0;vi 35-nvimtree.lua
+: 1710062873:0;ls
+: 1710062884:0;vi 20-nvchad.lua
+: 1710063067:0;rm 35-nvimtree.lua
+: 1710063068:0;ls
+: 1710063070:0;vi 20-nvchad.lua
+: 1710064307:0;vi ../mappings.lua
+: 1710064518:0;vi 20-nvchad.lua
+: 1710085954:0;ls
+: 1710085959:0;mkdir aa bb cc dd
+: 1710085960:0;ls
+: 1710085964:0;vi 20-nvchad.lua
+: 1710087303:0;vi nv
+: 1710087338:0;ls
+: 1710087341:0;vi 20-nvchad.lua
+: 1710116580:0;vi configs/nvimtree.lua
+: 1710121245:0;vi configs/cmp.lua
+: 1710121307:0;vi configs/nvimtree.lua
+: 1710143848:0;ls
+: 1710143849:0;cd ../..
+: 1710143969:0;vi configs/nvimtree.lua
+: 1710144191:0;ls
+: 1710144201:0;vi 
+: 1710144216:0;cd ..
+: 1710153711:0;ls
+: 1710153713:0;vi 40-ui.lua
+: 1710167781:0;ls
+: 1710167799:0;mkdir 100-wait.lua
+: 1710167805:0;rm 100-wait.lua 
+: 1710167811:0;vi 100-wait.lua
+: 1710168074:0;vi configs/nvimtree.lua
+: 1710171807:0;vi uls
+: 1710171826:0;vi configs/nvimtree.lua
+: 1710171900:0;ls
+: 1710171901:0;yazi
+: 1710171995:0;paru -S yazi
+: 1710172004:0;paru -Syu
+: 1710172138:0;cm z
+: 1710240375:0;ls
+: 1710240381:0;vi 20-nvchad.lua
+: 1710316840:0;ls
+: 1710316847:0;vi configs/ufo.lua
+: 1710320772:0;vi 45-commander.lua
+: 1710374317:0;ls
+: 1710374323:0;via 25-fzf.lua
+: 1710398441:0;vi 45-commander.lua
+: 1710426167:0;ls
+: 1710426178:0;via 100-wait.lua

@@ -11,7 +11,11 @@ path=(
   "${path[@]:#}" 
 )
 
-path=( "${path[@]:#}" )   # remove empties (if any)
+path=( 
+  "${path[@]:#}"
+  "$CARGO_HOME/bin"
+  "$RUSTUP_HOME/bin"
+  )   # remove empties (if any)
 
 cdpath=( $XDG_CONFIG_HOME )
 

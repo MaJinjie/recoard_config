@@ -1,0 +1,23 @@
+: 1710236391:0;ls
+: 1710236403:0;cd lua
+: 1710236680:0;ls
+: 1710236683:0;cd lua
+: 1710315153:0;ls
+: 1710315161:0;cd lua/user/plugins/configs
+: 1710342504:0;ls
+: 1710342722:0;cp ../nvim/.fdignore ../nvim/.rgignore lua/user/ 
+: 1710342727:0;cd lua/user
+: 1710343009:0;cd lua/plugins/configs
+: 1710373379:0;ls
+: 1710373384:0;cd lua/user
+: 1710375163:0;git log --oneline
+: 1710375355:0;via
+: 1710375662:0;cd lua/user
+: 1710405431:0;ls
+: 1710405434:0;cd ..
+: 1710405443:0;vi .gitignore
+: 1710405517:0;ls
+: 1710405526:0;cd lua/user
+: 1710408943:0;ls
+: 1710408951:0;fzf
+: 1710408975:0;fzf | vi

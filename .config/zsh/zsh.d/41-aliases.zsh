@@ -1,20 +1,27 @@
-##-g 
-
+##-g
+alias -g H='--hidden' 
+alias -g CA='--changed-after' 
+alias -g X='| xargs -o'
 ##+g
 alias :q=exit
-alias nv=neovide 
-alias vi=nvim
+alias nv=neovide
 alias t=tmux
-alias y=yazi
-alias cat='bat --paging=never'
-alias frg="$XDG_CONFIG_HOME/fzf/scripts/rg.zsh"
-alias ffd="$XDG_CONFIG_HOME/fzf/scripts/fd.zsh"
-alias fps="$XDG_CONFIG_HOME/fzf/scripts/ps.zsh"
-alias fkll="$XDG_CONFIG_HOME/fzf/scripts/kill.zsh"
-## source 
+## source
 alias srce='source $ZDOTDIR/.zshenv'
 alias srcr='source $ZDOTDIR/.zshrc'
 alias nznote="vi $HOME/.note/zsh_plugins"
+
+## nvim 
+alias vi='NVIM_APPNAME=nvim nvim'
+alias vic='NVIM_APPNAME=custom nvim'
+alias via='NVIM_APPNAME=astronvim nvim'
+
+
+##================================git^================================##
+
+
+##================================git$================================##
+
 
 ##================================rustbin^================================##
 alias hyf=hyperfine
@@ -30,13 +37,21 @@ alias dus=diskus
 }
 
 ##================================rustbin$================================##
-## ls 
+##================================fd^================================##
+(( ${+commands[fd]} )) && {
+  # alias f='fd --follow'
+  # alias ff='fd --follow -tf'
+  # alias fd='fd --follow -td'
+}
+
+##================================fd$================================##
+## ls
 (( ${+commands[eza]} )) && {
   autoload -Uz after before
   local LS="eza -F --icons"
   local LL="eza -alHgbF --git --icons --time-style long-iso --octal-permissions"
   local HOURS=4
-  
+
   alias exa="eza"
   alias ls="$LS --group-directories-first"
   alias lsa="ls -a"
@@ -45,7 +60,7 @@ alias dus=diskus
   alias lsi="ls --git-ignore"
   alias ls,="ls -d"
   alias lsx='ls -- *(*)' # executable
-  
+
   #tree
   alias ls1="ls -DT -L1"
   alias ls2="ls -DT -L2"
@@ -53,15 +68,15 @@ alias dus=diskus
   alias ls4="ls -DT -L4"
   alias ls5="ls -DT -L5"
   alias lsl="ls -DT -L"
-  
+
   alias lsa1="lsa -T -L1"
   alias lsa2="lsa -T -L2"
   alias lsa3="lsa -T -L3"
   alias lsa4="lsa -T -L4"
   alias lsa5="lsa -T -L5"
   alias lsal="lsa -T -L"
-  
-  
+
+
   #sort accessed < modified < changed
   alias lse="lsa --sort=extension"
   alias lss="lsa --sort=accessed --reverse"
@@ -75,7 +90,7 @@ alias dus=diskus
   alias lsco="lsc -- *(-.DOa[1,10])"
   alias lscn="lsc -- *(-.Doa[1,10])"
 
-  
+
   alias ll="$LL --group-directories-first"
   alias lla="ll --all"
   alias lln="lla --numeric"
@@ -84,8 +99,8 @@ alias dus=diskus
   alias llf="lla --only-files"
   alias ll,="lla -d"
   alias llx='lla -- *(*)' # executable
-  
-  
+
+
   #tree
   alias ll1="ll -DT -L1"
   alias ll2="ll -DT -L2"
@@ -93,15 +108,15 @@ alias dus=diskus
   alias ll4="ll -DT -L4"
   alias ll5="ll -DT -L5"
   alias lll="ll -DT -L"
-         
+
   alias lla1="lla -T -L1"
   alias lla2="lla -T -L2"
   alias lla3="lla -T -L3"
   alias lla4="lla -T -L4"
   alias lla5="lla -T -L5"
   alias llal="lla -T -L"
-  
-  #sort 
+
+  #sort
   alias lle="lla --sort=extension"
   alias lls="lla --sort=accessed --reverse"
   alias llc="lla --sort=changed --reverse"
@@ -113,8 +128,8 @@ alias dus=diskus
   alias llcn="llc -- *(-.Doa[1,10])"
   alias llmo="llm -- *(-.DOa[1,10])"
   alias llmn="llm -- *(-.Doa[1,10])"
-  
-  
+
+
   # Altered today
   alias lsat='lsm -d -- *(e-after today-N) .*(e-after today-N)'
   # Altered before today
@@ -123,7 +138,7 @@ alias dus=diskus
   alias lsbh="lsm -d -- *(ch+$HOURS) .*(ch+$HOURS)"
   # Changed within last 4hrs
   alias lsah="lsm -d -- *(ch-$HOURS) .*(ch-$HOURS)"
-  
+
   alias llat='llm -d -- *(e-after today-N) .*(e-after today-N)'
   # Altered before today
   alias llbt='llm -d -- *(e-before today-N) .*(e-before today-N)'
@@ -131,13 +146,13 @@ alias dus=diskus
   alias llbh="llm -d -- *(ch+$HOURS) .*(ch+$HOURS)"
   # Changed within last 4hrs
   alias llah="llm -d -- *(ch-$HOURS) .*(ch-$HOURS)"
-  
+
   alias lsh='lsah'
   alias llh='llah'
   alias lst='lsat'
   alias llt='llat'
-  
-  # dotfiles 
+
+  # dotfiles
   alias ls.="ls -d -- .*"
   alias ls.f="ls -d -- .*(-.N)"
   alias ls.d="ls -d -- .*(-^N.D)"
@@ -153,9 +168,8 @@ alias http='export http_proxy=socks5://qlyun:qlyun@54.242.216.72:3636'
 
 
 
-# alias -s 
+# alias -s
 
-# alias -g 
+# alias -g
 alias -g -- -h='-h 2>&1 | bat --language=help --style=plain'
 alias -g -- --help='--help 2>&1 | bat --language=help --style=plain'
-

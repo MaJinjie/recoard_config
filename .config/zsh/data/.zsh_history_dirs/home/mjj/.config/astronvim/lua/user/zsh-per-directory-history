@@ -1,0 +1,47 @@
+: 1710236434:0;git clone https://github.com/AstroNvim/user_example.git
+: 1710236525:0;cm zz
+: 1710236745:0;vi highlights
+: 1710236764:0;rm highlights/* 
+: 1710238070:0;cd ../plugins
+: 1710250647:0;vi init.lua
+: 1710253650:0;via test.lua
+: 1710253987:0;vi README.md
+: 1710254232:0;via README.md
+: 1710255294:0;history
+: 1710255313:0;q
+: 1710255789:0;cd ..
+: 1710342751:0;cp .rgignore .gitignore
+: 1710342769:0;vi .gitignore
+: 1710342967:0;vi .luacheckrc
+: 1710373388:0;via
+: 1710374962:0;git branch
+: 1710374980:0;gbl
+: 1710374996:0;gbd
+: 1710375005:0;ad
+: 1710375006:0;gd
+: 1710375116:0;git log --oneline
+: 1710375157:0;cd ../..
+: 1710375686:0;git branch --color 
+: 1710375695:0;git log
+: 1710375710:0;vi mappings.lua
+: 1710383183:0;via plugins/null-ls.lua
+: 1710399008:0;via map
+: 1710405427:0;cd ../
+: 1710408214:0;lsa
+: 1710408274:0;via .fdignore
+: 1710408671:0;via auto
+: 1710408726:0;via autocmds.lua
+: 1710408740:0;rm autocmds.lua
+: 1710410809:0;ls
+: 1710410923:0;cd plugins
+: 1710412949:0;via options.lua
+: 1710413671:0;
+: 1710425439:0;via mappings.lua
+: 1710425505:0;fzf
+: 1710425531:0;:q
+: 1710425574:0;fzf
+: 1710425613:0;kk ffq
+: 1710425614:0;:q
+: 1710426019:0;via options.lua
+: 1710426188:0;ls
+: 1710426190:0;cd utils

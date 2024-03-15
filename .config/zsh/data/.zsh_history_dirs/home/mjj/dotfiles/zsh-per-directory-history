@@ -105,3 +105,85 @@
 : 1709645406:0;cd config
 : 1709645808:0;vi .gitconfig
 : 1709645870:0;git add .
+: 1709645883:0;git commit -m 'first modify' 
+: 1709645887:0;ls
+: 1709645890:0;vi 
+: 1709645912:0;vi
+: 1709645915:0;vi 
+: 1709645975:0;vi .gitconfig
+: 1709646494:0;git show
+: 1709646572:0;vi .gitconfig
+: 1709646582:0;git show
+: 1709646677:0;vi .gitconfig
+: 1709646784:0;delta --list-languages
+: 1709646788:0;delta --list-syntax-themes
+: 1709646823:0;delta --show-syntax-themes
+: 1709646897:0;delta --show-colors
+: 1709647020:0;delta --true-color
+: 1709647039:0;delta --color-only
+: 1709647044:0;delta --color-only ls
+: 1709647047:0;lsa
+: 1709647064:0;delta .gitconfig README.md
+: 1709647083:0;delta --color-only
+: 1709647121:0;delta --dark .gitconfig README.md
+: 1709647283:0;git -v
+: 1709647291:0;ls
+: 1709647295:0;mkdir test
+: 1709647297:0;cd test
+: 1709647464:0;vi .gitconfig
+: 1709647752:0;gd
+: 1709647770:0;vi .gitconfig
+: 1709647832:0;gd
+: 1709647855:0;vi .gitconfig
+: 1709647970:0;gd
+: 1709647982:0;vi .gitconfig
+: 1709648015:0;gd
+: 1709648043:0;vi
+: 1709648053:0;vi test
+: 1709648060:0;vi .gitconfig
+: 1709648257:0;cd test
+: 1709648477:0;lsa
+: 1709648492:0;vi 
+: 1709682459:0;git lis-files 
+: 1709682471:0;git  ls-tree
+: 1709682499:0;git lis-files -d
+: 1709682515:0;git ls-tree -d
+: 1709682522:0;git ls-files
+: 1709682583:0;llll
+: 1709682584:0;ll
+: 1709682615:0;vi
+: 1709682746:0;vi 
+: 1709683879:0;lsa
+: 1709683884:0;vi .gitconfig
+: 1709683895:0;rm \'
+: 1709683896:0;ls
+: 1709683901:0;rm test
+: 1709683918:0;cm z 
+: 1709963275:0;ls
+: 1709963280:0;stow -S .
+: 1709963298:0;af
+: 1709963300:0;cd
+: 1709963342:0;ls
+: 1709963363:0;stow -S .
+: 1709963389:0;lsa
+: 1709963392:0;rm .bkt
+: 1709963419:0;rm .config/.bkt
+: 1709963472:0;stow --ignore=^\.bkt$ -S .
+: 1709963481:0;vi
+: 1709963497:0;cd
+: 1710172924:0;lsar
+: 1710172942:0;cm zz
+: 1710232223:0;vic
+: 1710232257:0;vi 
+: 1710232261:0;ls
+: 1710232263:0;vi README.md
+: 1710232269:0;vic README.md
+: 1710232364:0;vi
+: 1710232371:0;cd -
+: 1710466301:0;ls
+: 1710466307:0;stow -S .
+: 1710466313:0;fzf
+: 1710466319:0;cd .
+: 1710466321:0;cd .config
+: 1710475680:0;git push
+: 1710475750:0;git add .

@@ -1,0 +1,54 @@
+: 1709736454:0;cd lua
+: 1709771233:0;ls
+: 1709771239:0;vi init.lua
+: 1709771982:0;ls
+: 1709771985:0;cd lua/config
+: 1709781006:0;ls
+: 1709781008:0;vi init.lua
+: 1709781015:0;ls
+: 1709781019:0;git init 
+: 1709781028:0;git add .
+: 1709781068:0;git remote add orgin git@github.com:MaJinjie/custom_nvim.git
+: 1709781097:0;git push -u origin main
+: 1709781328:0;git commit -m 'add base core/treesitter core/cmp'
+: 1709781330:0;ls
+: 1709781340:0;git push -u origin main
+: 1709781365:0;git remote add origin https://github.com/MaJinjie/custom_nvim.git
+: 1709781370:0;git push -u origin main
+: 1709781393:0;git remote add origin git@github.com:MaJinjie/custom_nvim.git
+: 1709781427:0;git remote set-url origin git@github.com:MaJinjie/custom_nvim.git
+: 1709781430:0;git push -u origin main
+: 1709781461:0;git push -u -f origin main
+: 1709790777:0;ls
+: 1709790992:0;mkdir data
+: 1709790992:0;ls
+: 1709791000:0;cd lua/config
+: 1709791275:0;rm data
+: 1709791281:0;cd lua/config
+: 1709858711:0;cd ../test
+: 1709858712:0;ls
+: 1709858717:0;cd ..
+: 1709894931:0;cd ../../plugins
+: 1709913774:0;ls
+: 1709913775:0;cd ..
+: 1709951797:0;ls
+: 1709951806:0;vi init.lua
+: 1709951812:0;cd lua
+: 1709952571:0;ls
+: 1709952581:0;vi .gitignore
+: 1709952585:0;ls
+: 1709952589:0;git add .
+: 1709952602:0;git commit -m 'init custom'
+: 1709952618:0;git remote show
+: 1709952637:0;git push -u origin main:main
+: 1709952833:0;clear
+: 1709952838:0;cl
+: 1709952840:0;ls
+: 1709952866:0;git remote add origin git@github.com:MaJinjie/nvim.git
+: 1709952908:0;git remote remove *
+: 1709952915:0;git remote remove orgin origin
+: 1709952922:0;git remote remove orgin 
+: 1709952934:0;git remote remove origin
+: 1709952938:0;git remote add origin git@github.com:MaJinjie/nvim.git
+: 1709952951:0;git push -u origin main:main
+: 1709952985:0;git push -u -f  origin main:main

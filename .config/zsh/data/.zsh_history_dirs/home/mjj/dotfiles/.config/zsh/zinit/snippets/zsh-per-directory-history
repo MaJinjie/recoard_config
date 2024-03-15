@@ -13,3 +13,7 @@
 : 1709136988:0;ls home--mjj--.config--zsh--snippets/grc.zsh
 : 1709563277:0;ls
 : 1709563283:0;cd ../..
+: 1710475444:0;ls
+: 1710475454:0;rm home--mjj--.config--zsh--plugins 
+: 1710475456:0;ls
+: 1710475590:0;rm home--mjj--.config--zsh--plugins

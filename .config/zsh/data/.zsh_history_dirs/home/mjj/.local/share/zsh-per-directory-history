@@ -19,3 +19,30 @@
 : 1709307810:0;fd shada
 : 1709307829:0;vi 
 : 1709307966:0;cd ../state
+: 1709693977:0;ls
+: 1709694002:0;mv nvim nvim.bak
+: 1709696284:0;ls nvim.bak/mason/share
+: 1709696285:0;ls
+: 1709696297:0;cd nvim.bak/mason
+: 1709696368:0;cd nvim
+: 1709736927:0;cd config nvim lua custom config
+: 1709771704:0;cd nvim.bak/lazy/LazyVim/lua/lazyvim
+: 1709791964:0;cd nvim
+: 1709796699:0;cd nvim.bak/lazy/
+: 1709868431:0;cd nvim.bak/lazy/LazyVim/lua/lazyvim
+: 1709871627:0;cd nvim.bak/lazy/LazyVim/lua/lazyvim
+: 1709882237:0;cd nvim.bak/lazy/LazyVim/lua/lazyvim
+: 1709892676:0;cd nvim.bak/lazy
+: 1709912922:0;cd nvim
+: 1709953341:0;ls
+: 1709953357:0;cd nvim
+: 1709963500:0;ls
+: 1709963504:0;cd nvim
+: 1710222761:0;ls custom
+: 1710222776:0;cd custom/lazy
+: 1710229059:0;cp nvim/mason custom -r
+: 1710239470:0;cp nvim/mason astronvim -r
+: 1710375408:0;cd astronvim/lazy/fzf-lua
+: 1710429955:0;ls
+: 1710429959:0;cd cargo/bin
+: 1710429972:0;cs

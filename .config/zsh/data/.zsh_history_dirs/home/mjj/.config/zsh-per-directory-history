@@ -110,3 +110,76 @@
 : 1709645499:0;rg export --json -C 2 | delta
 : 1709645528:0;ls
 : 1709645542:0;cd zsh
+: 1709646084:0;cd nvim plugins
+: 1709694020:0;mv nvim nvim.bak
+: 1709694064:0;mkdir nvim
+: 1709694064:0;ls
+: 1709694067:0;cd nvim
+: 1709694111:0;cd nvim
+: 1709695975:0;ls nvim
+: 1709695978:0;rm nvim
+: 1709696009:0;git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+: 1709696045:0;vi
+: 1709696070:0;ls
+: 1709696074:0;cd nvim/lua
+: 1709696550:0;cd nvim.bak/lua/
+: 1709703633:0;cd nvim.bak
+: 1709717065:0;cd nvim.bak
+: 1709717117:0;cd nvim
+: 1709734129:0;cd local share lazy 
+: 1709953319:0;mv nvim nvim.bak ~/shell
+: 1709953321:0;rm nvm
+: 1709953323:0;ls
+: 1709953335:0;cd
+: 1709953432:0;cd nvim
+: 1709958963:0;rm nvim
+: 1709958965:0;ls
+: 1709958982:0;cd
+: 1709963316:0;ls
+: 1709963320:0;ls nvim
+: 1709963475:0;ls
+: 1709963478:0;ls nvim
+: 1709963508:0;vi
+: 1709963631:0;ls
+: 1709963644:0;cd
+: 1709963693:0;vi 
+: 1709963746:0;ls
+: 1709963988:0;cd nvim
+: 1710222341:0;ls
+: 1710222414:0;git clone -b custom https://github.com/MaJinjie/nvim.git custom
+: 1710222419:0;cd custom
+: 1710223103:0;cd custom/lua/core/
+: 1710230702:0;cd custom
+: 1710236361:0;ls
+: 1710236366:0;dus astronvim 
+: 1710236391:0;cd astronvim
+: 1710236679:0;cd astronvim
+: 1710316828:0;cd nvim
+: 1710321843:0;cd custom/lua/base
+: 1710342501:0;cd astro
+: 1710374264:0;cd ../../
+: 1710374290:0;cd custom/lua/core
+: 1710374314:0;cd nvim/lua/custom
+: 1710405435:0;ls
+: 1710405437:0;cd astronvim
+: 1710408814:0;cd custom/lua/base
+: 1710408942:0;cd astronvim
+: 1710427120:0;via alacritty/alacritty.toml
+: 1710427247:0;vi alacritty/alacritty.toml
+: 1710428271:0;cd fzf
+: 1710464134:0;fd
+: 1710464136:0;fzf
+: 1710464193:0;echo $FZF_DEFAULT_COMMAND
+: 1710464205:0;echo $FZF_DEFAULT_OPTS
+: 1710464215:0;ls
+: 1710464219:0;cd zsh
+: 1710464305:0;which rg
+: 1710464322:0;cd /home/mjj/dotfiles/.config/zsh/zinit/polaris/bin
+: 1710465194:0;ls
+: 1710465200:0;ls,
+: 1710465212:0;lsd
+: 1710465352:0;cd zsh
+: 1710466331:0;åƒ®ƒ¦åƒ¯²
+: 1710466333:0;ls fzf
+: 1710472662:0;ls
+: 1710472664:0;cd ripgrep

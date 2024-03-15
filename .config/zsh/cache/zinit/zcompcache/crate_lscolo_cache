@@ -1,0 +1,4 @@
+tmp_ary=( ${(Q)"${(z)$(<<\EO:tmp_ary
+'lscolors:  \=\ \"0.17.0\"\ \ \ \ \ \ \#\ Colorize\ paths\ using\ the\ LS_COLORS\ environment\ variable' 'lscolorsvis:  \=\ \"0.1.0\"\ \ \ \ \#\ Visualize\ \$LS_COLROS'
+EO:tmp_ary
+)}"} )

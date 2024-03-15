@@ -1,0 +1,105 @@
+: 1709696079:0;ls
+: 1709696090:0;vi plugins.lua
+: 1709696200:0;https 
+: 1709696203:0;vi plugins.lua
+: 1709696245:0;ls
+: 1709696414:0;vi plugins.lua
+: 1709696509:0;ls
+: 1709696512:0;vi highlights.lua
+: 1709696574:0;ls configs
+: 1709696580:0;vi configs/lspconfig.lua
+: 1709696709:0;ls
+: 1709696721:0;vi plugins.lua
+: 1709703047:0;cd ../plugins
+: 1709703517:0;mkdir plugins
+: 1709703520:0;ls
+: 1709703525:0;rm plugins.lua
+: 1709703526:0;ls
+: 1709703529:0;cd plugins
+: 1709704047:0;ls
+: 1709704052:0;vi highlights.lua
+: 1709704254:0;ls
+: 1709704261:0;vi plugins/cursor.lua
+: 1709704609:0;ls
+: 1709704717:0;vi vi chadrc.lua
+: 1709704735:0;vi chadrc.lua
+: 1709708396:0;ls
+: 1709708400:0;vi plugins/cursor.lua
+: 1709708754:0;ls
+: 1709708757:0;cd plugins
+: 1709709214:0;cd plugins
+: 1709711685:0;cd configs
+: 1709714794:0;ls
+: 1709714803:0;cd plugins
+: 1709715156:0;cd ../plugins
+: 1709718195:0;vi init.lua
+: 1709718701:0;ls
+: 1709718711:0;vi plugins/ui.lua
+: 1709718853:0;vi init.lua
+: 1709718868:0;vi chadrc.lua
+: 1709719126:0;ls
+: 1709719135:0;vi plugins/nvchad.lua
+: 1709719153:0;vi chadrc.lua
+: 1709719455:0;ls
+: 1709719460:0;vi plugins/ui.lua
+: 1709719530:0;vi init.lua
+: 1709719537:0;vi chadrc.lua
+: 1709719625:0;vi plugins/nvchad.lua
+: 1709720205:0;vi chadrc.lua
+: 1709720474:0;ls
+: 1709720479:0;vi plugins/nvchad.lua
+: 1709720825:0;ls
+: 1709720836:0;vi configs/fzf.lua
+: 1709732860:0;ls
+: 1709732867:0;vi configs/fzf.lua
+: 1709733306:0;vi 
+: 1709733327:0;ls
+: 1709733343:0;vi plugins/command.lua
+: 1709733396:0;ls
+: 1709733397:0;vi 
+: 1709733891:0;ls
+: 1709733974:0;cd ../core
+: 1709736342:0;vi init.lua
+: 1709736349:0;vi chadrc.lua
+: 1709736446:0;ls
+: 1709736450:0;cd nvim
+: 1709770767:0;ls
+: 1709771614:0;cd ../
+: 1709778330:0;ls
+: 1709778338:0;cd plugins
+: 1709789294:0;ls
+: 1709789331:0;cd nvim lua core
+: 1709789343:0;cd nvim/lua/core
+: 1709798389:0;vi chadrc.lua
+: 1709798705:0;ls
+: 1709798706:0;cd plugins
+: 1709822934:0;ls
+: 1709822939:0;vi init.lua
+: 1709823055:0;ls
+: 1709823061:0;cd nvim/lua/core
+: 1709823759:0;cd ../
+: 1709855896:0;ls
+: 1709857201:0;cd nvim/lua/core
+: 1709857911:0;ls
+: 1709857917:0;cd nvim/lua/core
+: 1709858718:0;cd 
+: 1709858722:0;ls
+: 1709858728:0;cd plugins
+: 1709880103:0;cd ..
+: 1709883530:0;ls
+: 1709883536:0;cd plugins
+: 1709883564:0;cd nvim/lua/config
+: 1709886719:0;cd ../
+: 1709894124:0;ls
+: 1709894127:0;cd plugins
+: 1709895229:0;cd plugins
+: 1709913775:0;ls
+: 1709913784:0;cd plugins
+: 1709949410:0;ls
+: 1709949550:0;cd nvim/lua/core
+: 1709950425:0;ls
+: 1709950427:0;vi chadrc.lua
+: 1709950434:0;ls
+: 1709950438:0;cd plugins
+: 1709950469:0;ls
+: 1709950512:0;cd ../plugins

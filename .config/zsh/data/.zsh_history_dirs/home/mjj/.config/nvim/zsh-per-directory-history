@@ -1,0 +1,59 @@
+: 1709694068:0;ls
+: 1709694070:0;vi init.lua
+: 1709694112:0;ls
+: 1709694114:0;vi init.lua
+: 1709695425:0;ls
+: 1709695429:0;usl
+: 1709695430:0;ls
+: 1709695432:0;cd uls
+: 1709695433:0;ls
+: 1709695435:0;vi 
+: 1709695439:0;ls
+: 1709695636:0;cm z
+: 1709704915:0;cd ../nvim.bak/lua/config
+: 1709708714:0;cd ../nvim.bak/lua/plugins
+: 1709710532:0;cd lua/plugins/configs/telescope.lua
+: 1709710543:0;cd lua/plugins/configs/
+: 1709717038:0;ls
+: 1709717041:0;mkdir dev
+: 1709717045:0;ls
+: 1709717059:0;cd ..
+: 1709717099:0;ls dev
+: 1709717108:0;cd ../
+: 1709717128:0;mv ../nvim.bak/telescope-rualdi.nvim dev/
+: 1709717131:0;ls dev
+: 1709717695:0;ls
+: 1709717703:0;cd ../nvim.bak/lua/plugins
+: 1709732655:0;ls
+: 1709732689:0;cd lua/
+: 1709778326:0;ls
+: 1709778330:0;cd lua/custom
+: 1709798567:0;cd lua/plugins/
+: 1709855896:0;cd lua/custom
+: 1709883510:0;cd ls
+: 1709883530:0;cd lua/custom
+: 1709951310:0;ls
+: 1709951317:0;git log
+: 1709951326:0;rm .git
+: 1709951330:0;git init
+: 1709951346:0;git remote add origin git@github.com:MaJinjie/nvim.git
+: 1709951351:0;git add .
+: 1709951363:0;git commit -m 'init nvchad'
+: 1709951373:0;git push -u origin main:nvchad
+: 1709951417:0;git push -u -f origin main:nvchad
+: 1709951545:0;ls
+: 1709951548:0;vi .gitignore
+: 1709951552:0;ls
+: 1709951556:0;vi .gitignore
+: 1709951585:0;git push -u origin main:nvchad
+: 1709951596:0;git push -u -f  origin main:nvchad
+: 1709951645:0;vi .gitignore
+: 1709951793:0;ls
+: 1709952537:0;cd lua/core
+: 1709953235:0;ls
+: 1709953238:0;cd ..
+: 1709953432:0;ls
+: 1709953445:0;cd lua
+: 1709954809:0;cd lua/core
+: 1709958957:0;ls
+: 1709958960:0;cd ..

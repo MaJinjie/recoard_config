@@ -1,0 +1,24 @@
+: 1710236914:0;vi treesitter.lua
+: 1710236996:0;via treesitter.lua
+: 1710238075:0;cd configs
+: 1710238429:0;cd ../user/plugins
+: 1710239266:0;vi mason.lua
+: 1710239296:0;vi configs/mason.lua
+: 1710251790:0;via cmp.lua
+: 1710251913:0;vi 
+: 1710315261:0;vi core.lua
+: 1710318490:0;vi lsp.lua
+: 1710318943:0;vi ui.lua
+: 1710320717:0;vi cmp.lua
+: 1710321720:0;cd ..
+: 1710343015:0;cd ../astronvim
+: 1710408993:0;vi telescope.lua
+: 1710409137:0;ls
+: 1710409139:0;cd ../
+: 1710410788:0;via core.lua
+: 1710410894:0;:q
+: 1710411326:0;ls
+: 1710411328:0;vi cmp.lua
+: 1710412513:0;via neo-tree.lua
+: 1710426152:0;ls
+: 1710426155:0;cd

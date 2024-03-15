@@ -492,3 +492,88 @@ Obsidian-1.5.8.AppImage é»ƒ±æƒ»ƒ¼çƒ¿³-1.5.8.AppImage
 : 1709639631:0;cd dotfiles
 : 1709645749:0;vi .gitconfig
 : 1709645802:0;cd dotfiles
+: 1709703630:0;cd config 
+: 1709705060:0;cd .local
+: 1709710518:0;cd config nvim
+: 1709734114:0;cd config
+: 1709736328:0;mv nvim .config/nvim/lua/custom
+: 1709736334:0;cd config nvim lua
+: 1709736820:0;cd config nvim lua
+: 1709738063:0;cd config nvim lua
+: 1709777625:0;cd /
+: 1709791950:0;cd local nvim
+: 1709798558:0;cd config nvim
+: 1709856564:0;cd git
+: 1709858722:0;cd -
+: 1709866310:0;cd /usr/share/nvim/runtime
+: 1709869460:0;cd nvim 
+: 1709880073:0;cs
+: 1709883505:0;ls
+: 1709883508:0;cd config nvim
+: 1709892284:0;cd .config nvim lua
+: 1709892668:0;cd local share
+: 1709908899:0;cd local share lazy
+: 1709950683:0;cd dotfiles/.config/nvim
+: 1709953340:0;cd local share
+: 1709953420:0;git clone --branch main https://github.com/MaJinjie/nvim.git ~/.config/nvim
+: 1709953427:0;cd 
+: 1709953429:0;cd config
+: 1709956317:0;cd git
+: 1709958990:0;cd dotfiles/.config/nvim
+: 1709963302:0;cd config nvim
+: 1709963316:0;cd .config
+: 1709963341:0;cd dotfiles
+: 1709963499:0;cd local share
+: 1709963525:0;cd .config/nvim
+: 1709963648:0;cd shell
+: 1709980258:0;cd shell/nvim/lua/custom/
+: 1709983245:0;cd -
+: 1710035815:0;cd shell/nvim/lua/custom/
+: 1710055467:0;cd shell/nvim/lua
+: 1710055644:0;cd config nvim
+: 1710055688:0;cd shell/nvim
+: 1710056071:0;cd shell/nvim/lua/custom/plugins
+: 1710057390:0;cd local share lazy
+: 1710084776:0;cd local share lazy
+: 1710122925:0;cd nvim 
+: 1710130136:0;cd ls
+: 1710130145:0;ls
+: 1710130155:0;cd nvim-tree
+: 1710167949:0;cd shell/nvim.bak/lua/custom/plugins/configs
+: 1710221961:0;man fzf
+: 1710223093:0;cd config
+: 1710232221:0;cd dotfiles
+: 1710232375:0;cs
+: 1710236677:0;cd config
+: 1710321819:0;cd config 
+: 1710400609:0;cd git/dotfiles/
+: 1710426159:0;cd config nvim
+: 1710427719:0;vi .config/alacritty/alacritty.toml
+: 1710427721:0;ls
+: 1710427766:0;cd git/dotfiles/.config
+: 1710428229:0;cd config zsh
+: 1710428290:0;cm z
+: 1710428382:0;cd git/dotfiles
+: 1710428650:0;cm z
+: 1710429564:0;cd git/dotfiles/.config/zsh/zsh.d
+: 1710465545:0;cd dotfiles/.config
+: 1710466228:0;cd dotfiles/.config
+: 1710466297:0;ls
+: 1710466300:0;cd dotfiles
+: 1710466325:0;cd .config
+: 1710468325:0;cd zsh
+: 1710468787:0;cd git/dotfiles/.config/zsh/zsh.d
+: 1710470671:0;:fd
+: 1710470693:0;:fd 
+: 1710470707:0;:fd
+: 1710470756:0;cd -
+: 1710470765:0;:fd
+: 1710470814:0;cd -
+: 1710470819:0;:fd
+: 1710471198:0;aa=(a b c)
+: 1710471199:0;echo $aa
+: 1710471203:0;echo ${aa[@]}
+: 1710471208:0;echo ${aa[2]}
+: 1710471210:0;echo ${aa[2,]}
+: 1710471213:0;echo ${aa[2,$]}
+: 1710472661:0;cd config

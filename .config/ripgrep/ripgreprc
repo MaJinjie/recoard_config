@@ -8,7 +8,7 @@
 --max-depth=1
 --smart-case
 --hidden
---heading
+--no-heading
 --follow
 --no-binary
 # --pretty

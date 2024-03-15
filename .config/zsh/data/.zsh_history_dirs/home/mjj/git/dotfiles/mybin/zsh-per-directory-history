@@ -1,0 +1,5 @@
+: 1710428385:0;ls
+: 1710428413:0;via fzf-panes.tmux
+: 1710428445:0;source fzf-panes.tmux
+: 1710428448:0;do_action
+: 1710428643:0;cd

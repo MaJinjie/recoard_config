@@ -16,7 +16,6 @@
 : 1709045373:0;lsm -d -- *(ch-6)
 : 1709045383:0;lsm -d -- .*(ch-6) *(ch-6)
 : 1709045422:0;lsat .*(e-after today-N)
-: 1709047716:0;paru -S nvr
 : 1709047821:0;fffffffffffffffffffffffdsfdsf
 : 1709047871:0;bindkey -L
 : 1709079881:0;echo $ZDOTDIR
@@ -75,9 +74,7 @@
 : 1709120913:0;cp -f bak/.zshrc .zshrc
 : 1709121585:0;nznote
 : 1709121756:0;source-highlight
-: 1709122062:0;https
 : 1709128924:0;loop 'sleep 1'
-: 1709128944:0;cd zsh.d
 : 1709132856:0;mkdir bin
 : 1709132863:0;rm HOME
 : 1709132876:0;rm -u
@@ -105,7 +102,6 @@
 : 1709171025:0;cd zinit/completions
 : 1709174324:0;wl-copy 22222222222222222
 : 1709174328:0;wl-paste 
-: 1709175237:0;cd completions
 : 1709178514:0;ls .zcompdump
 : 1709178520:0;vi .zcompdump
 : 1709178563:0;zcompile completions.zwc completions/*
@@ -114,7 +110,6 @@
 : 1709207183:0;vi 2.txt
 : 1709214420:0;vi 1.txt
 : 1709254646:0;cd config zinit plug
-: 1709254855:0;source .zshrc
 : 1709255889:0;cm n
 : 1709262295:0;cd local share zinit 
 : 1709262305:0;cd zinit
@@ -134,12 +129,10 @@
 : 1709531751:0;mv snippets/grc.zsh custom
 : 1709532442:0;cd .plugins
 : 1709532504:0;error 1
-: 1709551465:0;cd
 : 1709557651:0;pacman -S sox
 : 1709557659:0;sudo pacman -S sox
 : 1709560064:0;srcr
 : 1709560781:0;vi snippets
-: 1709560975:0;cd custom
 : 1709561015:0;vi .zshenv
 : 1709561070:0;zsh
 : 1709561112:0;vi custom/grc.zsh
@@ -158,9 +151,7 @@
 : 1709598277:0;lsa
 : 1709600687:0;fzf
 : 1709600760:0;echo $_RAD_NO_ECHO
-: 1709601036:0;cd 
 : 1709601217:0;cm z
-: 1709601240:0;cd ..
 : 1709601253:0;radl
 : 1709601410:0;ru --help
 : 1709602285:0;zle -l | fzf
@@ -171,30 +162,18 @@
 : 1709605690:0;wl-paste
 : 1709605738:0;wl-paste -p
 : 1709605819:0;vi 
-: 1709609684:0;vi .zshrc
-: 1709609835:0;ls
-: 1709609848:0;ls
-: 1709609904:0;dus
 : 1709609908:0;cd nvim
 : 1709609916:0;dus
-: 1709610271:0;ls
 : 1709610275:0;vi completions
 : 1709610387:0;cls
-: 1709610392:0;cd
-: 1709630752:0;vi .zshrc
-: 1709631110:0;ls
 : 1709631130:0;paru -S pip3
 : 1709631137:0;paru -S pip
 : 1709631177:0;paru -S python-pip
-: 1709631226:0;vi .zshrc
-: 1709631239:0;ls
 : 1709631263:0;pip3 install neovim-remote
 : 1709631308:0;pip3 install --user neovim-remote
 : 1709631376:0;paru -S nvr
 : 1709631391:0;paru -S neovim-remote
-: 1709631401:0;ls
 : 1709631409:0;cd .note
-: 1709634671:0;ls
 : 1709634674:0;dus .zshrc
 : 1709634695:0;cm c
 : 1709645550:0;/bin/cat .zshrc | delta
@@ -203,4 +182,75 @@
 : 1709645597:0;bat --color=always | delta
 : 1709645608:0;bat --color=always .zshrc | delta
 : 1709645625:0;rg --json -C 2 "" .zshrc | delta
-: 1709645745:0;cd
+: 1709695638:0;cd completions
+: 1710172440:0;p
+: 1710172460:0;yazi
+: 1710172867:0;https
+: 1710172871:0;source .zshrc
+: 1710214423:0;vi .zshrc
+: 1710223065:0;vi zsh.d/41-aliases.zsh
+: 1710230691:0;cd ../cus
+: 1710400534:0;vi zsh.d/70-export-plug.zsh
+: 1710400603:0;cd 
+: 1710428246:0;cd custom
+: 1710428376:0;cd
+: 1710429450:0;fd data
+: 1710429463:0;fd -tf data
+: 1710430260:0;cd plugins
+: 1710464221:0;cd zsh.d
+: 1710465189:0;cd ..
+: 1710465353:0;ls
+: 1710465356:0;via .zshrc
+: 1710465500:0;ls
+: 1710465503:0;cd zinit
+: 1710465625:0;via zsh.d/70-export-plug.zsh
+: 1710465953:0;via 
+: 1710465976:0;via .zshrc
+: 1710465989:0;via zsh.d/70-export-plug.zsh
+: 1710468326:0;ls
+: 1710468327:0;cd plugins
+: 1710469274:0;ls
+: 1710469282:0;:ff zsh.d
+: 1710469312:0;fd -tf zsh.d
+: 1710469319:0;ls zsh.d
+: 1710469328:0;fd -tf
+: 1710469355:0;fd -tf completions
+: 1710469370:0;fd -tf zsh.d .
+: 1710469373:0;fd -tf.  zsh.d
+: 1710469376:0;fd -tf . zsh.d
+: 1710469385:0;fd -tf .
+: 1710469404:0;via plugins/fd.zsh
+: 1710469439:0;cd plugins
+: 1710469450:0;:ff zsh.d
+: 1710469577:0;:ff zsh.d completions 
+: 1710469648:0;:ff zsh.d completions
+: 1710469829:0;cd plugins
+: 1710469850:0;:ff zsh.d
+: 1710470514:0;ls
+: 1710470520:0;:fd
+: 1710470529:0;fd -td .
+: 1710470547:0;:fd
+: 1710470574:0;:ff
+: 1710470598:0;fd -td .
+: 1710470610:0;:fd
+: 1710470629:0;fd -td '--color=always' --hidden --follow '--max-depth=6' '--size=-1M' .
+: 1710470652:0;fd -td --size=-1M .
+: 1710471768:0;:fr
+: 1710471827:0;:fr 1h
+: 1710471840:0;via .zshrc
+: 1710472346:0;fd 
+: 1710472352:0;fd | rg
+: 1710472356:0;fd | rg 1
+: 1710472393:0;fd | xargs -o rg 1
+: 1710472404:0;fd
+: 1710472416:0;fd . completions | xargs -o rg 1
+: 1710472612:0;rg ""
+: 1710472655:0;rg
+: 1710472659:0;cd
+: 1710474072:0;cd zsh.d
+: 1710475089:0;ls
+: 1710475098:0;:rg plugins 
+: 1710475172:0;source plugins/rg.zsh
+: 1710475180:0;:rg plugins 
+: 1710475224:0;:rg plugins data
+: 1710475261:0;:fd plugins

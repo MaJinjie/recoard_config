@@ -1,0 +1,31 @@
+: 1709963758:0;ls
+: 1709963762:0;vi highlights.lua
+: 1709963839:0;ls
+: 1709963841:0;vi mappings.lua
+: 1709963853:0;vi chadrc.lua
+: 1709963879:0;ls
+: 1709963895:0;cd plugins
+: 1709965191:0;ls
+: 1709965247:0;cp  highlights.lua init.lua mappings.lua ~/.config/nvim/lua/custom 
+: 1709965511:0;cd nvim/lua/base
+: 1709965935:0;ls
+: 1709965936:0;cd plugins
+: 1709966127:0;cd plugins
+: 1709969577:0;ls
+: 1709969589:0;cd ../plugins
+: 1709970909:0;cd nvim/lua/core
+: 1709980259:0;ls
+: 1709980261:0;cd plg
+: 1709980265:0;cd plugins
+: 1709995388:0;cd ../plugins/init.lua
+: 1709995392:0;cd ../plugins
+: 1709996310:0;ls
+: 1709996314:0;cd plugins
+: 1709996432:0;ls
+: 1709996437:0;cd ..
+: 1710035816:0;ls
+: 1710035821:0;vi plugins/fzf.lua
+: 1710038721:0;ls
+: 1710038735:0;vi plugins/telescope_extensions.lua
+: 1710167998:0;ls
+: 1710168002:0;cd plugins

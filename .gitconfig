@@ -18,10 +18,16 @@
   diffFilter = delta --color-only
   
 [delta]
+  features = my-dark-theme zebra-dark
+  ; minus-style = "" "red"
+  ; plus-style = "" "green"
+  
+  
   navigate = true 
-    side-by-side = true
-    line-numbers-left-format = ""
-    line-numbers-right-format = "│ "
+  line-numbers = true
+  side-by-side = true
+  ; line-numbers-left-format = ""
+  ; line-numbers-right-format = "│ "
   
 [merge]
   conflictstye = diff3

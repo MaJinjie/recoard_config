@@ -39,3 +39,40 @@
 : 1709631770:0;rm harpoon 
 : 1709632107:0;ls
 : 1709632109:0;cd harpoon
+: 1709686671:0;cd LazyVim/lua/lazyvim/plugins
+: 1709693952:0;ls
+: 1709693973:0;cd ..
+: 1709703289:0;ls
+: 1709703307:0;cd ..
+: 1709703345:0;ls
+: 1709703350:0;cd ui/lua
+: 1709734136:0;cd ..
+: 1709857513:0;ls
+: 1709857533:0;cd nvim-cmp/lua/cmp/config/window.lua
+: 1709857541:0;cd nvim-cmp/lua/cmp/config/
+: 1709883168:0;ls
+: 1709883173:0;cd cmp_luasnip
+: 1709887477:0;cd cmp-nvim-lsp
+: 1709887487:0;cd nvim-cmp/lua/cmp
+: 1709908900:0;ls
+: 1709908910:0;cd catppuccin/colors
+: 1709912939:0;cd cmp-nvim-lsp
+: 1709912946:0;cd nvim-autopairs
+: 1709912988:0;cd cmp_luasnip/lua/cmp_luasnip/
+: 1709973317:0;cd hover.nvim/lua/hover
+: 1709973493:0;cd ../
+: 1709997459:0;cd hover.nvim/lua/hover
+: 1710030638:0;cd nvim-ufo/lua/ufo
+: 1710057390:0;ls
+: 1710060426:0;cd ..
+: 1710082554:0;l
+: 1710082571:0;cd nvim-tree.lua/lua/nvim-tree
+: 1710084784:0;cd nvim-tree.lua/lua/nvim-tree
+: 1710116614:0;cd nvim-tree.lua/lua/nvim-tree
+: 1710165423:0;ls
+: 1710165438:0;cd cmdline-hl.nvim/lua/cmdline-hl
+: 1710222729:0;ls
+: 1710222743:0;cd ..
+: 1710239450:0;ls
+: 1710239451:0;cd ../
+: 1710375386:0;cd ../

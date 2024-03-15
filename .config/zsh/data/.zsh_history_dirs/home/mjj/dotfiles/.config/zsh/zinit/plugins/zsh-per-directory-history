@@ -40,7 +40,6 @@
 : 1709104401:0;cd junegunn---fzf/bin
 : 1709105085:0;cd junegunn---fzf
 : 1709105317:0;paru -S fzf
-: 1709105325:0;cd ..
 : 1709109135:0;lst
 : 1709110132:0;cd ../snippets
 : 1709117154:0;cd Aloxaf---zsh-sqlite
@@ -51,25 +50,38 @@
 : 1709131664:0;/home/mjj/dotfiles/.config/zsh/zinit/plugins/garabik---grc/grcat
 : 1709131691:0;cd garabik---grc
 : 1709131714:0;rm garabik---grc 
-: 1709131790:0;ls
-: 1709131809:0;srcr
 : 1709178208:0;cd BurntSushi---ripgrep
 : 1709178288:0;echo $Zdirs[COMPL]
 : 1709178301:0;cp sharkdp---fd/fd-v9.0.0-x86_64-unknown-linux-gnu/autocomplete/_fd $Zdirs[COMPL]
 : 1709178357:0;cd $Zdirs[COMPL]
-: 1709217720:0;cd -
 : 1709254650:0;cd chmln---sd
-: 1709254819:0;ls
 : 1709255102:0;rip -
 : 1709255106:0;rip 0s
 : 1709255108:0;rip -s
-: 1709255127:0;ls
-: 1709302666:0;ls
 : 1709302670:0;cd -
-: 1709439512:0;ls
 : 1709439520:0;cd sharkdp---fd/fd-v9.0.0-x86_64-unknown-linux-gnu/autocomplete
 : 1709439578:0;cp BurntSushi---ripgrep/ripgrep-14.1.0-x86_64-unknown-linux-musl/complete/_rg $Zdirs[COMPL]
 : 1709439613:0;cp BurntSushi---ripgrep/ripgrep-14.1.0-x86_64-unknown-linux-musl/doc/rg.1 $Zdirs[MAN]
-: 1709532821:0;ls
-: 1709532824:0;cd ..
 : 1709604080:0;cd zdharma-continuum---history-search-multi-word
+: 1710172455:0;cd ..
+: 1710236676:0;cd
+: 1710465294:0;rm junegunn---fzf 
+: 1710465308:0;zsh
+: 1710465367:0;fzf
+: 1710465389:0;ls
+: 1710465395:0;https
+: 1710465400:0;srcr
+: 1710465416:0;ffffffffffffffffffffffffff
+: 1710465432:0;s
+: 1710465529:0;ls
+: 1710465533:0;cd
+: 1710465707:0;ls
+: 1710465713:0;cd junegunn---fzf
+: 1710465770:0;cd -
+: 1710466813:0;ls
+: 1710466819:0;cd junegunn---fzf
+: 1710466940:0;cd junegunn---fzf
+: 1710467262:0;rm Aloxaf---zsh-histdb 
+: 1710467289:0;echo $HISTDB_FILE
+: 1710467293:0;ls
+: 1710467307:0;cd larkery---zsh-histdb/

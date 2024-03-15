@@ -23,3 +23,11 @@
 : 1709464792:0;mkdir Obsidian
 : 1709464798:0;mv Obsidian-1.5.8.AppImage Obsidian
 : 1709464800:0;cd Obsidian
+: 1709856565:0;ls
+: 1709856575:0;git clone https://github.com/uga-rosa/dotfiles.git
+: 1709856588:0;mkdir nvim
+: 1709856591:0;cd nvim
+: 1709956318:0;ls
+: 1709956325:0;git clone https://github.com/LazyVim/LazyVim.git
+: 1709956426:0;ls
+: 1709956430:0;cd LazyVim

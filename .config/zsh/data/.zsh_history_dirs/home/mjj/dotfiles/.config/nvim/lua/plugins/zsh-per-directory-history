@@ -185,3 +185,69 @@
 : 1709631510:0;vi text.lua
 : 1709631654:0;ls
 : 1709631658:0;vi harpoon.lua
+: 1709646212:0;cp telescope.lua replace
+: 1709646214:0;vi telescope.lua
+: 1709651826:0;rg c
+: 1709651828:0;ls
+: 1709651835:0;cp fzf.lua replace
+: 1709653552:0;man fzf
+: 1709653749:0;ls
+: 1709653755:0;vi commands.lua
+: 1709654101:0;vi telescope.lua
+: 1709655138:0;ls
+: 1709655158:0;vi telescope.lua
+: 1709685381:0;ls
+: 1709685384:0;vi ui.lua
+: 1709685438:0;vi ui.lua
+: 1709686651:0;cm ln
+: 1709686800:0;ls
+: 1709686827:0;vi text.lua
+: 1709689597:0;vi view.lua
+: 1709689746:0;vi text.lua
+: 1709694080:0;ls
+: 1709694082:0;cd ..
+: 1709703645:0;ls
+: 1709703660:0;vi cursor.lua
+: 1709703912:0;cp cursor.lua ~/.config/nvim/lua/custom/plugins
+: 1709704007:0;ls
+: 1709704016:0;vi ../config/highlight.lua
+: 1709708714:0;ls
+: 1709708717:0;vi commands.lua
+: 1709710209:0;ls
+: 1709710215:0;vi fzf.lua
+: 1709711165:0;ls
+: 1709711177:0;vi ui.lua
+: 1709711214:0;vi text.lua
+: 1709712202:0;ls
+: 1709712209:0;vi utils/ufo.lua
+: 1709713429:0;ls
+: 1709713432:0;cd ../config
+: 1709713710:0;vi telescope.lua
+: 1709713823:0;vi utils/telescope.lua
+: 1709714825:0;ls
+: 1709714827:0;vi telescope.lua
+: 1709715473:0;vi fzf.lua
+: 1709715770:0;ls
+: 1709715773:0;vi telescope.lua
+: 1709715941:0;vi fzf.lua
+: 1709716965:0;ls
+: 1709716967:0;cd ..
+: 1709717706:0;ls
+: 1709717995:0;vi tasks.lua
+: 1709718682:0;vi ui.lua
+: 1709964234:0;vi configs/lazy_nvim.lua
+: 1709964612:0;ls
+: 1709964613:0;cd ..
+: 1709964839:0;vi init.lua
+: 1709964893:0;ls
+: 1709964899:0;cd ../custom
+: 1709980225:0;ls
+: 1709980239:0;cd
+: 1710028417:0;ls
+: 1710028419:0;vi init.lua
+: 1710028740:0;ls
+: 1710028742:0;cd ..
+: 1710056428:0;vi init.lua
+: 1710122932:0;vi 
+: 1710172801:0;ls
+: 1710172802:0;cm z

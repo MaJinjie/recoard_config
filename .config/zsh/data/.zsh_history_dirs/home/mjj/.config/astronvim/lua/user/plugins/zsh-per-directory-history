@@ -1,0 +1,61 @@
+: 1710236775:0;vi .
+: 1710238956:0;vi treesitter.lua
+: 1710238989:0;via treesitter.lua
+: 1710239127:0;via mason.lua
+: 1710251383:0;cd ../..
+: 1710251467:0;via user.lua
+: 1710251767:0;mkdir configs
+: 1710252418:0;vi astro_other.lua
+: 1710252460:0;via astro_other.lua
+: 1710255436:0;rm astro_other.lua
+: 1710255443:0;vi astro_core.lua
+: 1710255788:0;cd ..
+: 1710256023:0;cd configs
+: 1710256050:0;ls configs
+: 1710257665:0;vi 1.lua
+: 1710257679:0;lua 1.lua
+: 1710257689:0;rm 1.lua
+: 1710315239:0;vi core.lua
+: 1710316650:0;vi configs/core.lua
+: 1710316657:0;via configs/core.lua
+: 1710319908:0;via astro_core.lua
+: 1710320296:0;cat ui.lua
+: 1710320298:0;rm ui.lua
+: 1710320321:0;mv astro_core.lua astro.lua
+: 1710320329:0;cat user.lua
+: 1710320340:0;rm user.lua
+: 1710320560:0;via astro.lua
+: 1710321163:0;via
+: 1710321980:0;ls
+: 1710321993:0;via ../options.lua
+: 1710322628:0;via ../mappings.lua
+: 1710325677:0;k
+: 1710325758:0;via core.lua
+: 1710326378:0;ls
+: 1710326519:0;via core.lua
+: 1710326522:0;via
+: 1710373787:0;ls
+: 1710373794:0;vi astro.lua
+: 1710374202:0;via core.lua
+: 1710374239:0;ls
+: 1710374245:0;cd ..
+: 1710405536:0;ls
+: 1710405539:0;vi core.lua
+: 1710405563:0;via core.lua
+: 1710407642:0;via mason.lua
+: 1710408210:0;ls
+: 1710408211:0;cd ..
+: 1710408256:0;via mason.lua
+: 1710408272:0;cd ..
+: 1710410926:0;vi astro.lua
+: 1710411156:0;via astro.lua
+: 1710412294:0;via 
+: 1710412349:0;via core.lua
+: 1710412356:0;via astro.lua
+: 1710412938:0;ls
+: 1710412940:0;cd ..
+: 1710426205:0;ls
+: 1710426215:0;via astro.lua
+: 1710426314:0;mv configs/astro_core.lua configs/astro.lua
+: 1710426320:0;vi astro.lua
+: 1710426355:0;via astro.lua

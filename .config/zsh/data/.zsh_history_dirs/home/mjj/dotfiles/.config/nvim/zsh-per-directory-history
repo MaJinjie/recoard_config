@@ -42,3 +42,188 @@
 : 1709608514:0;vi lazy-lock.json
 : 1709609909:0;dus
 : 1709609915:0;cm z
+: 1709694087:0;ls
+: 1709694089:0;pwd
+: 1709694092:0;cd ..
+: 1709694103:0;ls
+: 1709694110:0;cd config
+: 1709703634:0;ls
+: 1709703637:0;cd lau
+: 1709703638:0;cd lua
+: 1709716970:0;ls
+: 1709717035:0;cp -r dev/telescope-rualdi.nvim ../nvim
+: 1709717037:0;cd ../nvim
+: 1709717065:0;ls
+: 1709717081:0;mv telescope-rualdi.nvim ../nvim/dev
+: 1709717096:0;cd ../nvim
+: 1709950683:0;ls
+: 1709950687:0;ls.
+: 1709950694:0;git log
+: 1709950697:0;ls
+: 1709950722:0;rm .git
+: 1709950724:0;git init
+: 1709950806:0;ls
+: 1709950815:0;rm -u
+: 1709950818:0;ls
+: 1709950821:0;git log
+: 1709950830:0;lsa
+: 1709950834:0;rm .git
+: 1709950841:0;mv .git\~1 .git
+: 1709950841:0;ls
+: 1709950843:0;git log
+: 1709950849:0;git status
+: 1709950875:0;ls
+: 1709950882:0;ls note
+: 1709950901:0;vi .gitignore
+: 1709950916:0;ls
+: 1709950928:0;git add .
+: 1709950972:0;git commit -m "over"
+: 1709950978:0;git push 
+: 1709951001:0;git remote
+: 1709951012:0;git remote show
+: 1709951044:0;git remote add origin git@github.com:MaJinjie/nvim.git
+: 1709951067:0;git push -u origin lazyvim:main
+: 1709951115:0;git push -u origin lazyvim
+: 1709951129:0;git push -u -f  origin lazyvim
+: 1709951202:0;git push -u -f origin lazyvim
+: 1709951210:0;git push -u -f origin main
+: 1709951228:0;git push -u -f origin main:lazyvim
+: 1709951295:0;ls
+: 1709958990:0;ls
+: 1709958997:0;cd ..
+: 1709959001:0;ls
+: 1709959008:0;rm *
+: 1709959013:0;lsa
+: 1709959023:0;ls .fdignore
+: 1709959028:0;cat .fdignore
+: 1709959038:0;cat .neoconf.json
+: 1709959064:0;ls
+: 1709959066:0;lsa
+: 1709959079:0;ls
+: 1709959080:0;cd ..
+: 1709959083:0;ls
+: 1709959085:0;lsa
+: 1709959095:0;vi .gitignore
+: 1709962732:0;vi .ls
+: 1709962734:0;ls
+: 1709962735:0;lsa
+: 1709962743:0;vi .gitignore
+: 1709962750:0;ls
+: 1709962759:0;vi .gitignore
+: 1709962801:0;git clone https://github.com/MaJinjie/nvim.git
+: 1709962810:0;git branch
+: 1709962815:0;ls
+: 1709962826:0;ls nvim
+: 1709962832:0;ls
+: 1709962844:0;rm nvim
+: 1709962845:0;ls
+: 1709962847:0;lsa
+: 1709962854:0;rm .git
+: 1709962861:0;git clone https://github.com/MaJinjie/nvim.git .
+: 1709962877:0;ls
+: 1709962878:0;cd ..
+: 1709962898:0;ls
+: 1709962906:0;cd lua
+: 1709962962:0;ls
+: 1709962970:0;git branch
+: 1709963001:0;git checkout -b origin/nvchad
+: 1709963006:0;ls
+: 1709963025:0;git checkout main
+: 1709963031:0;ls
+: 1709963041:0;git branch
+: 1709963138:0;git branch -d custom
+: 1709963150:0;git branch -d origin/nvchad
+: 1709963163:0;git branch -D origin/nvchad
+: 1709963164:0;ls
+: 1709963168:0;git branch
+: 1709963170:0;ls
+: 1709963173:0;lsa
+: 1709963184:0;vi .ignore
+: 1709963195:0;ls
+: 1709963211:0;rm .ignore
+: 1709963219:0;vi .gitignore
+: 1709963255:0;ls
+: 1709963259:0;vi .fdignore
+: 1709963269:0;ls
+: 1709963270:0;cd ..
+: 1709963304:0;ls
+: 1709963308:0;vi
+: 1709963313:0;cd
+: 1709963526:0;ls
+: 1709963529:0;ls lua
+: 1709963549:0;ls
+: 1709963599:0;cd ..
+: 1709963988:0;ls
+: 1709964022:0;lsi
+: 1709964051:0;ls
+: 1709964058:0;cd lua
+: 1709964066:0;ls
+: 1709964070:0;vi .gitignore
+: 1709964087:0;cd lua
+: 1709964668:0;vi init.lua
+: 1709964680:0;cd lua/core
+: 1709972961:0;cd ..
+: 1709972967:0;ls
+: 1709973004:0;vi .neoconf.json
+: 1709973971:0;ls
+: 1710028077:0;ls
+: 1710028083:0;cd lua/custom
+: 1710037878:0;ls
+: 1710037881:0;lsa
+: 1710037892:0;vi .fdignore
+: 1710037903:0;vi .gitignore
+: 1710038059:0;ls
+: 1710038061:0;lsa
+: 1710038097:0;ls
+: 1710038113:0;cp .fdignore .rgignore
+: 1710038119:0;vi .rgignore
+: 1710038129:0;cd -
+: 1710038161:0;ls
+: 1710038166:0;vi .rgignore
+: 1710038191:0;vi .fdignore
+: 1710038216:0;fd
+: 1710038221:0;ls
+: 1710038232:0;git add .
+: 1710038249:0;git commit -m 'mark 1'
+: 1710038251:0;ls
+: 1710038263:0;git push 
+: 1710038304:0;git push -u origin main
+: 1710038327:0;git remote show
+: 1710038333:0;git remote show -n
+: 1710038335:0;git remote show -v
+: 1710038342:0;git branch -vv
+: 1710038353:0;git log
+: 1710038371:0;git push -u origin main
+: 1710038428:0;git remote set-url origin git@github.com:MaJinjie/nvim.git
+: 1710038434:0;git push -u origin main
+: 1710038458:0;ls
+: 1710038462:0;vi .gitignore
+: 1710038541:0;cd lua/custom/plugins
+: 1710055645:0;ls
+: 1710055646:0;vi dev
+: 1710055658:0;ls dev/telescope-rualdi.nvim
+: 1710055661:0;cd 
+: 1710055724:0;ls
+: 1710055726:0;cd dev
+: 1710122930:0;cd lua/plugins
+: 1710143852:0;ls
+: 1710143857:0;git add .
+: 1710143870:0;git commit -m 'add nvim-tree' 
+: 1710143962:0;cd -
+: 1710144218:0;ls
+: 1710144220:0;git add .
+: 1710144226:0;git status
+: 1710144251:0;git commit --amend -m 'add commander nvim-tree'
+: 1710144255:0;git push
+: 1710151824:0;ls
+: 1710151828:0;vi .
+: 1710153706:0;cd lua
+: 1710167988:0;cd ../nvim/lua/plugins
+: 1710240374:0;cd lua/custom/plugins
+: 1710316829:0;ls
+: 1710316839:0;cd lua/custom/plugins/
+: 1710342498:0;cd ..
+: 1710399551:0;ls
+: 1710399554:0;cd lua/core
+: 1710426160:0;ls
+: 1710426163:0;cd lua/custom

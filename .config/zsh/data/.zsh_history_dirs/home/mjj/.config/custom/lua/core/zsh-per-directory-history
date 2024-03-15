@@ -1,0 +1,28 @@
+: 1710222845:0;vi-custom
+: 1710222870:0;vi mason.lua
+: 1710223059:0;cm z
+: 1710223271:0;cd ..
+: 1710223965:0;vic mason.lua
+: 1710224037:0;vi need.lua
+: 1710224042:0;vic need.lua
+: 1710230446:0;vi ui.lua
+: 1710230565:0;vic ui.lua
+: 1710230712:0;vi formatter.lua
+: 1710230730:0;vic formatter.lua
+: 1710230736:0;ls
+: 1710230745:0;vic
+: 1710230751:0;which vic
+: 1710230766:0;zsh
+: 1710230769:0;which vic
+: 1710230774:0;vic formatter.lua
+: 1710230955:0;vi ui.lua
+: 1710230990:0;vic ui.lua
+: 1710230998:0;vi ui.lua
+: 1710231024:0;vic ui.lua
+: 1710231485:0;vi formatter.lua
+: 1710232192:0;vic ui.lua
+: 1710232219:0;cd 
+: 1710232379:0;ls
+: 1710232381:0;vi cmp.lua
+: 1710374291:0;ls
+: 1710374308:0;cd -

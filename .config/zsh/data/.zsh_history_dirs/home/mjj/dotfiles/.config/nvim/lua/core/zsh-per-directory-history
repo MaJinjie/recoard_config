@@ -1,0 +1,14 @@
+: 1709964229:0;cd ../plugins
+: 1709964621:0;ls
+: 1709964626:0;vi init.lua
+: 1709964629:0;vi bootstrap.lua
+: 1709964661:0;cd ..
+: 1709964681:0;ls
+: 1709964685:0;vi init.lua
+: 1709964692:0;vi default_config.lua
+: 1709964728:0;ls
+: 1709964737:0;vi utils.lua
+: 1709964768:0;cd ..
+: 1710028747:0;vi mappings.lua
+: 1710035994:0;ls
+: 1710399559:0;via mappings.lua

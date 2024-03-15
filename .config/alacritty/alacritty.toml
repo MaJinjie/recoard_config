@@ -9,7 +9,6 @@ working_directory = 'None'
 live_config_reload = true
 
 shell = "tmux"
-# shell = { program = "tmux", args = ["new", "-s", "init_tmux"]}
 
 [env] # 设置当前shell进程的环境变量
 term = 'xterm-256color'

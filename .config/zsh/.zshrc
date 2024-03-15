@@ -315,14 +315,15 @@ zt 0b light-mode binary lbin check'!%PLUGIN%' from'gh-r' for \
 
 # ]]] === wait'0b' -binary ===
 
-zt 0b light-mode null check'!%PLUGIN%' for \
+zt 0b light-mode null for \
   lbin atinit'export _RAD_NO_ECHO=1; ' \
   atclone'cargo build --release' atpull'%atclone' \
   atload'alias ru="rualdi"' \
   atload'eval "$(rualdi init zsh)"' \
     lmburns/rualdi \
-  lbin multisrc'shell/{completion,key-bindings}.zsh' \
+  lbin \
   atclone'./install --bin'  atpull'%atclone' \
+  atload'eval "$(fzf --zsh)"' \
     junegunn/fzf \
 
 zt 0b light-mode for \
@@ -378,6 +379,12 @@ zt 0c light-mode binary lbin check'!%PLUGIN%' for \
   atload'export FW_CONFIG_DIR="$XDG_CONFIG_HOME/fw"; alias wo="workon"' \
     from'gh-r' brocode/fw \
     from'gh-r' dimo414/bkt \
+    from'gh-r' sharkdp/lscolors \
+  bpick'*x86_64*gnu.zip' \
+    from'gh-r' sxyazi/yazi \
+    # from'gh-r' sstadick/hck
+
+
   # pick'sd' \
     # from'gh-r' chmln/sd \
 
@@ -398,6 +405,7 @@ zt 0c light-mode null id-as nocd for multisrc="$ZRCDIR/${^sourced[@]}" $null
 ztmp=$EPOCHREALTIME
 # Don't have to be recompiled to use
 zt light-mode nocompile is-snippet for $ZDOTDIR/custom/*.zsh
+zt light-mode nocompile is-snippet for $ZDOTDIR/plugins/*.zsh
 # zt light-mode null for  \
 #   atload'echo $ZDOTDIR/custom/*.zsh; source $ZDOTDIR/custom/*.zsh' \
 #   $null

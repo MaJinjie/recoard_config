@@ -1,27 +1,21 @@
 : 1709563266:0;cp histdb-interactive.zsh $ZDOTDIR/snippets/
 : 1709563269:0;cd 
 : 1709563462:0;history
-: 1709564446:0;bindkey '^r' _histdb-isearch
-: 1709564454:0;vi .zshrc
-: 1709564631:0;source histdb-interactive.zsh
 : 1709564646:0;histdb-interactive.zsh
 : 1709564665:0;vi histdb-interactive.zsh
 : 1709566203:0;vi 
 : 1709566663:0;cd config zsh 
-: 1709567026:0;ls
 : 1709567243:0;f
-: 1709567298:0;bindkey '^r' _histdb-isearch
-: 1709568031:0;ls
-: 1709568034:0;source histdb-interactive.zsh
 : 1709599248:0;vi .zshrc
-: 1709599253:0;ls
 : 1709599352:0;bindkey -L | fzf .zshrc
 : 1709599360:0;bindkey -L | fzf
 : 1709599384:0;\
 a
-: 1709600276:0;ls
-: 1709600469:0;ls
 : 1709600473:0;source histdb-interactive.zsh
 : 1709600480:0;bindkey '^r' _histdb-isearch
 : 1709600585:0;bindkey -L | fzf 
 : 1709604073:0;cd ..
+: 1710467308:0;ls
+: 1710467314:0;via histdb-interactive.zsh
+: 1710467522:0;fzf
+: 1710467534:0;zsh

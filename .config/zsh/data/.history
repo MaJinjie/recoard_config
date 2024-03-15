@@ -1,195 +1,186 @@
-: 1709137291:0;vivid
-: 1709137291:0;echo $LS_COLORS
-: 1709137291:0;vivid -d 1
-: 1709137291:0;ls data
-: 1709137291:0;ls data/ -a
-: 1709137291:0;cd dat
-: 1709137291:0;vi completions.log
-: 1709137291:0;vi history
-: 1709137291:0;vi .histo
-: 1709137291:0;v .zshrc
-: 1709137291:0;echo $ZSHZ_DATA
-: 1709137291:0;ls data/.zshz
-: 1709137291:0;cd data/
-: 1709137291:0;rm completions.log
-: 1709137291:0;kr
-: 1709137291:0;vi rualdi
-: 1709137291:0;hist edit
-: 1709137291:0;hist edit -12
-: 1709137291:0;ls -a 1
-: 1709137291:0;ru function
-: 1709137291:0;k function
-: 1709137291:0;k aliases
-: 1709137291:0;k con
-: 1709137291:0;cd zinit/plugins/agkozak---zsh-z
-: 1709137291:0;cd tt1
-: 1709137291:0;cd ../nvm
-: 1709137291:0;ga init.lua lua/config/autocmds.lua
-: 1709137291:0;gi init.lua
-: 1709137291:0;git commit -m '111'
-: 1709137291:0;echo 11 >> init.lua
-: 1709137291:0;echo 11111 >> init.lua
-: 1709137291:0;ls .config
-: 1709137291:0;rm .git -rf
-: 1709137291:0;mkdir git
-: 1709137291:0;git clone https://github.com/wfxr/forgit.git
-: 1709137291:0;gi > 1.txt
-: 1709137291:0;gd
-: 1709137291:0;grh
-: 1709137291:0;gcb
-: 1709137291:0;export FORGIT_LOG_FZF_OPTS='\
+: 1710465876:0;vivid
+: 1710465876:0;vivid -d 1
+: 1710465876:0;ls data
+: 1710465876:0;ls data/ -a
+: 1710465876:0;cd dat
+: 1710465876:0;vi completions.log
+: 1710465876:0;vi history
+: 1710465876:0;vi .histo
+: 1710465876:0;v .zshrc
+: 1710465876:0;echo $ZSHZ_DATA
+: 1710465876:0;ls data/.zshz
+: 1710465876:0;cd data/
+: 1710465876:0;rm completions.log
+: 1710465876:0;kr
+: 1710465876:0;vi rualdi
+: 1710465876:0;hist edit
+: 1710465876:0;hist edit -12
+: 1710465876:0;ls -a 1
+: 1710465876:0;ru function
+: 1710465876:0;k function
+: 1710465876:0;k aliases
+: 1710465876:0;k con
+: 1710465876:0;cd zinit/plugins/agkozak---zsh-z
+: 1710465876:0;cd tt1
+: 1710465876:0;cd ../nvm
+: 1710465876:0;ga init.lua lua/config/autocmds.lua
+: 1710465876:0;gi init.lua
+: 1710465876:0;git commit -m '111'
+: 1710465876:0;echo 11 >> init.lua
+: 1710465876:0;echo 11111 >> init.lua
+: 1710465876:0;ls .config
+: 1710465876:0;rm .git -rf
+: 1710465876:0;mkdir git
+: 1710465876:0;git clone https://github.com/wfxr/forgit.git
+: 1710465876:0;gi > 1.txt
+: 1710465876:0;grh
+: 1710465876:0;gcb
+: 1710465876:0;export FORGIT_LOG_FZF_OPTS='\
 --bind="ctrl-e:execute(echo {} |grep -Eo [a-f0-9]+ |head -1 |xargs git show |vim -)"\
 '
-: 1709137291:0;glog
-: 1709137291:0;export FORGIT_LOG_FZF_OPTS='\
+: 1710465876:0;glog
+: 1710465876:0;export FORGIT_LOG_FZF_OPTS='\
 --bind="ctrl-e:execute(echo {} |grep -Eo [a-f0-9]+ |head -1 |xargs delta |vim -)"\
 '
-: 1709137291:0;git config pager.show
-: 1709137291:0;cd git/cod
-: 1709137291:0;git diff 1
-: 1709137291:0;cd ../CoolStuffes
-: 1709137291:0;cd ../dots-hyprland
-: 1709137291:0;git diff
-: 1709137291:0;git config core.pager
-: 1709137291:0;git status
-: 1709137291:0;vi .gitconfig
-: 1709137291:0;git config pager.diff
-: 1709137291:0;echo $FORGIT_LOG_FZF_OPTS
-: 1709137291:0;echo $forgit_add
-: 1709137291:0;echo $FORGIT_ADD_GIT_OPTS
-: 1709137291:0;git show 0cce34e
-: 1709137291:0;git show
-: 1709137291:0;git config pager.log delta
-: 1709137291:0;git log
-: 1709137291:0;echo 1.txt | nvim
-: 1709137291:0;echo $FORGIT_ADD_FZF_OPTS
-: 1709137291:0;echo 111 > conf.d/1.txt
-: 1709137291:0;echo 111 >> 1.txt
-: 1709137291:0;export extract="\
+: 1710465876:0;git config pager.show
+: 1710465876:0;cd git/cod
+: 1710465876:0;git diff 1
+: 1710465876:0;cd ../CoolStuffes
+: 1710465876:0;cd ../dots-hyprland
+: 1710465876:0;git config core.pager
+: 1710465876:0;git config pager.diff
+: 1710465876:0;echo $FORGIT_LOG_FZF_OPTS
+: 1710465876:0;echo $forgit_add
+: 1710465876:0;echo $FORGIT_ADD_GIT_OPTS
+: 1710465876:0;git show 0cce34e
+: 1710465876:0;git config pager.log delta
+: 1710465876:0;echo 1.txt | nvim
+: 1710465876:0;echo $FORGIT_ADD_FZF_OPTS
+: 1710465876:0;echo 111 > conf.d/1.txt
+: 1710465876:0;echo 111 >> 1.txt
+: 1710465876:0;export extract="\
         sed 's/^.*]  //' |\
         sed 's/.* -> //' |\
         sed -e 's/^\\\"//' -e 's/\\\"\$//'"
-: 1709137291:0;echo $extract
-: 1709137291:0;echo '[[??]] 1.txt' | $extract
-: 1709137291:0;export FORGIT_COPY_CMD=111111111111111111111
-: 1709137291:0;wl-copy 1111
-: 1709137291:0;paru -S xlibp
-: 1709137291:0;paru -S xclip
-: 1709137291:0;echo 1111111111111111 | xclip -selection clipboard
-: 1709137291:0;uname
-: 1709137291:0;xclip -selection buffer-cut
-: 1709137291:0;echo 11111111111111111 | xclip -selection clipboard
-: 1709137291:0;echo 11111111111111111 | xclip -selection secondary
-: 1709137291:0;xclip -out -selection secondary
-: 1709137291:0;xclip -out -selection clipboard
-: 1709137291:0;xclip -out -selection primary
-: 1709137291:0;echo 2222222222 | xclip -selection clipboard
-: 1709137291:0;echo 2222222222 | xclip -selection primary
-: 1709137291:0;man clip
-: 1709137291:0;man xclip
-: 1709137291:0;cat bb
-: 1709137291:0;xclip bb
-: 1709137291:0;bindkey 'M-v' 'xclip -o'
-: 1709137291:0;tmux send -t 2 11
-: 1709137291:0;tmux shend -t 2 1
-: 1709137291:0;t send -t 2 1
-: 1709137291:0;t send -t 2 2
-: 1709137291:0;t send -F -t #P 11
-: 1709137291:0;t send -F -t '#S' 11
-: 1709137291:0;t send -F -t '#{S}' 11
-: 1709137291:0;t send -F -t 2 '#{pane_current_path}'
-: 1709137291:0;tmux show-buffer
-: 1709137291:0;t show-buffer | xclip -selection clipboard
-: 1709137291:0;tmux run -b 'tmux show-buffer | xclip -sel clipboard'
-: 1709137291:0;xclip -o -sel clipboard
-: 1709137291:0;xclip -rmlastnl -o -sel clipboard
-: 1709137291:0;ffffffffffffffff
-: 1709137291:0;echo 11111111111 | xclip -selection buffer-cut
-: 1709137291:0;xclip -in 11111
-: 1709137291:0;echo 222222 | xclip in
-: 1709137291:0;echo 222222 | xclip -in
-: 1709137291:0;paru -R wl-clipboard
-: 1709137291:0;paru -R wl-clipboard cliphist
-: 1709137291:0;git stash viewer
-: 1709137291:0;git stash
-: 1709137291:0;mkdir .note
-: 1709137291:0;mkdir zsh_plugins
-: 1709137291:0;typeset -p cd
-: 1709137291:0;alias -m cd
-: 1709137291:0;vi forgit
-: 1709137291:0;forgit
-: 1709137291:0;ka note
-: 1709137291:0;kr note
-: 1709137291:0;ka note-zsh
-: 1709137291:0;vi forgit.md
-: 1709137291:0;glo
-: 1709137291:0;grb
-: 1709137291:0;gcf
-: 1709137291:0;gbl
-: 1709137291:0;gfu
-: 1709137291:0;grc -1
-: 1709137291:0;grc -abort
-: 1709137291:0;grc --abort
-: 1709137291:0;zhooks
-: 1709137291:0;hist list
-: 1709137291:0;Undo
-: 1709137291:0;udo
-: 1709137291:0;fffffffffffffffffffffffffffffffffffffffffffff
-: 1709137291:0;hist --help
-: 1709137291:0;hist e
-: 1709137291:0;hist f
-: 1709137291:0;hist f -1
-: 1709137291:0;hist undo
-: 1709137291:0;bindkey '^p' undo
-: 1709137291:0;echo $HISTFILE
-: 1709137291:0;undo
-: 1709137291:0;-a
-: 1709137291:0;hist e -1
-: 1709137291:0;cd .config/zsh 1111111111111111pjk
-: 1709137291:0;man bat
-: 1709137291:0;gcomp
-: 1709137291:0;gencomp bat --man
-: 1709137291:0;git add
-: 1709137291:0;cd zinit/plugins/MichaelAquilina---zsh-you-should-use
-: 1709137291:0;cd plugins/MichaelAquilina---zsh-you-should-use/
-: 1709137291:0;vi you-should-use.plugin.zsh
-: 1709137291:0;tput setaf 1
-: 1709137291:0;111111111111111111
-: 1709137291:0;nvim
-: 1709137291:0;command -v ls
-: 1709137291:0;cd test/git/forgit
-: 1709137291:0;eza -h --git
-: 1709137291:0;eza --git -l
-: 1709137291:0;lll
-: 1709137291:0;eza --sort=modified
-: 1709137291:0;eza --sort=changed
-: 1709137291:0;eza --sort=changed --reverse
-: 1709137291:0;eza --list-dirs
-: 1709137291:0;eza --help
-: 1709137291:0;eza --sort=time
-: 1709137291:0;eza --sort=time --reverse
-: 1709137291:0;eza --across
-: 1709137291:0;ls | sed 'p,2'
-: 1709137291:0;ls | sed '2,p'
-: 1709137291:0;ls | sed '2 p'
-: 1709137291:0;eval $LIST_COMMAND
-: 1709137291:0;echo 11 > 1.txt
-: 1709137291:0;vi 1.xt
-: 1709137291:0;cd touch
-: 1709137291:0;eval $LIST_OPTS
-: 1709137291:0;cd mjj
-: 1709137291:0;ld
-: 1709137291:0;eval "eza $LIST_OPTS"
-: 1709137291:0;eval "eza $LIST_OPTS -l"
-: 1709137291:0;eval "eza $LIST_OPTS -l --git"
-: 1709137291:0;ls .
-: 1709137291:0;ls --hyperlink
-: 1709137291:0;/bin/ls *
-: 1709137291:0;/bin/ls .*
-: 1709137291:0;ls .*
-: 1709137291:0;/bin/ls ./.*
-: 1709137291:0;/bin/ls
-: 1709137291:0;$ ls\
+: 1710465876:0;echo $extract
+: 1710465876:0;echo '[[??]] 1.txt' | $extract
+: 1710465876:0;export FORGIT_COPY_CMD=111111111111111111111
+: 1710465876:0;wl-copy 1111
+: 1710465876:0;paru -S xlibp
+: 1710465876:0;paru -S xclip
+: 1710465876:0;echo 1111111111111111 | xclip -selection clipboard
+: 1710465876:0;uname
+: 1710465876:0;xclip -selection buffer-cut
+: 1710465876:0;echo 11111111111111111 | xclip -selection clipboard
+: 1710465876:0;echo 11111111111111111 | xclip -selection secondary
+: 1710465876:0;xclip -out -selection secondary
+: 1710465876:0;xclip -out -selection clipboard
+: 1710465876:0;xclip -out -selection primary
+: 1710465876:0;echo 2222222222 | xclip -selection clipboard
+: 1710465876:0;echo 2222222222 | xclip -selection primary
+: 1710465876:0;man clip
+: 1710465876:0;man xclip
+: 1710465876:0;cat bb
+: 1710465876:0;xclip bb
+: 1710465876:0;bindkey 'M-v' 'xclip -o'
+: 1710465876:0;tmux send -t 2 11
+: 1710465876:0;tmux shend -t 2 1
+: 1710465876:0;t send -t 2 1
+: 1710465876:0;t send -t 2 2
+: 1710465876:0;t send -F -t #P 11
+: 1710465876:0;t send -F -t '#S' 11
+: 1710465876:0;t send -F -t '#{S}' 11
+: 1710465876:0;t send -F -t 2 '#{pane_current_path}'
+: 1710465876:0;tmux show-buffer
+: 1710465876:0;t show-buffer | xclip -selection clipboard
+: 1710465876:0;tmux run -b 'tmux show-buffer | xclip -sel clipboard'
+: 1710465876:0;xclip -o -sel clipboard
+: 1710465876:0;xclip -rmlastnl -o -sel clipboard
+: 1710465876:0;ffffffffffffffff
+: 1710465876:0;echo 11111111111 | xclip -selection buffer-cut
+: 1710465876:0;xclip -in 11111
+: 1710465876:0;echo 222222 | xclip in
+: 1710465876:0;echo 222222 | xclip -in
+: 1710465876:0;paru -R wl-clipboard
+: 1710465876:0;paru -R wl-clipboard cliphist
+: 1710465876:0;git stash viewer
+: 1710465876:0;git stash
+: 1710465876:0;mkdir .note
+: 1710465876:0;mkdir zsh_plugins
+: 1710465876:0;typeset -p cd
+: 1710465876:0;alias -m cd
+: 1710465876:0;vi forgit
+: 1710465876:0;forgit
+: 1710465876:0;ka note
+: 1710465876:0;kr note
+: 1710465876:0;ka note-zsh
+: 1710465876:0;vi forgit.md
+: 1710465876:0;grb
+: 1710465876:0;gcf
+: 1710465876:0;gfu
+: 1710465876:0;grc -1
+: 1710465876:0;grc -abort
+: 1710465876:0;grc --abort
+: 1710465876:0;zhooks
+: 1710465876:0;hist list
+: 1710465876:0;Undo
+: 1710465876:0;udo
+: 1710465876:0;fffffffffffffffffffffffffffffffffffffffffffff
+: 1710465876:0;hist --help
+: 1710465876:0;hist e
+: 1710465876:0;hist f
+: 1710465876:0;hist f -1
+: 1710465876:0;hist undo
+: 1710465876:0;bindkey '^p' undo
+: 1710465876:0;echo $HISTFILE
+: 1710465876:0;undo
+: 1710465876:0;-a
+: 1710465876:0;hist e -1
+: 1710465876:0;cd .config/zsh 1111111111111111pjk
+: 1710465876:0;man bat
+: 1710465876:0;gcomp
+: 1710465876:0;gencomp bat --man
+: 1710465876:0;git add
+: 1710465876:0;cd zinit/plugins/MichaelAquilina---zsh-you-should-use
+: 1710465876:0;cd plugins/MichaelAquilina---zsh-you-should-use/
+: 1710465876:0;vi you-should-use.plugin.zsh
+: 1710465876:0;tput setaf 1
+: 1710465876:0;111111111111111111
+: 1710465876:0;nvim
+: 1710465876:0;command -v ls
+: 1710465876:0;cd test/git/forgit
+: 1710465876:0;eza -h --git
+: 1710465876:0;eza --git -l
+: 1710465876:0;lll
+: 1710465876:0;eza --sort=modified
+: 1710465876:0;eza --sort=changed
+: 1710465876:0;eza --sort=changed --reverse
+: 1710465876:0;eza --list-dirs
+: 1710465876:0;eza --help
+: 1710465876:0;eza --sort=time
+: 1710465876:0;eza --sort=time --reverse
+: 1710465876:0;eza --across
+: 1710465876:0;ls | sed 'p,2'
+: 1710465876:0;ls | sed '2,p'
+: 1710465876:0;ls | sed '2 p'
+: 1710465876:0;eval $LIST_COMMAND
+: 1710465876:0;echo 11 > 1.txt
+: 1710465876:0;vi 1.xt
+: 1710465876:0;cd touch
+: 1710465876:0;eval $LIST_OPTS
+: 1710465876:0;cd mjj
+: 1710465876:0;ld
+: 1710465876:0;eval "eza $LIST_OPTS"
+: 1710465876:0;eval "eza $LIST_OPTS -l"
+: 1710465876:0;eval "eza $LIST_OPTS -l --git"
+: 1710465876:0;ls .
+: 1710465876:0;ls --hyperlink
+: 1710465876:0;/bin/ls *
+: 1710465876:0;/bin/ls .*
+: 1710465876:0;ls .*
+: 1710465876:0;/bin/ls ./.*
+: 1710465876:0;/bin/ls
+: 1710465876:0;$ ls\
 îƒ·¿ dotfiles îƒ·¿ touch ïƒ¤ƒµ Sync ïƒ¤ƒµ hello\
 ï€½ Videos ïƒ¤ƒµ mjj îƒ·¿ tt1 ïƒ¤ƒµ Public\
 îƒ·¿ textual_apps îƒ·¿ study îƒ·¿ nvim îƒ·¿ test1\
@@ -207,60 +198,59 @@
 ï€ƒ¶ cmd5 ï€ƒ¶ data ï€ƒ¶ cd_test ï€ƒ¶ fzfz\
 jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\
 ï€ƒ¶ 11 ï€ƒ¶ abc ï€ƒ¶ <cr>
-: 1709137291:0;eza -FlahHgb --git --icons --time-style long-iso --octal-permissions
-: 1709137291:0;eza -lH
-: 1709137291:0;eza -lH --time-style=long-iso
-: 1709137291:0;eza -lH --time-style=long-iso --octal-permissions
-: 1709137291:0;eza -l --git -L
-: 1709137291:0;eza -l --git -L1
-: 1709137291:0;eza -hF
-: 1709137291:0;eza -h
-: 1709137291:0;eza -hF --icons
-: 1709137291:0;eza -l --numeric --blocksize
-: 1709137291:0;eza -l --numeric @Sig
-: 1709137291:0;eza -l --numeric -@Sig
-: 1709137291:0;lsattr
-: 1709137291:0;eza -d
-: 1709137291:0;eza -d zsh
-: 1709137291:0;eza -d zsh -l
-: 1709137291:0;eza -d *
-: 1709137291:0;echo 11 >> 1
-: 1709137291:0;eza -l -B
-: 1709137291:0;eza -l1
-: 1709137291:0;vi cc
-: 1709137291:0;cd .cargo/bin
-: 1709137291:0;eza -l cc
-: 1709137291:0;eza -l -b
-: 1709137291:0;eza -b
-: 1709137291:0;eza --git
-: 1709137291:0;eza -l --git
-: 1709137291:0;eza [.]
-: 1709137291:0;eza [.]1
-: 1709137291:0;eza --ignore-glob *
-: 1709137291:0;eza --ignore-glob (
-: 1709137291:0;eza --ignore-glob 
-: 1709137291:0;eza --ignore-glob [.]
-: 1709137291:0;eza --ignore-glob [.] -a
-: 1709137291:0;eza --ignore-glob=[.]
-: 1709137291:0;eza --ignore-glob=[.] -a
-: 1709137291:0;eza --ignore-glob=[-a
-: 1709137291:0;eza --ignore-glob=-a
-: 1709137291:0;eza -l -Z
-: 1709137291:0;eza -Z
-: 1709137291:0;eza -lF
-: 1709137291:0;eza -g
-: 1709137291:0;eza -gl
-: 1709137291:0;eza -lg
-: 1709137291:0;eza -F
-: 1709137291:0;eza -Fb
-: 1709137291:0;eza -F -b
-: 1709137291:0;eza -l
-: 1709137291:0;eza -l --numeric
-: 1709137291:0;eza --all
-: 1709137291:0;eza -l --only-dirs
-: 1709137291:0;eza
-: 1709137291:0;eza -1
-: 1709137291:0;ls $ ls\
+: 1710465876:0;eza -FlahHgb --git --icons --time-style long-iso --octal-permissions
+: 1710465876:0;eza -lH
+: 1710465876:0;eza -lH --time-style=long-iso
+: 1710465876:0;eza -lH --time-style=long-iso --octal-permissions
+: 1710465876:0;eza -l --git -L
+: 1710465876:0;eza -l --git -L1
+: 1710465876:0;eza -hF
+: 1710465876:0;eza -h
+: 1710465876:0;eza -hF --icons
+: 1710465876:0;eza -l --numeric --blocksize
+: 1710465876:0;eza -l --numeric @Sig
+: 1710465876:0;eza -l --numeric -@Sig
+: 1710465876:0;lsattr
+: 1710465876:0;eza -d
+: 1710465876:0;eza -d zsh
+: 1710465876:0;eza -d zsh -l
+: 1710465876:0;eza -d *
+: 1710465876:0;echo 11 >> 1
+: 1710465876:0;eza -l -B
+: 1710465876:0;eza -l1
+: 1710465876:0;vi cc
+: 1710465876:0;cd .cargo/bin
+: 1710465876:0;eza -l cc
+: 1710465876:0;eza -l -b
+: 1710465876:0;eza -b
+: 1710465876:0;eza --git
+: 1710465876:0;eza -l --git
+: 1710465876:0;eza [.]
+: 1710465876:0;eza [.]1
+: 1710465876:0;eza --ignore-glob *
+: 1710465876:0;eza --ignore-glob (
+: 1710465876:0;eza --ignore-glob 
+: 1710465876:0;eza --ignore-glob [.]
+: 1710465876:0;eza --ignore-glob [.] -a
+: 1710465876:0;eza --ignore-glob=[.]
+: 1710465876:0;eza --ignore-glob=[.] -a
+: 1710465876:0;eza --ignore-glob=[-a
+: 1710465876:0;eza --ignore-glob=-a
+: 1710465876:0;eza -l -Z
+: 1710465876:0;eza -Z
+: 1710465876:0;eza -lF
+: 1710465876:0;eza -g
+: 1710465876:0;eza -gl
+: 1710465876:0;eza -lg
+: 1710465876:0;eza -F
+: 1710465876:0;eza -Fb
+: 1710465876:0;eza -F -b
+: 1710465876:0;eza -l
+: 1710465876:0;eza -l --numeric
+: 1710465876:0;eza --all
+: 1710465876:0;eza -l --only-dirs
+: 1710465876:0;eza -1
+: 1710465876:0;ls $ ls\
 îƒ·¿ dotfiles îƒ·¿ touch ïƒ¤ƒµ Sync ïƒ¤ƒµ hello\
 ï€½ Videos ïƒ¤ƒµ mjj îƒ·¿ tt1 ïƒ¤ƒµ Public\
 îƒ·¿ textual_apps îƒ·¿ study îƒ·¿ nvim îƒ·¿ test1\
@@ -278,1927 +268,2236 @@ jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\
 ï€ƒ¶ cmd5 ï€ƒ¶ data ï€ƒ¶ cd_test ï€ƒ¶ fzfz\
 ï€ƒ¶ cmd ï€ƒ¶ cc ï€ƒ¶ aaaaaaaaaaaaaaaaaaaa ï€ƒ¶ bbbbbbbbbbbbbbbbb\
 
-: 1709137291:0;ls -- *(-.DOm[1,10])
-: 1709137291:0;ls -- *(-DOm[1,10])
-: 1709137291:0;ls --*(-.)
-: 1709137291:0;ls --*(.)
-: 1709137291:0;ls --*(-.D)
-: 1709137291:0;ls --*(-.DOm)
-: 1709137291:0;ls --*(-.[1,10])
-: 1709137291:0;tr
-: 1709137291:0;tee
-: 1709137291:0;eza -TL
-: 1709137291:0;eza -
-: 1709137291:0;eza -FHb --git --icons -d -- .*(-.N)
-: 1709137291:0;eza -H
-: 1709137291:0;eza -HbF --git --icons -d -- *(-N^D)
-: 1709137291:0;ll -d -- *(-N^D)
-: 1709137291:0;ll, -- *(-N^D)
-: 1709137291:0;eza -HbF --git --icons -d -- .*(-.N)
-: 1709137291:0;eza -HbF --git --icons -d -- .*(-.N^D)
-: 1709137291:0;eza 0d -- .*(-.N)
-: 1709137291:0;eza 0d -- .*(-.D)
-: 1709137291:0;eza 0d -- .*(-D)
-: 1709137291:0;eza -a -d -- .*(-.D)
-: 1709137291:0;eza -a -d -- .*(-.)
-: 1709137291:0;eza -a -d -- .*
-: 1709137291:0;eza -d -- .*(-.N)
-: 1709137291:0;eza -d -- .*D
-: 1709137291:0;eza -d -- .*(-)
-: 1709137291:0;eza -d -- .*(-D)
-: 1709137291:0;eza -d -- .*(-H)
-: 1709137291:0;eza -d -- .*(-.H^D)
-: 1709137291:0;eza -d -- .*(-.N^D)
-: 1709137291:0;eza -d -- .*(-.^D)
-: 1709137291:0;eza -d -- .*(-.)
-: 1709137291:0;eza -d -- .*(-.N|D)
-: 1709137291:0;eza -d -- .*(-.N&D)
-: 1709137291:0;eza -d -- .*(-.N,D)
-: 1709137291:0;eza -d -- .*(-.D)
-: 1709137291:0;eza -d -- .*(-.F)
-: 1709137291:0;eza -d -- .*(-.G)
-: 1709137291:0;eza -d -- .*(-.r)
-: 1709137291:0;eza --only-dirs -d --
-: 1709137291:0;eza --only-dirs -d -- *
-: 1709137291:0;eza --only-dirs -- *
-: 1709137291:0;eza --only-dirs -- .*
-: 1709137291:0;eza --only-dirs -d -- .*
-: 1709137291:0;eza -HBF -d -- *(-.N^D)
-: 1709137291:0;eza -HBF -d -- .*(-.N^D)
-: 1709137291:0;eza -HBlF -d -- .*(-.N^D)
-: 1709137291:0;eza -d -- .*
-: 1709137291:0;eza -F --git -d -- .*
-: 1709137291:0;eza -F --git --sort=time -d -- .*
-: 1709137291:0;ls. --only-dirs
-: 1709137291:0;ll -- *(s,S,t)
-: 1709137291:0;ll -d -- *(-/^F)
-: 1709137291:0;eza -L2 -RD
-: 1709137291:0;eza -LT2 -RD
-: 1709137291:0;eza -T -L2 -RD
-: 1709137291:0;eza -L 2
-: 1709137291:0;ll -- *(Nu0)
-: 1709137291:0;ls --reverse
-: 1709137291:0;eza -d -- *(ch+2)
-: 1709137291:0;eza -d -- *(ch-2)
-: 1709137291:0;eza -d -- '*(ch-2)'
-: 1709137291:0;lsc -d -- *(ch+2)
-: 1709137291:0;lsc -d --*(ch-2)
-: 1709137291:0;lsc -d -- *(ch-2)
-: 1709137291:0;lsbt 1
-: 1709137291:0;lsc2
-: 1709137291:0;lsb2
-: 1709137291:0;eza -FHb --git --icons -d -- *(-.N^D)
-: 1709137291:0;eza -Hb --git --icons -d -- *(-.N^D)
-: 1709137291:0;ll -d -- *(-.N^D)
-: 1709137291:0;ls -d -- *(-.N^D)
-: 1709137291:0;ls -d -- *
-: 1709137291:0;ls -d -- .*(-.N^D)
-: 1709137291:0;ls -d -- *(-.D^N)
-: 1709137291:0;ls -d -- *(-.D)
-: 1709137291:0;ls -d -- *(-.ND)
-: 1709137291:0;ls -d -- *(-N.D)
-: 1709137291:0;ls -d -- *(-^N)
-: 1709137291:0;ls -d -- *(-^N.D)
-: 1709137291:0;ls -d -- .*
-: 1709137291:0;ls -d -- .*(-^N.D)
-: 1709137291:0;ls -d -- .*(-^N)
-: 1709137291:0;ls -d -- .*(-^D.N)
-: 1709137291:0;lsat 1
-: 1709137291:0;lsat 2
-: 1709137291:0;xclip -o -selection buffer-cut
-: 1709137291:0;lsf
-: 1709137291:0;lsi
-: 1709137291:0;lsl 1
-: 1709137291:0;lsl 2
-: 1709137291:0;lsl1
-: 1709137291:0;cat 1.txt
-: 1709137291:0;lse
-: 1709137291:0;l
-: 1709137291:0;lsco
-: 1709137291:0;lscn
-: 1709137291:0;lln
-: 1709137291:0;lld
-: 1709137291:0;ll, tt1
-: 1709137291:0;llx
-: 1709137291:0;llcn
-: 1709137291:0;llsn
-: 1709137291:0;llso
-: 1709137291:0;lsc
-: 1709137291:0;ll.d
-: 1709137291:0;ll.f
-: 1709137291:0;ls --all
-: 1709137291:0;lla
-: 1709137291:0;xclip -o
-: 1709137291:0;xclip -o -selection primary
-: 1709137291:0;xclip -o -selection secondary
-: 1709137291:0;xclip -o -selection clipboard
-: 1709137291:0;cd .config/zsh 1111111111111111
-: 1709137291:0;xclip -o -selection clipboa
-: 1709137291:0;xclip -o -selection clipboad
-: 1709137291:0;paru -S sqlite3
-: 1709137291:0;mkdir .config/zsh/zflai
-: 1709137291:0;tel
-: 1709137291:0;eza -T
-: 1709137291:0;eza -a -T
-: 1709137291:0;mkdir zflia
-: 1709137291:0;cd zflia
-: 1709137291:0;vi myfile.def
-: 1709137291:0;lsmo
-: 1709137291:0;lsmn
-: 1709137291:0;tel1
-: 1709137291:0;tel 1
-: 1709137291:0;tel 2
-: 1709137291:0;tel 4
-: 1709137291:0;command -v tree
-: 1709137291:0;tree
-: 1709137291:0;cd .cofngi
-: 1709137291:0;lsd
-: 1709137291:0;ls.d
-: 1709137291:0;ls.f
-: 1709137291:0;cd plugins/michaelxmcbride---zsh-dircycle/tests
-: 1709137291:0;te
-: 1709137291:0;teu
-: 1709137291:0;t1
-: 1709137291:0;t2
-: 1709137291:0;t3
-: 1709137291:0;cd _support
-: 1709137291:0;vi teardown.zsh
-: 1709137291:0;vi setup.zsh
-: 1709137291:0;vi dircycle.plugin.zunit
-: 1709137291:0;KJ
-: 1709137291:0;_dircycle_insert_cycled_left
-: 1709137291:0;bindkey '^p' _dircycle_insert_cycled_left
-: 1709137291:0;kf -d
-: 1709137291:0;histroy
-: 1709137291:0;cd zsh/data
-: 1709137291:0;labt
-: 1709137291:0;eza --only-dirs -T -2
-: 1709137291:0;eza --only-dirs -T -L2
-: 1709137291:0;ls3
-: 1709137291:0;ls1 --git
-: 1709137291:0;ll -T -L 1
-: 1709137291:0;ll1
-: 1709137291:0;vi ZNOTE /1.txt
-: 1709137291:0;vi .config
-: 1709137291:0;vi .config/zsh
-: 1709137291:0;echo $HISTORY_BASE
-: 1709137291:0;ls zflai
-: 1709137291:0;rm zflai -r
-: 1709137291:0;ls data/
-: 1709137291:0;lss data
-: 1709137291:0;cd zinit/plugins/kadaan---per-directory-history
-: 1709137291:0;eval "$(ls)"
-: 1709137291:0;eval "$(ls > /dev/tty)"
-: 1709137291:0;eval "$(ls) > /dev/tty"
-: 1709137291:0;alias -p lsat
-: 1709137291:0;ls1
-: 1709137291:0;ls -a -T -L1
-: 1709137291:0;lssn
-: 1709137291:0;lsso
-: 1709137291:0;cd .zsh_history_dirs
-: 1709137291:0;cd home
-: 1709137291:0;lsl
-: 1709137291:0;lsl 10
-: 1709137291:0;lsal 10
-: 1709137291:0;lsa data
-: 1709137291:0;vi per-directory-history.zsh
-: 1709137291:0;cd zinit/plugins/Aloxaf---zsh-histdb
-: 1709137291:0;cd larkery---zsh-histdb
-: 1709137291:0;vi zsh-histdb.plugin.zsh
-: 1709137291:0;vi sqlite-history.zsh
-: 1709137291:0;rm larkery---zsh-histdb -rf
-: 1709137291:0;vi larkery---zsh-histdb
-: 1709137291:0;histdb-top
-: 1709137291:0;paru -R xclip
-: 1709137291:0;paru -S xsel
-: 1709137291:0;xsel -o
-: 1709137291:0;echo "111111111111111\n" | xsel -b -i --trim
-: 1709137291:0;echo "111111111111111\n" | xsel -b -i
-: 1709137291:0;xsel -o -b
-: 1709137291:0;lsat --all
-: 1709137291:0;lsm
-: 1709137291:0;lsm -d -- .*(e-after today-N)
-: 1709137291:0;lsm -d -- [.]*(e-after today-N)
-: 1709137291:0;lsm -d -- *(e-after today-D)
-: 1709137291:0;lsm -d -- *(ch-3)
-: 1709137291:0;lsm -d -- *(ch-3D)
-: 1709137291:0;lsm -d -- .*(^ch-3)
-: 1709137291:0;lsm -d -- .*(ch+3)
-: 1709137291:0;lsm -d -- .*(ch-3)
-: 1709137291:0;lsm -d -- .*(ch-4)
-: 1709137291:0;lsm -d -- .*(ch-6)
-: 1709137291:0;lsm -d -- .*(ch-6-D)
-: 1709137291:0;lsm -d -- *(ch-6)
-: 1709137291:0;lsm -d -- .*(ch-6) *(ch-6)
-: 1709137291:0;lsm -d -- *(e-after today-N)
-: 1709137291:0;lsm -d -- *(e-after today-N) .*(e-after today-N)
-: 1709137291:0;lsat .*(e-after today-N)
-: 1709137291:0;lsat
-: 1709137291:0;lsbt
-: 1709137291:0;llm
-: 1709137291:0;llt
-: 1709137291:0;llh
-: 1709137291:0;paru -S nvr
-: 1709137291:0;fffffffffffffffffffffffdsfdsf
-: 1709137291:0;ex-command
-: 1709137291:0;ex-command-help
-: 1709137291:0;ex-command 1
-: 1709137291:0;ex-command ff
-: 1709137291:0;undo .a
-: 1709137291:0;cd plugins/hchbaw---zce.zsh
-: 1709137291:0;vi zce.zsh
-: 1709137291:0;bindkey ^Xw zce
-: 1709137291:0;bindkey '^Xw' zce
-: 1709137291:0;zce
-: 1709137291:0;xzmsg 11
-: 1709137291:0;cd dotfiles/.config
-: 1709137291:0;mkdir tigsuite
-: 1709137291:0;lsa tigsuite
-: 1709137291:0;cd tigsuite
-: 1709137291:0;vi features.reg
-: 1709137291:0;zle -L
-: 1709137291:0;zle -l | vi
-: 1709137291:0;zle reset-prompt
-: 1709137291:0;zini
-: 1709137291:0;echo $ZDOTDIR
-: 1709137291:0;rm .zshenv
-: 1709137291:0;zoxide query zsh
-: 1709137291:0;# this is cd commnad 
-: 1709137291:0;vi themes/vivid/filetypes.yml
-: 1709137291:0;k conf
-: 1709137291:0;echo $zdirs
-: 1709137291:0;echo $zdirs[DATA]
-: 1709137291:0;echo $CARGO_HOME/
-: 1709137291:0;echo $Zdirs[DATA]
-: 1709137291:0;kf
-: 1709137291:0;k
-: 1709137291:0;k ,
-: 1709137291:0;k ../../
-: 1709137291:0;k l
-: 1709137291:0;kl
-: 1709137291:0;ls ./..
-: 1709137291:0;k zz
-: 1709137291:0;k n
-: 1709137291:0;kn c
-: 1709137291:0;k nc
-: 1709137291:0;k nl
-: 1709137291:0;k dc
-: 1709137291:0;kg z
-: 1709137291:0;k g
-: 1709137291:0;k gh
-: 1709137291:0;k gz
-: 1709137291:0;vi .zshen
-: 1709137291:0;lss
-: 1709137291:0;paru -R zxoide
-: 1709137291:0;paru -R zoxide
-: 1709137291:0;k zinit
-: 1709137291:0;cd cache
-: 1709137291:0;vi zcompdump-Arch-5.9
-: 1709137291:0;zinit plugins
-: 1709137291:0;zi plugins
-: 1709137291:0;git clone git@github/wfxr/forgit.git
-: 1709137291:0;git clone git@github.com/wfxr/forgit.git
-: 1709137291:0;git clone git@github.com:ajeetdsouza/zoxide.git
-: 1709137291:0;ls man1
-: 1709137291:0;where z
-: 1709137291:0;ls completions
-: 1709137291:0;zinit completions
-: 1709137291:0;zoxide edit
-: 1709137291:0;k ..
-: 1709137291:0;ls3 polaris/man
-: 1709137291:0;ls4
-: 1709137291:0;lsa4
-: 1709137291:0;zoxide add
-: 1709137291:0;alias z='zoxide'
-: 1709137291:0;z init
-: 1709137291:0;z init zsh
-: 1709137291:0;z query
-: 1709137291:0;z query zsh
-: 1709137291:0;zi zsh
-: 1709137291:0;rm zdharma-continuum---null
-: 1709137291:0;rm zdharma-continuum---null -rf
-: 1709137291:0;paru --noconfirm -S fd
-: 1709137291:0;paru -R fd
-: 1709137291:0;command -v zi
-: 1709137291:0;command -v z
-: 1709137291:0;command -v zt
-: 1709137291:0;typeset -p zt
-: 1709137291:0;zt
-: 1709137291:0;rm plugins/ajeetdsouza---zoxide -rf
-: 1709137291:0;z c
-: 1709137291:0;k .
-: 1709137291:0;k -
-: 1709137291:0;ru -
-: 1709137291:0;k c
-: 1709137291:0;cd plugins/ajeetdsouza---zoxide
-: 1709137291:0;cd man1
-: 1709137291:0;v .
-: 1709137291:0;z edit
-: 1709137291:0;cdi
-: 1709137291:0;cdi config zsh
-: 1709137291:0;k zi
-: 1709137291:0;k h
-: 1709137291:0;cd con zin plu
-: 1709137291:0;alias zi=''
-: 1709137291:0;which cdi
-: 1709137291:0;cd ajeetdsouza---zoxide
-: 1709137291:0;zshz zsh
-: 1709137291:0;pwd
-: 1709137291:0;z zsh
-: 1709137291:0;z ~/.config
-: 1709137291:0;z ~/dotfiles
-: 1709137291:0;z ~/dotfiles/.config/zflia
-: 1709137291:0;zoxide zsh
-: 1709137291:0;z
-: 1709137291:0;z config
-: 1709137291:0;zi () {}
-: 1709137291:0;zi () {\}
-: 1709137291:0;zi () 
-: 1709137291:0;zi() {}
-: 1709137291:0;k z
-: 1709137291:0;which z
-: 1709137291:0;unalias zi
-: 1709137291:0;which zi
-: 1709137291:0;z i
-: 1709137291:0;z zinit zxo
-: 1709137291:0;z zinit zox
-: 1709137291:0;kd
-: 1709137291:0;echo $commands[cdi]
-: 1709137291:0;echo $commands[cd]
-: 1709137291:0;cml
-: 1709137291:0;dirs
-: 1709137291:0;rad -d
-: 1709137291:0;rad -t
-: 1709137291:0;radf -d
-: 1709137291:0;cd zox
-: 1709137291:0;hyperfine 'sleep 1'
-: 1709137291:0;sudo -v\
+: 1710465876:0;ls -- *(-.DOm[1,10])
+: 1710465876:0;ls -- *(-DOm[1,10])
+: 1710465876:0;ls --*(-.)
+: 1710465876:0;ls --*(.)
+: 1710465876:0;ls --*(-.D)
+: 1710465876:0;ls --*(-.DOm)
+: 1710465876:0;ls --*(-.[1,10])
+: 1710465876:0;tr
+: 1710465876:0;tee
+: 1710465876:0;eza -TL
+: 1710465876:0;eza -
+: 1710465876:0;eza -FHb --git --icons -d -- .*(-.N)
+: 1710465876:0;eza -H
+: 1710465876:0;eza -HbF --git --icons -d -- *(-N^D)
+: 1710465876:0;ll -d -- *(-N^D)
+: 1710465876:0;ll, -- *(-N^D)
+: 1710465876:0;eza -HbF --git --icons -d -- .*(-.N)
+: 1710465876:0;eza -HbF --git --icons -d -- .*(-.N^D)
+: 1710465876:0;eza 0d -- .*(-.N)
+: 1710465876:0;eza 0d -- .*(-.D)
+: 1710465876:0;eza 0d -- .*(-D)
+: 1710465876:0;eza -a -d -- .*(-.D)
+: 1710465876:0;eza -a -d -- .*(-.)
+: 1710465876:0;eza -a -d -- .*
+: 1710465876:0;eza -d -- .*(-.N)
+: 1710465876:0;eza -d -- .*D
+: 1710465876:0;eza -d -- .*(-)
+: 1710465876:0;eza -d -- .*(-D)
+: 1710465876:0;eza -d -- .*(-H)
+: 1710465876:0;eza -d -- .*(-.H^D)
+: 1710465876:0;eza -d -- .*(-.N^D)
+: 1710465876:0;eza -d -- .*(-.^D)
+: 1710465876:0;eza -d -- .*(-.)
+: 1710465876:0;eza -d -- .*(-.N|D)
+: 1710465876:0;eza -d -- .*(-.N&D)
+: 1710465876:0;eza -d -- .*(-.N,D)
+: 1710465876:0;eza -d -- .*(-.D)
+: 1710465876:0;eza -d -- .*(-.F)
+: 1710465876:0;eza -d -- .*(-.G)
+: 1710465876:0;eza -d -- .*(-.r)
+: 1710465876:0;eza --only-dirs -d --
+: 1710465876:0;eza --only-dirs -d -- *
+: 1710465876:0;eza --only-dirs -- *
+: 1710465876:0;eza --only-dirs -- .*
+: 1710465876:0;eza --only-dirs -d -- .*
+: 1710465876:0;eza -HBF -d -- *(-.N^D)
+: 1710465876:0;eza -HBF -d -- .*(-.N^D)
+: 1710465876:0;eza -HBlF -d -- .*(-.N^D)
+: 1710465876:0;eza -d -- .*
+: 1710465876:0;eza -F --git -d -- .*
+: 1710465876:0;eza -F --git --sort=time -d -- .*
+: 1710465876:0;ls. --only-dirs
+: 1710465876:0;ll -- *(s,S,t)
+: 1710465876:0;ll -d -- *(-/^F)
+: 1710465876:0;eza -L2 -RD
+: 1710465876:0;eza -LT2 -RD
+: 1710465876:0;eza -T -L2 -RD
+: 1710465876:0;eza -L 2
+: 1710465876:0;ll -- *(Nu0)
+: 1710465876:0;ls --reverse
+: 1710465876:0;eza -d -- *(ch+2)
+: 1710465876:0;eza -d -- *(ch-2)
+: 1710465876:0;eza -d -- '*(ch-2)'
+: 1710465876:0;lsc -d -- *(ch+2)
+: 1710465876:0;lsc -d --*(ch-2)
+: 1710465876:0;lsc -d -- *(ch-2)
+: 1710465876:0;lsbt 1
+: 1710465876:0;lsc2
+: 1710465876:0;lsb2
+: 1710465876:0;eza -FHb --git --icons -d -- *(-.N^D)
+: 1710465876:0;eza -Hb --git --icons -d -- *(-.N^D)
+: 1710465876:0;ll -d -- *(-.N^D)
+: 1710465876:0;ls -d -- *(-.N^D)
+: 1710465876:0;ls -d -- *
+: 1710465876:0;ls -d -- .*(-.N^D)
+: 1710465876:0;ls -d -- *(-.D^N)
+: 1710465876:0;ls -d -- *(-.D)
+: 1710465876:0;ls -d -- *(-.ND)
+: 1710465876:0;ls -d -- *(-N.D)
+: 1710465876:0;ls -d -- *(-^N)
+: 1710465876:0;ls -d -- *(-^N.D)
+: 1710465876:0;ls -d -- .*
+: 1710465876:0;ls -d -- .*(-^N.D)
+: 1710465876:0;ls -d -- .*(-^N)
+: 1710465876:0;ls -d -- .*(-^D.N)
+: 1710465876:0;lsat 1
+: 1710465876:0;lsat 2
+: 1710465876:0;xclip -o -selection buffer-cut
+: 1710465876:0;lsf
+: 1710465876:0;lsl 1
+: 1710465876:0;lsl 2
+: 1710465876:0;lsl1
+: 1710465876:0;cat 1.txt
+: 1710465876:0;lse
+: 1710465876:0;lsco
+: 1710465876:0;lscn
+: 1710465876:0;lln
+: 1710465876:0;lld
+: 1710465876:0;ll, tt1
+: 1710465876:0;llx
+: 1710465876:0;llcn
+: 1710465876:0;llsn
+: 1710465876:0;llso
+: 1710465876:0;lsc
+: 1710465876:0;ll.d
+: 1710465876:0;ll.f
+: 1710465876:0;ls --all
+: 1710465876:0;lla
+: 1710465876:0;xclip -o
+: 1710465876:0;xclip -o -selection primary
+: 1710465876:0;xclip -o -selection secondary
+: 1710465876:0;xclip -o -selection clipboard
+: 1710465876:0;cd .config/zsh 1111111111111111
+: 1710465876:0;xclip -o -selection clipboa
+: 1710465876:0;xclip -o -selection clipboad
+: 1710465876:0;paru -S sqlite3
+: 1710465876:0;mkdir .config/zsh/zflai
+: 1710465876:0;tel
+: 1710465876:0;eza -T
+: 1710465876:0;eza -a -T
+: 1710465876:0;mkdir zflia
+: 1710465876:0;cd zflia
+: 1710465876:0;vi myfile.def
+: 1710465876:0;lsmo
+: 1710465876:0;lsmn
+: 1710465876:0;tel1
+: 1710465876:0;tel 1
+: 1710465876:0;tel 2
+: 1710465876:0;tel 4
+: 1710465876:0;command -v tree
+: 1710465876:0;tree
+: 1710465876:0;cd .cofngi
+: 1710465876:0;ls.d
+: 1710465876:0;ls.f
+: 1710465876:0;cd plugins/michaelxmcbride---zsh-dircycle/tests
+: 1710465876:0;te
+: 1710465876:0;teu
+: 1710465876:0;t1
+: 1710465876:0;t2
+: 1710465876:0;t3
+: 1710465876:0;cd _support
+: 1710465876:0;vi teardown.zsh
+: 1710465876:0;vi setup.zsh
+: 1710465876:0;vi dircycle.plugin.zunit
+: 1710465876:0;KJ
+: 1710465876:0;_dircycle_insert_cycled_left
+: 1710465876:0;bindkey '^p' _dircycle_insert_cycled_left
+: 1710465876:0;kf -d
+: 1710465876:0;histroy
+: 1710465876:0;cd zsh/data
+: 1710465876:0;labt
+: 1710465876:0;eza --only-dirs -T -2
+: 1710465876:0;eza --only-dirs -T -L2
+: 1710465876:0;ls1 --git
+: 1710465876:0;ll -T -L 1
+: 1710465876:0;ll1
+: 1710465876:0;vi ZNOTE /1.txt
+: 1710465876:0;vi .config
+: 1710465876:0;vi .config/zsh
+: 1710465876:0;echo $HISTORY_BASE
+: 1710465876:0;ls zflai
+: 1710465876:0;rm zflai -r
+: 1710465876:0;ls data/
+: 1710465876:0;lss data
+: 1710465876:0;cd zinit/plugins/kadaan---per-directory-history
+: 1710465876:0;eval "$(ls)"
+: 1710465876:0;eval "$(ls > /dev/tty)"
+: 1710465876:0;eval "$(ls) > /dev/tty"
+: 1710465876:0;alias -p lsat
+: 1710465876:0;ls1
+: 1710465876:0;ls -a -T -L1
+: 1710465876:0;lssn
+: 1710465876:0;lsso
+: 1710465876:0;cd .zsh_history_dirs
+: 1710465876:0;cd home
+: 1710465876:0;lsl
+: 1710465876:0;lsl 10
+: 1710465876:0;lsal 10
+: 1710465876:0;lsa data
+: 1710465876:0;vi per-directory-history.zsh
+: 1710465876:0;cd zinit/plugins/Aloxaf---zsh-histdb
+: 1710465876:0;cd larkery---zsh-histdb
+: 1710465876:0;vi zsh-histdb.plugin.zsh
+: 1710465876:0;vi sqlite-history.zsh
+: 1710465876:0;rm larkery---zsh-histdb -rf
+: 1710465876:0;vi larkery---zsh-histdb
+: 1710465876:0;histdb-top
+: 1710465876:0;paru -R xclip
+: 1710465876:0;paru -S xsel
+: 1710465876:0;xsel -o
+: 1710465876:0;echo "111111111111111\n" | xsel -b -i --trim
+: 1710465876:0;echo "111111111111111\n" | xsel -b -i
+: 1710465876:0;xsel -o -b
+: 1710465876:0;lsat --all
+: 1710465876:0;lsm
+: 1710465876:0;lsm -d -- .*(e-after today-N)
+: 1710465876:0;lsm -d -- [.]*(e-after today-N)
+: 1710465876:0;lsm -d -- *(e-after today-D)
+: 1710465876:0;lsm -d -- *(ch-3)
+: 1710465876:0;lsm -d -- *(ch-3D)
+: 1710465876:0;lsm -d -- .*(^ch-3)
+: 1710465876:0;lsm -d -- .*(ch+3)
+: 1710465876:0;lsm -d -- .*(ch-3)
+: 1710465876:0;lsm -d -- .*(ch-4)
+: 1710465876:0;lsm -d -- .*(ch-6)
+: 1710465876:0;lsm -d -- .*(ch-6-D)
+: 1710465876:0;lsm -d -- *(ch-6)
+: 1710465876:0;lsm -d -- .*(ch-6) *(ch-6)
+: 1710465876:0;lsm -d -- *(e-after today-N)
+: 1710465876:0;lsm -d -- *(e-after today-N) .*(e-after today-N)
+: 1710465876:0;lsat .*(e-after today-N)
+: 1710465876:0;lsat
+: 1710465876:0;lsbt
+: 1710465876:0;llm
+: 1710465876:0;llt
+: 1710465876:0;llh
+: 1710465876:0;fffffffffffffffffffffffdsfdsf
+: 1710465876:0;ex-command
+: 1710465876:0;ex-command-help
+: 1710465876:0;ex-command 1
+: 1710465876:0;ex-command ff
+: 1710465876:0;undo .a
+: 1710465876:0;cd plugins/hchbaw---zce.zsh
+: 1710465876:0;vi zce.zsh
+: 1710465876:0;bindkey ^Xw zce
+: 1710465876:0;bindkey '^Xw' zce
+: 1710465876:0;zce
+: 1710465876:0;xzmsg 11
+: 1710465876:0;mkdir tigsuite
+: 1710465876:0;lsa tigsuite
+: 1710465876:0;cd tigsuite
+: 1710465876:0;vi features.reg
+: 1710465876:0;zle -L
+: 1710465876:0;zle -l | vi
+: 1710465876:0;zle reset-prompt
+: 1710465876:0;zini
+: 1710465876:0;echo $ZDOTDIR
+: 1710465876:0;rm .zshenv
+: 1710465876:0;zoxide query zsh
+: 1710465876:0;# this is cd commnad 
+: 1710465876:0;vi themes/vivid/filetypes.yml
+: 1710465876:0;k conf
+: 1710465876:0;echo $zdirs
+: 1710465876:0;echo $zdirs[DATA]
+: 1710465876:0;echo $CARGO_HOME/
+: 1710465876:0;echo $Zdirs[DATA]
+: 1710465876:0;kf
+: 1710465876:0;k ,
+: 1710465876:0;k ../../
+: 1710465876:0;k l
+: 1710465876:0;kl
+: 1710465876:0;ls ./..
+: 1710465876:0;k zz
+: 1710465876:0;k n
+: 1710465876:0;kn c
+: 1710465876:0;k nc
+: 1710465876:0;k nl
+: 1710465876:0;k dc
+: 1710465876:0;kg z
+: 1710465876:0;k g
+: 1710465876:0;k gh
+: 1710465876:0;k gz
+: 1710465876:0;vi .zshen
+: 1710465876:0;lss
+: 1710465876:0;paru -R zxoide
+: 1710465876:0;paru -R zoxide
+: 1710465876:0;k zinit
+: 1710465876:0;cd cache
+: 1710465876:0;vi zcompdump-Arch-5.9
+: 1710465876:0;zinit plugins
+: 1710465876:0;zi plugins
+: 1710465876:0;git clone git@github/wfxr/forgit.git
+: 1710465876:0;git clone git@github.com/wfxr/forgit.git
+: 1710465876:0;git clone git@github.com:ajeetdsouza/zoxide.git
+: 1710465876:0;ls man1
+: 1710465876:0;where z
+: 1710465876:0;ls completions
+: 1710465876:0;zinit completions
+: 1710465876:0;zoxide edit
+: 1710465876:0;k ..
+: 1710465876:0;ls3 polaris/man
+: 1710465876:0;ls4
+: 1710465876:0;lsa4
+: 1710465876:0;zoxide add
+: 1710465876:0;alias z='zoxide'
+: 1710465876:0;z init
+: 1710465876:0;z init zsh
+: 1710465876:0;z query
+: 1710465876:0;z query zsh
+: 1710465876:0;zi zsh
+: 1710465876:0;rm zdharma-continuum---null
+: 1710465876:0;rm zdharma-continuum---null -rf
+: 1710465876:0;paru --noconfirm -S fd
+: 1710465876:0;paru -R fd
+: 1710465876:0;command -v zi
+: 1710465876:0;command -v z
+: 1710465876:0;command -v zt
+: 1710465876:0;typeset -p zt
+: 1710465876:0;zt
+: 1710465876:0;rm plugins/ajeetdsouza---zoxide -rf
+: 1710465876:0;z c
+: 1710465876:0;k .
+: 1710465876:0;k -
+: 1710465876:0;ru -
+: 1710465876:0;k c
+: 1710465876:0;cd plugins/ajeetdsouza---zoxide
+: 1710465876:0;cd man1
+: 1710465876:0;v .
+: 1710465876:0;z edit
+: 1710465876:0;cdi
+: 1710465876:0;cdi config zsh
+: 1710465876:0;k zi
+: 1710465876:0;k h
+: 1710465876:0;cd con zin plu
+: 1710465876:0;alias zi=''
+: 1710465876:0;which cdi
+: 1710465876:0;cd ajeetdsouza---zoxide
+: 1710465876:0;zshz zsh
+: 1710465876:0;pwd
+: 1710465876:0;z zsh
+: 1710465876:0;z ~/.config
+: 1710465876:0;z ~/dotfiles
+: 1710465876:0;z ~/dotfiles/.config/zflia
+: 1710465876:0;zoxide zsh
+: 1710465876:0;z
+: 1710465876:0;z config
+: 1710465876:0;zi () {}
+: 1710465876:0;zi () {\}
+: 1710465876:0;zi () 
+: 1710465876:0;zi() {}
+: 1710465876:0;k z
+: 1710465876:0;which z
+: 1710465876:0;unalias zi
+: 1710465876:0;which zi
+: 1710465876:0;z i
+: 1710465876:0;z zinit zxo
+: 1710465876:0;z zinit zox
+: 1710465876:0;kd
+: 1710465876:0;echo $commands[cdi]
+: 1710465876:0;echo $commands[cd]
+: 1710465876:0;cml
+: 1710465876:0;dirs
+: 1710465876:0;rad -d
+: 1710465876:0;rad -t
+: 1710465876:0;radf -d
+: 1710465876:0;cd zox
+: 1710465876:0;hyperfine 'sleep 1'
+: 1710465876:0;sudo -v\
 hyperfine --prepare 'sync; echo 3 | sudo tee /proc/sys/vm/drop_caches' 'diskus' 'du -sh' 'sn p -d0 -j8' 'dust -d0'
-: 1709137291:0;/usr/bin/dc
-: 1709137291:0;which du
-: 1709137291:0;dumpiso
-: 1709137291:0;du
-: 1709137291:0;diskus
-: 1709137291:0;cd zinit plu rip
-: 1709137291:0;cd zinit plu
-: 1709137291:0;cd past
-: 1709137291:0;cd sharkdp---pastel
-: 1709137291:0;;sa
-: 1709137291:0;lsa pastel-v0.9.0-x86_64-unknown-linux-gnu
-: 1709137291:0;lsa ajeetdsouza---zoxide
-: 1709137291:0;man zoxide
-: 1709137291:0;tar -zxf eza_x86_64-unknown-linux-gnu.tar.gz eza
-: 1709137291:0;tar -zxf eza_x86_64-unknown-linux-gnu.tar.gz
-: 1709137291:0;cd eza
-: 1709137291:0;cd eza-community---eza
-: 1709137291:0;lsa3
-: 1709137291:0;lsa completions | fzf
-: 1709137291:0;command -v cd
-: 1709137291:0;ls3 shar*
-: 1709137291:0;lsa3 shar*
-: 1709137291:0;which _bat
-: 1709137291:0;ls **/*
-: 1709137291:0;ls */*
-: 1709137291:0;ls **
-: 1709137291:0;ls *
-: 1709137291:0;mkdir test
-: 1709137291:0;cp */* test/
-: 1709137291:0;cp */_bat test/
-: 1709137291:0;cp */bat.1 test/
-: 1709137291:0;ls test
-: 1709137291:0;cp **/_bat test/
-: 1709137291:0;rm test/*
-: 1709137291:0;cp **/bat.1 test/
-: 1709137291:0;ls tset
-: 1709137291:0;lsa test
-: 1709137291:0;cm h
-: 1709137291:0;mv -f forgit/1.txt
-: 1709137291:0;mv -f forgit/1.txt .
-: 1709137291:0;rm sharkdp---bat -rf
-: 1709137291:0;cd sharkdp---bat/
-: 1709137291:0;cd. .
-: 1709137291:0;zinit delete sharkdp/bat
-: 1709137291:0;zi load sharkdp/bat
-: 1709137291:0;dus
-: 1709137291:0;ls2 shar*
-: 1709137291:0;cd sharkdp---bat
-: 1709137291:0;ls a
-: 1709137291:0;cd bat-v0.24.0-x86_64-unknown-linux-gnu
-: 1709137291:0;ls autocomplete
-: 1709137291:0;vi bat.zsh
-: 1709137291:0;vi autocomplete/bat.zsh
-: 1709137291:0;cd polaris/
-: 1709137291:0;rm man/man1/bat.1
-: 1709137291:0;zi delete sharkdp/bat
-: 1709137291:0;paru -R bat
-: 1709137291:0;paru -R bat batj-extras
-: 1709137291:0;paru -R bat bat-extras
-: 1709137291:0;which bat
-: 1709137291:0;ls man/man1
-: 1709137291:0;cm ..
-: 1709137291:0;cd zinit/plugins
-: 1709137291:0;paru -R ripgrep fd
-: 1709137291:0;paru -R ripgrep
-: 1709137291:0;rm ajeetdsouza---zoxide -rf
-: 1709137291:0;rm sharkdp* -rf
-: 1709137291:0;which rg
-: 1709137291:0;ll rg
-: 1709137291:0;rm BurntSushi---ripgrep -rf
-: 1709137291:0;zinit creinstall sharkdp/bat
-: 1709137291:0;zi creinstall sharkdp/bat
-: 1709137291:0;ls BurntSushi---ripgrep/ripgrep-14.1.0-x86_64-unknown-linux-musl
-: 1709137291:0;ls ripgrep-14.1.0-x86_64-unknown-linux-musl
-: 1709137291:0;rm rg
-: 1709137291:0;cd polaris/bin
-: 1709137291:0;rm fzf fzf-tmux
-: 1709137291:0;ls bin/
-: 1709137291:0;ll bin/fzf
-: 1709137291:0;paru -R fzf
-: 1709137291:0;cm .
-: 1709137291:0;ls shell
-: 1709137291:0;ll bin/*
-: 1709137291:0;./fzf-preview.sh
-: 1709137291:0;ls doc
-: 1709137291:0;cd junegunn---fzf/bin
-: 1709137291:0;cd junegunn---fzf
-: 1709137291:0;paru -S fzf
-: 1709137291:0;zi delete junegunn/fzf
-: 1709137291:0;ls fzf-tmux
-: 1709137291:0;cd snippets/* -rf
-: 1709137291:0;rm snippets/* -rf
-: 1709137291:0;cd fzf-tmux
-: 1709137291:0;echo $path
-: 1709137291:0;zi delete BurntSushi/ripgrep
-: 1709137291:0;cd test/git
-: 1709137291:0;cd forgit
-: 1709137291:0;mmv
-: 1709137291:0;mmv \[M\]\ \ \ \ \ README.md \ \ \ README.md
-: 1709137291:0;delta
-: 1709137291:0;which delta
-: 1709137291:0;paru -R delta
-: 1709137291:0;paru -S delta
-: 1709137291:0;cd /usr/bin
-: 1709137291:0;rm delta
-: 1709137291:0;sudo rm delta
-: 1709137291:0;ls, delta
-: 1709137291:0;cd ../plugins
-: 1709137291:0;mkdir fw
-: 1709137291:0;cd ../snippets
-: 1709137291:0;ls2
-: 1709137291:0;lsa2
-: 1709137291:0;mv fzf-tmux ~/.config/zsh/snippets/
-: 1709137291:0;rm .* -rf
-: 1709137291:0;rip -u
-: 1709137291:0;command -v zlog
-: 1709137291:0;which zlog
-: 1709137291:0;zman
-: 1709137291:0;zmanf
-: 1709137291:0;defer
-: 1709137291:0;echo $HOST
-: 1709137291:0;echo $(host)
-: 1709137291:0;host github.com
-: 1709137291:0;compdef
-: 1709137291:0;mkdir 1.txt
-: 1709137291:0;rm 1.txt
-: 1709137291:0;touch 1.txt
-: 1709137291:0;rm aa
-: 1709137291:0;mkdir aa
-: 1709137291:0;mkdir 2.txt
-: 1709137291:0;rm 2.txt
-: 1709137291:0;touch 2.txt
-: 1709137291:0;cd plugins/mattmc3---zman/lib/zman_lookup.zsh
-: 1709137291:0;vi rualdi/rualdi.toml
-: 1709137291:0;rg bkt
-: 1709137291:0;vi completions/_bkt
-: 1709137291:0;xsel -b 111
-: 1709137291:0;cmd z
-: 1709137291:0;autoload -Uz compdef
-: 1709137291:0;bkt -- ls
-: 1709137291:0;vi fzf.zsh
-: 1709137291:0;source 10-completions.zsh
-: 1709137291:0;bkt -v
-: 1709137291:0;command -v bkt
-: 1709137291:0;bkt --help
-: 1709137291:0;bkt -V
-: 1709137291:0;fd bkt
-: 1709137291:0;bkt -- bat bb
-: 1709137291:0;fd go
-: 1709137291:0;rg foo/ff
-: 1709137291:0;rg histdb_topo
-: 1709137291:0;rg dir_history
-: 1709137291:0;vi 36-history.zsh
-: 1709137291:0;aa=(a b)
-: 1709137291:0;echo aaa/$aa
-: 1709137291:0;echo aaa/{$aa}
-: 1709137291:0;echo aaa/${aa[@]}
-: 1709137291:0;echo aaa/${^aa[@]}
-: 1709137291:0;cd .zsh
-: 1709137291:0;zoxide
-: 1709137291:0;cd 5.9
-: 1709137291:0;zoxide -v
-: 1709137291:0;zoxide -V
-: 1709137291:0;cd Aloxaf---zsh-sqlite
-: 1709137291:0;ls src
-: 1709137291:0;vi zsh-sqlite.plugin.zsh
-: 1709137291:0;cd plu zsql
-: 1709137291:0;cd Aloxaf---zsh-sqlite/
-: 1709137291:0;cd zsh/5.9
-: 1709137291:0;./Util/preconfig
-: 1709137291:0;cd ../../../
-: 1709137291:0;rm Aloxaf---zsh-sqlite
-: 1709137291:0;zi delete Aloxaf/zsh-sqlite
-: 1709137291:0;unalias cd
-: 1709137291:0;zsqlite-build
-: 1709137291:0;rg _histdb
-: 1709137291:0;rg _HISTDB
-: 1709137291:0;vi zsh.d
-: 1709137291:0;cm zd
-: 1709137291:0;rm .zshz
-: 1709137291:0;lsa .zsh_history_dirs
-: 1709137291:0;lsa home
-: 1709137291:0;lsa2 .zsh_history_dirs
-: 1709137291:0;lsa2 home
-: 1709137291:0;rm home
-: 1709137291:0;zsqlite-exec
-: 1709137291:0;zsqlite_exec _HISTDB
-: 1709137291:0;echo $_HISTDB
-: 1709137291:0;echo $aa
-: 1709137291:0;history
-: 1709137291:0;echo 222222222222222222
-: 1709137291:0;fzf-tab
-: 1709137291:0;cp .zshrc bak
-: 1709137291:0;lsa bak
-: 1709137291:0;cp -f bak/.zshrc .zshrc
-: 1709137291:0;echo 1111111111111111
-: 1709137291:0;echo 222222222222222
-: 1709137291:0;echo 1111122222
-: 1709137291:0;echo 2222 3333
-: 1709137291:0;echo 22222 444444
-: 1709137291:0;source-highlight
-: 1709137291:0;cd plugins/chmln---sd/sd-v1.0.0-x86_64-unknown-linux-gnu/completions
-: 1709137291:0;cd ../polaris/bin
-: 1709137291:0;cd ../man
-: 1709137291:0;cd ../../completions
-: 1709137291:0;zi delete miserlou/loop
-: 1709137291:0;ls HOME
-: 1709137291:0;rm miserlou---loop
-: 1709137291:0;loop 'sleep 1'
-: 1709137291:0;cd zsh.d
-: 1709137291:0;zi
-: 1709137291:0;bkt
-: 1709137291:0;man bkt
-: 1709137291:0;cd .local/share
-: 1709137291:0;lst
-: 1709137291:0;ls /home
-: 1709137291:0;LS
-: 1709137291:0;z local share
-: 1709137291:0;vi zsh.d/41-aliases.zsh
-: 1709137291:0;cd ../.
-: 1709137291:0;ls -a
-: 1709137291:0;rg grc.conf
-: 1709137291:0;fd grc.conf
-: 1709137291:0;git clone https://github.com/garabik/grc.git
-: 1709137291:0;./grc --colour
-: 1709137291:0;nznote
-: 1709137291:0;ls ../completions | fzf
-: 1709137291:0;gro
-: 1709137291:0;ls ~/.local/bin
-: 1709137291:0;/home/mjj/dotfiles/.config/zsh/zinit/plugins/garabik---grc/grcat
-: 1709137291:0;cd garabik---grc
-: 1709137291:0;rm garabik---grc
-: 1709137291:0;zi load garabik/grc
-: 1709137291:0;zi delete garabik/grc
-: 1709131955:0;cp grc grcat ~/.local/bin
-: 1709131985:0;cp _grc $ZDOTDIR/completions
-: 1709132058:0;mkdir $ZDOTDIR/man
-: 1709132062:0;cp *.1 $ZDOTDIR/man
-: 1709132129:0;cm dc
-: 1709132204:0;mkdir .grc
-: 1709132230:0;cp grc.conf ~/.grc/
-: 1709132249:0;./install.sh
-: 1709132291:0;cd grc
-: 1709132304:0;cp colourfiles ~/.grc
-: 1709132308:0;cp colourfiles ~/.grc -r
-: 1709132384:0;ls colourfiles
-: 1709132669:0;vi fzf-tmux
-: 1709132856:0;mkdir bin
-: 1709132886:0;rm bak
-: 1709132999:0;mkdir bin/zsh
-: 1709133017:0;mv snippets/fzf-tmux bin/zsh
-: 1709133037:0;rm AAA
-: 1709133046:0;ls .bin
-: 1709133055:0;ls cargo
-: 1709133059:0;ls cargo/bin
-: 1709133155:0;mv zsh/* .
-: 1709133157:0;rm zsh
-: 1709133172:0;cm g
-: 1709133201:0;cp grc grcat $ZDOTDIR/bin/
-: 1709133210:0;cd conf zsh bin
-: 1709133230:0;ls bin
-: 1709133366:0;ls cmd | grcat
-: 1709133440:0;for cmd in g++ gas head make ld ping6 tail traceroute6 $( ls /usr/share/grc/ ); do\
+: 1710465876:0;/usr/bin/dc
+: 1710465876:0;which du
+: 1710465876:0;dumpiso
+: 1710465876:0;du
+: 1710465876:0;diskus
+: 1710465876:0;cd zinit plu rip
+: 1710465876:0;cd zinit plu
+: 1710465876:0;cd past
+: 1710465876:0;cd sharkdp---pastel
+: 1710465876:0;;sa
+: 1710465876:0;lsa pastel-v0.9.0-x86_64-unknown-linux-gnu
+: 1710465876:0;lsa ajeetdsouza---zoxide
+: 1710465876:0;man zoxide
+: 1710465876:0;tar -zxf eza_x86_64-unknown-linux-gnu.tar.gz eza
+: 1710465876:0;tar -zxf eza_x86_64-unknown-linux-gnu.tar.gz
+: 1710465876:0;cd eza
+: 1710465876:0;cd eza-community---eza
+: 1710465876:0;lsa3
+: 1710465876:0;lsa completions | fzf
+: 1710465876:0;command -v cd
+: 1710465876:0;ls3 shar*
+: 1710465876:0;lsa3 shar*
+: 1710465876:0;which _bat
+: 1710465876:0;ls **/*
+: 1710465876:0;ls */*
+: 1710465876:0;ls **
+: 1710465876:0;ls *
+: 1710465876:0;cp */* test/
+: 1710465876:0;cp */_bat test/
+: 1710465876:0;cp */bat.1 test/
+: 1710465876:0;ls test
+: 1710465876:0;cp **/_bat test/
+: 1710465876:0;rm test/*
+: 1710465876:0;cp **/bat.1 test/
+: 1710465876:0;ls tset
+: 1710465876:0;lsa test
+: 1710465876:0;cm h
+: 1710465876:0;mv -f forgit/1.txt
+: 1710465876:0;mv -f forgit/1.txt .
+: 1710465876:0;rm sharkdp---bat -rf
+: 1710465876:0;cd sharkdp---bat/
+: 1710465876:0;zinit delete sharkdp/bat
+: 1710465876:0;zi load sharkdp/bat
+: 1710465876:0;ls2 shar*
+: 1710465876:0;cd sharkdp---bat
+: 1710465876:0;ls a
+: 1710465876:0;cd bat-v0.24.0-x86_64-unknown-linux-gnu
+: 1710465876:0;ls autocomplete
+: 1710465876:0;vi bat.zsh
+: 1710465876:0;vi autocomplete/bat.zsh
+: 1710465876:0;cd polaris/
+: 1710465876:0;rm man/man1/bat.1
+: 1710465876:0;zi delete sharkdp/bat
+: 1710465876:0;paru -R bat
+: 1710465876:0;paru -R bat batj-extras
+: 1710465876:0;paru -R bat bat-extras
+: 1710465876:0;ls man/man1
+: 1710465876:0;cm ..
+: 1710465876:0;cd zinit/plugins
+: 1710465876:0;paru -R ripgrep fd
+: 1710465876:0;paru -R ripgrep
+: 1710465876:0;rm ajeetdsouza---zoxide -rf
+: 1710465876:0;rm sharkdp* -rf
+: 1710465876:0;ll rg
+: 1710465876:0;rm BurntSushi---ripgrep -rf
+: 1710465876:0;zinit creinstall sharkdp/bat
+: 1710465876:0;zi creinstall sharkdp/bat
+: 1710465876:0;ls BurntSushi---ripgrep/ripgrep-14.1.0-x86_64-unknown-linux-musl
+: 1710465876:0;ls ripgrep-14.1.0-x86_64-unknown-linux-musl
+: 1710465876:0;rm rg
+: 1710465876:0;cd polaris/bin
+: 1710465876:0;rm fzf fzf-tmux
+: 1710465876:0;ls bin/
+: 1710465876:0;ll bin/fzf
+: 1710465876:0;cm .
+: 1710465876:0;ll bin/*
+: 1710465876:0;./fzf-preview.sh
+: 1710465876:0;ls doc
+: 1710465876:0;cd junegunn---fzf/bin
+: 1710465876:0;paru -S fzf
+: 1710465876:0;zi delete junegunn/fzf
+: 1710465876:0;ls fzf-tmux
+: 1710465876:0;cd snippets/* -rf
+: 1710465876:0;rm snippets/* -rf
+: 1710465876:0;cd fzf-tmux
+: 1710465876:0;zi delete BurntSushi/ripgrep
+: 1710465876:0;cd test/git
+: 1710465876:0;cd forgit
+: 1710465876:0;mmv
+: 1710465876:0;mmv \[M\]\ \ \ \ \ README.md \ \ \ README.md
+: 1710465876:0;delta
+: 1710465876:0;which delta
+: 1710465876:0;paru -R delta
+: 1710465876:0;paru -S delta
+: 1710465876:0;cd /usr/bin
+: 1710465876:0;rm delta
+: 1710465876:0;sudo rm delta
+: 1710465876:0;ls, delta
+: 1710465876:0;mkdir fw
+: 1710465876:0;cd ../snippets
+: 1710465876:0;ls2
+: 1710465876:0;lsa2
+: 1710465876:0;mv fzf-tmux ~/.config/zsh/snippets/
+: 1710465876:0;rm .* -rf
+: 1710465876:0;rip -u
+: 1710465876:0;command -v zlog
+: 1710465876:0;which zlog
+: 1710465876:0;zman
+: 1710465876:0;zmanf
+: 1710465876:0;defer
+: 1710465876:0;echo $HOST
+: 1710465876:0;echo $(host)
+: 1710465876:0;host github.com
+: 1710465876:0;compdef
+: 1710465876:0;mkdir 1.txt
+: 1710465876:0;rm 1.txt
+: 1710465876:0;touch 1.txt
+: 1710465876:0;rm aa
+: 1710465876:0;mkdir aa
+: 1710465876:0;mkdir 2.txt
+: 1710465876:0;rm 2.txt
+: 1710465876:0;touch 2.txt
+: 1710465876:0;cd plugins/mattmc3---zman/lib/zman_lookup.zsh
+: 1710465876:0;vi rualdi/rualdi.toml
+: 1710465876:0;rg bkt
+: 1710465876:0;vi completions/_bkt
+: 1710465876:0;xsel -b 111
+: 1710465876:0;cmd z
+: 1710465876:0;autoload -Uz compdef
+: 1710465876:0;bkt -- ls
+: 1710465876:0;vi fzf.zsh
+: 1710465876:0;source 10-completions.zsh
+: 1710465876:0;bkt -v
+: 1710465876:0;command -v bkt
+: 1710465876:0;bkt --help
+: 1710465876:0;bkt -V
+: 1710465876:0;fd bkt
+: 1710465876:0;bkt -- bat bb
+: 1710465876:0;fd go
+: 1710465876:0;rg foo/ff
+: 1710465876:0;rg histdb_topo
+: 1710465876:0;rg dir_history
+: 1710465876:0;vi 36-history.zsh
+: 1710465876:0;aa=(a b)
+: 1710465876:0;echo aaa/$aa
+: 1710465876:0;echo aaa/{$aa}
+: 1710465876:0;echo aaa/${aa[@]}
+: 1710465876:0;echo aaa/${^aa[@]}
+: 1710465876:0;cd .zsh
+: 1710465876:0;zoxide
+: 1710465876:0;cd 5.9
+: 1710465876:0;zoxide -v
+: 1710465876:0;zoxide -V
+: 1710465876:0;cd Aloxaf---zsh-sqlite
+: 1710465876:0;ls src
+: 1710465876:0;vi zsh-sqlite.plugin.zsh
+: 1710465876:0;cd plu zsql
+: 1710465876:0;cd Aloxaf---zsh-sqlite/
+: 1710465876:0;cd zsh/5.9
+: 1710465876:0;./Util/preconfig
+: 1710465876:0;rm Aloxaf---zsh-sqlite
+: 1710465876:0;zi delete Aloxaf/zsh-sqlite
+: 1710465876:0;unalias cd
+: 1710465876:0;zsqlite-build
+: 1710465876:0;rg _histdb
+: 1710465876:0;rg _HISTDB
+: 1710465876:0;vi zsh.d
+: 1710465876:0;cm zd
+: 1710465876:0;rm .zshz
+: 1710465876:0;lsa .zsh_history_dirs
+: 1710465876:0;lsa home
+: 1710465876:0;lsa2 .zsh_history_dirs
+: 1710465876:0;lsa2 home
+: 1710465876:0;rm home
+: 1710465876:0;zsqlite-exec
+: 1710465876:0;zsqlite_exec _HISTDB
+: 1710465876:0;echo $_HISTDB
+: 1710465876:0;history
+: 1710465876:0;echo 222222222222222222
+: 1710465876:0;fzf-tab
+: 1710465876:0;cp .zshrc bak
+: 1710465876:0;lsa bak
+: 1710465876:0;cp -f bak/.zshrc .zshrc
+: 1710465876:0;echo 1111111111111111
+: 1710465876:0;echo 222222222222222
+: 1710465876:0;echo 1111122222
+: 1710465876:0;echo 2222 3333
+: 1710465876:0;echo 22222 444444
+: 1710465876:0;source-highlight
+: 1710465876:0;cd plugins/chmln---sd/sd-v1.0.0-x86_64-unknown-linux-gnu/completions
+: 1710465876:0;cd ../polaris/bin
+: 1710465876:0;cd ../man
+: 1710465876:0;cd ../../completions
+: 1710465876:0;zi delete miserlou/loop
+: 1710465876:0;ls HOME
+: 1710465876:0;rm miserlou---loop
+: 1710465876:0;loop 'sleep 1'
+: 1710465876:0;bkt
+: 1710465876:0;man bkt
+: 1710465876:0;cd .local/share
+: 1710465876:0;lst
+: 1710465876:0;ls /home
+: 1710465876:0;LS
+: 1710465876:0;z local share
+: 1710465876:0;cd ../.
+: 1710465876:0;ls -a
+: 1710465876:0;rg grc.conf
+: 1710465876:0;fd grc.conf
+: 1710465876:0;git clone https://github.com/garabik/grc.git
+: 1710465876:0;./grc --colour
+: 1710465876:0;nznote
+: 1710465876:0;ls ../completions | fzf
+: 1710465876:0;gro
+: 1710465876:0;ls ~/.local/bin
+: 1710465876:0;/home/mjj/dotfiles/.config/zsh/zinit/plugins/garabik---grc/grcat
+: 1710465876:0;cd garabik---grc
+: 1710465876:0;rm garabik---grc
+: 1710465876:0;zi load garabik/grc
+: 1710465876:0;zi delete garabik/grc
+: 1710465876:0;cp grc grcat ~/.local/bin
+: 1710465876:0;cp _grc $ZDOTDIR/completions
+: 1710465876:0;mkdir $ZDOTDIR/man
+: 1710465876:0;cp *.1 $ZDOTDIR/man
+: 1710465876:0;cm dc
+: 1710465876:0;mkdir .grc
+: 1710465876:0;cp grc.conf ~/.grc/
+: 1710465876:0;./install.sh
+: 1710465876:0;cd grc
+: 1710465876:0;cp colourfiles ~/.grc
+: 1710465876:0;cp colourfiles ~/.grc -r
+: 1710465876:0;ls colourfiles
+: 1710465876:0;vi fzf-tmux
+: 1710465876:0;mkdir bin
+: 1710465876:0;mkdir bin/zsh
+: 1710465876:0;mv snippets/fzf-tmux bin/zsh
+: 1710465876:0;rm AAA
+: 1710465876:0;ls .bin
+: 1710465876:0;ls cargo
+: 1710465876:0;ls cargo/bin
+: 1710465876:0;mv zsh/* .
+: 1710465876:0;rm zsh
+: 1710465876:0;cm g
+: 1710465876:0;cp grc grcat $ZDOTDIR/bin/
+: 1710465876:0;cd conf zsh bin
+: 1710465876:0;ls cmd | grcat
+: 1710465876:0;for cmd in g++ gas head make ld ping6 tail traceroute6 $( ls /usr/share/grc/ ); do\
  cmd="${cmd##*conf.}"\
  type "${cmd}" >/dev/null 2>&1 && echo alias "${cmd}"="$( which grc ) --colour=auto ${cmd}"\
 done
-: 1709133539:0;for cmd in g++ gas head make ld ping6 tail traceroute6 $( ls ~/.grc/colourfiles ); do\
+: 1710465876:0;for cmd in g++ gas head make ld ping6 tail traceroute6 $( ls ~/.grc/colourfiles ); do\
  cmd="${cmd##*conf.}"\
  type "${cmd}" >/dev/null 2>&1 && echo alias "${cmd}"="$( which grc ) --colour=auto ${cmd}"\
 done
-: 1709133690:0;cd colourfiles
-: 1709133693:0;vi conf.ps
-: 1709133762:0;grc _grc
-: 1709133789:0;ls completions/ | fzf
-: 1709133815:0;autoload -Uz *
-: 1709133824:0;autoload -Uz _grc
-: 1709133839:0;vi _grc
-: 1709133905:0;cp completions/_grc ~/.config/zsh/completions
-: 1709133919:0;grc -v
-: 1709134071:0;which as
-: 1709134097:0;cd config snip
-: 1709134113:0;cd ../zinit
-: 1709134200:0;which grc
-: 1709134219:0;which config
-: 1709134256:0;vi grc
-: 1709134339:0;cd config zinit
-: 1709134470:0;which gcc
-: 1709134493:0;tail
-: 1709134505:0;which tail
-: 1709134597:0;rm snippets/home--mjj--.config--zsh--snippets
-: 1709134611:0;rm snippets/grc.zsh
-: 1709134824:0;lsar
-: 1709134904:0;cd grc col
-: 1709134969:0;cat conf.php | grc --colour=on
-: 1709134980:0;cat conf.php | grc --colour=on stat
-: 1709134982:0;cat conf.php | grc --colour=on stat 1
-: 1709134988:0;cat conf.php | grc --colour=on stat conf.ant
-: 1709135019:0;cat conf.php | grc --colour=on stat .
-: 1709135028:0;cat conf.php | grc --colour=on stat colourfiles/*
-: 1709135033:0;cat conf.php | grc --colour=on stat colourfiles
-: 1709135049:0;cat conf.php | grc --colour=on stat ~/.grc/colourfiles
-: 1709135068:0;cat colourfiles/conf.php | grc --colour=on stat colourfiles
-: 1709135089:0;echo 11111111111111111 22222222222222222 33333333 > 1.php
-: 1709135099:0;cat 1.php | grc --colour=on stat colourfiles
-: 1709135374:0;grc -
-: 1709135376:0;grc
-: 1709135402:0;grcat
-: 1709135426:0;grc 1.php
-: 1709135447:0;cat 1.php | grc --colour=on
-: 1709135450:0;cat 1.php | grc --colour=on stat
-: 1709135457:0;stat --help
-: 1709135485:0;cat 1.php | grc --colour=on stat 1
-: 1709135504:0;cat 1.php | grc --colour=on stat colourfiles/conf.df
-: 1709135512:0;cat 1.php | grc --colour=on stat colourfiles/conf.curl
-: 1709135519:0;cat 1.php | grc --colour=on stat colourfiles/conf.dockernetwork
-: 1709135530:0;cat 1.php | grc --colour=on stat colourfiles/conf.configure
-: 1709135537:0;cat 1.php | grc --colour=on stat colourfiles/conf.php
-: 1709135639:0;cat 22222.txt
-: 1709135672:0;stdbuf
-: 1709135713:0;cat 1.txt | grc --colour=on stat /home/mjj/1.txt
-: 1709135733:0;cd .grc/colourfiles
-: 1709135821:0;cd zoxide
-: 1709135837:0;grc --colour=on
-: 1709135851:0;grc --colour=on stat build.rc
-: 1709135859:0;grc --colour=on stat build.rs
-: 1709135871:0;cd ../.grc
-: 1709136029:0;rm 1.php
-: 1709136033:0;cp colourfiles/* .
-: 1709136063:0;grc ps aux
-: 1709136106:0;vi grc.conf
-: 1709136218:0;grc cat 22222.txt
-: 1709136224:0;grc cat aa.sh
-: 1709136234:0;grc cat aa.sh test.md
-: 1709136252:0;vi test.md
-: 1709136277:0;grc ping baidu.com
-: 1709136585:0;zi completions
-: 1709136797:0;cd ../git/grc
-: 1709136813:0;cd git grc
-: 1709136830:0;cp grc.zsh $ZDOTDIR/snippets/
-: 1709136845:0;cd zsh snip
-: 1709136979:0;cd zsh zinit sn
-: 1709136983:0;ls home--mjj--.config--zsh--snippets
-: 1709136988:0;ls home--mjj--.config--zsh--snippets/grc.zsh
-: 1709137109:0;zzz
-: 1709137180:0;ffffffffffffffffffffffffffffffffffff
-: 1709167467:0;rm HOME\
+: 1710465876:0;cd colourfiles
+: 1710465876:0;vi conf.ps
+: 1710465876:0;grc _grc
+: 1710465876:0;ls completions/ | fzf
+: 1710465876:0;autoload -Uz *
+: 1710465876:0;autoload -Uz _grc
+: 1710465876:0;vi _grc
+: 1710465876:0;cp completions/_grc ~/.config/zsh/completions
+: 1710465876:0;grc -v
+: 1710465876:0;which as
+: 1710465876:0;cd config snip
+: 1710465876:0;which grc
+: 1710465876:0;which config
+: 1710465876:0;vi grc
+: 1710465876:0;cd config zinit
+: 1710465876:0;which gcc
+: 1710465876:0;tail
+: 1710465876:0;which tail
+: 1710465876:0;rm snippets/home--mjj--.config--zsh--snippets
+: 1710465876:0;rm snippets/grc.zsh
+: 1710465876:0;cd grc col
+: 1710465876:0;cat conf.php | grc --colour=on
+: 1710465876:0;cat conf.php | grc --colour=on stat
+: 1710465876:0;cat conf.php | grc --colour=on stat 1
+: 1710465876:0;cat conf.php | grc --colour=on stat conf.ant
+: 1710465876:0;cat conf.php | grc --colour=on stat .
+: 1710465876:0;cat conf.php | grc --colour=on stat colourfiles/*
+: 1710465876:0;cat conf.php | grc --colour=on stat colourfiles
+: 1710465876:0;cat conf.php | grc --colour=on stat ~/.grc/colourfiles
+: 1710465876:0;cat colourfiles/conf.php | grc --colour=on stat colourfiles
+: 1710465876:0;echo 11111111111111111 22222222222222222 33333333 > 1.php
+: 1710465876:0;cat 1.php | grc --colour=on stat colourfiles
+: 1710465876:0;grc -
+: 1710465876:0;grc
+: 1710465876:0;grcat
+: 1710465876:0;grc 1.php
+: 1710465876:0;cat 1.php | grc --colour=on
+: 1710465876:0;cat 1.php | grc --colour=on stat
+: 1710465876:0;stat --help
+: 1710465876:0;cat 1.php | grc --colour=on stat 1
+: 1710465876:0;cat 1.php | grc --colour=on stat colourfiles/conf.df
+: 1710465876:0;cat 1.php | grc --colour=on stat colourfiles/conf.curl
+: 1710465876:0;cat 1.php | grc --colour=on stat colourfiles/conf.dockernetwork
+: 1710465876:0;cat 1.php | grc --colour=on stat colourfiles/conf.configure
+: 1710465876:0;cat 1.php | grc --colour=on stat colourfiles/conf.php
+: 1710465876:0;cat 22222.txt
+: 1710465876:0;stdbuf
+: 1710465876:0;cat 1.txt | grc --colour=on stat /home/mjj/1.txt
+: 1710465876:0;cd .grc/colourfiles
+: 1710465876:0;cd zoxide
+: 1710465876:0;grc --colour=on
+: 1710465876:0;grc --colour=on stat build.rc
+: 1710465876:0;grc --colour=on stat build.rs
+: 1710465876:0;cd ../.grc
+: 1710465876:0;rm 1.php
+: 1710465876:0;cp colourfiles/* .
+: 1710465876:0;grc ps aux
+: 1710465876:0;vi grc.conf
+: 1710465876:0;grc cat 22222.txt
+: 1710465876:0;grc cat aa.sh
+: 1710465876:0;grc cat aa.sh test.md
+: 1710465876:0;vi test.md
+: 1710465876:0;grc ping baidu.com
+: 1710465876:0;zi completions
+: 1710465876:0;cd ../git/grc
+: 1710465876:0;cd git grc
+: 1710465876:0;cp grc.zsh $ZDOTDIR/snippets/
+: 1710465876:0;cd zsh snip
+: 1710465876:0;cd zsh zinit sn
+: 1710465876:0;ls home--mjj--.config--zsh--snippets
+: 1710465876:0;ls home--mjj--.config--zsh--snippets/grc.zsh
+: 1710465876:0;zzz
+: 1710465876:0;ffffffffffffffffffffffffffffffffffff
+: 1710465876:0;rm HOME\
 ls -m1
-: 1709167473:0;rm HOME
-: 1709167496:0;cd .grc
-: 1709167505:0;rm colourfiles
-: 1709167608:0;zi delete
-: 1709167676:0;LSfd nn
-: 1709167694:0;ffd
-: 1709168161:0;xsel
-: 1709168165:0;xsel --help
-: 1709168649:0;cd test
-: 1709168656:0;touch aa/.1.txt
-: 1709168660:0;lsa aa
-: 1709168676:0;lsa .config
-: 1709168727:0;cd .config/
-: 1709168820:0;touch aa/.ac
-: 1709168823:0;lsa aa/
-: 1709168840:0;cd aa
-: 1709168863:0;rip *
-: 1709168949:0;cd cd
-: 1709169520:0;xsel --bi <<< 2222222222222222222
-: 1709169528:0;xsel --bi <<< $(echo 222222222222222222)
-: 1709169975:0;paru -R xsel
-: 1709170197:0;paru -S wl-clipboard
-: 1709170316:0;cd git
-: 1709170329:0;git clone https://github.com/bugaevc/wl-clipboard.git
-: 1709170336:0;cd wl-clipboard
-: 1709170392:0;fkk
-: 1709170397:0;ls completions | fzf
-: 1709170409:0;cp completions/zsh/_* ~/.config/zsh/completions
-: 1709170433:0;cp data/*.1 ~/.config/zsh/man
-: 1709170464:0;echo $_comps[wl-copy]
-: 1709170585:0;cp completions/_grc zinit/completions
-: 1709170614:0;ll completions/_grc
-: 1709170629:0;vi completions/_grc
-: 1709170931:0;zi compinit
-: 1709170994:0;cp _grc ..
-: 1709171018:0;mv _grc zinit/completions
-: 1709171025:0;cd zinit/completions
-: 1709171038:0;ll _grc
-: 1709171125:0;rm _grc
-: 1709171138:0;echo $_comps[grc]
-: 1709171151:0;echo $_comps[cf]
-: 1709171156:0;echo $_comps[rfkill]
-: 1709171168:0;cd conf zsh com
-: 1709171220:0;_comps[wl-copy]=./_wl-copy
-: 1709172282:0;paru -S shadowsocks-qt5
-: 1709172307:0;paru -S libqtshadowsocks
-: 1709172461:0;cd .config/zsh
-: 1709172484:0;exit
-: 1709172512:0;paru -S shadowsocks
-: 1709172526:0;zshaddhistory
-: 1709172532:0;shadowsocks
-: 1709172862:0;./Shadowsocks-Qt5-3.0.1-x86_64.AppImage
-: 1709172877:0;./Shadowsocks-Qt5-3.0.1-x86_64.AppImage --appimage-extract
-: 1709172904:0;cd squashfs-root/usr/bin
-: 1709172908:0;./ss-qt5
-: 1709172933:0;paru -S qt-5
-: 1709172938:0;paru -S qt
-: 1709174006:0;echo $ABSD
-: 1709174181:0;echo $WAYLAND_DISPLAY
-: 1709174324:0;wl-copy 22222222222222222
-: 1709175202:0;vi 11.txt
-: 1709175295:0;rm test
-: 1709178199:0;cd zinit plug
-: 1709178208:0;cd BurntSushi---ripgrep
-: 1709178213:0;cd ripgrep-14.1.0-x86_64-unknown-linux-musl
-: 1709178237:0;cp complete/_rg ~/.config/zsh/completions
-: 1709178301:0;cp sharkdp---fd/fd-v9.0.0-x86_64-unknown-linux-gnu/autocomplete/_fd $Zdirs[COMPL]
-: 1709178405:0;vi _rg
-: 1709178428:0;cd $Zdirs[COMPL]
-: 1709178477:0;autoload -Uz compinit
-: 1709178514:0;ls .zcompdump
-: 1709178520:0;vi .zcompdump
-: 1709178563:0;zcompile completions.zwc completions/*
-: 1709178571:0;vi completions.zwc
-: 1709178592:0;cm gz
-: 1709178667:0;echo $fpath
-: 1709178692:0;echo $fpath | tr ' ' '\n' | fzf
-: 1709178744:0;echo $fpath | fzf
-: 1709179370:0;compinit
-: 1709187406:0;cmf
-: 1709187408:0;cf
-: 1709189608:0;vi git
-: 1709190441:0;zoxide query -ls
-: 1709190447:0;zoxide query
-: 1709191299:0;cd ../../../../
-: 1709191310:0;vi telescope-rualdi.nvim
-: 1709192641:0;lsa languages
-: 1709192644:0;rm languages
-: 1709192650:0;mkdir dev/
-: 1709192667:0;cd dev
-: 1709192676:0;git clone https://github.com/lmburns/telescope-rualdi.nvim.git
-: 1709192804:0;mv dev ..
-: 1709201129:0;cd ../dev
-: 1709201153:0;git clone https://github.com/jvgrootveld/telescope-zoxide.git
-: 1709201182:0;mv telescope-zoxide telescope-zoxide.nvim
-: 1709201193:0;cd telescope-zoxide.nvim/lua/telescope/_extensions/zoxide
-: 1709204831:0;mkdir note
-: 1709204835:0;cd note.
-: 1709204837:0;cd note
-: 1709204848:0;vi interface.md
-: 1709205156:0;mv interface.md shell.md
-: 1709207169:0;loop --every 10s -- ls
-: 1709207359:0;vi 2.txt
-: 1709213854:0;vi file_frecency.bin
-: 1709214626:0;xit
-: 1709214649:0;cm c
-: 1709214653:0;cd alacritty
-: 1709215073:0;cd config tmux
-: 1709215077:0;cd .config/tmux
-: 1709216440:0;cd .config/alacritty/
-: 1709216799:0;http://man.openbsd.org/OpenBSD-current/man1/tmux.1http://man.openbsd.org/OpenBSD-current/man1/tmux.1f display "Pasted primary to tmux pane"
-: 1709216834:0;http://man.openbsd.org/OpenBSD-current/man1/tmux.1 http://man.openbsd.org/OpenBSD-current/man1/tmux.1
-: 1709216943:0;wl-copy 111111111111111111
-: 1709216950:0;wl-copy -p 222222222222
-: 1709217101:0;t choose-buffer
-: 1709217130:0;t choose-buffer -2
-: 1709217377:0;vi .config/alacritty/alacritty.toml
-: 1709217731:0;rm dirs-jump.lua
-: 1709217847:0;cd local nvim
-: 1709217852:0;rm file_frecency.bin
-: 1709217863:0;rm telescope-frecency.nvim
-: 1709219384:0;vi manage-tasks.lua
-: 1709219598:0;mkdir other
-: 1709219643:0;mv plugins/error.lua plugins/example.lua other/
-: 1709219652:0;vi other.lua
-: 1709219693:0;mv other.lua move-scroll.lua
-: 1709219979:0;vi better-escape.lua
-: 1709220002:0;vi move-scroll.lua
-: 1709220070:0;rm better-escape.lua
-: 1709220334:0;vi surround.lua
-: 1709220441:0;vi ufo.lua
-: 1709221088:0;cd ../other
-: 1709221093:0;vi example.lua
-: 1709221358:0;rm .11
-: 1709221473:0;rip -sf
-: 1709221502:0;rip -sv
-: 1709222995:0;cd local nvim lazy
-: 1709223010:0;cd neo-tree.nvim
-: 1709223016:0;cd lua/neo-tree
-: 1709223914:0;vi ui
-: 1709223917:0;vi ui.lua
-: 1709252283:0;t ls
-: 1709254400:0;echo "/home/mjj' | sd /home/mjj ~"
-: 1709254416:0;echo "/home/mjj" | sd /home/mjj ~
-: 1709254451:0;echo "/home/mjj" | sd "/home/mjj" "~"
-: 1709254492:0;echo "before at" | sd before after
-: 1709254498:0;sd before after
-: 1709254519:0;echo "sample with /path/" | sd '.*(/.*/)' '$1'
-: 1709254542:0;sd --help
-: 1709254548:0;sd --fixed-strings
-: 1709254650:0;cd chmln---sd
-: 1709254653:0;cd sd-v1.0.0-x86_64-unknown-linux-gnu
-: 1709254686:0;echo 'ffff' | ./sd ff dd
-: 1709254698:0;cd polaris
-: 1709254700:0;cd ibn
-: 1709254701:0;cd bin
-: 1709254708:0;./sd
-: 1709254716:0;ll sd
-: 1709254750:0;zi delete chmln/sd
-: 1709254855:0;source .zshrc
-: 1709255013:0;zi load chmln/sd
-: 1709255102:0;rip -
-: 1709255106:0;rip 0s
-: 1709255108:0;rip -s
-: 1709255813:0;cd zsh
-: 1709255889:0;cm n
-: 1709257285:0;cd local share Lazy lua
-: 1709258375:0;cd telescope.nvim/plugin/
-: 1709258387:0;cd ../lua
-: 1709258390:0;cd telescope
-: 1709258397:0;vi config
-: 1709259869:0;vi markdown.lua
-: 1709260051:0;cd local share teles
-: 1709260061:0;cd ucd local share Lazy
-: 1709260079:0;cd LazyVim/lua/lazyvim/plugins
-: 1709262295:0;cd local share zinit
-: 1709262305:0;cd zinit
-: 1709262321:0;rm completions/_sd
-: 1709264365:0;cd util
-: 1709265219:0;paru -S shadowsocks-libv
-: 1709265224:0;paru -S shadowsocks-libev
-: 1709266144:0;cd local share tele tele
-: 1709266250:0;cd conf
-: 1709271090:0;vi multi-cursor.lua
-: 1709271122:0;cd lua/plugins
-: 1709272015:0;fd --follow
-: 1709272037:0;vi zsh.d/05-export.zsh
-: 1709272569:0;cd ../nvim/lua
-: 1709272581:0;mkdir utils
-: 1709272591:0;vi .telescope.lua
-: 1709273268:0;mv .telescope.lua telescope.lua
-: 1709273475:0;fd -tf | wc -l
-: 1709273492:0;fd -tf --prune | wc -l
-: 1709273540:0;fd -tf --
-: 1709273545:0;fd -tf --prune
-: 1709273569:0;fd -tf --exact-depth=1
-: 1709274928:0;fd -tf
-: 1709274931:0;fd -tf -td
-: 1709276553:0;vi lazyvim.json
-: 1709278988:0;vi telescope-all-recent.sqlite3
-: 1709279000:0;rm file_frecency.bin telescope-all-recent.sqlite3
-: 1709279149:0;cd .config nvim plugin
-: 1709279252:0;cd local share
-: 1709279262:0;cd lazy/telescope-all-recent.nvim
-: 1709279268:0;cd lua/telescope-all-recent
-: 1709279586:0;cd utils/telescope.lua
-: 1709279998:0;cd ../../..
-: 1709281329:0;vi todo.md
-: 1709281895:0;vi utils
-: 1709282514:0;vi utils/telescope.lua
-: 1709282714:0;vi override.lua
-: 1709282901:0;vi utils/telescope.lua telescope.lua
-: 1709282963:0;vi utils/telescope.lua telesco
-: 1709286710:0;cd local share Lazy
-: 1709286722:0;cd LazyVim/lua/lazyvim/plugins/ls
-: 1709286724:0;cd LazyVim/lua/lazyvim/plugins/
-: 1709286887:0;cd ../telescope.nvim/lua/telescope/builtin
-: 1709286893:0;vi __files.lua
-: 1709288699:0;rm :q
-: 1709290849:0;vi ripgrep/grep/ripgreprc
-: 1709291214:0;vi ripgrep/ripgreprc
-: 1709302446:0;vi flash.lua
-: 1709302577:0;ls note
-: 1709302586:0;vi note/utils.md
-: 1709302593:0;vi utils.md
-: 1709302616:0;rm utils.md
-: 1709302622:0;ls utils.lua
-: 1709302627:0;mv utils.lua
-: 1709302632:0;vi utils.lua
-: 1709302638:0;rm utils.lua
-: 1709302643:0;rm uitls.md
-: 1709302657:0;mv todo.md note
-: 1709302676:0;cd lua/ plug
-: 1709303824:0;cd builtin
-: 1709303829:0;rg buffers
-: 1709304333:0;vi __internal.lua
-: 1709304863:0;kq
-: 1709304931:0;fd --exclude .*
-: 1709304953:0;fd --hidden
-: 1709304965:0;fd --hidden --exclude .*
-: 1709305139:0;yazi
-: 1709305141:0;y
-: 1709305895:0;vi yazi.lua
-: 1709307675:0;jk
-: 1709307675:0;E576: Error while reading ShaDa file: there is an item at position 42490 that m
-: 1709307810:0;fd shada
-: 1709307879:0;vi -u NODE -V
-: 1709307966:0;cd ../state
-: 1709308028:0;rm shada/main.shada
-: 1709308111:0;vi lazy
-: 1709308195:0;vi lsp.log
-: 1709308429:0;vi plugins/telescope.lua
-: 1709308789:0;vi plugins
-: 1709308925:0;nvim /home/mjj/.config/tmux/tmux.conf
-: 1709308956:0;q
-: 1709309243:0;ls completion
-: 1709309246:0;vi completion
-: 1709309280:0;mmv *
-: 1709309330:0;rm completion ppwwd datadata result fzfz test.zsh fzf-run selected data ppppwd prompt
-: 1709309362:0;vi zoxide
-: 1709309374:0;ls zoxide
-: 1709309387:0;rm zoxide
-: 1709309566:0;vi nvim
-: 1709343740:0;cd ../
-: 1709344205:0;vi colorizer.lua telescope.lua
-: 1709362641:0;vi colorizer.lua
-: 1709362815:0;sh -c "$(curl -s https://raw.githubusercontent.com/ibhagwan/fzf-lua/main/scripts/mini.sh)"
-: 1709367608:0;cd utils
-: 1709373581:0;pastel
-: 1709373608:0;pastel list
-: 1709373649:0;pastel --color-mode=24bit list
-: 1709373671:0;pastel --color-mode=24bit color
-: 1709373678:0;pastel --color-mode=24bit colorblind
-: 1709374438:0;rg .
-: 1709374447:0;rg . -- 1
-: 1709374480:0;rg --line-regexp a
-: 1709374482:0;rg --line-regexp aa
-: 1709374489:0;rg keys
-: 1709374502:0;rg keys --after-context=1
-: 1709374517:0;rg keys --crlf
-: 1709374527:0;rg keys --crlf --heading
-: 1709374609:0;rg keys --crlf --no-heading --iglob
-: 1709374625:0;rg keys --crlf --no-heading --iglob extend
-: 1709374649:0;rg keys --crlf --no-heading --iglob extend --debug
-: 1709374678:0;rg keys --crlf --no-heading --iglob yazi--debug
-: 1709374682:0;rg keys --crlf --no-heading --iglob yazi --debug
-: 1709374739:0;rg keys --crlf --no-heading
-: 1709374748:0;rg keys --crlf --no-heading --glob *.lua
-: 1709374756:0;rg keys --crlf --no-heading --glob disabled*
-: 1709374990:0;rg keys telescope.lua
-: 1709375035:0;rg --field-match-separator '----------' telescope.lua
-: 1709375042:0;rg --field-match-separator '----------' keys telescope.lua
-: 1709375106:0;rg --word-regexp keys telescope.lua
-: 1709375124:0;rg --word-regexp keys* telescope.lua
-: 1709375129:0;rg --word-regexp keys.* telescope.lua
-: 1709376018:0;fd --exact-depth=1 | fzf
-: 1709377732:0;cd local share nvim
-: 1709377735:0;cd lazy
-: 1709377949:0;vi .
-: 1709378802:0;vi ../init.lua
-: 1709387077:0;vi files.lua
-: 1709387165:0;cd plu
-: 1709387218:0;vi git.lua
-: 1709388161:0;cd fzf-lua/lua/fzf-lua/providers
-: 1709388405:0;vi buffers.lua
-: 1709389383:0;vidir
-: 1709389587:0;fzf --border=top
-: 1709389597:0;fzf --border=bold
-: 1709389615:0;fzf --border=double
-: 1709389649:0;fzf --border=right
-: 1709389652:0;fzf --border=left
-: 1709389663:0;fzf --border=bottom
-: 1709389672:0;fzf --border=rounded
-: 1709389695:0;fzf --border=vertical
-: 1709389704:0;fzf --border=horizontal
-: 1709389734:0;fzf --border-label=aaaa
-: 1709389760:0;fzf --border=sharp
-: 1709390150:0;fzf-tmux -p 80%,90%
-: 1709390178:0;fzf-tmux -p 80%,90% -- --border=rounded
-: 1709390866:0;fzf-tmux -p 40,20
-: 1709390911:0;fzf-tmux -p 40,20 --border=sharp
-: 1709392577:0;vi plasmanotifyrc
-: 1709392607:0;fzf-tmux
-: 1709392627:0;cd zsh zsh.d
-: 1709392638:0;vi 70-export-plug.zsh
-: 1709392681:0;cd config al
-: 1709392687:0;cd c
-: 1709392701:0;vi alacritty/alacritty.toml
-: 1709394237:0;vi kio
-: 1709394258:0;vi kiorc
-: 1709394295:0;fzf:
-: 1709394335:0;vi lazy-lock.json
-: 1709394437:0;vi README.md
-: 1709424403:0;cd fzf-lua/lua/fzf-lua/profiles
-: 1709425291:0;ffffffffls
-: 1709426439:0;ls | fzf
-: 1709426449:0;ls | fzf --with-nth=1
-: 1709426455:0;ls | fzf --with-nth=-1
-: 1709427577:0;mkdir .ff
-: 1709427797:0;mkdir .git
-: 1709428004:0;cd nvim lua plug
-: 1709430643:0;vi 1.txt
-: 1709430874:0;vi reset.zsh
-: 1709432183:0;gi
-: 1709432589:0;cd nvim
-: 1709432602:0;la
-: 1709432719:0;vi .bkt/bkt-0.8-cache/data/60/data.rOX6lG0jd1szQkJW
-: 1709432789:0;cat .ignore
-: 1709432896:0;rm -u
-: 1709432911:0;rm ignore
-: 1709432988:0;rm .ignore
-: 1709433126:0;ls .git
-: 1709433228:0;cd .note
-: 1709433233:0;cd zsh_plugins
-: 1709433255:0;mkdir import
-: 1709433257:0;cd import
-: 1709433260:0;vi rg
-: 1709433584:0;fd --no-ignore
-: 1709433773:0;fd --H
-: 1709433830:0;vi 41-aliases.zsh
-: 1709434918:0;cd .note/import
-: 1709434920:0;vi rg.md
-: 1709435057:0;rg --help
-: 1709435755:0;touch .rgignore
-: 1709435791:0;mv .rgignore .fdignore .ignore .gitignore dotfiles
-: 1709435842:0;mv ../.gitconfig .
-: 1709435861:0;ls .grc
-: 1709435905:0;rm .bkt
-: 1709435913:0;ls ..
-: 1709435915:0;ls ..a
-: 1709435917:0;lsa ..
-: 1709435991:0;mv .zshenv .ssh dotfiles
-: 1709436000:0;mv README.md dotfiles
-: 1709436022:0;stow -R .
-: 1709436055:0;lsh
-: 1709436142:0;stow -S -t .gitignore .
-: 1709436171:0;lsa | fzf
-: 1709436175:0;lsa .. | fzf
-: 1709436191:0;mv ../.git .
-: 1709436204:0;stow -S .
-: 1709436454:0;rg a
-: 1709436467:0;rg a | fzf
-: 1709436515:0;cd config fd
-: 1709436585:0;rg a --hidden | fzf
-: 1709436880:0;ls mjj
-: 1709436882:0;rm mjj
-: 1709436885:0;rm nvim
-: 1709436907:0;rm .fzf-marks .z .fzf.bash .fzf.zsh
-: 1709436919:0;rm tt1
-: 1709436945:0;rm .cargo
-: 1709436953:0;rm .zsh_history_dirs
-: 1709436970:0;ls .hyprland
-: 1709436976:0;ls fzf
-: 1709436995:0;rm fzf .hyprland
-: 1709437236:0;cd config lau
-: 1709437400:0;vi fd.md
-: 1709437506:0;vi .ignore
-: 1709437521:0;mv .ignore .gitignore
-: 1709437536:0;mv .gitignore ..
-: 1709437555:0;mv ../.gitignore ../.ignore
-: 1709437573:0;mv ../.ignore ../.fdignore
-: 1709437589:0;rm ../.fdignore
-: 1709437687:0;cd config lua
-: 1709438670:0;rm hello
-: 1709438684:0;rm hello -rf
-: 1709438994:0;cat .data
-: 1709438996:0;rm .data
-: 1709439245:0;cd fd
-: 1709439248:0;vi ignore
-: 1709439512:0;cd config zinit plug
-: 1709439520:0;cd sharkdp---fd/fd-v9.0.0-x86_64-unknown-linux-gnu/autocomplete
-: 1709439534:0;cp _fd $Zdirs[COMPL]/
-: 1709439542:0;echo $Zdirs[COMPL]
-: 1709439578:0;cp BurntSushi---ripgrep/ripgrep-14.1.0-x86_64-unknown-linux-musl/complete/_rg $Zdirs[COMPL]
-: 1709439613:0;cp BurntSushi---ripgrep/ripgrep-14.1.0-x86_64-unknown-linux-musl/doc/rg.1 $Zdirs[MAN]
-: 1709439979:0;cd plugins/utils
-: 1709439986:0;cp telescope.lua 1.lua
-: 1709444027:0;cd lua
-: 1709445821:0;cd config nvim
-: 1709446256:0;vi config/lua
-: 1709448816:0;vi uls
-: 1709448840:0;cd ../LazyVim/lua/lazyvim/plugins
-: 1709449184:0;vi editor.lua
-: 1709450119:0;rg -w tt
-: 1709450581:0;vi command.lua
-: 1709455569:0;man fzf
-: 1709455580:0;ls man
-: 1709455599:0;cd man
-: 1709455618:0;mkdir man{1..9}
-: 1709455633:0;mv *.1 man1
-: 1709455637:0;mandb
-: 1709455653:0;man rg
-: 1709457574:0;vi defaults.lua
-: 1709457668:0;cat .gitignore
-: 1709457716:0;git status -s
-: 1709457726:0;gss
-: 1709457730:0;ga
-: 1709457800:0;git push -u
-: 1709457917:0;ugit
-: 1709457937:0;rm .git
-: 1709457939:0;git init
-: 1709457941:0;git uls
-: 1709457971:0;git add .
-: 1709457979:0;git commit -m 'init'
-: 1709457996:0;git remote add orgin git@github.com:MaJinjie/dotfiles.git
-: 1709458002:0;git push
-: 1709458024:0;git remote rename orgin origin
-: 1709458032:0;git push -u origin
-: 1709458068:0;git push --set-upstream origin
-: 1709458092:0;git branch
-: 1709458097:0;git push --set-upstream origin man
-: 1709458134:0;git push --set-upstream origin main
-: 1709458183:0;git push --set-upstream --force origin main
-: 1709464630:0;cd Obsidian-1.5.8.AppImage ../git
-: 1709464642:0;mv Obsidian-1.5.8.AppImage ../git
-: 1709464646:0;cd ../git
-: 1709464652:0;ll Obsidian-1.5.8.AppImage
-: 1709464665:0;chmod +x Obsidian-1.5.8.AppImage
-: 1709464690:0;./cod
-: 1709464707:0;ls\
+: 1710465876:0;rm HOME
+: 1710465876:0;cd .grc
+: 1710465876:0;rm colourfiles
+: 1710465876:0;zi delete
+: 1710465876:0;LSfd nn
+: 1710465876:0;ffd
+: 1710465876:0;xsel
+: 1710465876:0;xsel --help
+: 1710465876:0;touch aa/.1.txt
+: 1710465876:0;lsa aa
+: 1710465876:0;lsa .config
+: 1710465876:0;cd .config/
+: 1710465876:0;touch aa/.ac
+: 1710465876:0;lsa aa/
+: 1710465876:0;cd aa
+: 1710465876:0;rip *
+: 1710465876:0;cd cd
+: 1710465876:0;xsel --bi <<< 2222222222222222222
+: 1710465876:0;xsel --bi <<< $(echo 222222222222222222)
+: 1710465876:0;paru -R xsel
+: 1710465876:0;paru -S wl-clipboard
+: 1710465876:0;git clone https://github.com/bugaevc/wl-clipboard.git
+: 1710465876:0;cd wl-clipboard
+: 1710465876:0;fkk
+: 1710465876:0;ls completions | fzf
+: 1710465876:0;cp completions/zsh/_* ~/.config/zsh/completions
+: 1710465876:0;cp data/*.1 ~/.config/zsh/man
+: 1710465876:0;echo $_comps[wl-copy]
+: 1710465876:0;cp completions/_grc zinit/completions
+: 1710465876:0;ll completions/_grc
+: 1710465876:0;vi completions/_grc
+: 1710465876:0;zi compinit
+: 1710465876:0;cp _grc ..
+: 1710465876:0;mv _grc zinit/completions
+: 1710465876:0;cd zinit/completions
+: 1710465876:0;ll _grc
+: 1710465876:0;rm _grc
+: 1710465876:0;echo $_comps[grc]
+: 1710465876:0;echo $_comps[cf]
+: 1710465876:0;echo $_comps[rfkill]
+: 1710465876:0;cd conf zsh com
+: 1710465876:0;_comps[wl-copy]=./_wl-copy
+: 1710465876:0;paru -S shadowsocks-qt5
+: 1710465876:0;paru -S libqtshadowsocks
+: 1710465876:0;cd .config/zsh
+: 1710465876:0;exit
+: 1710465876:0;paru -S shadowsocks
+: 1710465876:0;zshaddhistory
+: 1710465876:0;shadowsocks
+: 1710465876:0;./Shadowsocks-Qt5-3.0.1-x86_64.AppImage
+: 1710465876:0;./Shadowsocks-Qt5-3.0.1-x86_64.AppImage --appimage-extract
+: 1710465876:0;cd squashfs-root/usr/bin
+: 1710465876:0;./ss-qt5
+: 1710465876:0;paru -S qt-5
+: 1710465876:0;paru -S qt
+: 1710465876:0;echo $ABSD
+: 1710465876:0;echo $WAYLAND_DISPLAY
+: 1710465876:0;wl-copy 22222222222222222
+: 1710465876:0;vi 11.txt
+: 1710465876:0;cd zinit plug
+: 1710465876:0;cd BurntSushi---ripgrep
+: 1710465876:0;cd ripgrep-14.1.0-x86_64-unknown-linux-musl
+: 1710465876:0;cp complete/_rg ~/.config/zsh/completions
+: 1710465876:0;cp sharkdp---fd/fd-v9.0.0-x86_64-unknown-linux-gnu/autocomplete/_fd $Zdirs[COMPL]
+: 1710465876:0;vi _rg
+: 1710465876:0;cd $Zdirs[COMPL]
+: 1710465876:0;autoload -Uz compinit
+: 1710465876:0;ls .zcompdump
+: 1710465876:0;vi .zcompdump
+: 1710465876:0;zcompile completions.zwc completions/*
+: 1710465876:0;vi completions.zwc
+: 1710465876:0;cm gz
+: 1710465876:0;echo $fpath
+: 1710465876:0;echo $fpath | tr ' ' '\n' | fzf
+: 1710465876:0;echo $fpath | fzf
+: 1710465876:0;compinit
+: 1710465876:0;cmf
+: 1710465876:0;cf
+: 1710465876:0;vi git
+: 1710465876:0;zoxide query -ls
+: 1710465876:0;zoxide query
+: 1710465876:0;cd ../../../../
+: 1710465876:0;vi telescope-rualdi.nvim
+: 1710465876:0;lsa languages
+: 1710465876:0;rm languages
+: 1710465876:0;mkdir dev/
+: 1710465876:0;git clone https://github.com/lmburns/telescope-rualdi.nvim.git
+: 1710465876:0;mv dev ..
+: 1710465876:0;cd ../dev
+: 1710465876:0;git clone https://github.com/jvgrootveld/telescope-zoxide.git
+: 1710465876:0;mv telescope-zoxide telescope-zoxide.nvim
+: 1710465876:0;cd telescope-zoxide.nvim/lua/telescope/_extensions/zoxide
+: 1710465876:0;mkdir note
+: 1710465876:0;cd note.
+: 1710465876:0;cd note
+: 1710465876:0;vi interface.md
+: 1710465876:0;mv interface.md shell.md
+: 1710465876:0;loop --every 10s -- ls
+: 1710465876:0;vi 2.txt
+: 1710465876:0;vi file_frecency.bin
+: 1710465876:0;xit
+: 1710465876:0;cd alacritty
+: 1710465876:0;cd .config/tmux
+: 1710465876:0;cd .config/alacritty/
+: 1710465876:0;http://man.openbsd.org/OpenBSD-current/man1/tmux.1http://man.openbsd.org/OpenBSD-current/man1/tmux.1f display "Pasted primary to tmux pane"
+: 1710465876:0;http://man.openbsd.org/OpenBSD-current/man1/tmux.1 http://man.openbsd.org/OpenBSD-current/man1/tmux.1
+: 1710465876:0;wl-copy 111111111111111111
+: 1710465876:0;wl-copy -p 222222222222
+: 1710465876:0;t choose-buffer
+: 1710465876:0;t choose-buffer -2
+: 1710465876:0;rm dirs-jump.lua
+: 1710465876:0;rm file_frecency.bin
+: 1710465876:0;rm telescope-frecency.nvim
+: 1710465876:0;vi manage-tasks.lua
+: 1710465876:0;mkdir other
+: 1710465876:0;mv plugins/error.lua plugins/example.lua other/
+: 1710465876:0;vi other.lua
+: 1710465876:0;mv other.lua move-scroll.lua
+: 1710465876:0;vi better-escape.lua
+: 1710465876:0;vi move-scroll.lua
+: 1710465876:0;rm better-escape.lua
+: 1710465876:0;cd ../other
+: 1710465876:0;vi example.lua
+: 1710465876:0;rm .11
+: 1710465876:0;rip -sf
+: 1710465876:0;rip -sv
+: 1710465876:0;cd neo-tree.nvim
+: 1710465876:0;cd lua/neo-tree
+: 1710465876:0;vi ui
+: 1710465876:0;echo "/home/mjj' | sd /home/mjj ~"
+: 1710465876:0;echo "/home/mjj" | sd /home/mjj ~
+: 1710465876:0;echo "/home/mjj" | sd "/home/mjj" "~"
+: 1710465876:0;echo "before at" | sd before after
+: 1710465876:0;sd before after
+: 1710465876:0;echo "sample with /path/" | sd '.*(/.*/)' '$1'
+: 1710465876:0;sd --help
+: 1710465876:0;sd --fixed-strings
+: 1710465876:0;cd chmln---sd
+: 1710465876:0;cd sd-v1.0.0-x86_64-unknown-linux-gnu
+: 1710465876:0;echo 'ffff' | ./sd ff dd
+: 1710465876:0;cd polaris
+: 1710465876:0;cd ibn
+: 1710465876:0;./sd
+: 1710465876:0;ll sd
+: 1710465876:0;zi delete chmln/sd
+: 1710465876:0;zi load chmln/sd
+: 1710465876:0;rip -
+: 1710465876:0;rip 0s
+: 1710465876:0;rip -s
+: 1710465876:0;cd local share Lazy lua
+: 1710465876:0;cd telescope.nvim/plugin/
+: 1710465876:0;cd ../lua
+: 1710465876:0;cd telescope
+: 1710465876:0;cd local share teles
+: 1710465876:0;cd ucd local share Lazy
+: 1710465876:0;cd local share zinit
+: 1710465876:0;rm completions/_sd
+: 1710465876:0;cd util
+: 1710465876:0;paru -S shadowsocks-libv
+: 1710465876:0;paru -S shadowsocks-libev
+: 1710465876:0;cd local share tele tele
+: 1710465876:0;cd conf
+: 1710465876:0;vi multi-cursor.lua
+: 1710465876:0;fd --follow
+: 1710465876:0;vi zsh.d/05-export.zsh
+: 1710465876:0;cd ../nvim/lua
+: 1710465876:0;vi .telescope.lua
+: 1710465876:0;mv .telescope.lua telescope.lua
+: 1710465876:0;fd -tf | wc -l
+: 1710465876:0;fd -tf --prune | wc -l
+: 1710465876:0;fd -tf --
+: 1710465876:0;fd -tf --prune
+: 1710465876:0;fd -tf --exact-depth=1
+: 1710465876:0;fd -tf -td
+: 1710465876:0;vi lazyvim.json
+: 1710465876:0;vi telescope-all-recent.sqlite3
+: 1710465876:0;rm file_frecency.bin telescope-all-recent.sqlite3
+: 1710465876:0;cd .config nvim plugin
+: 1710465876:0;cd lazy/telescope-all-recent.nvim
+: 1710465876:0;cd lua/telescope-all-recent
+: 1710465876:0;cd utils/telescope.lua
+: 1710465876:0;vi todo.md
+: 1710465876:0;vi utils
+: 1710465876:0;vi override.lua
+: 1710465876:0;vi utils/telescope.lua telescope.lua
+: 1710465876:0;vi utils/telescope.lua telesco
+: 1710465876:0;cd local share Lazy
+: 1710465876:0;cd LazyVim/lua/lazyvim/plugins/ls
+: 1710465876:0;cd LazyVim/lua/lazyvim/plugins/
+: 1710465876:0;cd ../telescope.nvim/lua/telescope/builtin
+: 1710465876:0;vi __files.lua
+: 1710465876:0;rm :q
+: 1710465876:0;vi ripgrep/grep/ripgreprc
+: 1710465876:0;vi flash.lua
+: 1710465876:0;vi note/utils.md
+: 1710465876:0;vi utils.md
+: 1710465876:0;rm utils.md
+: 1710465876:0;ls utils.lua
+: 1710465876:0;mv utils.lua
+: 1710465876:0;rm utils.lua
+: 1710465876:0;rm uitls.md
+: 1710465876:0;mv todo.md note
+: 1710465876:0;cd lua/ plug
+: 1710465876:0;cd builtin
+: 1710465876:0;rg buffers
+: 1710465876:0;vi __internal.lua
+: 1710465876:0;kq
+: 1710465876:0;fd --exclude .*
+: 1710465876:0;fd --hidden
+: 1710465876:0;fd --hidden --exclude .*
+: 1710465876:0;jk
+: 1710465876:0;E576: Error while reading ShaDa file: there is an item at position 42490 that m
+: 1710465876:0;fd shada
+: 1710465876:0;vi -u NODE -V
+: 1710465876:0;cd ../state
+: 1710465876:0;rm shada/main.shada
+: 1710465876:0;vi lazy
+: 1710465876:0;vi lsp.log
+: 1710465876:0;vi plugins/telescope.lua
+: 1710465876:0;vi plugins
+: 1710465876:0;nvim /home/mjj/.config/tmux/tmux.conf
+: 1710465876:0;ls completion
+: 1710465876:0;vi completion
+: 1710465876:0;mmv *
+: 1710465876:0;rm completion ppwwd datadata result fzfz test.zsh fzf-run selected data ppppwd prompt
+: 1710465876:0;vi zoxide
+: 1710465876:0;ls zoxide
+: 1710465876:0;rm zoxide
+: 1710465876:0;vi nvim
+: 1710465876:0;vi colorizer.lua telescope.lua
+: 1710465876:0;vi colorizer.lua
+: 1710465876:0;sh -c "$(curl -s https://raw.githubusercontent.com/ibhagwan/fzf-lua/main/scripts/mini.sh)"
+: 1710465876:0;pastel
+: 1710465876:0;pastel list
+: 1710465876:0;pastel --color-mode=24bit list
+: 1710465876:0;pastel --color-mode=24bit color
+: 1710465876:0;pastel --color-mode=24bit colorblind
+: 1710465876:0;rg .
+: 1710465876:0;rg . -- 1
+: 1710465876:0;rg --line-regexp a
+: 1710465876:0;rg --line-regexp aa
+: 1710465876:0;rg keys
+: 1710465876:0;rg keys --after-context=1
+: 1710465876:0;rg keys --crlf
+: 1710465876:0;rg keys --crlf --heading
+: 1710465876:0;rg keys --crlf --no-heading --iglob
+: 1710465876:0;rg keys --crlf --no-heading --iglob extend
+: 1710465876:0;rg keys --crlf --no-heading --iglob extend --debug
+: 1710465876:0;rg keys --crlf --no-heading --iglob yazi--debug
+: 1710465876:0;rg keys --crlf --no-heading --iglob yazi --debug
+: 1710465876:0;rg keys --crlf --no-heading
+: 1710465876:0;rg keys --crlf --no-heading --glob *.lua
+: 1710465876:0;rg keys --crlf --no-heading --glob disabled*
+: 1710465876:0;rg keys telescope.lua
+: 1710465876:0;rg --field-match-separator '----------' telescope.lua
+: 1710465876:0;rg --field-match-separator '----------' keys telescope.lua
+: 1710465876:0;rg --word-regexp keys telescope.lua
+: 1710465876:0;rg --word-regexp keys* telescope.lua
+: 1710465876:0;rg --word-regexp keys.* telescope.lua
+: 1710465876:0;fd --exact-depth=1 | fzf
+: 1710465876:0;cd local share nvim
+: 1710465876:0;vi files.lua
+: 1710465876:0;cd plu
+: 1710465876:0;vi git.lua
+: 1710465876:0;cd fzf-lua/lua/fzf-lua/providers
+: 1710465876:0;vi buffers.lua
+: 1710465876:0;vidir
+: 1710465876:0;fzf --border=top
+: 1710465876:0;fzf --border=bold
+: 1710465876:0;fzf --border=double
+: 1710465876:0;fzf --border=right
+: 1710465876:0;fzf --border=left
+: 1710465876:0;fzf --border=bottom
+: 1710465876:0;fzf --border=rounded
+: 1710465876:0;fzf --border=vertical
+: 1710465876:0;fzf --border=horizontal
+: 1710465876:0;fzf --border-label=aaaa
+: 1710465876:0;fzf-tmux -p 80%,90%
+: 1710465876:0;fzf-tmux -p 80%,90% -- --border=rounded
+: 1710465876:0;fzf-tmux -p 40,20
+: 1710465876:0;fzf-tmux -p 40,20 --border=sharp
+: 1710465876:0;vi plasmanotifyrc
+: 1710465876:0;fzf-tmux
+: 1710465876:0;cd zsh zsh.d
+: 1710465876:0;vi 70-export-plug.zsh
+: 1710465876:0;cd config al
+: 1710465876:0;cd c
+: 1710465876:0;vi kio
+: 1710465876:0;vi kiorc
+: 1710465876:0;fzf:
+: 1710465876:0;cd fzf-lua/lua/fzf-lua/profiles
+: 1710465876:0;ffffffffls
+: 1710465876:0;ls | fzf --with-nth=1
+: 1710465876:0;ls | fzf --with-nth=-1
+: 1710465876:0;mkdir .ff
+: 1710465876:0;mkdir .git
+: 1710465876:0;vi reset.zsh
+: 1710465876:0;gi
+: 1710465876:0;la
+: 1710465876:0;vi .bkt/bkt-0.8-cache/data/60/data.rOX6lG0jd1szQkJW
+: 1710465876:0;cat .ignore
+: 1710465876:0;rm ignore
+: 1710465876:0;ls .git
+: 1710465876:0;cd zsh_plugins
+: 1710465876:0;mkdir import
+: 1710465876:0;cd import
+: 1710465876:0;vi rg
+: 1710465876:0;fd --no-ignore
+: 1710465876:0;fd --H
+: 1710465876:0;cd .note/import
+: 1710465876:0;vi rg.md
+: 1710465876:0;rg --help
+: 1710465876:0;touch .rgignore
+: 1710465876:0;mv .rgignore .fdignore .ignore .gitignore dotfiles
+: 1710465876:0;mv ../.gitconfig .
+: 1710465876:0;ls .grc
+: 1710465876:0;ls ..a
+: 1710465876:0;mv .zshenv .ssh dotfiles
+: 1710465876:0;mv README.md dotfiles
+: 1710465876:0;stow -R .
+: 1710465876:0;lsh
+: 1710465876:0;stow -S -t .gitignore .
+: 1710465876:0;lsa | fzf
+: 1710465876:0;lsa .. | fzf
+: 1710465876:0;mv ../.git .
+: 1710465876:0;rg a
+: 1710465876:0;rg a | fzf
+: 1710465876:0;rg a --hidden | fzf
+: 1710465876:0;ls mjj
+: 1710465876:0;rm mjj
+: 1710465876:0;rm .fzf-marks .z .fzf.bash .fzf.zsh
+: 1710465876:0;rm tt1
+: 1710465876:0;rm .cargo
+: 1710465876:0;rm .zsh_history_dirs
+: 1710465876:0;ls .hyprland
+: 1710465876:0;rm fzf .hyprland
+: 1710465876:0;cd config lau
+: 1710465876:0;vi fd.md
+: 1710465876:0;mv .ignore .gitignore
+: 1710465876:0;mv .gitignore ..
+: 1710465876:0;mv ../.gitignore ../.ignore
+: 1710465876:0;mv ../.ignore ../.fdignore
+: 1710465876:0;rm ../.fdignore
+: 1710465876:0;cd config lua
+: 1710465876:0;rm hello
+: 1710465876:0;rm hello -rf
+: 1710465876:0;cat .data
+: 1710465876:0;rm .data
+: 1710465876:0;cd fd
+: 1710465876:0;cd config zinit plug
+: 1710465876:0;cd sharkdp---fd/fd-v9.0.0-x86_64-unknown-linux-gnu/autocomplete
+: 1710465876:0;cp _fd $Zdirs[COMPL]/
+: 1710465876:0;echo $Zdirs[COMPL]
+: 1710465876:0;cp BurntSushi---ripgrep/ripgrep-14.1.0-x86_64-unknown-linux-musl/complete/_rg $Zdirs[COMPL]
+: 1710465876:0;cp BurntSushi---ripgrep/ripgrep-14.1.0-x86_64-unknown-linux-musl/doc/rg.1 $Zdirs[MAN]
+: 1710465876:0;cd plugins/utils
+: 1710465876:0;cp telescope.lua 1.lua
+: 1710465876:0;vi config/lua
+: 1710465876:0;cd ../LazyVim/lua/lazyvim/plugins
+: 1710465876:0;rg -w tt
+: 1710465876:0;ls man
+: 1710465876:0;cd man
+: 1710465876:0;mkdir man{1..9}
+: 1710465876:0;mv *.1 man1
+: 1710465876:0;mandb
+: 1710465876:0;man rg
+: 1710465876:0;cat .gitignore
+: 1710465876:0;git status -s
+: 1710465876:0;gss
+: 1710465876:0;ga
+: 1710465876:0;git push -u
+: 1710465876:0;ugit
+: 1710465876:0;git uls
+: 1710465876:0;git commit -m 'init'
+: 1710465876:0;git remote add orgin git@github.com:MaJinjie/dotfiles.git
+: 1710465876:0;git remote rename orgin origin
+: 1710465876:0;git push -u origin
+: 1710465876:0;git push --set-upstream origin
+: 1710465876:0;git push --set-upstream origin man
+: 1710465876:0;git push --set-upstream origin main
+: 1710465876:0;git push --set-upstream --force origin main
+: 1710465876:0;cd Obsidian-1.5.8.AppImage ../git
+: 1710465876:0;mv Obsidian-1.5.8.AppImage ../git
+: 1710465876:0;cd ../git
+: 1710465876:0;ll Obsidian-1.5.8.AppImage
+: 1710465876:0;chmod +x Obsidian-1.5.8.AppImage
+: 1710465876:0;./cod
+: 1710465876:0;ls\
 ./cod
-: 1709464738:0;./Obsidian-1.5.8.AppImage
-: 1709464757:0;./Obsidian-1.5.8.AppImage --appimage-extract Obj
-: 1709464770:0;cd Obsidian-1.5.8.AppImage
-: 1709464792:0;mkdir Obsidian
-: 1709464798:0;mv Obsidian-1.5.8.AppImage Obsidian
-: 1709464800:0;cd Obsidian
-: 1709464808:0;./Obsidian-1.5.8.AppImage --appimage-extract
-: 1709464815:0;cd squashfs-root
-: 1709464823:0;./obsidian
-: 1709464962:0;https
-: 1709465552:0;zle -l
-: 1709465830:0;qls
-: 1709466792:0;ffffffffffffffffffffffffffffffffffffff\
+: 1710465876:0;./Obsidian-1.5.8.AppImage
+: 1710465876:0;./Obsidian-1.5.8.AppImage --appimage-extract Obj
+: 1710465876:0;cd Obsidian-1.5.8.AppImage
+: 1710465876:0;mkdir Obsidian
+: 1710465876:0;mv Obsidian-1.5.8.AppImage Obsidian
+: 1710465876:0;cd Obsidian
+: 1710465876:0;./Obsidian-1.5.8.AppImage --appimage-extract
+: 1710465876:0;cd squashfs-root
+: 1710465876:0;./obsidian
+: 1710465876:0;zle -l
+: 1710465876:0;qls
+: 1710465876:0;ffffffffffffffffffffffffffffffffffffff\
 ls fr
-: 1709467058:0;hist
-: 1709467177:0;fffffffffffffffffffffffff\
+: 1710465876:0;hist
+: 1710465876:0;fffffffffffffffffffffffff\
 13.1 MB\
 last week\
 Obsidian-1.5.8.AppImage é»ƒ±æƒ»ƒ¼çƒ¿³-1.5.8.AppImagef
-: 1709467224:0;13.1 MB\
+: 1710465876:0;13.1 MB\
 last week\
 Obsidian-1.5.8.AppImage é»ƒ±æƒ»ƒ¼çƒ¿³-1.5.8.AppImage
-: 1709516242:0;paru -S libsecret
-: 1709516301:0;git config --global credential.helper libsecret
-: 1709516759:0;cd shell
-: 1709516766:0;rm *
-: 1709516783:0;cd git zsh
-: 1709516796:0;fs
-: 1709516825:0;chmod +x *
-: 1709516834:0;./fs.zsh
-: 1709516843:0;./fzf.zsh
-: 1709516856:0;vi fs.zsh
-: 1709516976:0;readlink --help
-: 1709517002:0;readlink yazi
-: 1709517015:0;readlink -f yazi
-: 1709517061:0;fd -tl
-: 1709517109:0;fd -d1
-: 1709517115:0;fd -tl -d1
-: 1709517127:0;fd -tl -d-1
-: 1709517165:0;fd -tl -d${a:-1}
-: 1709517196:0;zsh -c eza
-: 1709517204:0;zsh -c print 1
-: 1709517209:0;zsh -c print
-: 1709517212:0;zsh -c ls
-: 1709517233:0;ln -v
-: 1709517450:0;man ln
-: 1709517562:0;man readlink
-: 1709518081:0;fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffi
-: 1709518278:0;t
-: 1709518332:0;cd .config nvim
-: 1709518336:0;cd ../tmux
-: 1709518355:0;ffffff
-: 1709518385:0;m
-: 1709518976:0;
-: 1709518988:0;
-: 1709519040:0;lsfffflfff
-: 1709519088:0;t display -T
-: 1709519104:0;t bind -T
-: 1709520083:0;t bind -T root -N
-: 1709520098:0;t bind -T root -n C-m resizep -Z
-: 1709520526:0;t list-keys -1
-: 1709520543:0;t list-keys -T root
-: 1709520815:0;t list-keys -T root | fzf
-: 1709522472:0;vi test.py
-: 1709523035:0;ls.a
-: 1709523037:0;lsa.
-: 1709523038:0;ls.
-: 1709523045:0;ll.
-: 1709523050:0;ll
-: 1709523164:0;cdr
-: 1709523169:0;cdreal
-: 1709523243:0;cd dotfiles/README.md
-: 1709523364:0;cd dotfiles
-: 1709527883:0;cd /home/mjj/test/aa
-: 1709528140:0;bat
-: 1709528288:0;ls 00-options.zsh
-: 1709528446:0;fffffffffffffffffffff
-: 1709528475:0;zsh: command not found: fffffffffffffffffffff
-: 1709528546:0;t set-buffer aaaaaaaa
-: 1709528557:0;t set-buffer -w bbbbbbbbbbbbbbbb
-: 1709528583:0;t set-buffer ccccc
-: 1709528591:0;t set-buffer -w
-: 1709528595:0;t set-buffer -w bbbbbbbbb
-: 1709528610:0;t set-buffer -w cccccccccccccccccc
-: 1709528825:0;bat --paging=always -f .bashrc
-: 1709528849:0;cm zz
-: 1709528852:0;vi 10-completions.zsh
-: 1709529009:0;cd 41-aliases.zsh
-: 1709529179:0;wl-paste -p
-: 1709529240:0;wl-pasete
-: 1709532548:0;
-: 1709529642:0;wl-paste
-: 1709529735:0;vi -R
-: 1709529739:0;vi -R 10-completions.zsh
-: 1709529824:0;cd plugins/fzf/scripts
-: 1709529846:0;cd coom
-: 1709529849:0;cd completions
-: 1709530516:0;cd plugins/fzf/completions/
-: 1709530535:0;vi cd-z.zsh
-: 1709530602:0;cd .
-: 1709530695:0;which cd
-: 1709530713:0;which ls
-: 1709530731:0;grc ps
-: 1709530808:0;mv plugins .plugins
-: 1709530814:0;mkdir plugins
-: 1709530845:0;ls functions/rm
-: 1709531100:0;os
-: 1709531116:0;ps -ef
-: 1709531232:0;tty -s
-: 1709531486:0;which ps
-: 1709531497:0;which g++
-: 1709531508:0;g++ -c aa
-: 1709531529:0;man tty
-: 1709531552:0;echo $tty
-: 1709531556:0;echo $(tty)
-: 1709531566:0;echo $(tty -s)
-: 1709531639:0;! tty -s && echo 1 || echo 2
-: 1709531658:0;! tty && echo 1 || echo 2
-: 1709531733:0;mkdir custom
-: 1709531751:0;mv snippets/grc.zsh custom
-: 1709532188:0;ls ../completions
-: 1709532442:0;cd .plugins
-: 1709532453:0;cd others/init.zsh
-: 1709532457:0;cd others
-: 1709532462:0;vi init.lua
-: 1709532504:0;error 1
-: 1709532548:0;error
-: 1709532563:0;info 1111111111111111
-: 1709532659:0;echo $mylogs
-: 1709532746:0;vi ..
-: 1709532821:0;cd plug
-: 1709532833:0;cd config nvim lua
-: 1709532836:0;cd plugins
-: 1709532841:0;vi disabled.lua
-: 1709533524:0;paru -Syu
-: 1709533574:0;vi .gtkrc-2.0
-: 1709534572:0;vi .gitignore
-: 1709535042:0;vi trashrc
-: 1709535061:0;fd .
-: 1709535069:0;fd 1.txt
-: 1709535073:0;fd | fzf
-: 1709535084:0;which fd
-: 1709535088:0;rg
-: 1709535090:0;rg 1
-: 1709535128:0;fd -E nvim | fzf
-: 1709535293:0;fd -H
-: 1709535316:0;fd /home/mjj -H | fzf
-: 1709535332:0;fd . /home/mjj -H | fzf
-: 1709535345:0;fd . /home/mjj -H -E /home/mjj/.config | fzf
-: 1709535354:0;fd . /home/mjj -H -E .config | fzf
-: 1709535418:0;cd .config
-: 1709535450:0;vi kglobalshortcutsrc
-: 1709535847:0;cd local share lazy tele
-: 1709535852:0;vi defa
-: 1709536072:0;ls config
-: 1709536080:0;cd actions
-: 1709536088:0;cd uls
-: 1709536514:0;vi .fdignore
-: 1709536569:0;fd
-: 1709536574:0;fd .*
-: 1709536597:0;fd -H | fzf
-: 1709536613:0;fd -H --follow | fzf
-: 1709537626:0;cd .config ala
-: 1709538948:0;t customize-mode -Z
-: 1709539842:0;fff
-: 1709540067:0;cd config
-: 1709540069:0;cd al
-: 1709540564:0;cd .config al
-: 1709540568:0;vi alacritty.toml
-: 1709541125:0;cd .config tmux
-: 1709541128:0;vi tmux.conf
-: 1709541186:0;t kill-server
-: 1709541527:0;cd telescope-file-browser.nvim/lua/telescope/_extensions/file_browser
-: 1709542143:0;cd config nvim plugin
-: 1709542483:0;cd local share lazy
-: 1709542497:0;cd telescope-cmdline.nvim/lua/cmdline
-: 1709542659:0;vi fzf.lua
-: 1709542854:0;mkdir bak
-: 1709542859:0;cp telescope.lua bak
-: 1709543369:0;cd cofig nvim lua plug
-: 1709544193:0;v telescope.lua
-: 1709544330:0;cd telescope.nvim/lua/telescope
-: 1709544336:0;vi config.lua
-: 1709544515:0;:q
-: 1709545613:0;cd ../../
-: 1709545642:0;cd commander.nvim/lua
-: 1709547287:0;vi test.lua
-: 1709551574:0;source .zshenv
-: 1709551612:0;cd config nvim lua plug
-: 1709551632:0;vi telescope.lua
-: 1709557651:0;pacman -S sox
-: 1709557659:0;sudo pacman -S sox
-: 1709558781:0;vi chatgpt.lua
-: 1709559230:0;echo $OPENAI_API_KEY
-: 1709559235:0;vi chatgpt
-: 1709559264:0;alias -s lua=nvim
-: 1709559269:0;chatgpt.lua
-: 1709559312:0;vi ps
-: 1709559356:0;ls s
-: 1709559359:0;vi s
-: 1709559361:0;rm s
-: 1709559406:0;source grc.zsh
-: 1709559719:0;ps
-: 1709559725:0;g+=
-: 1709559727:0;g++
-: 1709559883:0;bindkey -p ^H
-: 1709559898:0;bindkey -p '^H'
-: 1709559905:0;bindkey -p '^'
-: 1709559911:0;bindkey -p 'C-H'
-: 1709559923:0;bindkey -l
-: 1709559928:0;bindkey -P
-: 1709560064:0;srcr
-: 1709560685:0;\
+: 1710465876:0;paru -S libsecret
+: 1710465876:0;git config --global credential.helper libsecret
+: 1710465876:0;cd git zsh
+: 1710465876:0;fs
+: 1710465876:0;chmod +x *
+: 1710465876:0;./fs.zsh
+: 1710465876:0;./fzf.zsh
+: 1710465876:0;vi fs.zsh
+: 1710465876:0;readlink --help
+: 1710465876:0;readlink yazi
+: 1710465876:0;readlink -f yazi
+: 1710465876:0;fd -tl
+: 1710465876:0;fd -d1
+: 1710465876:0;fd -tl -d1
+: 1710465876:0;fd -tl -d-1
+: 1710465876:0;fd -tl -d${a:-1}
+: 1710465876:0;zsh -c eza
+: 1710465876:0;zsh -c print 1
+: 1710465876:0;zsh -c print
+: 1710465876:0;zsh -c ls
+: 1710465876:0;ln -v
+: 1710465876:0;man ln
+: 1710465876:0;man readlink
+: 1710465876:0;fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffi
+: 1710465876:0;cd .config nvim
+: 1710465876:0;cd ../tmux
+: 1710465876:0;ffffff
+: 1710465876:0;m
+: 1710465876:0;
+: 1710465876:0;
+: 1710465876:0;lsfffflfff
+: 1710465876:0;t display -T
+: 1710465876:0;t bind -T
+: 1710465876:0;t bind -T root -N
+: 1710465876:0;t bind -T root -n C-m resizep -Z
+: 1710465876:0;t list-keys -1
+: 1710465876:0;t list-keys -T root
+: 1710465876:0;t list-keys -T root | fzf
+: 1710465876:0;vi test.py
+: 1710465876:0;ls.a
+: 1710465876:0;lsa.
+: 1710465876:0;ll.
+: 1710465876:0;cdr
+: 1710465876:0;cdreal
+: 1710465876:0;cd dotfiles/README.md
+: 1710465876:0;cd /home/mjj/test/aa
+: 1710465876:0;bat
+: 1710465876:0;ls 00-options.zsh
+: 1710465876:0;fffffffffffffffffffff
+: 1710465876:0;zsh: command not found: fffffffffffffffffffff
+: 1710465876:0;t set-buffer aaaaaaaa
+: 1710465876:0;t set-buffer -w bbbbbbbbbbbbbbbb
+: 1710465876:0;t set-buffer ccccc
+: 1710465876:0;t set-buffer -w
+: 1710465876:0;t set-buffer -w bbbbbbbbb
+: 1710465876:0;t set-buffer -w cccccccccccccccccc
+: 1710465876:0;bat --paging=always -f .bashrc
+: 1710465876:0;cd 41-aliases.zsh
+: 1710465876:0;wl-pasete
+: 1710465876:0;
+: 1710465876:0;vi -R
+: 1710465876:0;vi -R 10-completions.zsh
+: 1710465876:0;cd plugins/fzf/scripts
+: 1710465876:0;cd coom
+: 1710465876:0;cd plugins/fzf/completions/
+: 1710465876:0;vi cd-z.zsh
+: 1710465876:0;which cd
+: 1710465876:0;grc ps
+: 1710465876:0;mv plugins .plugins
+: 1710465876:0;ls functions/rm
+: 1710465876:0;os
+: 1710465876:0;ps -ef
+: 1710465876:0;tty -s
+: 1710465876:0;which ps
+: 1710465876:0;which g++
+: 1710465876:0;g++ -c aa
+: 1710465876:0;man tty
+: 1710465876:0;echo $tty
+: 1710465876:0;echo $(tty)
+: 1710465876:0;echo $(tty -s)
+: 1710465876:0;! tty -s && echo 1 || echo 2
+: 1710465876:0;! tty && echo 1 || echo 2
+: 1710465876:0;mkdir custom
+: 1710465876:0;mv snippets/grc.zsh custom
+: 1710465876:0;ls ../completions
+: 1710465876:0;cd .plugins
+: 1710465876:0;cd others/init.zsh
+: 1710465876:0;cd others
+: 1710465876:0;error 1
+: 1710465876:0;error
+: 1710465876:0;info 1111111111111111
+: 1710465876:0;echo $mylogs
+: 1710465876:0;vi ..
+: 1710465876:0;cd plug
+: 1710465876:0;vi disabled.lua
+: 1710465876:0;vi .gtkrc-2.0
+: 1710465876:0;vi trashrc
+: 1710465876:0;fd 1.txt
+: 1710465876:0;fd | fzf
+: 1710465876:0;which fd
+: 1710465876:0;fd -E nvim | fzf
+: 1710465876:0;fd /home/mjj -H | fzf
+: 1710465876:0;fd . /home/mjj -H | fzf
+: 1710465876:0;fd . /home/mjj -H -E /home/mjj/.config | fzf
+: 1710465876:0;fd . /home/mjj -H -E .config | fzf
+: 1710465876:0;vi kglobalshortcutsrc
+: 1710465876:0;cd local share lazy tele
+: 1710465876:0;vi defa
+: 1710465876:0;ls config
+: 1710465876:0;cd actions
+: 1710465876:0;fd .*
+: 1710465876:0;fd -H | fzf
+: 1710465876:0;fd -H --follow | fzf
+: 1710465876:0;cd .config ala
+: 1710465876:0;t customize-mode -Z
+: 1710465876:0;fff
+: 1710465876:0;cd al
+: 1710465876:0;cd .config al
+: 1710465876:0;vi alacritty.toml
+: 1710465876:0;cd .config tmux
+: 1710465876:0;vi tmux.conf
+: 1710465876:0;cd telescope-file-browser.nvim/lua/telescope/_extensions/file_browser
+: 1710465876:0;cd config nvim plugin
+: 1710465876:0;cd telescope-cmdline.nvim/lua/cmdline
+: 1710465876:0;mkdir bak
+: 1710465876:0;cp telescope.lua bak
+: 1710465876:0;cd cofig nvim lua plug
+: 1710465876:0;v telescope.lua
+: 1710465876:0;cd telescope.nvim/lua/telescope
+: 1710465876:0;cd commander.nvim/lua
+: 1710465876:0;source .zshenv
+: 1710465876:0;pacman -S sox
+: 1710465876:0;sudo pacman -S sox
+: 1710465876:0;vi chatgpt.lua
+: 1710465876:0;echo $OPENAI_API_KEY
+: 1710465876:0;vi chatgpt
+: 1710465876:0;alias -s lua=nvim
+: 1710465876:0;chatgpt.lua
+: 1710465876:0;vi ps
+: 1710465876:0;ls s
+: 1710465876:0;vi s
+: 1710465876:0;rm s
+: 1710465876:0;source grc.zsh
+: 1710465876:0;ps
+: 1710465876:0;g+=
+: 1710465876:0;g++
+: 1710465876:0;bindkey -p ^H
+: 1710465876:0;bindkey -p '^H'
+: 1710465876:0;bindkey -p '^'
+: 1710465876:0;bindkey -p 'C-H'
+: 1710465876:0;bindkey -l
+: 1710465876:0;bindkey -P
+: 1710465876:0;\
 
-: 1709560752:0;cm
-: 1709560781:0;vi snippets
-: 1709560975:0;cd custom
-: 1709560978:0;vi grc.zsh
-: 1709560989:0;vi add-completions.zsh
-: 1709561015:0;vi .zshenv
-: 1709561070:0;zsh
-: 1709561104:0;rm snippets/home--mjj--.config--zsh--custom/grc.zsh
-: 1709561112:0;vi custom/grc.zsh
-: 1709561300:0;vi data/history
-: 1709561305:0;cd data
-: 1709561310:0;vi .history
-: 1709561384:0;histdb
-: 1709561518:0;zsqlite_exec
-: 1709561543:0;zsqlite_exec .zsh-history.db
-: 1709561553:0;zsqlite_exec -1
-: 1709562308:0;cd fzf-lua/lua/fzf-lua
-: 1709562383:0;_histdb_query
-: 1709562485:0;echo $HISTDB_FILE
-: 1709562703:0;cm zi
-: 1709562724:0;cd plugins/larkery---zsh-histdb/db_migrations/
-: 1709563266:0;cp histdb-interactive.zsh $ZDOTDIR/snippets/
-: 1709563275:0;cd config zsh sn
-: 1709563283:0;cd ../..
-: 1709563754:0;cs
-: 1709564370:0;ls plugins
-: 1709564536:0;ls snippets
-: 1709566203:0;vi
-: 1709566666:0;cd snippets
-: 1709567482:0;f
-: 1709567506:0;bindkey -L
-: 1709567578:0;vi histdb-interactive.zsh
-: 1709567724:0;histdb-interactive.zsh
-: 1709567765:0;cd -
-: 1709567845:0;v
-: 1709568021:0;ci.zshrc
-: 1709598277:0;lsa
-: 1709599024:0;s
-: 1709599352:0;bindkey -L | fzf .zshrc
-: 1709599384:0;\
+: 1710465876:0;cm
+: 1710465876:0;vi snippets
+: 1710465876:0;vi grc.zsh
+: 1710465876:0;vi add-completions.zsh
+: 1710465876:0;rm snippets/home--mjj--.config--zsh--custom/grc.zsh
+: 1710465876:0;vi custom/grc.zsh
+: 1710465876:0;vi data/history
+: 1710465876:0;cd data
+: 1710465876:0;vi .history
+: 1710465876:0;histdb
+: 1710465876:0;zsqlite_exec
+: 1710465876:0;zsqlite_exec .zsh-history.db
+: 1710465876:0;zsqlite_exec -1
+: 1710465876:0;cd fzf-lua/lua/fzf-lua
+: 1710465876:0;_histdb_query
+: 1710465876:0;cm zi
+: 1710465876:0;cd plugins/larkery---zsh-histdb/db_migrations/
+: 1710465876:0;cp histdb-interactive.zsh $ZDOTDIR/snippets/
+: 1710465876:0;cd config zsh sn
+: 1710465876:0;ls snippets
+: 1710465876:0;cd snippets
+: 1710465876:0;bindkey -L
+: 1710465876:0;vi histdb-interactive.zsh
+: 1710465876:0;histdb-interactive.zsh
+: 1710465876:0;v
+: 1710465876:0;ci.zshrc
+: 1710465876:0;bindkey -L | fzf .zshrc
+: 1710465876:0;\
 a
-: 1709600452:0;ff
-: 1709600465:0;ci
-: 1709600473:0;source histdb-interactive.zsh
-: 1709600480:0;bindkey '^r' _histdb-isearch
-: 1709600687:0;fzf
-: 1709600705:0;vi .zshrc
-: 1709600760:0;echo $_RAD_NO_ECHO
-: 1709601022:0;cd z
-: 1709601036:0;cd
-: 1709601039:0;cd config zsh
-: 1709601253:0;radl
-: 1709601397:0;rad
-: 1709601406:0;rualdi --help
-: 1709601410:0;ru --help
-: 1709602285:0;zle -l | fzf
-: 1709604073:0;cd ..
-: 1709604080:0;cd zdharma-continuum---history-search-multi-word
-: 1709604088:0;rg history-search
-: 1709604105:0;rg history-search-multi-word
-: 1709604125:0;rg history-search-multi-word | fzf
-: 1709604621:0;cm z
-: 1709605074:0;ls
-: 1709605120:0;zi load zdharma-continuum/history-search-multi-word
-: 1709605306:0;bindkey -L | fzf
-: 1709605340:0;bindkey -L | fzf
-: 1709605381:0;bindkey -d self-insert
-: 1709605461:0;vi .zshrc
-: 1709605463:0;ls
-: 1709605556:0;vi .zshrc
-: 1709605584:0;kill 2551
-: 1709605592:0;killall
-: 1709605597:0;kill 29598
-: 1709605690:0;wl-paste
-: 1709605697:0;wl-paste
-: 1709605701:0;wl-paste
-: 1709605716:0;wl-paste
-: 1709605728:0;wl-paste
-: 1709605738:0;wl-paste -p
-: 1709605789:0;vi .zshrc
-: 1709605819:0;vi
-: 1709605860:0;damm/nvim-shell\
+: 1710465876:0;ff
+: 1710465876:0;source histdb-interactive.zsh
+: 1710465876:0;bindkey '^r' _histdb-isearch
+: 1710465876:0;echo $_RAD_NO_ECHO
+: 1710465876:0;cd z
+: 1710465876:0;radl
+: 1710465876:0;rad
+: 1710465876:0;rualdi --help
+: 1710465876:0;ru --help
+: 1710465876:0;zle -l | fzf
+: 1710465876:0;cd zdharma-continuum---history-search-multi-word
+: 1710465876:0;rg history-search
+: 1710465876:0;rg history-search-multi-word
+: 1710465876:0;rg history-search-multi-word | fzf
+: 1710465876:0;zi load zdharma-continuum/history-search-multi-word
+: 1710465876:0;bindkey -L | fzf
+: 1710465876:0;bindkey -d self-insert
+: 1710465876:0;kill 2551
+: 1710465876:0;killall
+: 1710465876:0;kill 29598
+: 1710465876:0;wl-paste -p
+: 1710465876:0;damm/nvim-shell\
 
-: 1709605865:0;\
+: 1710465876:0;\
 i\
 \
 \
 \
 
-: 1709605875:0;amm/nvim-sh\
+: 1710465876:0;amm/nvim-sh\
 
-: 1709605877:0;amm/nvim-sh\
-
-: 1709605912:0;vi fffffffffff
-: 1709605915:0;vi
-: 1709605945:0;vi
-: 1709605951:0;ls
-: 1709605953:0;vi .
-: 1709606295:0;vi .zshenv
-: 1709606367:0;vi .zshenv
-: 1709606405:0;vi .zshenv
-: 1709606455:0;vi .zshenv
-: 1709606974:0;cd .config nvim lua
-: 1709606977:0;cd plugins
-: 1709606981:0;vi fzf.lua
-: 1709606991:0;vi telescope.lua
-: 1709607255:0;ci
-: 1709607271:0;ls
-: 1709607275:0;vi defaults.lua
-: 1709607790:0;vi telescope.lua
-: 1709607923:0;ls
-: 1709607930:0;cd config
-: 1709607936:0;vi ripgrep/ripgreprc
-: 1709608310:0;vi telescope.lua
-: 1709608402:0;rg 11
-: 1709608416:0;cd ripgrep
-: 1709608417:0;rg 11
-: 1709608419:0;rg 1
-: 1709608435:0;vi ripgreprc
-: 1709608467:0;rg 1
-: 1709608473:0;vi telescope.lua
-: 1709608503:0;cd ..
-: 1709608509:0;cd ..
-: 1709608514:0;vi lazy-lock.json
-: 1709608588:0;vi lazy-lock.json
-: 1709608638:0;rg -e
-: 1709608647:0;vi lazy-lock.json
-: 1709608675:0;vi lazy-lock.json
-: 1709608731:0;vi lazy-lock.json
-: 1709608761:0;vi lazy-lock.json
-: 1709608860:0;vi lazy-lock.json
-: 1709609041:0;vi lazy-lock.json
-: 1709609329:0;ls
-: 1709609332:0;ls
-: 1709609338:0;ls
-: 1709609339:0;ls
-: 1709609342:0;ls
-: 1709609346:0;ls
-: 1709609352:0;ls
-: 1709609359:0;cm z
-: 1709609374:0;ffff
-: 1709609375:0;ls
-: 1709609376:0;ls
-: 1709609377:0;lsa
-: 1709609379:0;ls.
-: 1709609394:0;vi lazy-lock.json
-: 1709609587:0;vi lazy-lock.json
-: 1709609681:0;cm z
-: 1709609682:0;ls
-: 1709609684:0;vi .zshrc
-: 1709609831:0;ls
-: 1709609835:0;ls
-: 1709609836:0;ls
-: 1709609848:0;ls
-: 1709609864:0;ls
-: 1709609865:0;ls
-: 1709609873:0;cm z
-: 1709609879:0;cm z
-: 1709609904:0;dus
-: 1709609908:0;cd nvim
-: 1709609909:0;dus
-: 1709609915:0;cm z
-: 1709609916:0;dus
-: 1709610082:0;vi .zshrc
-: 1709610103:0;vi .zshrc
-: 1709610117:0;vi .zshrc
-: 1709610251:0;vi .zshrc
-: 1709610271:0;ls
-: 1709610275:0;vi completions
-: 1709610387:0;cls
-: 1709610392:0;cd
-: 1709610396:0;vi .wget-hsts
-: 1709610473:0;vi .wget-hsts
-: 1709610559:0;vi .wget-hsts
-: 1709611151:0;vi .wget-hsts
-: 1709611385:0;ls
-: 1709611387:0;vi ui.lua
-: 1709611537:0;vi
-: 1709611558:0;vi
-: 1709611566:0;vi
-: 1709611615:0;vi
-: 1709614766:0;vi
-: 1709614811:0;vi
-: 1709614832:0;vi
-: 1709614861:0;rm ui.lua
-: 1709615100:0;q
-: 1709615103:0;ls
-: 1709615108:0;rm bak
-: 1709615115:0;vi test.lua
-: 1709615393:0;vi
-: 1709615395:0;cd ..
-: 1709615396:0;ls
-: 1709615396:0;cd ..
-: 1709615399:0;cd ..
-: 1709615406:0;cd flow.nvim/lua/flow/lib
-: 1709615408:0;cd ..
-: 1709615408:0;ls
-: 1709615420:0;vi init.lua
-: 1709615442:0;vi
-: 1709615487:0;ls
-: 1709615488:0;cd ..
-: 1709615488:0;ls
-: 1709615490:0;cd ..
-: 1709615491:0;ls
-: 1709615495:0;ls plugin
-: 1709615502:0;vi plugin/flow.lua
-: 1709615521:0;rg components
-: 1709615534:0;cd ../
-: 1709615546:0;cd commander.nvim/lua/commander/model
-: 1709615547:0;ls
-: 1709615554:0;vi Config.lua
-: 1709615666:0;vi test.lua
-: 1709615753:0;vi test.lua
-: 1709615855:0;vi test.lua
-: 1709615993:0;vi test.lua
-: 1709616255:0;ls
-: 1709616327:0;touch commands.lua tasks.lua cursor.lua
-: 1709616327:0;ls
-: 1709616343:0;ls
-: 1709616347:0;vi cursor.lua
-: 1709616760:0;ls
-: 1709616768:0;mkdir replace
-: 1709616787:0;mv flash.lua move-scroll.lua multi-cursor.lua replace
-: 1709616788:0;ls
-: 1709616801:0;mv chatgpt.lua replace
-: 1709616815:0;vi tasks.lua
-: 1709616851:0;rm manage-tasks.lua
-: 1709616909:0;ci
-: 1709616932:0;ls
-: 1709616934:0;vi yazi.lua
-: 1709616988:0;ls
-: 1709617003:0;mv yazi.lua replace/
-: 1709617004:0;ls
-: 1709617007:0;vi surround.lua
-: 1709617043:0;vi surround.lua
-: 1709617075:0;vi surround.lua
-: 1709617497:0;vi cursor.lua
-: 1709617516:0;vi cursor.lua
-: 1709617535:0;vi cursor.lua
-: 1709617566:0;vi cursor.lua
-: 1709617637:0;vi cursor.lua
-: 1709617659:0;vi cursor.lua
-: 1709617807:0;vi text.lau
-: 1709617825:0;vi text.lua
-: 1709617830:0;vi text.lua
-: 1709617909:0;rm surround.lua
-: 1709617910:0;ls
-: 1709617922:0;vi ui.lua
-: 1709617947:0;ls replace
-: 1709617956:0;mv colorizer.lua replace
-: 1709617957:0;ls
-: 1709617970:0;vi easy-commands.lua
-: 1709617982:0;mv easy-commands.lua replace
-: 1709617983:0;ls
-: 1709618025:0;vi formatter.lua
-: 1709618109:0;vi markdown.lua
-: 1709618116:0;vi commands.lua
-: 1709618215:0;mv test.lua replace
-: 1709618219:0;vi ufo.lua
-: 1709619813:0;mv ufo.lua replace
-: 1709619816:0;vi text.lua
-: 1709620540:0;vi text.lua
-: 1709620929:0;vi text.lua
-: 1709621235:0;vi text.lua
-: 1709621300:0;vi text.lua
-: 1709621342:0;vi
-: 1709621355:0;vi
-: 1709621371:0;vi
-: 1709621463:0;vi text.lua
-: 1709621504:0;vi text.lua
-: 1709621747:0;ls
-: 1709621754:0;vi cursor.lua
-: 1709621853:0;vi cursor.lua
-: 1709622187:0;vi cursor.lua
-: 1709622307:0;vi cursor.lua
-: 1709622576:0;ls
-: 1709622585:0;cd config nvim plugins
-: 1709622585:0;ls
-: 1709622588:0;vi neo-tree.lua
-: 1709622629:0;vi neo-tree.lua
-: 1709622696:0;vi neo-tree.lua
-: 1709623405:0;vi neo-tree.lua
-: 1709623439:0;vi neo-tree.lua
-: 1709623627:0;cd ..
-: 1709623628:0;cd ..
-: 1709623631:0;cd ../../
-: 1709623646:0;cd nvim-ufo/lua/ufo
-: 1709623650:0;vi config.lua
-: 1709623729:0;cd ..
-: 1709623734:0;vi ufo.lua
-: 1709624053:0;vi neo-tree.lua
-: 1709624314:0;vi cursor.lua
-: 1709624331:0;vi text.lua
-: 1709624397:0;vi text.lua
-: 1709624501:0;vi text.lua
-: 1709624576:0;vi text.lua
-: 1709624892:0;vi text.lua
-: 1709625029:0;vi text.lua
-: 1709625082:0;vi text.lua
-: 1709625458:0;vi text.lua
-: 1709625484:0;vi text.lua
-: 1709625619:0;vi text.lua
-: 1709625768:0;vi text.lua
-: 1709625813:0;vi text.lua
-: 1709625873:0;vi text.lua
-: 1709625902:0;ls
-: 1709625922:0;rm \'
-: 1709625923:0;ls
-: 1709625933:0;vi markdown.lua
-: 1709626299:0;vi note.lua
-: 1709626527:0;mv markdown.lua replace
-: 1709626529:0;ls replace
-: 1709626538:0;ls
-: 1709626552:0;vi cursor.lua
-: 1709626586:0;vi text.lua
-: 1709626680:0;vi text.lua
-: 1709626692:0;vi text.lua
-: 1709626877:0;vi text.lua
-: 1709626885:0;vi text.lua
-: 1709627120:0;vi 1.md
-: 1709627151:0;vi harpoon.lua
-: 1709627205:0;vi note.lua
-: 1709627216:0;vi note.lua
-: 1709627241:0;vi telescope.lua
-: 1709627385:0;vi note.lua
-: 1709630731:0;cm z
-: 1709630752:0;vi .zshrc
-: 1709630986:0;vi .zshrc
-: 1709631108:0;ls
-: 1709631110:0;ls
-: 1709631130:0;paru -S pip3
-: 1709631137:0;paru -S pip
-: 1709631177:0;paru -S python-pip
-: 1709631226:0;vi .zshrc
-: 1709631239:0;ls
-: 1709631240:0;ls
-: 1709631263:0;pip3 install neovim-remote
-: 1709631308:0;pip3 install --user neovim-remote
-: 1709631376:0;paru -S nvr
-: 1709631391:0;paru -S neovim-remote
-: 1709631401:0;ls
-: 1709631409:0;cd .note
-: 1709631410:0;ls
-: 1709631417:0;mkdir arch
-: 1709631419:0;cd arch
-: 1709631419:0;ls
-: 1709631425:0;vi install
-: 1709631437:0;ls
-: 1709631445:0;mv install install.md
-: 1709631448:0;vi install.md
-: 1709631472:0;ls
-: 1709631487:0;ls
-: 1709631491:0;vi install.md
-: 1709631501:0;cm n
-: 1709631504:0;cd plugins
-: 1709631505:0;ls
-: 1709631510:0;vi text.lua
-: 1709631618:0;vi text.lua
-: 1709631654:0;ls
-: 1709631658:0;vi harpoon.lua
-: 1709631746:0;ci
-: 1709631757:0;ls
-: 1709631770:0;rm harpoon
-: 1709631862:0;vi harpoon.lua
-: 1709632043:0;vi harpoon.lua
-: 1709632067:0;vi harpoon.lua
-: 1709632107:0;ls
-: 1709632109:0;cd harpoon
-: 1709632110:0;ls
-: 1709632123:0;vi harpoon.lua
-: 1709632134:0;cd lua
-: 1709632135:0;ls
-: 1709632137:0;cd harpoon
-: 1709632137:0;ls
-: 1709632149:0;vi init.lua
-: 1709632371:0;man -k
-: 1709632377:0;man -K
-: 1709632381:0;man -K .
-: 1709633149:0;ls
-: 1709633152:0;vi mason.lua
-: 1709633189:0;vi mason.lua
-: 1709633209:0;vi mason.lua
-: 1709633268:0;vi mason.lua
-: 1709633427:0;vi
-: 1709633834:0;fd --max-results=1000
-: 1709633842:0;fd --max-results=1000 -H
-: 1709633848:0;fd --max-results=1000 -H | fzf
-: 1709633899:0;fd --max-results=1000 -H --changed-after=1 | wc -l
-: 1709633910:0;fd --help
-: 1709634021:0;fd --max-results=1000 -H --changed-after=1day | fzf
-: 1709634032:0;fd --max-results=1000 -H --changed-after=1h | fzf
-: 1709634069:0;fd --max-results=1000 -H -l --changed-after=1h | fzf
-: 1709634082:0;fd --max-results=1000 -H --list-details --changed-after=1h | fzf
-: 1709634100:0;fd --max-results=1000 -H --changed-after=1h | fzf
-: 1709634226:0;fd --max-results=1000 -H -l --changed-after=1h -x "ll $1" | fzf
-: 1709634233:0;man fd
-: 1709634303:0;fd --max-results=1000 -H -l --changed-after=1h -x 'echo {}' | fzf
-: 1709634305:0;fd --max-results=1000 -H -l --changed-after=1h -x 'echo {}' | fzf
-: 1709634309:0;fd --max-results=1000 -H -l --changed-after=1h -x 'echo {}'
-: 1709634319:0;fd --max-results=1000 -H -l --changed-after=1h
-: 1709634325:0;fd --max-results=1000 -H --changed-after=1h
-: 1709634332:0;fd --max-results=1000 -H --changed-after=1h -x 'echo {}'
-: 1709634349:0;fd -H --changed-after=1h -x 'echo {}'
-: 1709634362:0;fd -H --changed-after=1h -x '{}'
-: 1709634376:0;fd -H --changed-after=1h -x 'echo {//}'
-: 1709634387:0;fd -H --changed-after=1h -x 'echo {/}'
-: 1709634397:0;fd -H --changed-after=1h -x 'command echo {/}'
-: 1709634413:0;fd --help
-: 1709634450:0;fd -H --changed-after=1h -X wl -l
-: 1709634456:0;fd -H --changed-after=1h -X wc -l
-: 1709634469:0;fd -H --changed-after=1h -x echo {}
-: 1709634473:0;fd -H --changed-after=1h -x echo {/}
-: 1709634511:0;fd -H --changed-after=1h -x [[ -d {} ]] && echo {/} || echo null
-: 1709634522:0;fd -H --changed-after=1h -x command [[ -d {} ]] && echo {/} || echo null
-: 1709634652:0;fd -H --changed-after=1h --size=-10
-: 1709634657:0;fd -H --changed-after=1h --size=-10M
-: 1709634666:0;fd -H --changed-after=1h --size=-5M
-: 1709634670:0;cm z
-: 1709634671:0;ls
-: 1709634674:0;dus .zshrc
-: 1709634695:0;cm c
-: 1709634701:0;dus tmux
-: 1709634707:0;dus tmux/tmux.conf
-: 1709634716:0;vi
-: 1709634947:0;cd ..
-: 1709634954:0;fd -H | wc -l
-: 1709634965:0;fd -H -S -1M | wc -l
-: 1709634977:0;fd -H -S -500kb | wc -l
-: 1709634985:0;fd -H -S -1kb | wc -l
-: 1709634995:0;cd config tmux
-: 1709634998:0;dus tmux.conf
-: 1709635041:0;fd -H
-: 1709635076:0;fd -H -E node_modules
-: 1709635173:0;fd --help-E node_modules
-: 1709635178:0;fd --help
-: 1709635219:0;fd -H -E .*.*
-: 1709635227:0;fd -H -E .*.* | wc -l
-: 1709635370:0;rg --max-filesize=1M
-: 1709635373:0;rg --max-filesize=1M export
-: 1709635463:0;fd -H | wc -l
-: 1709635486:0;fd -H --changed-after=1week | wc -l
-: 1709635500:0;fd -H --changed-after=1month
-: 1709635503:0;fd -H --changed-after=1month | fzf
-: 1709635508:0;fd -H --changed-after=1month | wc -l
-: 1709635515:0;fd -H | wc -l
-: 1709635573:0;fd -H -E '[0-9]*'| wc -l
-: 1709635595:0;fd -H -E '[0-9]*' -E '.[0-9]'| wc -l
-: 1709635600:0;fd -H -E '[0-9]*' -E '.[0-9]'| fzf
-: 1709635643:0;fd -H -E '[0-9]*' -E '.[0-9]' -x echo {/} | fzf
-: 1709635763:0;fd -H -E '[0-9]*' -E '*[0-9]*.*[0-9]' -x echo {/} | fzf
-: 1709635804:0;fd -H -E '[0-9]*' -E '*[0-9]*.*[0-9]*' -x echo {/} | fzf
-: 1709635896:0;fd -H -E '[0-9]*' -E '*[0-9]*.*[0-9]*' -E '*[-.][0-9]*' -x echo {/} | fzf
-: 1709635940:0;fd -H -E '[0-9]*' -E '*[0-9]*.*[0-9]*' -E '*[-.][0-9]*' -E '?.*' -x echo {/} | fzf
-: 1709635967:0;fd -H -E '[0-9]*' -E '*[0-9]*.*[0-9]*' -E '*[-._][0-9]*' -E '?.*' -x echo {/} | fzf
-: 1709636008:0;fd -H -E '[0-9]*' -E '*[0-9]*.*[0-9]*' -E '*[-._][0-9]*' -E '?.*' -E '*%*' | wc -l
-: 1709636030:0;fd -H -E '[0-9]*' -E '.[0-9]' | wc -l
-: 1709636045:0;fd -H -E '[0-9]*' -E '*[0-9]*.*[0-9]*' | wc -l
-: 1709636083:0;vi .fdignore
-: 1709636101:0;vi .fdignore
-: 1709636123:0;fd -H | wc -l
-: 1709636134:0;vi .fdignore
-: 1709636149:0;fd -H | wc -l
-: 1709636180:0;fd -H -E '[0-9]*' -E '*[0-9]*.*[0-9]*' | wc -l
-: 1709636184:0;fd -H -E '*[0-9]*.*[0-9]*' | wc -l
-: 1709636208:0;vi .fdignore
-: 1709636240:0;cd .config
-: 1709636245:0;fd -H | wc -l
-: 1709636255:0;cd ..
-: 1709636282:0;ls
-: 1709636286:0;vi .fdignore
-: 1709636295:0;cd config fd
-: 1709636295:0;ls
-: 1709636297:0;vi ignore
-: 1709636306:0;cd config
-: 1709636309:0;fd -H
-: 1709636313:0;fd -H | wc -l
-: 1709636347:0;vi
-: 1709636400:0;cd ..
-: 1709636403:0;vi .gitignore
-: 1709636417:0;vi .rgignore
-: 1709636436:0;vi .gitignore
-: 1709636442:0;cd config
-: 1709636444:0;vi
-: 1709636471:0;cd ..
-: 1709636476:0;vi .gitignore
-: 1709636480:0;vi
-: 1709636678:0;ls
-: 1709636680:0;cd ..
-: 1709636681:0;vi
-: 1709636729:0;rg export
-: 1709636745:0;rg export zsh
-: 1709636759:0;rg export zsh --color=ansi
-: 1709636776:0;vi
-: 1709636824:0;rg export zsh
-: 1709636830:0;rg export zsh --color=always
-: 1709636834:0;vi
-: 1709636865:0;vi
-: 1709636901:0;vi
-: 1709636914:0;vi
-: 1709636934:0;vi
-: 1709636974:0;vi
-: 1709637255:0;vi
-: 1709637506:0;vi
-: 1709637518:0;vi
-: 1709637672:0;vi
-: 1709637950:0;vi
-: 1709638398:0;vi
-: 1709638410:0;vi
-: 1709638426:0;vi
-: 1709639042:0;vi
-: 1709639619:0;cd ..
-: 1709639620:0;ls
-: 1709639623:0;vi
-: 1709639631:0;cd dotfiles
-: 1709639644:0;vi
-: 1709639751:0;vi
-: 1709640171:0;vi
-: 1709640189:0;vi
-: 1709640274:0;vi
-: 1709645158:0;ls
-: 1709645164:0;delta README.md
-: 1709645220:0;vi
-: 1709645355:0;rg export
-: 1709645363:0;rg -H export
-: 1709645381:0;rg -HL export
-: 1709645384:0;rg -HL ex
-: 1709645391:0;rg -H -L export
-: 1709645406:0;cd config
-: 1709645407:0;ls
-: 1709645409:0;rg export
-: 1709645417:0;rg export -H
-: 1709645439:0;rg export | delta
-: 1709645499:0;rg export --json -C 2 | delta
-: 1709645528:0;ls
-: 1709645542:0;cd zsh
-: 1709645550:0;/bin/cat .zshrc | delta
-: 1709645568:0;rg --json -C 2 .zshrc | delta
-: 1709645584:0;bat .zshrc | delta
-: 1709645597:0;bat --color=always | delta
-: 1709645608:0;bat --color=always .zshrc | delta
-: 1709645625:0;rg --json -C 2 "" .zshrc | delta
-: 1709645745:0;cd
-: 1709645749:0;vi .gitconfig
-: 1709645802:0;cd dotfiles
-: 1709645808:0;vi .gitconfig
-: 1709645870:0;git add .
+: 1710465876:0;vi fffffffffff
+: 1710465876:0;vi .zshenv
+: 1710465876:0;vi defaults.lua
+: 1710465876:0;vi ripgrep/ripgreprc
+: 1710465876:0;rg 11
+: 1710465876:0;vi ripgreprc
+: 1710465876:0;rg 1
+: 1710465876:0;rg -e
+: 1710465876:0;ffff
+: 1710465876:0;vi lazy-lock.json
+: 1710465876:0;dus
+: 1710465876:0;vi completions
+: 1710465876:0;cls
+: 1710465876:0;vi .wget-hsts
+: 1710465876:0;rm bak
+: 1710465876:0;cd flow.nvim/lua/flow/lib
+: 1710465876:0;ls plugin
+: 1710465876:0;vi plugin/flow.lua
+: 1710465876:0;rg components
+: 1710465876:0;cd commander.nvim/lua/commander/model
+: 1710465876:0;vi Config.lua
+: 1710465876:0;touch commands.lua tasks.lua cursor.lua
+: 1710465876:0;mkdir replace
+: 1710465876:0;mv flash.lua move-scroll.lua multi-cursor.lua replace
+: 1710465876:0;mv chatgpt.lua replace
+: 1710465876:0;rm manage-tasks.lua
+: 1710465876:0;vi yazi.lua
+: 1710465876:0;mv yazi.lua replace/
+: 1710465876:0;vi surround.lua
+: 1710465876:0;vi text.lau
+: 1710465876:0;rm surround.lua
+: 1710465876:0;mv colorizer.lua replace
+: 1710465876:0;vi easy-commands.lua
+: 1710465876:0;mv easy-commands.lua replace
+: 1710465876:0;mv test.lua replace
+: 1710465876:0;mv ufo.lua replace
+: 1710465876:0;cd config nvim plugins
+: 1710465876:0;vi neo-tree.lua
+: 1710465876:0;vi markdown.lua
+: 1710465876:0;mv markdown.lua replace
+: 1710465876:0;ls replace
+: 1710465876:0;vi 1.md
+: 1710465876:0;paru -S pip3
+: 1710465876:0;paru -S pip
+: 1710465876:0;paru -S python-pip
+: 1710465876:0;pip3 install neovim-remote
+: 1710465876:0;pip3 install --user neovim-remote
+: 1710465876:0;paru -S nvr
+: 1710465876:0;paru -S neovim-remote
+: 1710465876:0;cd .note
+: 1710465876:0;mkdir arch
+: 1710465876:0;cd arch
+: 1710465876:0;vi install
+: 1710465876:0;mv install install.md
+: 1710465876:0;vi install.md
+: 1710465876:0;rm harpoon
+: 1710465876:0;vi harpoon.lua
+: 1710465876:0;cd harpoon
+: 1710465876:0;man -k
+: 1710465876:0;man -K
+: 1710465876:0;man -K .
+: 1710465876:0;fd --max-results=1000
+: 1710465876:0;fd --max-results=1000 -H
+: 1710465876:0;fd --max-results=1000 -H | fzf
+: 1710465876:0;fd --max-results=1000 -H --changed-after=1 | wc -l
+: 1710465876:0;fd --max-results=1000 -H --changed-after=1day | fzf
+: 1710465876:0;fd --max-results=1000 -H -l --changed-after=1h | fzf
+: 1710465876:0;fd --max-results=1000 -H --list-details --changed-after=1h | fzf
+: 1710465876:0;fd --max-results=1000 -H --changed-after=1h | fzf
+: 1710465876:0;fd --max-results=1000 -H -l --changed-after=1h -x "ll $1" | fzf
+: 1710465876:0;man fd
+: 1710465876:0;fd --max-results=1000 -H -l --changed-after=1h -x 'echo {}' | fzf
+: 1710465876:0;fd --max-results=1000 -H -l --changed-after=1h -x 'echo {}'
+: 1710465876:0;fd --max-results=1000 -H -l --changed-after=1h
+: 1710465876:0;fd --max-results=1000 -H --changed-after=1h
+: 1710465876:0;fd --max-results=1000 -H --changed-after=1h -x 'echo {}'
+: 1710465876:0;fd -H --changed-after=1h -x 'echo {}'
+: 1710465876:0;fd -H --changed-after=1h -x '{}'
+: 1710465876:0;fd -H --changed-after=1h -x 'echo {//}'
+: 1710465876:0;fd -H --changed-after=1h -x 'echo {/}'
+: 1710465876:0;fd -H --changed-after=1h -x 'command echo {/}'
+: 1710465876:0;fd -H --changed-after=1h -X wl -l
+: 1710465876:0;fd -H --changed-after=1h -X wc -l
+: 1710465876:0;fd -H --changed-after=1h -x echo {}
+: 1710465876:0;fd -H --changed-after=1h -x echo {/}
+: 1710465876:0;fd -H --changed-after=1h -x [[ -d {} ]] && echo {/} || echo null
+: 1710465876:0;fd -H --changed-after=1h -x command [[ -d {} ]] && echo {/} || echo null
+: 1710465876:0;fd -H --changed-after=1h --size=-10
+: 1710465876:0;fd -H --changed-after=1h --size=-10M
+: 1710465876:0;fd -H --changed-after=1h --size=-5M
+: 1710465876:0;dus .zshrc
+: 1710465876:0;dus tmux
+: 1710465876:0;dus tmux/tmux.conf
+: 1710465876:0;fd -H -S -1M | wc -l
+: 1710465876:0;fd -H -S -500kb | wc -l
+: 1710465876:0;fd -H -S -1kb | wc -l
+: 1710465876:0;cd config tmux
+: 1710465876:0;dus tmux.conf
+: 1710465876:0;fd -H -E node_modules
+: 1710465876:0;fd --help-E node_modules
+: 1710465876:0;fd --help
+: 1710465876:0;fd -H -E .*.*
+: 1710465876:0;fd -H -E .*.* | wc -l
+: 1710465876:0;rg --max-filesize=1M
+: 1710465876:0;rg --max-filesize=1M export
+: 1710465876:0;fd -H --changed-after=1week | wc -l
+: 1710465876:0;fd -H --changed-after=1month
+: 1710465876:0;fd -H --changed-after=1month | fzf
+: 1710465876:0;fd -H --changed-after=1month | wc -l
+: 1710465876:0;fd -H -E '[0-9]*'| wc -l
+: 1710465876:0;fd -H -E '[0-9]*' -E '.[0-9]'| wc -l
+: 1710465876:0;fd -H -E '[0-9]*' -E '.[0-9]'| fzf
+: 1710465876:0;fd -H -E '[0-9]*' -E '.[0-9]' -x echo {/} | fzf
+: 1710465876:0;fd -H -E '[0-9]*' -E '*[0-9]*.*[0-9]' -x echo {/} | fzf
+: 1710465876:0;fd -H -E '[0-9]*' -E '*[0-9]*.*[0-9]*' -x echo {/} | fzf
+: 1710465876:0;fd -H -E '[0-9]*' -E '*[0-9]*.*[0-9]*' -E '*[-.][0-9]*' -x echo {/} | fzf
+: 1710465876:0;fd -H -E '[0-9]*' -E '*[0-9]*.*[0-9]*' -E '*[-.][0-9]*' -E '?.*' -x echo {/} | fzf
+: 1710465876:0;fd -H -E '[0-9]*' -E '*[0-9]*.*[0-9]*' -E '*[-._][0-9]*' -E '?.*' -x echo {/} | fzf
+: 1710465876:0;fd -H -E '[0-9]*' -E '*[0-9]*.*[0-9]*' -E '*[-._][0-9]*' -E '?.*' -E '*%*' | wc -l
+: 1710465876:0;fd -H -E '[0-9]*' -E '.[0-9]' | wc -l
+: 1710465876:0;fd -H -E '[0-9]*' -E '*[0-9]*.*[0-9]*' | wc -l
+: 1710465876:0;fd -H -E '*[0-9]*.*[0-9]*' | wc -l
+: 1710465876:0;cd config fd
+: 1710465876:0;vi ignore
+: 1710465876:0;fd -H
+: 1710465876:0;rg export zsh --color=ansi
+: 1710465876:0;rg export zsh
+: 1710465876:0;rg export zsh --color=always
+: 1710465876:0;delta README.md
+: 1710465876:0;rg -H export
+: 1710465876:0;rg -HL export
+: 1710465876:0;rg -HL ex
+: 1710465876:0;rg -H -L export
+: 1710465876:0;rg export -H
+: 1710465876:0;rg export | delta
+: 1710465876:0;rg export --json -C 2 | delta
+: 1710465876:0;/bin/cat .zshrc | delta
+: 1710465876:0;rg --json -C 2 .zshrc | delta
+: 1710465876:0;bat .zshrc | delta
+: 1710465876:0;bat --color=always | delta
+: 1710465876:0;bat --color=always .zshrc | delta
+: 1710465876:0;rg --json -C 2 "" .zshrc | delta
+: 1710465876:0;cp telescope.lua replace
+: 1710465876:0;git show
+: 1710465876:0;delta --list-languages
+: 1710465876:0;delta --list-syntax-themes
+: 1710465876:0;delta --show-syntax-themes
+: 1710465876:0;delta --show-colors
+: 1710465876:0;delta --true-color
+: 1710465876:0;delta --color-only ls
+: 1710465876:0;delta .gitconfig README.md
+: 1710465876:0;delta --color-only
+: 1710465876:0;delta --dark .gitconfig README.md
+: 1710465876:0;git -v
+: 1710465876:0;mkdir test
+: 1710465876:0;git commit -m 'first modify'
+: 1710465876:0;git diff 1.txt
+: 1710465876:0;vi test
+: 1710465876:0;cd test
+: 1710465876:0;git commit -m 'second modify'
+: 1710465876:0;vi 1.txt
+: 1710465876:0;rg c
+: 1710465876:0;cp fzf.lua replace
+: 1710465876:0;fzf --print-query
+: 1710465876:0;git lis-files
+: 1710465876:0;git lis-files -d
+: 1710465876:0;git ls-tree -d
+: 1710465876:0;git ls-files
+: 1710465876:0;llll
+: 1710465876:0;git ls-tree
+: 1710465876:0;vi .gitconfig
+: 1710465876:0;rm \'
+: 1710465876:0;rm test
+: 1710465876:0;cd nvim lua plug
+: 1710465876:0;cd nvim plugins
+: 1710465876:0;cm ln
+: 1710465876:0;rg comment.nvim
+: 1710465876:0;cm n
+: 1710465876:0;jj
+: 1710465876:0;vi editor.lua
+: 1710465876:0;vi util.lua
+: 1710465876:0;cd lsp
+: 1710465876:0;git pull
+: 1710465876:0;git diff
+: 1710465876:0;glo
+: 1710465876:0;mv nvim nvim.bak
+: 1710465876:0;usl
+: 1710465876:0;cd uls
+: 1710465876:0;cd completions
+: 1710465876:0;bob complete zsh > _bob
+: 1710465876:0;ls | fzf
+: 1710465876:0;bob list
+: 1710465876:0;bob use nightly
+: 1710465876:0;sudo hostess github.com on
+: 1710465876:0;sudo hostess on github.com
+: 1710465876:0;bob install nightly
+: 1710465876:0;cm c
+: 1710465876:0;git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+: 1710465876:0;cd nvim/lua
+: 1710465876:0;ls nvim.bak/mason/share
+: 1710465876:0;cd nvim.bak/mason
+: 1710465876:0;ls3
+: 1710465876:0;ll bin
+: 1710465876:0;cp -r ../nvim.bak/mason .
+: 1710465876:0;ls3 mason
+: 1710465876:0;cd nvim.bak/lua/
+: 1710465876:0;vi configs/lspconfig.lua
+: 1710465876:0;vi plugins.lua
+: 1710465876:0;cd ui/lua
+: 1710465876:0;ls nvchad
+: 1710465876:0;cd nvchad
+: 1710465876:0;vi signature.lua
+: 1710465876:0;cd ../cust
+: 1710465876:0;rm plugins.lua
+: 1710465876:0;cd lau
+: 1710465876:0;cp cursor.lua ~/.config/nvim/lua/custom/plugins
+: 1710465876:0;vi /etc/hosts
+: 1710465876:0;vi ../config/highlight.lua
+: 1710465876:0;vi vi chadrc.lua
+: 1710465876:0;cd ../nvim.bak/lua/config
+: 1710465876:0;cd ll
+: 1710465876:0;cm ll
+: 1710465876:0;cd local
+: 1710465876:0;cd .local
+: 1710465876:0;cd share/nvim.bak/lazy/LazyVim/lua/lazyvim/config
+: 1710465876:0;vi autocmds.lua
+: 1710465876:0;vi plugins/cursor.lua
+: 1710465876:0;vi commands.lua
+: 1710465876:0;vi ../../core/init.lua
+: 1710465876:0;lsa ..
+: 1710465876:0;cd lua/plugins/configs/telescope.lua
+: 1710465876:0;cd lua/plugins/configs/
+: 1710465876:0;vi utils/ufo.lua
+: 1710465876:0;vi ufo.lua
+: 1710465876:0;cd ../configs
+: 1710465876:0;vi utils/telescope.lua
+: 1710465876:0;cd ../custom/configs
+: 1710465876:0;vi configs/telescope.lua
+: 1710465876:0;vi ../configs/telescope.lua
+: 1710465876:0;cp -r dev/telescope-rualdi.nvim ../nvim
+: 1710465876:0;mkdir dev
+: 1710465876:0;cd nvim.bak
+: 1710465876:0;mv telescope-rualdi.nvim ../nvim/dev
+: 1710465876:0;mv ../nvim.bak/telescope-rualdi.nvim dev/
+: 1710465876:0;ls dev
+: 1710465876:0;cd ../nvim.bak/lua/plugins
+: 1710465876:0;vi ../configs
+: 1710465876:0;vi tasks.lua
+: 1710465876:0;vi note.lua
+: 1710465876:0;vi plugins/ui.lua
+: 1710465876:0;vi plugins/nvchad.lua
+: 1710465876:0;cd lua/
+: 1710465876:0;vi plugins/command.lua
+: 1710465876:0;mkdir lua
+: 1710465876:0;vi key
+: 1710465876:0;cd ../nvim.bak/
+: 1710465876:0;cd lazy/LazyVim/lua/lazyvim/config/keymaps.lua
+: 1710465876:0;cd lazy/LazyVim/lua/lazyvim/config/
+: 1710465876:0;mv nvim .config/nvim/lua/custom
+: 1710465876:0;cd config nvim lua custom config
+: 1710465876:0;vim keymaps.lua
+: 1710465876:0;vi custom/plugins/fzf.lua
+: 1710465876:0;mkdir core
+: 1710465876:0;vi lazy_nvim.lua
+: 1710465876:0;vi keymaps.lua
+: 1710465876:0;cc
+: 1710465876:0;cd /
+: 1710465876:0;fd -H | wc -l
+: 1710465876:0;mv autocmds.lua cmds.lua
+: 1710465876:0;git remote add orgin git@github.com:MaJinjie/custom_nvim.git
+: 1710465876:0;git commit -m 'add base core/treesitter core/cmp'
+: 1710465876:0;git remote add origin https://github.com/MaJinjie/custom_nvim.git
+: 1710465876:0;git remote add origin git@github.com:MaJinjie/custom_nvim.git
+: 1710465876:0;git remote set-url origin git@github.com:MaJinjie/custom_nvim.git
+: 1710465876:0;cd ucd config nvim custom
+: 1710465876:0;cd nvim lua core
+: 1710465876:0;cd core/
+: 1710465876:0;vi ../plugins
+: 1710465876:0;cp lsp.lua dap.lua
+: 1710465876:0;cp lsp.lua linkers.lua
+: 1710465876:0;mkdir data
+: 1710465876:0;lls
+: 1710465876:0;rm data
+: 1710465876:0;cd lua/config
+: 1710465876:0;cd nvim.bak/lazy/
+: 1710465876:0;rm core/lsp.lua
+: 1710465876:0;rm linkers.lua dap.lua
+: 1710465876:0;cd config nvim lua
+: 1710465876:0;cd custom/nvim/lua
+: 1710465876:0;vi .bashrc
+: 1710465876:0;mkdir nvim
+: 1710465876:0;git clone https://github.com/uga-rosa/dotfiles.git
+: 1710465876:0;vi lua
+: 1710465876:0;cd nvim-cmp/lua/cmp/config/window.lua
+: 1710465876:0;cd nvim-cmp/lua/cmp/config/
+: 1710465876:0;vi window.lua
+: 1710465876:0;cd ../test
+: 1710465876:0;vi cmp.llua
+: 1710465876:0;cd /usr/share/nvim/runtime
+: 1710465876:0;vi filetype.lua
+: 1710465876:0;mkdir config
+: 1710465876:0;cd local nvim
+: 1710465876:0;cd config nvim lua plug
+: 1710465876:0;cd plugins/
+: 1710465876:0;vi sources.lua
+: 1710465876:0;vi view.lua
+: 1710465876:0;cd nvim.bak/lazy/LazyVim/lua/lazyvim
+: 1710465876:0;vi compare.lua
+: 1710465876:0;d ../
+: 1710465876:0;cd cmp_luasnip
+: 1710465876:0;cd nvim/lua/config
+: 1710465876:0;cd local nvim lazy
+: 1710465876:0;cd nvim-cmp/lua/cmp
+: 1710465876:0;vi entry.lua
+: 1710465876:0;cd .config nvim lua
+: 1710465876:0;cd custom/nvim/lua/config
+: 1710465876:0;cd nvim.bak/lazy
+: 1710465876:0;vi highlight.lua
+: 1710465876:0;vi cmpp.lua
+: 1710465876:0;rm cmp.lua
+: 1710465876:0;mv cmpp.lua cmp.lua
+: 1710465876:0;cd LazyVim/lua/lazyvim/plugins
+: 1710465876:0;cd ../config
+: 1710465876:0;vi test.lua
+: 1710465876:0;vi test_lsp.lua
+: 1710465876:0;cd catppuccin/colors
+: 1710465876:0;cd lua/catppuccin/utils
+: 1710465876:0;vi colors.lua
+: 1710465876:0;cd lazy/cmp-nvim-lsp
+: 1710465876:0;cd cmp-nvim-lsp
+: 1710465876:0;cd nvim-autopairs
+: 1710465876:0;vi tests
+: 1710465876:0;cd cmp_luasnip/lua/cmp_luasnip/
+: 1710465876:0;vi test_ui.lua
+: 1710465876:0;cd ../nvim/lua/core/config/cmp.lua
+: 1710465876:0;cd ../nvim/lua/core/config/
+: 1710465876:0;rm test*
+: 1710465876:0;ls.
+: 1710465876:0;rm -u
+: 1710465876:0;mv .git\~1 .git
+: 1710465876:0;ls note
+: 1710465876:0;git commit -m "over"
+: 1710465876:0;git remote
+: 1710465876:0;git push -u origin lazyvim:main
+: 1710465876:0;git push -u origin lazyvim
+: 1710465876:0;git push -u -f origin lazyvim
+: 1710465876:0;git push -u -f origin main
+: 1710465876:0;git push -u -f origin main:lazyvim
+: 1710465876:0;cd. .
+: 1710465876:0;git init
+: 1710465876:0;git commit -m 'init nvchad'
+: 1710465876:0;git push -u origin main:nvchad
+: 1710465876:0;git push -u -f origin main:nvchad
+: 1710465876:0;mv config base
+: 1710465876:0;vi core
+: 1710465876:0;vi config
+: 1710465876:0;rm config
+: 1710465876:0;git commit -m 'init custom'
+: 1710465876:0;cl
+: 1710465876:0;git remote remove *
+: 1710465876:0;git remote remove orgin origin
+: 1710465876:0;git remote remove orgin
+: 1710465876:0;git remote remove origin
+: 1710465876:0;git remote add origin git@github.com:MaJinjie/nvim.git
+: 1710465876:0;git push -u origin main:main
+: 1710465876:0;git push -u -f origin main:main
+: 1710465876:0;mv nvim nvim.bak ~/shell
+: 1710465876:0;rm nvm
+: 1710465876:0;rm lazy nvchad telescope_history telescope-all-recent.sqlite3
+: 1710465876:0;cd state
+: 1710465876:0;git clone --branch main https://github.com/MaJinjie/nvim.git ~/.config/nvim
+: 1710465876:0;cd ../base
+: 1710465876:0;cd config nivm
+: 1710465876:0;vi mason
+: 1710465876:0;c
+: 1710465876:0;cd git
+: 1710465876:0;git clone https://github.com/LazyVim/LazyVim.git
+: 1710465876:0;cd LazyVim
+: 1710465876:0;rg VeryFile
+: 1710465876:0;rg LazyFile
+: 1710465876:0;cd lua/lazyvim/util
+: 1710465876:0;vi plugin.lua
+: 1710465876:0;cd dotfiles/.config/nvim
+: 1710465876:0;rm *
+: 1710465876:0;ls .fdignore
+: 1710465876:0;cat .fdignore
+: 1710465876:0;cat .neoconf.json
+: 1710465876:0;vi .ls
+: 1710465876:0;rm .git
+: 1710465876:0;git clone https://github.com/MaJinjie/nvim.git .
+: 1710465876:0;rm nvim
+: 1710465876:0;git clone https://github.com/MaJinjie/nvim.git
+: 1710465876:0;ls base
+: 1710465876:0;git checkout -b origin/nvchad
+: 1710465876:0;git checkout main
+: 1710465876:0;git branch -d custom
+: 1710465876:0;git branch -d origin/nvchad
+: 1710465876:0;git branch -D origin/nvchad
+: 1710465876:0;vi .ignore
+: 1710465876:0;rm .ignore
+: 1710465876:0;af
+: 1710465876:0;rm .bkt
+: 1710465876:0;rm .config/.bkt
+: 1710465876:0;stow --ignore=^\.bkt$ -S .
+: 1710465876:0;rm lazy
+: 1710465876:0;cd .config/nvim
+: 1710465876:0;ls lua
+: 1710465876:0;cd shell
+: 1710465876:0;ls nvim
+: 1710465876:0;ls ..
+: 1710465876:0;vi highlights.lua
+: 1710465876:0;vi autosave.lua
+: 1710465876:0;ls --git-ignore
+: 1710465876:0;vi configs/lazy_nvim.lua
+: 1710465876:0;vi bootstrap.lua
+: 1710465876:0;vi default_config.lua
+: 1710465876:0;vi utils.lua
+: 1710465876:0;rg folke
+: 1710465876:0;vi core/bootstrap.lua
+: 1710465876:0;vi ../chadrc.lua
+: 1710465876:0;cp highlights.lua init.lua mappings.lua ~/.config/nvim/lua/custom
+: 1710465876:0;mkdir plugins
+: 1710465876:0;vi chadrc.lua
+: 1710465876:0;cd nvim/lua/base
+: 1710465876:0;vi ctx.lua
+: 1710465876:0;cd config nvim custom
+: 1710465876:0;cd lua/plugins/
+: 1710465876:0;vi flowers.lua
+: 1710465876:0;mv flowers.lua 99-flowers.lua
+: 1710465876:0;vi 95-interactive.lua
+: 1710465876:0;vi 80-cursor.lua
+: 1710465876:0;vi cursor.lua
+: 1710465876:0;vi 30-formatter.lua
+: 1710465876:0;cd nvim/lua/core
+: 1710465876:0;mkdir utils
+: 1710465876:0;vi utils/init.lua
+: 1710465876:0;vi 15-mason.lua
+: 1710465876:0;mv 15-mason.lua 20-nvchad.lua
+: 1710465876:0;vi .neoconf.json
+: 1710465876:0;cd ../nvim.bak/lazy/LazyVim/lua/lazyvim/plugins
+: 1710465876:0;vi linting.lua
+: 1710465876:0;rg neoconf
+: 1710465876:0;cd ../custom/nvim/lua/base
+: 1710465876:0;vi coding.lua
+: 1710465876:0;rg make_client_capabilities
+: 1710465876:0;vi lsp/init.lua
+: 1710465876:0;vi 1.cc
+: 1710465876:0;cd nvim/lua/
+: 1710465876:0;cd plg
+: 1710465876:0;vi 40-surround.lua
+: 1710465876:0;cd ../custom/plugins
+: 1710465876:0;vi ../configs/ufo.lua
+: 1710465876:0;cd ../plugins/init.lua
+: 1710465876:0;cd custom/
+: 1710465876:0;cd hover.nvim/lua/hover
+: 1710465876:0;vi actions.lua
+: 1710465876:0;vi core/mappings.lua
+: 1710465876:0;cd config nvm
+: 1710465876:0;cd nvim-ufo/lua/ufo
+: 1710465876:0;vi main.lua
+: 1710465876:0;vi ls
+: 1710465876:0;vi 99-flowers.lua
+: 1710465876:0;vi configs
+: 1710465876:0;vi ../init.lua
+: 1710465876:0;vi 50-fold.lua
+: 1710465876:0;cd shell/nvim/lua/custom/
+: 1710465876:0;vi plugins/fzf.lua
+: 1710465876:0;cd ../custom
+: 1710465876:0;mv configs/fzf.lua plugins/configs
+: 1710465876:0;vim plugins/25-fzf.lua
+: 1710465876:0;vi plugins/25-fzf.lua
+: 1710465876:0;cd ../../.
+: 1710465876:0;cp .fdignore .rgignore
+: 1710465876:0;vi .rgignore
+: 1710465876:0;vi .fdignore
+: 1710465876:0;git commit -m 'mark 1'
+: 1710465876:0;git remote show
+: 1710465876:0;git remote show -n
+: 1710465876:0;git remote show -v
+: 1710465876:0;git branch -vv
+: 1710465876:0;git remote set-url origin git@github.com:MaJinjie/nvim.git
+: 1710465876:0;git push -u origin main
+: 1710465876:0;vi plugins/telescope_extensions.lua
+: 1710465876:0;vi 30-telescope_extensions.lua
+: 1710465876:0;rm configs
+: 1710465876:0;vi .viminfo
+: 1710465876:0;cd config nvim lua custom
+: 1710465876:0;vi ulsi
+: 1710465876:0;lsi
+: 1710465876:0;gl
+: 1710465876:0;nl
+: 1710465876:0;vi 40-hover.lua
+: 1710465876:0;vi configs/fzf.lua
+: 1710465876:0;eza
+: 1710465876:0;eza | bat
+: 1710465876:0;cd shell/nvim/lua
+: 1710465876:0;vi dev
+: 1710465876:0;ls dev/telescope-rualdi.nvim
+: 1710465876:0;cd shell/nvim
+: 1710465876:0;cp dev/telescope-rualdi.nvim ~/.config/nvim/dev/ -r
+: 1710465876:0;cd dev
+: 1710465876:0;cd telescope-rualdi.nvim
+: 1710465876:0;cd lua/telescope/_extensions/
+: 1710465876:0;ls rualdi
+: 1710465876:0;vi rualdi.lua
+: 1710465876:0;cd shell/nvim/lua/custom/plugins
+: 1710465876:0;vi fzf.lua
+: 1710465876:0;vi telescope_extensions.lua
+: 1710465876:0;vi nvchad.lua
+: 1710465876:0;vi text.lua
+: 1710465876:0;vi command.lua
+: 1710465876:0;vi 25-fzf.lua
+: 1710465876:0;cd ../nvim.bak/lazy
+: 1710465876:0;vi 35-nvimtree.lua
+: 1710465876:0;rm 35-nvimtree.lua
+: 1710465876:0;vi ../mappings.lua
+: 1710465876:0;cd ../nvim
+: 1710465876:0;cd lazy
+: 1710465876:0;l
+: 1710465876:0;vi vi node.lua
+: 1710465876:0;vi node.lua
+: 1710465876:0;cd /home/mjj/.local/share/nvim/lazy/nvim-tree.lua/lua/nvim-tree
+: 1710465876:0;mkdir aa bb cc dd
+: 1710465876:0;vi nv
+: 1710465876:0;cd config nvim lua custom plugin
+: 1710465876:0;cd nvim-tree.lua/lua/nvim-tree
+: 1710465876:0;vi configs/cmp.lua
+: 1710465876:0;cd lua/plugins
+: 1710465876:0;cd ls
+: 1710465876:0;cd nvim-tree
+: 1710465876:0;vi api.lua
+: 1710465876:0;git commit -m 'add nvim-tree'
+: 1710465876:0;git add .
+: 1710465876:0;git status
+: 1710465876:0;git commit --amend -m 'add commander nvim-tree'
+: 1710465876:0;git push
+: 1710465876:0;cd custom/plugins
+: 1710465876:0;cd cmdline-hl.nvim/lua/cmdline-hl
+: 1710465876:0;avi l
+: 1710465876:0;vi 40-ui.lua
+: 1710465876:0;mkdir 100-wait.lua
+: 1710465876:0;rm 100-wait.lua
+: 1710465876:0;vi 100-wait.lua
+: 1710465876:0;cd shell/nvim.bak/lua/custom/plugins/configs
+: 1710465876:0;cd ../nvim/lua/plugins
+: 1710465876:0;cd ../custom/q
+: 1710465876:0;cd ../custom/
+: 1710465876:0;vi task.lua
+: 1710465876:0;vi uls
+: 1710465876:0;vi configs/nvimtree.lua
+: 1710465876:0;paru -S yazi
+: 1710465876:0;cd ../zinit
+: 1710465876:0;paru -R yazi
+: 1710465876:0;p
+: 1710465876:0;yazi
+: 1710465876:0;y
+: 1710465876:0;source .zshrc
+: 1710465876:0;lsar
+: 1710465876:0;vi 10-completions.zsh
+: 1710465876:0;ci
+: 1710465876:0;cd textual_apps
+: 1710465876:0;cd bin
+: 1710465876:0;vi .zshrc
+: 1710465876:0;nvim-custom
+: 1710465876:0;vi alias.zsh 41-aliases.zsh
+: 1710465876:0;which vi
+: 1710465876:0;git clone -b custom https://github.com/MaJinjie/nvim.git custom
+: 1710465876:0;vi base
+: 1710465876:0;ls custom
+: 1710465876:0;cd custom/lazy
+: 1710465876:0;vi-custom
+: 1710465876:0;vi zsh.d/41-aliases.zsh
+: 1710465876:0;cd custom/lua/core/
+: 1710465876:0;cd base
+: 1710465876:0;vi ../../init.lua
+: 1710465876:0;vic options.lua
+: 1710465876:0;vic init.lua
+: 1710465876:0;cd ../core
+: 1710465876:0;vic mason.lua
+: 1710465876:0;vi need.lua
+: 1710465876:0;vic need.lua
+: 1710465876:0;cp nvim/mason custom -r
+: 1710465876:0;cd ../cus
+: 1710465876:0;cd core
+: 1710465876:0;which vic
+: 1710465876:0;vic formatter.lua
+: 1710465876:0;vi formatter.lua
+: 1710465876:0;vic ui.lua
+: 1710465876:0;vic
+: 1710465876:0;vic README.md
+: 1710465876:0;git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/astronvim
+: 1710465876:0;dus astronvim
+: 1710465876:0;mkdir user
+: 1710465876:0;git clone https://github.com/AstroNvim/user_example.git
+: 1710465876:0;vi 41-aliases.zsh
+: 1710465876:0;cd lua
+: 1710465876:0;rm user
+: 1710465876:0;git clone https://github.com/AstroNvim/user_example.git user
+: 1710465876:0;cd user
+: 1710465876:0;vi highlights
+: 1710465876:0;rm highlights/*
+: 1710465876:0;vi .
+: 1710465876:0;vi nvim-treesitter.lua
+: 1710465876:0;cd ../user/plugins
+: 1710465876:0;vi treesitter.lua
+: 1710465876:0;via treesitter.lua
+: 1710465876:0;vi mason.lua
+: 1710465876:0;vi configs/mason.lua
+: 1710465876:0;cp nvim/mason astronvim -r
+: 1710465876:0;cd lua/custom/plugins
+: 1710465876:0;vi 20-nvchad.lua
+: 1710465876:0;vi init.lua
+: 1710465876:0;via user.lua
+: 1710465876:0;mkdir configs
+: 1710465876:0;via cmp.lua
+: 1710465876:0;vi astro_other.lua
+: 1710465876:0;via astro_other.lua
+: 1710465876:0;via test.lua
+: 1710465876:0;vi README.md
+: 1710465876:0;via README.md
+: 1710465876:0;q
+: 1710465876:0;rm astro_other.lua
+: 1710465876:0;vi astro_core.lua
+: 1710465876:0;ls resession
+: 1710465876:0;ls plugins
+: 1710465876:0;cd user/plugins
+: 1710465876:0;cd configs
+: 1710465876:0;touch astro_core.lua
+: 1710465876:0;touch core.lua
+: 1710465876:0;ls configs
+: 1710465876:0;vi 1.lua
+: 1710465876:0;lua 1.lua
+: 1710465876:0;rm 1.lua
+: 1710465876:0;cd lua/user/plugins/configs
+: 1710465876:0;cd ../../plugins
+: 1710465876:0;vi configs/core.lua
+: 1710465876:0;via configs/core.lua
+: 1710465876:0;cd ../../../
+: 1710465876:0;cd nvim
+: 1710465876:0;cd lua/custom/plugins/
+: 1710465876:0;vi configs/ufo.lua
+: 1710465876:0;vi lsp.lua
+: 1710465876:0;vi ui.lua
+: 1710465876:0;via astro_core.lua
+: 1710465876:0;cat ui.lua
+: 1710465876:0;rm ui.lua
+: 1710465876:0;mv astro_core.lua astro.lua
+: 1710465876:0;cat user.lua
+: 1710465876:0;rm user.lua
+: 1710465876:0;vi options.lua
+: 1710465876:0;via ../options.lua
+: 1710465876:0;via ../mappings.lua
+: 1710465876:0;k
+: 1710465876:0;lazygit
+: 1710465876:0;vi config.yml
+: 1710465876:0;cd astro
+: 1710465876:0;cp ../nvim/.fdignore ../nvim/.rgignore lua/user/
+: 1710465876:0;cp .rgignore .gitignore
+: 1710465876:0;vi .luacheckrc
+: 1710465876:0;cd lua/plugins/configs
+: 1710465876:0;cd config astro
+: 1710465876:0;cd ../astronvim
+: 1710465876:0;cd ../../
+: 1710465876:0;cd custom/lua/core
+: 1710465876:0;cd nvim/lua/custom
+: 1710465876:0;via 25-fzf.lua
+: 1710465876:0;git branch
+: 1710465876:0;gbl
+: 1710465876:0;gbd
+: 1710465876:0;ad
+: 1710465876:0;gd
+: 1710465876:0;git log --oneline
+: 1710465876:0;cd local share lazy
+: 1710465876:0;cd astronvim/lazy/fzf-lua
+: 1710465876:0;cd lua/fzf-lua
+: 1710465876:0;vi config.lua
+: 1710465876:0;via init.lua
+: 1710465876:0;via defaults.lua
+: 1710465876:0;git branch --color
+: 1710465876:0;git log
+: 1710465876:0;via plugins/null-ls.lua
+: 1710465876:0;vi 45-commander.lua
+: 1710465876:0;via map
+: 1710465876:0;cd lua/core
+: 1710465876:0;vi zsh.d/70-export-plug.zsh
+: 1710465876:0;cd git/dotfiles/
+: 1710465876:0;cd .config/zsh/zsh.d
+: 1710465876:0;cd ../../..
+: 1710465876:0;cd telescope.nvim
+: 1710465876:0;rg forward
+: 1710465876:0;vij
+: 1710465876:0;vi .gitignore
+: 1710465876:0;cd lua/user
+: 1710465876:0;vi core.lua
+: 1710465876:0;vi
+: 1710465876:0;vi mappings.lua
+: 1710465876:0;via mason.lua
+: 1710465876:0;via .fdignore
+: 1710465876:0;via auto
+: 1710465876:0;via autocmds.lua
+: 1710465876:0;rm autocmds.lua
+: 1710465876:0;cd custom/lua/base
+: 1710465876:0;vi cmds.lua
+: 1710465876:0;cd ../..
+: 1710465876:0;cd astronvim
+: 1710465876:0;fzf | vi
+: 1710465876:0;vi telescope.lua
+: 1710465876:0;cd ../
+: 1710465876:0;vi astronvim/mappings.lua
+: 1710465876:0;via astronvim
+: 1710465876:0;vi cmp.lua
+: 1710465876:0;via core.lua
+: 1710465876:0;via neo-tree.lua
+: 1710465876:0;
+: 1710465876:0;via mappings.lua
+: 1710465876:0;kk ffq
+: 1710465876:0;:q
+: 1710465876:0;via options.lua
+: 1710465876:0;cd config nvim
+: 1710465876:0;cd lua/custom
+: 1710465876:0;via 100-wait.lua
+: 1710465876:0;cd utils
+: 1710465876:0;mv configs/astro_core.lua configs/astro.lua
+: 1710465876:0;vi astro.lua
+: 1710465876:0;via astro.lua
+: 1710465876:0;via alacritty/alacritty.toml
+: 1710465876:0;t
+: 1710465876:0;$(t ls)
+: 1710465876:0;$(t at)
+: 1710465876:0;vi alacritty/alacritty.toml
+: 1710465876:0;via tmux.sh
+: 1710465876:0;vi tmux.sh
+: 1710465876:0;t attach -d
+: 1710465876:0;t ls
+: 1710465876:0;rm tmux.sh
+: 1710465876:0;vi .config/alacritty/alacritty.toml
+: 1710465876:0;cd git/dotfiles/.config
+: 1710465876:0;cd zsh/
+: 1710465876:0;Rg
+: 1710465876:0;via man.zsh
+: 1710465876:0;source man.zsh
+: 1710465876:0;:h
+: 1710465876:0;:help
+: 1710465876:0;:m:
+: 1710465876:0;via zle-widgets.zsh
+: 1710465876:0;via fs.zsh
+: 1710465876:0;cd config zsh
+: 1710465876:0;lsa
+: 1710465876:0;cd custom
+: 1710465876:0;cd fzf
+: 1710465876:0;cd git/dotfiles
+: 1710465876:0;cd mybin
+: 1710465876:0;via fzf-panes.tmux
+: 1710465876:0;source fzf-panes.tmux
+: 1710465876:0;do_action
+: 1710465876:0;cm z
+: 1710465876:0;fd .
+: 1710465876:0;fd data
+: 1710465876:0;fd -tf data
+: 1710465876:0;fzf --color=always
+: 1710465876:0;fzf --color
+: 1710465876:0;paru -S lscolors
+: 1710465876:0;paru -S lscolors-git
+: 1710465876:0;paru -Syu
+: 1710465876:0;cargo install lscolors
+: 1710465876:0;ll
+: 1710465876:0;cd local share
+: 1710465876:0;cs
+: 1710465876:0;echo $path
+: 1710465876:0;via 01-paths.zsh
+: 1710465876:0;mv 01-paths.zsh 00-paths.zsh
+: 1710465876:0;lscolors
+: 1710465876:0;fd | lscolors
+: 1710465876:0;fzf | lscolors
+: 1710465876:0;cd cargo/bin
+: 1710465876:0;cm zz
+: 1710465876:0;bat fd.zsh
+: 1710465876:0;which ls
+: 1710465876:0;which bat
+: 1710465876:0;grc bat fd.zsh
+: 1710465876:0;fzf --border=sharp
+: 1710465876:0;man fzf
+: 1710465876:0;fzf --border-label=double
+: 1710465876:0;echo $LS_COLORS
+: 1710465876:0;t kill-server
+: 1710465876:0;echo $FZF_DEFAULT_COMMAND
+: 1710465876:0;via 70-export-plug.zsh
+: 1710465876:0;which rg
+: 1710465876:0;cd /home/mjj/dotfiles/.config/zsh/zinit/polaris/bin
+: 1710465876:0;./fzf
+: 1710465876:0;wl-copy aa bb cc
+: 1710465876:0;wl-paste
+: 1710465876:0;fzf $FZF_DEFAULT_OPTS
+: 1710465876:0;paru -R fzf
+: 1710465876:0;zi
+: 1710465876:0;via 10-completions.zsh
+: 1710465876:0;echo $comps[zinit]
+: 1710465876:0;zi update junegunn/fzf
+: 1710465876:0;ls -d
+: 1710465876:0;ls,
+: 1710465876:0;lsd
+: 1710465876:0;tar
+: 1710465876:0;rm junegunn---fzf
+: 1710465876:0;srcr
+: 1710465876:0;ffffffffffffffffffffffffff
+: 1710465876:0;s
+: 1710465453:0;which fzf
+: 1710465470:0;https
+: 1710465548:0;ls fw
+: 1710465555:0;mkdir fzf
+: 1710465730:0;./install --bin
+: 1710465755:0;ls bin
+: 1710465818:0;ln bin/fzf ../../polaris/bin/fzf
+: 1710465834:0;ln ../../polaris/bin/fzf bin/fzf
+: 1710465870:0;ln -f bin/fzf ../../polaris/bin/fzf
+: 1710465890:0;fzf --version
+: 1710465953:0;via
+: 1710465989:0;via zsh.d/70-export-plug.zsh
+: 1710466228:0;cd dotfiles/.config
+: 1710466234:0;via fzf/fzfrc
+: 1710466300:0;cd dotfiles
+: 1710466307:0;stow -S .
+: 1710466319:0;cd .
+: 1710466325:0;cd .config
+: 1710466331:0;åƒ®ƒ¦åƒ¯²
+: 1710466333:0;ls fzf
+: 1710466388:0;echo $FZF_DEFAULT_OPTS_FILE
+: 1710466550:0;ifzf
+: 1710466811:0;cd zinit
+: 1710466823:0;ls shell
+: 1710466940:0;cd junegunn---fzf
+: 1710466998:0;cp man/man1/* $ZDOTDIR/man/man1/
+: 1710467181:0;which _histdb_query_batch
+: 1710467214:0;echo $HISTDB_FD
+: 1710467243:0;cd zinit plugins
+: 1710467262:0;rm Aloxaf---zsh-histdb
+: 1710467289:0;echo $HISTDB_FILE
+: 1710467307:0;cd larkery---zsh-histdb/
+: 1710467314:0;via histdb-interactive.zsh
+: 1710468474:0;fd --color=always
+: 1710468486:0;fd --color=always --follow
+: 1710468594:0;which :ff
+: 1710468690:0;fd '-tf'
+: 1710468700:0;fd '-tf --color=always'
+: 1710468787:0;cd git/dotfiles/.config/zsh/zsh.d
+: 1710468794:0;via fzf.zsh
+: 1710468812:0;via rg.zsh
+: 1710469030:0;echo $FZF_DEFAULT_OPTS
+: 1710469099:0;via ../zsh.d/70-export-plug.zsh
+: 1710469212:0;via 11
+: 1710469312:0;fd -tf zsh.d
+: 1710469319:0;ls zsh.d
+: 1710469328:0;fd -tf
+: 1710469355:0;fd -tf completions
+: 1710469370:0;fd -tf zsh.d .
+: 1710469373:0;fd -tf. zsh.d
+: 1710469376:0;fd -tf . zsh.d
+: 1710469385:0;fd -tf .
+: 1710469404:0;via plugins/fd.zsh
+: 1710469562:0;via fd.zsh
+: 1710469648:0;:ff zsh.d completions
+: 1710469829:0;cd plugins
+: 1710469850:0;:ff zsh.d
+: 1710470598:0;fd -td .
+: 1710470629:0;fd -td '--color=always' --hidden --follow '--max-depth=6' '--size=-1M' .
+: 1710470652:0;fd -td --size=-1M .
+: 1710470814:0;cd -
+: 1710470851:0;:fd
+: 1710471198:0;aa=(a b c)
+: 1710471199:0;echo $aa
+: 1710471203:0;echo ${aa[@]}
+: 1710471208:0;echo ${aa[2]}
+: 1710471210:0;echo ${aa[2,]}
+: 1710471213:0;echo ${aa[2,$]}
+: 1710471751:0;source fd.zsh
+: 1710471785:0;:fr
+: 1710471827:0;:fr 1h
+: 1710471840:0;via .zshrc
+: 1710471942:0;:ff
+: 1710472063:0;f
+: 1710472085:0;via 41-aliases.zsh
+: 1710472352:0;fd | rg
+: 1710472355:0;fd | rg 1
+: 1710472393:0;fd | xargs -o rg 1
+: 1710472404:0;fd
+: 1710472416:0;fd . completions | xargs -o rg 1
+: 1710472611:0;rg ""
+: 1710472659:0;cd
+: 1710472661:0;cd config
+: 1710472664:0;cd ripgrep
+: 1710472676:0;rg
+: 1710472679:0;rg export
+: 1710472685:0;rg hil
+: 1710472708:0;via ripgreprc
+: 1710472720:0;zsh
+: 1710472725:0;rg f
+: 1710472842:0;zz=""
+: 1710472844:0;[[ -z $zz ]] && echo 1 || echo 2
+: 1710472847:0;[[ -n $zz ]] && echo 1 || echo 2
+: 1710472858:0;man bash
+: 1710473212:0;echo $zz
+: 1710473217:0;zz=1
+: 1710473219:0;echo $((+zz))
+: 1710473350:0;paru -S hck
+: 1710473582:0;rg f .
+: 1710474070:0;cd zsh
+: 1710474072:0;cd zsh.d
+: 1710474075:0;cd ../plugins
+: 1710474539:0;hck -d: -f1
+: 1710474624:0;fzf
+: 1710474639:0;:rg
+: 1710475038:0;:rg aa
+: 1710475061:0;:rg a
+: 1710475087:0;source rg.zsh
+: 1710475088:0;cd ..
+: 1710475089:0;ls
+: 1710475172:0;source plugins/rg.zsh
+: 1710475180:0;:rg plugins
+: 1710475224:0;:rg plugins data
+: 1710475271:0;:fd plugins
+: 1710475378:0;ls
+: 1710475433:0;cd zinit
+: 1710475433:0;ls
+: 1710475438:0;cd snippets
+: 1710475444:0;ls
+: 1710475454:0;rm home--mjj--.config--zsh--plugins
+: 1710475455:0;ls
+: 1710475590:0;rm home--mjj--.config--zsh--plugins
+: 1710475678:0;cd dotfiles
+: 1710475680:0;git push
+: 1710475738:0;git push
+: 1710475750:0;git add .

@@ -276,7 +276,7 @@ typeset -ga FZF_TAB_GROUP_COLORS=(
 #$([[ -d "$realpath" ]] && echo "$realpath" || echo "${realpath:h}")
 zstyle+ ':fzf-tab:*' print-query ctrl-c \
       + ''           continuous-trigger '/' \
-      + ''           accept-line space \
+      + ''           accept-line alt-enter \
       + ''           prefix '' \
       + ''           query-string prefix input first \
       + ''           group-colors $FZF_TAB_GROUP_COLORS \

@@ -36,7 +36,7 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#1E624E,bold"
 typeset -gx ZSH_AUTOSUGGEST_HISTORY_IGNORE=$'(*\n*|?(#c100,))' # no 100+ char
 typeset -gx ZSH_AUTOSUGGEST_COMPLETION_IGNORE="[[:space:]]*" # no leading space
 typeset -gx ZSH_AUTOSUGGEST_STRATEGY=(
-  histdb_top_here   dir_history
+  dir_history
   custom_history    match_prev_cmd
   completion
 )
@@ -64,10 +64,66 @@ export ZSH_AUTOSUGGEST_PARTIAL_ACCEPT_WIDGETS=( \
 # typeset -g  PER_DIRECTORY_HISTORY_BASE="${ZPFX}/share/per-directory-history"
 # ]]]
 
-return
+# return
 # === Fzf ================================================================ [[[
-# I have custom colors for 1-53. They're set in alacritty
-# If this is an array, even if they're joined, vim doesn't like that
+
+FZF_COLORS="--color=hl:yellow:bold,hl+:yellow:reverse,pointer:032,marker:010"
+FZF_HISTFILE="$XDG_CACHE_HOME/fzf/history"
+FZF_FILE_PREVIEW="([[ -f {} ]] && (bkt -- bat --style=numbers --color=always -- {}))"
+FZF_DIR_PREVIEW="([[ -d {} ]] && (bkt -- eza -T {} | bat --color=always))"
+FZF_BIN_PREVIEW="([[ \$(file --mime-type -b {}) = *binary* ]] && (echo {} is a binary file))"
+
+export FZF_COLORS FZF_HISTFILE FZF_FILE_PREVIEW FZF_DIR_PREVIEW FZF_BIN_PREVIEW
+
+[[ ! -d $XDG_CACHE_HOME/fzf ]] && mkdir $XDG_CACHE_HOME/fzf 
+
+# return
+export FZF_DEFAULT_OPTS=" \
+--marker='▍' \
+--scrollbar='█' \
+--ellipsis='' \
+--cycle \
+$FZF_COLORS \
+--reverse \
+--info=inline \
+--ansi \
+--multi \
+--border=horizontal \
+--height=80% \
+--tabstop=4 \
+--history=$FZF_HISTFILE \
+--jump-labels='abcdefghijklmnopqrstuvwxyz' \
+--preview-window :hidden \
+--preview=\"($FZF_FILE_PREVIEW || $FZF_DIR_PREVIEW) 2>/dev/null | head -200\" \
+--bind='ctrl-/:change-preview-window(right,60%,border-vertical|up,60%,border-horizontal)' \
+--bind='esc:abort' \
+--bind='ctrl-q:abort' \
+--bind='ctrl-c:cancel' \
+--bind='ctrl-j:down' \
+--bind='ctrl-k:up' \
+--bind='alt-j:prev-selected' \
+--bind='alt-k:next-selected' \
+--bind='home:beginning-of-line' \
+--bind='end:end-of-line' \
+--bind='ctrl-e:end-of-line' \
+--bind='alt-a:toggle-all' \
+--bind='ctrl-p:prev-history' \
+--bind='ctrl-n:next-history' \
+--bind='ctrl-d:half-page-down' \
+--bind='ctrl-b:preview-page-up' \
+--bind='ctrl-f:preview-page-down' \
+--bind='ctrl-\:jump' \
+--bind='ctrl-g:toggle-preview' \
+--bind='alt-e:execute($EDITOR {+})' \
+--bind='alt-b:execute(bat --paging=always -f {+})' \
+--bind='ctrl-y:execute-silent(wl-copy -n {+})' \
+--bind 'enter:accept' \
+"
+
+export FZF_COMPLETION_TRIGGER='\'
+export FZF_DEFAULT_COMMAND="fd --color=always"
+
+return
 export FZF_TMUX=1
 #export TMUX_PANE 
 #export FZF_TMUX_HEIGHT
@@ -78,21 +134,12 @@ export FZF_TMUX=1
 export FZF_TMUX_OPTS='-p -w 60% -h 50% -m'
 export FZF_COMPLETION_TRIGGER='\'
 
-export FZF_DEFAULT_COMMAND="fd $FD_DEFAULT_OPTS"
-export FZF_DEFAULT_OPTS=" \
---color='hl:yellow:bold,hl+:yellow:reverse,pointer:032,marker:010' \
---marker='✓' \
---bind 'ctrl-z:jump-accept' \
---bind '?:toggle-preview' \
---bind 'ctrl-\:change-preview-window(right|up)' \
---bind 'enter:accept' \
---layout=reverse \
---info=inline \
---height=60% \
---multi \
---preview-window :hidden \
---preview '([[ -f {} ]] && (bat --style=numbers --color=always {} || cat {})) || ([[ -d {} ]] && (tree -C {} | less)) || echo {} 2> /dev/null | head -200' \
-"
+
+
+
+
+
+
 
 # export FZF_DEFAULT_OPTS=" \
 # --color='hl:yellow:bold,hl+:yellow:reverse,pointer:032,marker:010,bg+:237,gutter:008' \

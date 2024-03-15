@@ -1,0 +1,22 @@
+: 1709774094:0;ls
+: 1709774099:0;vi treesitter.lua
+: 1709796709:0;vi
+: 1709868435:0;ls
+: 1709868443:0;vi
+: 1709868680:0;vi coding.lua
+: 1709869456:0;cd
+: 1709871648:0;vi coding.lua
+: 1709880070:0;cd
+: 1709882270:0;vi coding.lua
+: 1709894517:0;ls
+: 1709894518:0;vi
+: 1709912918:0;cd ../../../
+: 1709973507:0;ls
+: 1709973512:0;vi linting.lua
+: 1709973557:0;rg neoconf
+: 1709973565:0;vi init.lua
+: 1709973577:0;vi lsp/init.lua
+: 1709978094:0;vi coding.lua
+: 1709978180:0;rg make_client_capabilities
+: 1709978196:0;vi lsp/init.lua
+: 1709997445:0;cd ..
