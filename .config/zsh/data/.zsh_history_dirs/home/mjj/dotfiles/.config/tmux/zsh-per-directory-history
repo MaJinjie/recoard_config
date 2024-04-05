@@ -8,3 +8,82 @@
 : 1709634998:0;dus tmux.conf
 : 1709636678:0;ls
 : 1709636680:0;cd ..
+: 1710669753:0;ls
+: 1710669755:0;via tmux.conf
+: 1710669984:0;ls
+: 1710669987:0;source tmux.conf
+: 1710670003:0;t source-file tmux.conf
+: 1710670041:0;ls
+: 1710670043:0;cd
+: 1710670366:0;ls
+: 1710670371:0;mv tmux.conf .tmux.conf
+: 1710670377:0;via tmux.conf
+: 1710670441:0;via tmux@.service
+: 1710670457:0;ls
+: 1710670462:0;cd
+: 1710670555:0;via tmux.conf
+: 1710670884:0;ls
+: 1710670888:0;via tmux@.service
+: 1710670898:0;via tmux.conf
+: 1710670914:0;via tmux@.service
+: 1710670923:0;ls
+: 1710670940:0;rm tmux.conf
+: 1710670940:0;ls
+: 1710670945:0;mv .tmux.conf tmux.conf
+: 1710671460:0;ls
+: 1710671471:0;t source-file tmux.conf
+: 1710671988:0;ls
+: 1710671999:0;via .plugins.conf
+: 1710672114:0;:q
+: 1710726451:0;cd tmp
+: 1710816113:0;v tmux.conf
+: 1710816161:0;t source-file tmux.conf
+: 1710816365:0;t   display-menu -T "choose Layout" -x W -y S  \\
+    "Select even-horizontal layout" H "selectl even-horizontal" \ \
+    "Select even-vertical layout" V "selectl even-vertical" \\
+    "Select main-horizontal layout" h "selectl main-horizontal" \\
+    "Select main-vertical layout" v "selectl main-vertical" \\
+    "Select tiled layout" t "selectl tiled"\
+
+: 1710816407:0;t source-file tmux.conf
+: 1710816409:0;ls
+: 1710816439:0;t source-file tmux.conf
+: 1710816470:0;t kill-server
+: 1710841461:0;ls
+: 1710841563:0;_per_directory_history_is_globstory_is_globalay
+: 1710841573:0;echo $_per_directory_history_is_global
+: 1710841587:0;ls
+: 1710841595:0;vi .plugins.conf
+: 1710841923:0;ls
+: 1710841930:0;aa=(a b c dd ee)
+: 1710841942:0;echo ${aa[(r)a]}
+: 1710841950:0;echo ${aa[(r)dd]}
+: 1710841954:0;echo ${aa[(r)e]}
+: 1710841957:0;echo ${aa[(r)ee]}
+: 1710841984:0;echo ${aa[(r)e*]}
+: 1710841988:0;echo ${aa[(r)ee*]}
+: 1710841991:0;echo ${aa[(r)eee*]}
+: 1710841998:0;echo ${aa[(r)eee b]}
+: 1710842001:0;echo ${aa[(r)eee b*]}
+: 1710842011:0;echo ${aa[(r)"a"]}
+: 1710842016:0;echo $aa
+: 1710842020:0;echo ${aa[(r)aa]}
+: 1710842022:0;echo ${aa[(r)a]}
+: 1710842036:0;pt=(a b)
+: 1710842040:0;echo ${aa[(r)$pt]}
+: 1710842062:0;echo ${aa[(r)(a)]}
+: 1710842065:0;echo ${aa[(r)(a b)]}
+: 1710842071:0;echo ${aa[(r)(a,b)]}
+: 1710842074:0;echo ${aa[(r)(a b)]}
+: 1710842077:0;echo ${aa[(r)(b)]}
+: 1710842086:0;echo ${aa[(r)(b)(c)]}
+: 1710842090:0;echo ${aa[(r)()(c)]}
+: 1710842098:0;echo ${aa[(r)(b)~(c)]}
+: 1710842102:0;echo ${aa[(r)(bb)~(c)]}
+: 1710842108:0;echo ${aa[(r)(bbb)~(c)]}
+: 1710842111:0;echo ${aa[(r)(bbb)~(ee)]}
+: 1710948032:0;vi tmux.conf
+: 1710950256:0;vi tmux.conf
+: 1711036315:0;cd fzf
+: 1712021185:0;ls
+: 1712021189:0;vi tmux.conf

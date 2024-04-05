@@ -1,5 +1,4 @@
 autoload -U add-zsh-hook
-typeset -g _HISTDB
 # Shorten command length
 function max_history_len() {
   if (( $#1 > 240 )) {
@@ -23,14 +22,18 @@ add-zsh-hook zshaddhistory max_history_len
 
 # Based on directory history
 function _zsh_autosuggest_strategy_dir_history() {
-  emulate -L zsh -o extended_glob
+  emulate -L zsh
+	setopt EXTENDED_GLOB
   if $_per_directory_history_is_global && [[ -r "$_per_directory_history_path" ]]; then
     local prefix="${1//(#m)[\\*?[\]<>()|^~#]/\\$MATCH}"
     local pattern="$prefix*"
     if [[ -n $ZSH_AUTOSUGGEST_HISTORY_IGNORE ]]; then
       pattern="($pattern)~($ZSH_AUTOSUGGEST_HISTORY_IGNORE)"
     fi
+    # echo "dir_history: "$dir_history >> ~/log.txt
     [[ "${dir_history[(r)$pattern]}" != "$prefix" ]] && \
+      # echo "prefix: "$prefix  "pattern: "$pattern >> ~/log.txt
+      # echo "dh: "${dir_history[(r)$pattern]} >> ~/log.txt
       typeset -g suggestion="${dir_history[(r)$pattern]}"
   fi
 }

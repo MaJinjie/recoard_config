@@ -8,12 +8,40 @@
 : 1709119383:0;rm -u
 : 1709119415:0;zsqlite-exec
 : 1709119496:0;zsqlite_exec _HISTDB
-: 1709561310:0;vi .history
 : 1709561384:0;histdb
 : 1709561518:0;zsqlite_exec
 : 1709561544:0;zsqlite_exec .zsh-history.db 
 : 1709561553:0;zsqlite_exec -1
 : 1709561806:0;bindkey '^r' _histdb-isearch
-: 1709561894:0;lsa
 : 1709561899:0;lsa 
-: 1709562098:0;ls
+: 1710856556:0;vi .history
+: 1710856702:0;lsa
+: 1710856706:0;cd .zsh_history_dirs
+: 1710856800:0;$HISTFILE
+: 1710856801:0;cd ..
+: 1710857075:0;ls
+: 1710857082:0;echo .history | fzf
+: 1710857089:0;cat .history | fzf
+: 1710857095:0;cat .history | awk 'BEGIN{FS=";"}{print $2}' | fzf
+: 1710857140:0;cat .history | awk 'BEGIN{FS=";"}{print $2}' | lscolors | fzf
+: 1710857191:0;cat .history | awk 'BEGIN{FS=";"}NR==2{print $2}'
+: 1710857208:0;cat .history | awk 'BEGIN{FS=";"}NR==2{print $2}NR==2{print}'
+: 1710857315:0;hist::grep
+: 1710857317:0;hist::grep 1
+: 1710857324:0;hist::stat
+: 1710857580:0;cat .history | awk 'BEGIN{FS=";"}NR==2{print $2}{print}' | fzf
+: 1710857857:0;[[ $+tmpt ]] && echo 1 || echo 2
+: 1710857861:0;echo $tmpt
+: 1710857874:0;[[ $-tmpt ]] && echo 1 || echo 2
+: 1710857885:0;[[ ${+tmpt} ]] && echo 1 || echo 2
+: 1710857891:0;[[ $+{tmpt} ]] && echo 1 || echo 2
+: 1710857895:0;[[ $-{tmpt} ]] && echo 1 || echo 2
+: 1710858502:0;nf
+: 1710858610:0;aa=flase
+: 1710858613:0;aa=false
+: 1710858614:0;[[ $aa ]] && echo 1 || echo 2
+: 1710858635:0;aa=true
+: 1710858636:0;(( $aa )) && echo 1 || echo 2
+: 1710858673:0;echo $_per_directory_history_is_global
+: 1710858719:0;echo $_per_directory_history_path
+: 1710858764:0;tail -10 $_per_directory_history_path

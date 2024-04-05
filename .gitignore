@@ -1,2 +1,4 @@
 .bkt
 .ssh
+.config/zsh/data
+.config/zsh/zinit

@@ -150,3 +150,33 @@
 : 1710153711:0;cd custom/plugins
 : 1710167977:0;ls
 : 1710167982:0;cd ..
+: 1710829797:0;ls
+: 1710829805:0;cd user/plugins
+: 1711103659:0;ls
+: 1711103662:0;c
+: 1711103663:0;cd
+: 1711464881:0;ls
+: 1711464887:0;vi plugins/cmp.lua
+: 1711465748:0;echo $[j++]
+: 1711465787:0;echo $[c]
+: 1711465957:0;fd --changed-after=0
+: 1711465959:0;fd --changed-after=1
+: 1711465960:0;fd --changed-after=-1
+: 1711465967:0;fd --changed-after=never
+: 1711466066:0;fd --changed-after=1min
+: 1711466070:0;fd --changed-after=1month
+: 1711466077:0;fd --changed-after=1year
+: 1711466080:0;fd --changed-after=1years
+: 1711466101:0;fd --changed-after=1week
+: 1711466105:0;fd --changed-after=2week
+: 1711466259:0;fd --changed-after=1minute
+: 1711466261:0;fd --changed-after=1minutes
+: 1711466680:0;bash
+: 1711467530:0;fd -H
+: 1711467538:0;fd +H
+: 1711468877:0;ls
+: 1711468951:0;ci study
+: 1711505591:0;ls
+: 1711505598:0;vi plugins/lsp.lua
+: 1711512015:0;ls
+: 1711515431:0;cd ../..

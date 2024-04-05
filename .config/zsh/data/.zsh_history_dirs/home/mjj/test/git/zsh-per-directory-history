@@ -1,13 +1,30 @@
 : 1709099358:0;which cd
-: 1709099368:0;ls
 : 1709099373:0;cd git
 : 1709099381:0;ci
 : 1709099393:0;cd zsh
-: 1709099402:0;ls
 : 1709099414:0;mv -f forgit/1.txt
 : 1709099445:0;mv -f forgit/1.txt .
-: 1709099446:0;ls
 : 1709099448:0;rm 1.txt
 : 1709099585:0;cm z
-: 1709107708:0;ls
-: 1709107710:0;cd forgit
+: 1711328688:0;mkdir ugit
+: 1711334895:0;cd forgit
+: 1711359753:0;ls
+: 1711359755:0;cd ugit
+: 1711373275:0;frd
+: 1711373312:0;fzf --query='aa'
+: 1711373325:0;fzf --query=ugit
+: 1711373333:0;fzf --query=ugit --select-1
+: 1711373344:0;fzf --query=ugit --select-1 --black
+: 1711373380:0;fzf --query=ugit --select-1 --exit-0
+: 1711373396:0;fzf --query=ugit --select-1 --exit-0 --tiebreak
+: 1711373409:0;fzf --query=ugit --select-1 --exit-0 --ellipses
+: 1711373573:0;fms
+: 1711373575:0;fm
+: 1711373595:0;fd
+: 1711373662:0;:fd
+: 1711373684:0;ss
+: 1711373725:0;src
+: 1711373740:0;ls
+: 1711373744:0;type src
+: 1711373791:0;cm z
+: 1711378418:0;cd ugit

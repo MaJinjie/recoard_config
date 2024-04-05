@@ -1,88 +1,128 @@
-: 1709530797:0;ls
-: 1709530799:0;cd ..
-: 1710428232:0;ls
 : 1710428234:0;lsa
-: 1710428236:0;cd ..
-: 1710428654:0;ls
-: 1710428682:0;via fd.zsh
 : 1710429817:0;paru -S lscolors
 : 1710429825:0;paru -S lscolors-git
 : 1710429918:0;cargo install lscolors
 : 1710429947:0;lscolors
 : 1710429955:0;cd local share
-: 1710430265:0;via fd.zsh
 : 1710430907:0;fzf --border=sharp
 : 1710431029:0;man fzf
-: 1710431037:0;via
-: 1710432664:0;fzf
-: 1710468328:0;ls
-: 1710468330:0;via fd.zsh
-: 1710468416:0;source fd.zsh
-: 1710468419:0;:ff
-: 1710468439:0;via fd.zsh
-: 1710468456:0;source fd.zsh
-: 1710468459:0;:ff
 : 1710468474:0;fd --color=always
 : 1710468480:0;fd --color=always --follow
-: 1710468497:0;via fd.zsh
-: 1710468558:0;source fd.zsh
-: 1710468560:0;:ff
-: 1710468565:0;via fd.zsh
-: 1710468577:0;source fd.zsh
-: 1710468580:0;:ff
 : 1710468594:0;which :ff
-: 1710468617:0;via fd.zsh
-: 1710468645:0;source fd.zsh
-: 1710468647:0;:ff
 : 1710468690:0;fd '-tf'
 : 1710468700:0;fd '-tf --color=always'
-: 1710468914:0;fzf
-: 1710468939:0;via fd.zsh
-: 1710468978:0;source fd.zsh
-: 1710468980:0;:ff
 : 1710469030:0;echo $FZF_DEFAULT_OPTS
-: 1710469049:0;:ff
 : 1710469099:0;via ../zsh.d/70-export-plug.zsh
-: 1710469442:0;source fd.zsh
-: 1710469443:0;cd ..
-: 1710469562:0;via fd.zsh
-: 1710469832:0;source fd.zsh
-: 1710469837:0;:ff
-: 1710469847:0;cd ..
-: 1710470762:0;source fd.zsh
-: 1710470764:0;cd
-: 1710470816:0;source fd.zsh
-: 1710470816:0;cd
 : 1710472061:0;f
 : 1710472074:0;cd zsh.d
-: 1710474080:0;source rg.zsh
-: 1710474082:0;:rg
-: 1710474101:0;source rg.zsh
-: 1710474103:0;:rg
-: 1710474148:0;source rg.zsh
-: 1710474152:0;:rg
-: 1710474195:0;source rg.zsh
-: 1710474196:0;:rg
-: 1710474237:0;source rg.zsh
-: 1710474238:0;:rg
-: 1710474270:0;source rg.zsh
-: 1710474272:0;:rg
-: 1710474377:0;source rg.zsh
-: 1710474379:0;:rg
-: 1710474453:0;source rg.zsh
-: 1710474455:0;:rg
-: 1710474471:0;source rg.zsh
-: 1710474473:0;:rg
-: 1710474500:0;source rg.zsh
-: 1710474501:0;:rg
 : 1710474539:0;hck -d: -f1
-: 1710474589:0;:rg
-: 1710474594:0;source rg.zsh
-: 1710474595:0;:rg
-: 1710474624:0;fzf
-: 1710474638:0;source rg.zsh
 : 1710474639:0;:rg
 : 1710475038:0;:rg aa
 : 1710475061:0;:rg a
-: 1710475087:0;source rg.zsh
-: 1710475088:0;cd ..
+: 1710559632:0;git init 
+: 1710559814:0;gc
+: 1710559848:0;git commit -m 'add fd.zsh rg.zsh'  
+: 1710559870:0;vi .gitignore
+: 1710559889:0;git reset 
+: 1710559892:0;git log
+: 1710559928:0;rm .git
+: 1710559934:0;git init
+: 1710559939:0;git remote add origin git@github.com:MaJinjie/fzf-scripts.git
+: 1710559943:0;git add .
+: 1710559946:0;git commit --amend  'add fd.zsh rg.zsh'  
+: 1710559951:0;git commit -m 'add fd.zsh rg.zsh'
+: 1710559964:0;git push -u origin main
+: 1710560084:0;:ff
+: 1710653638:0;:sr
+: 1710658975:0;rg 1 --iglob *fd*
+: 1710658986:0;rg --iglob *fd* fd
+: 1710659081:0;rg 1
+: 1710659086:0;rg --iglob *fd*
+: 1710659130:0;rg --iglob * 1
+: 1710659144:0;rg --iglob *fd* 1
+: 1710659236:0;rg --iglob=*fd* 1
+: 1710659240:0;rg --iglob=*fd* fd
+: 1710660326:0;zs
+: 1710660776:0;rg fd
+: 1710660784:0;rg fd --iglob *zsh
+: 1710662627:0;cp rg.zsh .rg.zsh
+: 1710664116:0;via
+: 1710667770:0;source fd.zsh rg.zsh
+: 1710667777:0;cd 
+: 1710668144:0;t popup -E 'fd'
+: 1710668147:0;t popup -E
+: 1710668174:0;t popup
+: 1710669268:0;fzfp
+: 1710669314:0;fd | fzf
+: 1710669319:0;fd | fzfp
+: 1710671058:0;cd fd.zsh
+: 1710671744:0;via 
+: 1710671919:0;:q
+: 1710675355:0;ffff
+: 1710675444:0;source fd.zsh 
+: 1710676516:0;c
+: 1710676517:0;cd
+: 1710688622:0;via fd.zsh
+: 1710688661:0;:fd
+: 1710688662:0;:fr
+: 1710748858:0;:s
+: 1710748890:0;:s export
+: 1710748901:0;via rg.zsh
+: 1710771845:0;source rg.zsh
+: 1710775282:0;t new-window -n nvim 
+: 1710775292:0;t new-window -n nvim zsh -c nvim
+: 1710775364:0;cd .local bin fzf
+: 1710776447:0;echo $aa
+: 1710776695:0;cd fzf
+: 1710776808:0;:ctrl_ff
+: 1710777203:0;rm -f 1.txt
+: 1710777212:0;command rm -f 1
+: 1710777455:0;nf
+: 1710777621:0;cd ../zinit
+: 1710778271:0;source ../.zshenv
+: 1710778321:0;v fd.zsh
+: 1710778335:0;source fd.zsh
+: 1710856186:0;vi fd.zsh
+: 1710856225:0;$history
+: 1710856235:0;echo $history
+: 1710856238:0;echo $history | fzf
+: 1710856268:0;hist get 1
+: 1710856323:0;hist f -1
+: 1710856328:0;hist get 2
+: 1710856329:0;vivid -d 1
+: 1710856361:0;history -f2
+: 1710856365:0;history f 2
+: 1710856393:0;hist
+: 1710856411:0;hist -fi 1
+: 1710856415:0;hist -i -1
+: 1710856448:0;hist get
+: 1710856450:0;hist get -2
+: 1710856453:0;hist get -3
+: 1710856456:0;hist get 3
+: 1710856495:0;hist list
+: 1710856499:0;hist list -2
+: 1710856502:0;hist list 2
+: 1710856520:0;history
+: 1710856543:0;$HISTFILE
+: 1710856548:0;cd ..
+: 1710857291:0;ls
+: 1710857412:0;v history.zsh
+: 1710860974:0;echo $(ls)
+: 1710860992:0;echo aa/^$(ls)
+: 1710861007:0;echo ${($ls)}
+: 1710861058:0;echo aa/$^(ls)
+: 1710861062:0;echo aa/$(^ls)
+: 1710861107:0;ls ~/.config
+: 1710861509:0;fzf
+: 1710861527:0;$(fzf)
+: 1710861536:0;vi $(fzf)
+: 1710861709:0;echo $ZSH_AUTOSUGGEST_HISTORY_IGNORE
+: 1710861723:0;zle -l
+: 1710861726:0;zle -l | fzf
+: 1710861773:0;zsh
+: 1710988180:0;ls
+: 1710988181:0;vi history.zsh
+: 1710988188:0;source history.zsh
+: 1710988210:0;vi history.zsh
+: 1710988228:0;source history.zsh
+: 1710988282:0;cd .local share

@@ -21,26 +21,10 @@ typeset -g HISTFILE="${Zdirs[DATA]}/.history"
 typeset -g HIST_STAMPS="yyyy-mm-dd"
 typeset -g HISTORY_SUBSTRING_SEARCH_ENSURE_UNIQUE=1 # all search results returned will be unique NOTE: for what
 
-## copy paste xclip
-#xsel
-typeset -g CP_TRIM="--trim"
-typeset -g COPY_CMD_CLIP="xsel -b"
-typeset -g COPY_CMD_PRIM="xsel -p"
-typeset -g COPY_CMD_SECOND="xsel -secondary"
-typeset -g PASTE_CMD_CLIP="xsel -io -b"
-typeset -g PASTE_CMD_PRIM="xsel -io -p"
-typeset -g PASTE_CMD_SECOND="xsel -io -secondary"
-#xclip
-typeset -g COPY_CMD_CLIP="xclip -selection clipboard"
-typeset -g COPY_CMD_PRIM="xclip -selection primary"
-typeset -g COPY_CMD_SECOND="xclip -selection secondary"
-typeset -g PASTE_CMD_CLIP="xclip -out -selection clipboard"
-typeset -g PASTE_CMD_PRIM="xclip -out -selection primary"
-typeset -g PASTE_CMD_SECOND="xclip -out -selection secondary"
-
 ## man
 export MANPAGER="sh -c 'col -bx | bat -l man --number'"
 export MANROFFOPT="-c"
+# export MANPAGER="nvim -c 'Man!'"
 
 typeset -g DIRSTACKSIZE=20
 typeset -g LISTMAX=50                               # Size of asking history
@@ -87,6 +71,7 @@ typeset -ga histignore=(
   'lsz[rbs0e]#'
   'lss[a]#'
   'lsur'
+  'vi'
 )
 
 # Various highlights for CLI

@@ -73,7 +73,6 @@ declare -gA ZINIT=(
   SNIPPETS_DIR    ${0:h}/zinit/snippets
   COMPLETIONS_DIR ${0:h}/zinit/completions
   MODULE_DIR      ${0:h}/zinit/module
-  # MAN_DIR         $ZPFX/share/man
   ZCOMPDUMP_PATH  ${ZSH_CACHE_DIR:-$XDG_CACHE_HOME}/zcompdump-${HOST/.*/}-${ZSH_VERSION}
   COMPINIT_OPTS   -C
   LIST_COMMAND    'eza --color=always --tree --icons -L3'
@@ -212,11 +211,11 @@ add-zsh-hook chpwd @chpwd_ls
 ztmp=$EPOCHREALTIME
 zt 0a light-mode for \
   atinit'forgit_revert_commit=gro' \
-  trigger-load'!ga;!gi;!grh;!grb;!glo;!gd;!gcf;!gco;!gclean;!gss;!gcp;!gcb;!gbl;!gbd;!gct;!gro;!gsp;!gfu' \
+  trigger-load'!:ga;!:gl;!:gd' \
   lbin'git-forgit'                   desc'many git commands with fzf' \
     wfxr/forgit \
-  trigger-load'!ugit' lbin'git-undo' desc'undo various git commands' \
-    Bhupesh-V/ugit \
+  trigger-load'!ugit' desc'undo various git commands' \
+    MaJinjie/ugit \
   trigger-load'!zhooks'              desc'show code of all zshhooks' \
     agkozak/zhooks \
   trigger-load'!hist'                desc'#edit zsh history' \
@@ -348,7 +347,11 @@ zt 0b light-mode for \
     zdharma-continuum/history-search-multi-word \
   atinit'alias wzman="ZMAN_BROWSER=w3m zman"
          alias zmand="info zsh "' \
-    mattmc3/zman \
+    mattmc3/zman
+    
+    
+    # agkozak/zsh-z
+    
     
 # === wait'0b' -plugin === [[[
 zt 0b light-mode for \
@@ -398,14 +401,14 @@ zt 0c light-mode null check'!%PLUGIN%' for \
     
 zt 0c light-mode null id-as nocd for atload'autoload -Uz compinit; compinit' $null
 
-extractf alias function export-plug keybindings-plug
+extractf function export-plug keybindings-plug
 zt 0c light-mode null id-as nocd for multisrc="$ZRCDIR/${^sourced[@]}" $null
 ##================================0c$===============================##
 # === snippet block === [[[
 ztmp=$EPOCHREALTIME
 # Don't have to be recompiled to use
-zt light-mode nocompile is-snippet for $ZDOTDIR/custom/*.zsh
-zt light-mode nocompile is-snippet for $ZDOTDIR/plugins/*.zsh
+# zt light-mode nocompile is-snippet for $ZDOTDIR/custom/*.zsh
+# zt light-mode nocompile is-snippet for $ZDOTDIR/plugins/*.zsh
 # zt light-mode null for  \
 #   atload'echo $ZDOTDIR/custom/*.zsh; source $ZDOTDIR/custom/*.zsh' \
 #   $null
@@ -417,7 +420,15 @@ zflai-log "zinit" "Snippet" $ztmp
 #  ]]] === snippet block ===
 # ]]] == zinit closing ===
 
-extractf paths; sourcef
+extractf paths alias; sourcef
 zflai-msg "[zshrc]: ----- File Time ${(M)$((SECONDS * 1000))#*.?}ms ----------"
 zflai-zprof
+
+
+
+for plugins_file in $(ls $ZDOTDIR/plugins) 
+do
+  source $ZDOTDIR/plugins/$plugins_file
+done
+
 # vim: set sw=0 ts=2 sts=2 et ft=zsh

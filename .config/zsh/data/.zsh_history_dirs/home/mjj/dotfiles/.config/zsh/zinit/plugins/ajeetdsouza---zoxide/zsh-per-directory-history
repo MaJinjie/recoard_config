@@ -19,3 +19,29 @@
 : 1709090796:0;lsa
 : 1709091010:0;hyperfine 'sleep 1'
 : 1709091068:0;nznote
+: 1711594475:0;ls
+: 1711594481:0;vi zoxide
+: 1711594488:0;ff
+: 1711594523:0;ls
+: 1711594528:0;zoxide
+: 1711594540:0;zoxide edit
+: 1711594706:0;zoxide query --list --score | fzf --scheme=path
+: 1711594728:0;zoxide query --list --score | fzf --scheme=history
+: 1711594883:0;zoxide query --list --score | fzf --scheme=history --keep-right
+: 1711594888:0;zoxide query --list --score | fzf --scheme=history
+: 1711594903:0;zoxide query --list --score | fzf --scheme=history --keep-right
+: 1711594968:0;zoxide query --list --score | fzf --scheme=history --scroll-off=3
+: 1711595172:0;zoxide query --list --score | fzf --scheme=history --scroll-off=3 --
+: 1711595300:0;ls
+: 1711595305:0;ls | fzf
+: 1711595325:0;ls | fzf --query=completions
+: 1711595331:0;ls | fzf --query=completions --select-1
+: 1711595385:0;zoxide query --list --score | fzf --scheme=history --scroll-off=3 --print-query
+: 1711595399:0;zoxide query --list --score | fzf --scheme=history --scroll-off=3 --print-query --tabstop=2
+: 1711595407:0;zoxide query --list --score | fzf --scheme=history --scroll-off=3 --print-query --tabstop=4
+: 1711595633:0;zoxide query --list --score | fzf --scheme=history --scroll-off=3 --print-query --tabstop=4 --sync
+: 1711595732:0;vi
+: 1711596758:0;nvim --listen /tmp/nvimsocket
+: 1711596845:0;nvr
+: 1711596977:0;vi 
+: 1711596999:0;nvr

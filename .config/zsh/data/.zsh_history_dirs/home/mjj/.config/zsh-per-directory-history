@@ -1,6 +1,5 @@
 : 1709051082:0;lsa tigsuite
 : 1709051085:0;cd tigsuite
-: 1709081721:0;cd
 : 1709081745:0;k
 : 1709081809:0;k 
 : 1709081912:0;k ,
@@ -13,13 +12,10 @@
 : 1709086304:0;k zi
 : 1709087187:0;k .
 : 1709087203:0;k -
-: 1709087357:0;cd -
-: 1709089467:0;cd ..
 : 1709090560:0;cs
 : 1709090575:0;dirs
 : 1709090732:0;cd zinit
 : 1709090750:0;cm zz
-: 1709090755:0;cm zi
 : 1709091466:0;/usr/bin/dc
 : 1709091475:0;lsa
 : 1709091524:0;which du
@@ -31,29 +27,15 @@
 : 1709116457:0;cd .zsh
 : 1709214653:0;cd alacritty
 : 1709216381:0;:q
-: 1709255813:0;cd zsh
 : 1709290849:0;vi ripgrep/grep/ripgreprc
-: 1709290853:0;vi ripgrep/ripgreprc
 : 1709392577:0;vi plasmanotifyrc
 : 1709392607:0;fzf-tmux
 : 1709392627:0;cd zsh zsh.d
-: 1709392701:0;vi alacritty/alacritty.toml
-: 1709392710:0;fzf
-: 1709392879:0;vi
-: 1709392936:0;vi 
-: 1709393049:0;ls
-: 1709393054:0;vi kiorc
-: 1709393253:0;fzf
-: 1709393349:0;ls
 : 1709394237:0;vi kio
 : 1709394258:0;vi kiorc
 : 1709394295:0;fzf:
-: 1709394296:0;fzf
-: 1709394331:0;cd nvim
-: 1709432522:0;ls
 : 1709432526:0;cd fd
 : 1709516956:0;ll
-: 1709516966:0;ls
 : 1709516976:0;readlink --help
 : 1709517002:0;readlink yazi
 : 1709517015:0;readlink -f yazi
@@ -62,7 +44,6 @@
 : 1709517115:0;fd -tl -d1
 : 1709517127:0;fd -tl -d-1
 : 1709517165:0;fd -tl -d${a:-1}
-: 1709517189:0;zsh -c ls
 : 1709517196:0;zsh -c eza
 : 1709517204:0;zsh -c print 1
 : 1709517209:0;zsh -c print
@@ -72,114 +53,146 @@
 : 1709517552:0;wl-paste
 : 1709517556:0;wl-paste -p
 : 1709517562:0;man readlink
-: 1709534918:0;ls
 : 1709534921:0;vi trashrc
-: 1709535056:0;cd ..
-: 1709535120:0;fd
 : 1709535122:0;fd 
 : 1709535128:0;fd -E nvim | fzf
-: 1709535151:0;vi kglobalshortcutsrc
-: 1709535288:0;cd ..
 : 1709535420:0;vi kglobalshortcutsrc
-: 1709535715:0;ls
 : 1709540069:0;cd al
 : 1709601242:0;cm z
 : 1709607936:0;vi ripgrep/ripgreprc
 : 1709608402:0;rg 11
-: 1709608416:0;cd ripgrep
 : 1709634701:0;dus tmux
 : 1709634708:0;dus tmux/tmux.conf
-: 1709634716:0;vi
-: 1709636245:0;fd -H | wc -l
-: 1709636255:0;cd ..
 : 1709636309:0;fd -H
 : 1709636313:0;fd -H | wc -l
-: 1709636347:0;vi
-: 1709636400:0;cd ..
-: 1709636444:0;vi
-: 1709636471:0;cd ..
-: 1709636681:0;vi 
-: 1709636729:0;rg export
 : 1709636745:0;rg export zsh
 : 1709636759:0;rg export zsh --color=ansi
-: 1709636776:0;vi
-: 1709645407:0;ls
 : 1709645409:0;rg export
 : 1709645417:0;rg export -H
 : 1709645439:0;rg export | delta
 : 1709645499:0;rg export --json -C 2 | delta
-: 1709645528:0;ls
-: 1709645542:0;cd zsh
 : 1709646084:0;cd nvim plugins
 : 1709694020:0;mv nvim nvim.bak
 : 1709694064:0;mkdir nvim
-: 1709694064:0;ls
-: 1709694067:0;cd nvim
-: 1709694111:0;cd nvim
-: 1709695975:0;ls nvim
-: 1709695978:0;rm nvim
 : 1709696009:0;git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
-: 1709696045:0;vi
-: 1709696070:0;ls
 : 1709696074:0;cd nvim/lua
 : 1709696550:0;cd nvim.bak/lua/
-: 1709703633:0;cd nvim.bak
 : 1709717065:0;cd nvim.bak
-: 1709717117:0;cd nvim
 : 1709734129:0;cd local share lazy 
 : 1709953319:0;mv nvim nvim.bak ~/shell
 : 1709953321:0;rm nvm
-: 1709953323:0;ls
-: 1709953335:0;cd
-: 1709953432:0;cd nvim
 : 1709958963:0;rm nvim
-: 1709958965:0;ls
-: 1709958982:0;cd
-: 1709963316:0;ls
-: 1709963320:0;ls nvim
-: 1709963475:0;ls
 : 1709963478:0;ls nvim
 : 1709963508:0;vi
-: 1709963631:0;ls
-: 1709963644:0;cd
-: 1709963693:0;vi 
-: 1709963746:0;ls
-: 1709963988:0;cd nvim
-: 1710222341:0;ls
 : 1710222414:0;git clone -b custom https://github.com/MaJinjie/nvim.git custom
-: 1710222419:0;cd custom
 : 1710223103:0;cd custom/lua/core/
 : 1710230702:0;cd custom
-: 1710236361:0;ls
 : 1710236366:0;dus astronvim 
-: 1710236391:0;cd astronvim
-: 1710236679:0;cd astronvim
-: 1710316828:0;cd nvim
-: 1710321843:0;cd custom/lua/base
 : 1710342501:0;cd astro
 : 1710374264:0;cd ../../
 : 1710374290:0;cd custom/lua/core
 : 1710374314:0;cd nvim/lua/custom
-: 1710405435:0;ls
-: 1710405437:0;cd astronvim
 : 1710408814:0;cd custom/lua/base
 : 1710408942:0;cd astronvim
-: 1710427120:0;via alacritty/alacritty.toml
-: 1710427247:0;vi alacritty/alacritty.toml
 : 1710428271:0;cd fzf
-: 1710464134:0;fd
 : 1710464136:0;fzf
 : 1710464193:0;echo $FZF_DEFAULT_COMMAND
 : 1710464205:0;echo $FZF_DEFAULT_OPTS
-: 1710464215:0;ls
-: 1710464219:0;cd zsh
 : 1710464305:0;which rg
 : 1710464322:0;cd /home/mjj/dotfiles/.config/zsh/zinit/polaris/bin
-: 1710465194:0;ls
 : 1710465200:0;ls,
 : 1710465212:0;lsd
 : 1710465352:0;cd zsh
 : 1710466331:0;åƒ®ƒ¦åƒ¯²
-: 1710466333:0;ls fzf
-: 1710472662:0;ls
 : 1710472664:0;cd ripgrep
+: 1710555640:0;via
+: 1710555645:0;via alacritty/alacritty.toml
+: 1710555653:0;:fr 1h
+: 1710555690:0;type fr
+: 1710555744:0;:fr
+: 1710555991:0;:fr alacritty 
+: 1710556143:0;:fr alacritty
+: 1710602241:0;z
+: 1710669753:0;cd tmux
+: 1710829662:0;cd nvim
+: 1710899196:0;cd hypr
+: 1710899470:0;mv hypr ~/dotfiles/.config/
+: 1710899474:0;cd dot config
+: 1711177576:0;:ff
+: 1711177673:0;:fd
+: 1711177682:0;:fd zsh
+: 1711178132:0;cd ..
+: 1711262290:0;:ff ripgrep
+: 1711279386:0;cm zi
+: 1711515452:0;fd -tf
+: 1711515459:0;fd -tf --exact-depth=1
+: 1711515467:0;fd -tfl --exact-depth=1
+: 1711515474:0;fd -tf -tl --exact-depth=1
+: 1711515480:0;fd -tf -tl --exact-depth=1 | fzf
+: 1711515495:0;fd --exact-depth=1 | fzf
+: 1711515542:0;fd -tf -tl -td --exact-depth=1
+: 1711515545:0;fd -tf -tl -td --exact-depth=1 | fzf
+: 1711515765:0;fd --exact-depth=1
+: 1711515775:0;fd --exact-depth=1 -tf -td
+: 1711515956:0;echo ${aa:+aa}
+: 1711517122:0;fd
+: 1711517135:0;fd --exact-depth=1 
+: 1711517188:0;fd --exact-depth=1 -tf
+: 1711517929:0;rg --search-zip
+: 1711517933:0;rg --search-zip bash
+: 1711517947:0;ci 
+: 1711549546:0;vi 
+: 1711549925:0;vi zsh.d/36-history.zsh
+: 1711550127:0;ci nvim
+: 1711550209:0;ff -h -h
+: 1711550328:0;ff nvim
+: 1711550393:0;ff nvim tmux
+: 1711550528:0;ff -t nvim
+: 1711550546:0;ff -t1min nvim
+: 1711550554:0;ff -t1h -- nv
+: 1711550602:0;ff -h nvim
+: 1711550745:0;ff -h tmux
+: 1711550747:0;ff -h 
+: 1711550785:0;ff -h -t
+: 1711550876:0;ff -h
+: 1711550878:0;ff 
+: 1711623493:0;source ./zfd 1
+: 1711626608:0;cd -
+: 1711682831:0;vi alacritty/alacritty.toml
+: 1711682955:0;cd
+: 1711688422:0;vi custom/directores.toml
+: 1711968218:0;ci
+: 1712048277:0;ff -d
+: 1712048282:0;ff -tf
+: 1712048285:0;ff -td
+: 1712048293:0;ff -tl
+: 1712048302:0;fd -tl
+: 1712048324:0;ls fzf
+: 1712048329:0;rm fzf
+: 1712048420:0;fo find files
+: 1712049006:0;fo
+: 1712066824:0;ff
+: 1712066913:0;nvr --serverlist
+: 1712067119:0;ls
+: 1712067127:0;fo export plug
+: 1712068133:0;fo find git
+: 1712069236:0;ff -- nv
+: 1712071801:0;fo -
+: 1712071804:0;fo 
+: 1712072482:0;zsh
+: 1712072484:0;fo -
+: 1712136819:0;ls
+: 1712136831:0;ff
+: 1712137036:0;ff
+: 1712137045:0;vi configs/nvimtree.lua
+: 1712195890:0;vi
+: 1712195914:0;vi 
+: 1712196060:0;vi
+: 1712196076:0;vi 
+: 1712196139:0;vi uls
+: 1712196141:0;ls
+: 1712196145:0;vi gtk-4.0
+: 1712196157:0;vi
+: 1712196187:0;vi 
+: 1712196616:0;ls
+: 1712196632:0;ci 

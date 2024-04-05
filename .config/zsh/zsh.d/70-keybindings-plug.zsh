@@ -9,7 +9,7 @@ bindkey '^R' _histdb-isearch
 bindkey -M viins '^Xr' →evil-registers::ctrl-r
 
 # 历史搜索，类似fzf
-bindkey "^O" history-search-multi-word
+# bindkey "^O" history-search-multi-word
 
 # fzf搜索命令历史
 bindkey '^Xh' histdb-skim-widget

@@ -1,33 +1,47 @@
 : 1709130656:0;git clone https://github.com/garabik/grc.git
 : 1709130831:0;grc
 : 1709130851:0;which grc
-: 1709130866:0;ls
-: 1709130869:0;cd grc
-: 1709131937:0;cd grc
-: 1709132123:0;ls
 : 1709132129:0;cm dc
 : 1709132291:0;cd grc
 : 1709170329:0;git clone https://github.com/bugaevc/wl-clipboard.git
 : 1709170336:0;cd wl-clipboard
-: 1709464646:0;ls
 : 1709464652:0;ll Obsidian-1.5.8.AppImage
 : 1709464665:0;chmod +x Obsidian-1.5.8.AppImage
-: 1709464666:0;ls
 : 1709464676:0;./Obsidian-1.5.8.AppImage
 : 1709464690:0;./cod
 : 1709464738:0;./Obsidian-1.5.8.AppImage 
 : 1709464757:0;./Obsidian-1.5.8.AppImage --appimage-extract Obj
-: 1709464757:0;ls
 : 1709464770:0;cd Obsidian-1.5.8.AppImage
-: 1709464771:0;ls
 : 1709464792:0;mkdir Obsidian
 : 1709464798:0;mv Obsidian-1.5.8.AppImage Obsidian
 : 1709464800:0;cd Obsidian
-: 1709856565:0;ls
 : 1709856575:0;git clone https://github.com/uga-rosa/dotfiles.git
 : 1709856588:0;mkdir nvim
 : 1709856591:0;cd nvim
-: 1709956318:0;ls
 : 1709956325:0;git clone https://github.com/LazyVim/LazyVim.git
-: 1709956426:0;ls
 : 1709956430:0;cd LazyVim
+: 1710668474:0;git clone https://github.com/kevinhwang91/fzf-tmux-script.git
+: 1710668537:0;cd fzf-tmux-script
+: 1710898818:0;git clone https://github.com/Isoheptane/dotfiles.git
+: 1710898833:0;git clone https://github.com/Isoheptane/dotfiles.git config1
+: 1710898848:0;:ff config1
+: 1710899556:0;cd config1/
+: 1711327418:0;t
+: 1711328666:0;cd
+: 1712198269:0;git clone https://github.com/MaJinjie/nvim.git
+: 1712198277:0;git clone https://github.com/MaJinjie/nvim.git mynvim
+: 1712198414:0;rm mynvim
+: 1712198422:0;git clone -b man https://github.com/MaJinjie/nvim.git mynvim
+: 1712198434:0;git clone -b main https://github.com/MaJinjie/nvim.git mynvim
+: 1712198441:0;cd mynvim
+: 1712220062:0;ls
+: 1712220080:0;git clone -b lazyvim https://github.com/MaJinjie/nvim.git 
+: 1712220084:0;git clone -b lazyvim https://github.com/MaJinjie/nvim.git lazyvim
+: 1712220103:0;ff lazyvim
+: 1712220696:0;zsh
+: 1712220702:0;ls
+: 1712220748:0;ff lazyvim
+: 1712284903:0;ls
+: 1712284908:0;ff lazyvim
+: 1712287073:0;ls
+: 1712287075:0;cd lazyvim

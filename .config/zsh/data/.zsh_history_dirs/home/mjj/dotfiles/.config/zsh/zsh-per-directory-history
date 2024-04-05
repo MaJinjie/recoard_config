@@ -40,7 +40,6 @@
 : 1709087380:0;zi
 : 1709087386:0;z edit
 : 1709087691:0;k zi
-: 1709091971:0;t
 : 1709091983:0;cm gz
 : 1709097797:0;lsa completions | fzf
 : 1709098570:0;command -v cd
@@ -56,8 +55,6 @@
 : 1709100893:0;cd zinit/plugins
 : 1709102745:0;rm rg
 : 1709105858:0;zi delete junegunn/fzf
-: 1709106428:0;echo $path
-: 1709106475:0;fzf-tmux
 : 1709107141:0;zi delete BurntSushi/ripgrep
 : 1709108191:0;delta
 : 1709108197:0;which delta
@@ -83,10 +80,8 @@
 : 1709132999:0;mkdir bin/zsh
 : 1709133017:0;mv snippets/fzf-tmux bin/zsh
 : 1709133033:0;cd local share
-: 1709133150:0;cd bin
 : 1709133172:0;cm g
 : 1709133180:0;cd git grc
-: 1709133230:0;ls bin
 : 1709133789:0;ls completions/ | fzf
 : 1709134611:0;rm snippets/grc.zsh
 : 1709169520:0;xsel --bi <<< 2222222222222222222
@@ -112,14 +107,9 @@
 : 1709254646:0;cd config zinit plug
 : 1709255889:0;cm n
 : 1709262295:0;cd local share zinit 
-: 1709262305:0;cd zinit
 : 1709272015:0;fd --follow
-: 1709272037:0;vi zsh.d/05-export.zsh
 : 1709272569:0;cd ../nvim/lua
-: 1709455580:0;ls man
-: 1709455599:0;cd man
 : 1709465552:0;zle -l
-: 1709466017:0;vi
 : 1709529824:0;cd plugins/fzf/scripts
 : 1709530516:0;cd plugins/fzf/completions/
 : 1709530808:0;mv plugins .plugins
@@ -127,29 +117,19 @@
 : 1709530845:0;ls functions/rm
 : 1709531733:0;mkdir custom
 : 1709531751:0;mv snippets/grc.zsh custom
-: 1709532442:0;cd .plugins
 : 1709532504:0;error 1
 : 1709557651:0;pacman -S sox
 : 1709557659:0;sudo pacman -S sox
 : 1709560064:0;srcr
 : 1709560781:0;vi snippets
-: 1709561015:0;vi .zshenv
-: 1709561070:0;zsh
 : 1709561112:0;vi custom/grc.zsh
 : 1709561300:0;vi data/history
-: 1709561305:0;cd data
-: 1709561704:0;history
 : 1709563205:0;bindkey '^r' _histdb-isearch
-: 1709563220:0;ci
 : 1709563754:0;cs
 : 1709564355:0;ls plugins
 : 1709564536:0;ls snippets
-: 1709566666:0;cd snippets
-: 1709567765:0;cd -
 : 1709567808:0;v
 : 1709567845:0;v 
-: 1709598277:0;lsa
-: 1709600687:0;fzf
 : 1709600760:0;echo $_RAD_NO_ECHO
 : 1709601217:0;cm z
 : 1709601253:0;radl
@@ -159,7 +139,6 @@
 : 1709605584:0;kill 2551
 : 1709605592:0;killall
 : 1709605597:0;kill 29598
-: 1709605690:0;wl-paste
 : 1709605738:0;wl-paste -p
 : 1709605819:0;vi 
 : 1709609908:0;cd nvim
@@ -182,75 +161,327 @@
 : 1709645597:0;bat --color=always | delta
 : 1709645608:0;bat --color=always .zshrc | delta
 : 1709645625:0;rg --json -C 2 "" .zshrc | delta
-: 1709695638:0;cd completions
 : 1710172440:0;p
 : 1710172460:0;yazi
 : 1710172867:0;https
 : 1710172871:0;source .zshrc
-: 1710214423:0;vi .zshrc
 : 1710223065:0;vi zsh.d/41-aliases.zsh
 : 1710230691:0;cd ../cus
 : 1710400534:0;vi zsh.d/70-export-plug.zsh
 : 1710400603:0;cd 
-: 1710428246:0;cd custom
-: 1710428376:0;cd
 : 1710429450:0;fd data
 : 1710429463:0;fd -tf data
-: 1710430260:0;cd plugins
-: 1710464221:0;cd zsh.d
-: 1710465189:0;cd ..
-: 1710465353:0;ls
-: 1710465356:0;via .zshrc
-: 1710465500:0;ls
-: 1710465503:0;cd zinit
-: 1710465625:0;via zsh.d/70-export-plug.zsh
-: 1710465953:0;via 
-: 1710465976:0;via .zshrc
-: 1710465989:0;via zsh.d/70-export-plug.zsh
-: 1710468326:0;ls
-: 1710468327:0;cd plugins
-: 1710469274:0;ls
-: 1710469282:0;:ff zsh.d
 : 1710469312:0;fd -tf zsh.d
 : 1710469319:0;ls zsh.d
-: 1710469328:0;fd -tf
 : 1710469355:0;fd -tf completions
 : 1710469370:0;fd -tf zsh.d .
 : 1710469373:0;fd -tf.  zsh.d
 : 1710469376:0;fd -tf . zsh.d
 : 1710469385:0;fd -tf .
-: 1710469404:0;via plugins/fd.zsh
-: 1710469439:0;cd plugins
-: 1710469450:0;:ff zsh.d
 : 1710469577:0;:ff zsh.d completions 
 : 1710469648:0;:ff zsh.d completions
-: 1710469829:0;cd plugins
-: 1710469850:0;:ff zsh.d
-: 1710470514:0;ls
-: 1710470520:0;:fd
-: 1710470529:0;fd -td .
-: 1710470547:0;:fd
-: 1710470574:0;:ff
 : 1710470598:0;fd -td .
-: 1710470610:0;:fd
 : 1710470629:0;fd -td '--color=always' --hidden --follow '--max-depth=6' '--size=-1M' .
 : 1710470652:0;fd -td --size=-1M .
-: 1710471768:0;:fr
-: 1710471827:0;:fr 1h
-: 1710471840:0;via .zshrc
 : 1710472346:0;fd 
 : 1710472352:0;fd | rg
 : 1710472356:0;fd | rg 1
 : 1710472393:0;fd | xargs -o rg 1
-: 1710472404:0;fd
 : 1710472416:0;fd . completions | xargs -o rg 1
 : 1710472612:0;rg ""
 : 1710472655:0;rg
-: 1710472659:0;cd
-: 1710474072:0;cd zsh.d
-: 1710475089:0;ls
-: 1710475098:0;:rg plugins 
 : 1710475172:0;source plugins/rg.zsh
 : 1710475180:0;:rg plugins 
 : 1710475224:0;:rg plugins data
 : 1710475261:0;:fd plugins
+: 1710557132:0;:fr plugins 
+: 1710558384:0;zshj
+: 1710558448:0;:fr plugins
+: 1710558454:0;:fr plugins zsh.d
+: 1710558588:0;:fr aa
+: 1710559310:0;:rg plugins
+: 1710559316:0;:rg plugins zsh.d
+: 1710559354:0;:rg
+: 1710559588:0;fzf-tmux 
+: 1710597990:0;cd .plugins/fzf/completions
+: 1710598814:0;via .fdignore
+: 1710598849:0;mv .fdignore .ignore
+: 1710599027:0;ll
+: 1710599060:0;eza --accessed
+: 1710599901:0;:fd 
+: 1710600785:0;zle
+: 1710600810:0;zmodload zle
+: 1710600866:0;wl-paste
+: 1710600996:0;zmodload
+: 1710601079:0;zle && { zle reset-prompt; zle -R }
+: 1710601194:0;aa(){}
+: 1710601206:0;aa(){zle accept-line}
+: 1710601207:0;aa
+: 1710601265:0;via .zshrc
+: 1710602400:0;cd completions
+: 1710602563:0;via zsh.d/10-completions.zsh
+: 1710603174:0;:ff data zsh.d
+: 1710603186:0;:fr data zsh.d
+: 1710603290:0;:fr a
+: 1710636379:0;via plugins/rg.zsh
+: 1710636726:0;:fr 
+: 1710637119:0;fd
+: 1710637122:0;fd -tf
+: 1710637136:0;fd -tf H | fzf
+: 1710637149:0;fd -tf | fzf
+: 1710637800:0;:exit 1
+: 1710637808:0;:exit
+: 1710637813:0;:exit 2
+: 1710640029:0;:s aa plugins
+: 1710640082:0;:s function plugins 
+: 1710640094:0;:s function plugins
+: 1710640166:0;:sr 
+: 1710640765:0;:s plugins 
+: 1710640996:0;:s H plugins
+: 1710641303:0;:sr plugins
+: 1710641496:0;rg 1 plugins/fd.zsh | fzf
+: 1710641511:0;:sr 10h
+: 1710641636:0;bb
+: 1710641637:0;bb=
+: 1710641639:0;[[ -v bb ]] && echo 1 || echo 2
+: 1710641706:0;:sr 10h 
+: 1710641984:0;:sr 10h data
+: 1710642023:0;:sr 10h plugins
+: 1710642031:0;:sr data
+: 1710642055:0;:fr data
+: 1710642128:0;:sr H data
+: 1710642378:0;rg 1
+: 1710642386:0;rg --no-heading
+: 1710642388:0;rg --no-heading a
+: 1710642416:0;rg --no-heading a --iglob '*comp*'
+: 1710642481:0;:s aa
+: 1710642603:0;rg --no-heading a --iglob '*comp*' '*cus*' | fzf
+: 1710642620:0;rg --no-heading a --iglob "*cus*" | fzf
+: 1710642623:0;rg --no-heading a --iglob '*comp*' | fzf
+: 1710642644:0;rg --no-heading a --iglob '*comp*' --iglob '*cust*' | fzf
+: 1710642711:0;rg --no-heading a --iglob='*comp*' --iglob '*cust*' | fzf
+: 1710642724:0;rg --no-heading a --iglob '*comp*' '*cust*' | fzf
+: 1710643398:0;aa='aaa -- bb'
+: 1710643412:0;echo ${aa##--}
+: 1710643416:0;echo ${aa##--*}
+: 1710643422:0;echo ${aa##--.*}
+: 1710643430:0;echo ${aa##*--}
+: 1710643920:0;awk
+: 1710644110:0;aa='aa bb cc dd'
+: 1710644217:0;echo $aa | awk '{gsub('\b.*\b', '1111')}END{print $0}'
+: 1710644227:0;echo $aa | awk '{gsub('\b*\b', '1111')}END{print $0}'
+: 1710644262:0;echo $aa | awk '{gsub('aa', '1111')}END{print $0}'
+: 1710644279:0;echo $aa | awk '{gsub('.*', '1111')}END{print $0}'
+: 1710644326:0;echo $aa | awk '{gsub('\baa\b', '1111')}END{print $0}'
+: 1710644407:0;echo $aa | awk '{gsub(/aa/, '1111')}END{print $0}'
+: 1710644418:0;echo $aa | awk '{gsub(/\b.*\b/, '1111')}END{print $0}'
+: 1710644422:0;echo $aa | awk '{gsub(/\baa\b/, '1111')}END{print $0}'
+: 1710644451:0;echo $aa | awk '{gsub(/\\baa\\b/, '1111')}END{print $0}'
+: 1710644465:0;echo $aa | awk '{gsub(/.*/, '1111')}END{print $0}'
+: 1710644490:0;echo $aa | awk '{gsub(/^\w+?/, '1111')}END{print $0}'
+: 1710644501:0;echo $aa | awk '{gsub(/^\w+?/, '1111', $2)}END{print $0}'
+: 1710644508:0;echo $aa | awk '{gsub(/^\w+?/, '1111', $0)}END{print $0}'
+: 1710644519:0;echo $aa | awk '{gsub(/^\w+?^/, '1111')}END{print $0}'
+: 1710644558:0;echo $aa | awk '{gsub(/\b\w+?/, '1111')}END{print $0}'
+: 1710644592:0;aa='ff a.b ff cc c.txt'
+: 1710644594:0;echo $aa | awk '{gsub(/\w+?/, '1111')}END{print $0}'
+: 1710644657:0;echo $aa | awk '{gsub(/.+?/, '1111')}END{print $0}'
+: 1710644672:0;echo $aa | awk '{gsub(/ .+?/, '1111')}END{print $0}'
+: 1710644690:0;echo $aa | awk '{gsub(/[\w]+?/, '1111')}END{print $0}'
+: 1710644700:0;echo $aa | awk '{gsub(/[\\w]+?/, '1111')}END{print $0}'
+: 1710644734:0;echo $aa | awk '{gsub(/.+/, '1111')}END{print $0}'
+: 1710644739:0;echo $aa | awk '{gsub(/.+\b/, '1111')}END{print $0}'
+: 1710644763:0;echo $aa | awk '{gsub(/ .+ /, '1111')}END{print $0}'
+: 1710644768:0;echo $aa | awk '{gsub(/ .+? /, '1111')}END{print $0}'
+: 1710644950:0;echo $aa | awk '{gsub(/\ +/, '1111')}END{print $0}'
+: 1710644972:0;echo $aa
+: 1710644975:0;echo $aa | awk '{gsub(/ +/, '1111')}END{print $0}'
+: 1710645047:0;echo ${aa// +/fff}
+: 1710645070:0;aa=' ff a.b ff cc c.txt'
+: 1710645091:0;echo $aa | awk '{gsub(/ +/, '--iglob ')}END{print $0}'
+: 1710645096:0;echo $aa | awk '{gsub(/ +/, '--iglob')}END{print $0}'
+: 1710645118:0;echo $aa | awk '{gsub(/ +/, '\-\-iglob')}END{print $0}'
+: 1710645122:0;echo $aa | awk '{gsub(/ +/, 'glob')}END{print $0}'
+: 1710645130:0;echo $aa | awk '{gsub(/ +/, 'aa')}END{print $0}'
+: 1710645135:0;echo $aa | awk '{gsub(/ +/, '11')}END{print $0}'
+: 1710645211:0;echo ${aa// ##/ff}
+: 1710645251:0;aa='ff   ff  .1txt f'
+: 1710645253:0;echo ${aa// ##/11}
+: 1710645264:0;echo ${aa// ##/--iglob }
+: 1710645276:0;echo ${aa// ##/ --iglob }
+: 1710645494:0;echo ${aa// ##^[a-z-A-Z0-9.]/ --iglob }
+: 1710645512:0;echo ${aa// ##^[a-z-A-Z0-9]/ --iglob }
+: 1710653169:0;cd .plugins/fzf
+: 1710655227:0;fd .zshrc
+: 1710655248:0;fd ^ .zshrc
+: 1710655601:0;;s
+: 1710656370:0;rm 1.txt 2.txt
+: 1710658724:0;rg 1 plugins/fd.zsh
+: 1710658739:0;rg 1 plugins/fd.zsh --iglob=*fd*
+: 1710658743:0;rg 1 plugins/fd.zsh --iglob=*fdd*
+: 1710658750:0;rg 1 plugins/fd.zsh --iglob=fffffffffffffffff
+: 1710658764:0;rg --iglob *ff* 1 plugins/fd.zsh 
+: 1710658844:0;rg --
+: 1710658884:0;rg --glob --glob *ff* 1 plugins/fd.zshff* 1 plugins/fd.zsh
+: 1710658908:0;rg --glob=--glob --glob *ff* 1 plugins/fd.zshff* 1 plugins/fd.zshff* 1 plugins/fd.zsh
+: 1710658936:0;rg --glob *ff* 1 plugins/fd.zsh
+: 1710658942:0;rg --glob=*ff* 1 plugins/fd.zsh
+: 1710658947:0;rg --glob=--glob=*ff* 1 plugins/fd.zshff* 1 plugins/fd.zsh
+: 1710661000:0;rg --no-binary
+: 1710661002:0;rg --no-binary a
+: 1710661077:0;zzsh
+: 1710661292:0;fd fd
+: 1710661295:0;rg fd
+: 1710661308:0;rg fd --iglob *grc*
+: 1710661402:0;rg --no-heading --iglob *grc*  fd
+: 1710661454:0;zshfd
+: 1710662089:0;:s plugins
+: 1710662100:0;:s fd plugins
+: 1710662124:0;:s fd H plugins
+: 1710662198:0;:sr
+: 1710662212:0;:sr 1h
+: 1710662255:0;:sr 2h 
+: 1710662264:0;:sr 2h fd H plugins
+: 1710662275:0;:sr 2h fd 
+: 1710662285:0;:sr fd
+: 1710662290:0;:sr fd plugins
+: 1710662577:0;zsh rg
+: 1710662583:0;command rg
+: 1710662614:0;cd zsh
+: 1710662837:0;:w
+: 1710662960:0;:S
+: 1710663112:0;:s fd
+: 1710663123:0;:sr 1h fd
+: 1710665353:0;cd custom
+: 1710665507:0;zs
+: 1710665576:0;aa="aa\nbb\ncc'"
+: 1710665579:0;aa="aa\nbb\ncc"
+: 1710665587:0;echo ${(s/ /)aa}
+: 1710665590:0;echo ${(s/\n/)aa}
+: 1710665649:0;echo ${(s/\n/)FZF_DEFAULT_OPTS}
+: 1710665723:0;fzf-tmux -p50%,60%  --marker='âƒ¶ƒ­' --scrollbar='âƒ¶ƒ¨' --ellipsis='ïƒ¥ïƒ¥' --cycle --color=hl:yellow:bold,hl+:yellow:reverse,pointer:032,marker:010 --reverse --info=inline --ansi --multi --border=horizontal --height=80%
+: 1710665836:0;fzf-tmux --cycle
+: 1710665926:0;fzf-tmux --help
+: 1710666040:0;fzf-tmux $FZF_TMUX_OPTS 
+: 1710666043:0;fzf-tmux $FZF_TMUX_OPTS
+: 1710666060:0;echo $FZF_TMUX_OPTS
+: 1710666087:0;fzf-tmux -p60%,50% --marker='âƒ¶ƒ­' --scrollbar='âƒ¶ƒ¨' --ellipsis='ïƒ¥ïƒ¥' --cycle --color=hl:yellow:bold,hl+:yellow:reverse,pointer:032,marker:010 --reverse --info=inline --ansi --multi --border=horizontal --height=80% --tabstop=4
+: 1710666153:0;fzf-tmux -p
+: 1710666202:0;fzf-tmux -p40%,40%
+: 1710666210:0;fd | fzf-tmux -p40%,40%
+: 1710666638:0;fd | fzf-tmux -p60%,50% --marker='âƒ¶ƒ­' --scrollbar='âƒ¶ƒ¨' --ellipsis='ïƒ¥ïƒ¥' --cycle
+: 1710666973:0;k
+: 1710667252:0;via plugins/fd.zsh
+: 1710667601:0;cd zinit plugins
+: 1710667712:0;via plugins
+: 1710667843:0;:fd
+: 1710667853:0;:fr 1h
+: 1710667858:0;:fr 1h plugins
+: 1710667864:0;:fr 1h plugins data
+: 1710667867:0;:s
+: 1710667874:0;:s export
+: 1710667881:0;:s export plugins
+: 1710667892:0;:s typeset  plugins
+: 1710667897:0;:sr 1h 
+: 1710667903:0;:sr 1h typeset
+: 1710667906:0;:sr 1h typeset plugins
+: 1710667909:0;:sr 1h typeset plugins data
+: 1710667960:0;fd | fzf-tmux
+: 1710668780:0;cp ~/git/fzf-tmux-script/popup/fzfp bin/
+: 1710669357:0;fzfp
+: 1710669366:0;fd | fzfp
+: 1710683928:0;via zsh.d/00-paths.zsh
+: 1710684211:0;rm 3.txt
+: 1710685788:0;via zsh.d/70-export-plug.zsh
+: 1710688665:0;:fr
+: 1710747183:0;cd bin
+: 1710747209:0;fripu
+: 1710747229:0;ls bin
+: 1710747233:0;rm bin
+: 1710747269:0;ls cache
+: 1710747312:0;vka
+: 1710747313:0;via
+: 1710747430:0;via 
+: 1710761284:0;lls
+: 1710761309:0;via fzf-tmux
+: 1710761567:0;via zsh.d/05-export.zsh
+: 1710761593:0;vim zsh.d/41-aliases.zsh
+: 1710778365:0;v .zshrc
+: 1710778767:0;cd functions
+: 1710854512:0;cd zinit
+: 1710855065:0;vi zsh.d/36-history.zsh
+: 1710855915:0;echo $ZSH_AUTOSUGGEST_HISTORY_IGNORE
+: 1710856727:0;cd -
+: 1710856804:0;history
+: 1710856825:0;echo $HISTDB_FILE
+: 1710856837:0;echo $HISTFILE
+: 1710856921:0;ns
+: 1710856950:0;ll -d
+: 1710856970:0;ll -d $PWD
+: 1710857075:0;cd data
+: 1710859149:0;cd snippets
+: 1710859164:0;lsa
+: 1710859171:0;cd .plugins
+: 1710949903:0;l
+: 1710984272:0;cd $ZPFX
+: 1710984531:0;:f
+: 1710984533:0;:ff zsh.d
+: 1710984667:0;echo $path
+: 1710985403:0;cd fzf
+: 1710985840:0;:ff plugins
+: 1710988169:0;i
+: 1710988179:0;cd plugins
+: 1711072267:0;nf
+: 1711072510:0;:ff 
+: 1711072570:0;t
+: 1711073089:0;echo $MANPAGER
+: 1711073277:0;man fzf | nvim
+: 1711073286:0;man fzf | nvim -c 'Man!'
+: 1711073299:0;man fzf | nvim -c 'Man!'-o
+: 1711073325:0;man fzf | nvim -c 'Man!' -o 1
+: 1711073329:0;man fzf | nvim -c 'Man!' -o -
+: 1711073348:0;man fzf
+: 1711073446:0;vi
+: 1711073972:0;c ~/dotfiles/.local/bin/tmux
+: 1711103750:0;echo $ZSHZ_CMD
+: 1711157988:0;ls man
+: 1711158945:0;cd man
+: 1711159189:0;rm man
+: 1711159314:0;ci
+: 1711181606:0;:fo
+: 1711181611:0;cd
+: 1711182211:0;vi plugins/rg.zsh
+: 1711206743:0;:ss zsh.d plugins
+: 1711207192:0;bash
+: 1711373793:0;:ff
+: 1711373829:0;./functions/zonly/src
+: 1711373841:0;cd functions/zonly
+: 1711380349:0;lsso
+: 1711380358:0;lssn
+: 1711640700:0;vi zsh.d/05-export.zsh
+: 1711682827:0;cd ..
+: 1711949275:0;ls custom
+: 1711950265:0;lscolors
+: 1711950273:0;fzf
+: 1711950277:0;fzf-tmux
+: 1711950317:0;mandb
+: 1711950964:0;vi .zshenv
+: 1711951006:0;cd zsh.d
+: 1711952010:0;ls
+: 1711952028:0;vi .zshrc
+: 1711968196:0;fo
+: 1711968201:0;zsh
+: 1711968203:0;fo
+: 1711968216:0;cd ..
+: 1712021518:0;ls
+: 1712021522:0;lsa
+: 1712021535:0;vi .gitignore
+: 1712021541:0;vi .ignore
+: 1712021558:0;ff -- zzh
+: 1712021585:0;ff -- zsh
+: 1712021624:0;fo 
+: 1712021656:0;ff -- zsh
+: 1712021668:0;fo -
+: 1712021729:0;ff -- zsh
+: 1712021896:0;ci
+: 1712048257:0;cm c

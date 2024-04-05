@@ -1,34 +1,53 @@
 : 1709051029:0;mkdir tigsuite
-: 1709051042:0;cd ..
 : 1709082502:0;kg z
 : 1709082503:0;k gz
 : 1709082512:0;k g
 : 1709082520:0;k gh
 : 1709109791:0;mkdir fw
-: 1709109797:0;cd ..
 : 1709132135:0;cd ..
-: 1709280000:0;ls
 : 1709280004:0;cd lua
-: 1709694092:0;ls
-: 1709694102:0;cd nvim
-: 1709959000:0;cd nvim
-: 1709959083:0;cd nvim
-: 1709962879:0;ls
 : 1709962882:0;rm nvim
 : 1709962888:0;git clone https://github.com/MaJinjie/nvim.git
-: 1709962897:0;cd nvim
-: 1709972962:0;ls
 : 1709972967:0;cd nvim
-: 1710223091:0;cd
-: 1710465545:0;ls
 : 1710465548:0;ls fw
 : 1710465555:0;mkdir fzf
-: 1710465571:0;via fzf/fzfrc
 : 1710465704:0;cd plugins
-: 1710466222:0;cd
-: 1710466228:0;ls
 : 1710466234:0;via fzf/fzfrc
-: 1710466322:0;ls
 : 1710466323:0;cd
 : 1710470129:0;:fd
 : 1710470328:0;fzf
+: 1710556356:0;ls
+: 1710556359:0;:fr alacritty
+: 1710556374:0;:fr alacritty zsh
+: 1710556466:0;fd -tf '--color=always' H  --follow '--max-depth=8' '--changed-after=1d' alacritty zsh
+: 1710556473:0;fd -tf '--color=always' H --follow '--max-depth=8' '--changed-after=1d' alacritty
+: 1710556489:0;fd -tf '--color=always' H --follow '--max-depth=8' '--changed-after=1d'.  alacritty
+: 1710556499:0;fd -tf '--color=always' H --follow '--max-depth=8' '--changed-after=1d' . alacritty zsh
+: 1710556518:0;:fr
+: 1710556524:0;fd .
+: 1710556528:0;:fr alacritty 
+: 1710556564:0;fd -tf '--color=always' H  --follow '--max-depth=8' '--changed-after=1d' . alacritty
+: 1710556768:0;:fr a
+: 1710556804:0;zsh
+: 1710556806:0;:fr a
+: 1710556852:0;error 1
+: 1710556856:0;error 2
+: 1710658847:0;cd ripgrep
+: 1710671460:0;cd tmux
+: 1710899475:0;ls
+: 1710899605:0;ls
+: 1710899611:0;:ff tofi
+: 1710899621:0;ls
+: 1710899623:0;ls tofi
+: 1710899629:0;lsa tofi
+: 1710899635:0;:ff waybar
+: 1710899649:0;ls
+: 1710899719:0;mako 
+: 1710899781:0;ls
+: 1710899782:0;cd ..
+: 1710899946:0;ls
+: 1710899949:0;vi tofi
+: 1711682959:0;ls
+: 1711682969:0;mkdir custom
+: 1711682972:0;ls
+: 1711682998:0;cd ..
